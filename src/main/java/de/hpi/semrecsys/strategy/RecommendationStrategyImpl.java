@@ -1,9 +1,5 @@
 package de.hpi.semrecsys.strategy;
 
-import java.util.Collections;
-
-import org.apache.log4j.Logger;
-
 import de.hpi.semrecsys.GeneratedRecommendation;
 import de.hpi.semrecsys.config.RecommenderProperties;
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
@@ -12,6 +8,9 @@ import de.hpi.semrecsys.output.RecommendationResult;
 import de.hpi.semrecsys.output.RecommendationResultsHolder;
 import de.hpi.semrecsys.similarity.category.ProductSimilarityCalculator;
 import de.hpi.semrecsys.virtuoso.SparqlQueryManager.QueryType;
+import org.apache.log4j.Logger;
+
+import java.util.Collections;
 
 /***
  * 
@@ -49,8 +48,8 @@ public class RecommendationStrategyImpl implements RecommendationStrategy {
 		log.info("\nRecommended products: \n" + recommendationResults);
 
 		// 2. filter too similar products
-		log.info("\nStep2: Filter too similar recommendations");
-		recommendationResults = filter.filterPreselectedRecommendations(recommendationResults);
+//		log.info("\nStep2: Filter too similar recommendations");
+//		recommendationResults = filter.filterPreselectedRecommendations(recommendationResults);
 
 		// 3. find similar products more precisely from preselection
 		log.info("\nStep3: Reorder recommendations based on precise calculation");
@@ -62,8 +61,8 @@ public class RecommendationStrategyImpl implements RecommendationStrategy {
 		}
 
 		// 4. filter again
-		log.info("\nStep4: Filter again");
-		recommendationResults = filter.filterPreselectedRecommendations(recommendationResults);
+//		log.info("\nStep4: Filter again");
+//		recommendationResults = filter.filterPreselectedRecommendations(recommendationResults);
 
 		Collections.sort(recommendationResults.getRecommendationResults());
 		return recommendationResults;

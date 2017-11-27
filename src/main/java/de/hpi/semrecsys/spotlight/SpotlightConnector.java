@@ -34,6 +34,9 @@ public class SpotlightConnector extends WebServiceHelper {
 		method.addParameter("confidence", spotlightRequest.getConfidence());
 		method.addParameter("support", spotlightRequest.getSupport());
 		method.addParameter("text", spotlightRequest.getText());
+		if(!spotlightRequest.getTypes().isEmpty()){
+			method.addParameter("types", spotlightRequest.getTypes());
+		}
 		return method;
 	}
 

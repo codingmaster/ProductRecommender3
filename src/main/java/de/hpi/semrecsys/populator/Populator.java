@@ -1,18 +1,9 @@
 package de.hpi.semrecsys.populator;
 
-import java.util.Arrays;
-import java.util.List;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
-import virtuoso.jena.driver.VirtGraph;
-
 import com.hp.hpl.jena.graph.Triple;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.query.ResultSetFormatter;
 import com.hp.hpl.jena.sparql.graph.GraphOps;
-
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.model.Attribute.AttributeType;
 import de.hpi.semrecsys.model.Product;
@@ -26,6 +17,12 @@ import de.hpi.semrecsys.virtuoso.SparqlQueryManager;
 import de.hpi.semrecsys.virtuoso.SparqlQueryManager.QueryType;
 import de.hpi.semrecsys.virtuoso.VirtuosoQueryExecutor;
 import de.hpi.semrecsys.webservice.SparqlEndpointConnector;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import virtuoso.jena.driver.VirtGraph;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Fills Virtuoso with triples created by triples creator
@@ -87,6 +84,7 @@ public class Populator {
 	 * @param options population options
 	 */
 	public void populate(int numberOfProducts, boolean clean, PopulationOption... options) {
+		log.info("Starting population: " + Arrays.toString(options));
 		List<PopulationOption> optionList = Arrays.asList(options);
 		if (optionList.contains(PopulationOption.meta) || optionList.contains(PopulationOption.all)) {
 			populateMeta(clean, configurator.getMetaGraphName());
@@ -223,7 +221,8 @@ public class Populator {
 	}
 
 	private boolean shouldBeExecuted(boolean clean, Product product) {
-		return product != null && product.getTitle() != null && !queryExecutor.isProductExists(product);
+		return true;
+//		TODO: return product != null && product.getTitle() != null && !queryExecutor.isProductExists(product);
 	}
 
 	private long printExecutionTime(long start, Integer i, Product product) {

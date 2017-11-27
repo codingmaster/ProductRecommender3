@@ -7,6 +7,7 @@ public class SpotlightRequest {
 	String policy = "whitelist";
 	String support = "0";
 	String confidence = "0.404";
+	private String types = "";
 
 	public SpotlightRequest(String text) {
 		super();
@@ -58,4 +59,11 @@ public class SpotlightRequest {
 		return policy;
 	}
 
+	public String getTypes() {
+		return types;
+	}
+
+	public void setTypes(String types) {
+		this.types = types;
+	}
 }

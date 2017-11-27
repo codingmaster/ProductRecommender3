@@ -1,0 +1,22 @@
+version: '3'
+services:
+  virtuoso:
+    image: 'tenforce/virtuoso:1.2.0-virtuoso7.2.2'
+    environment:
+      SPARQL_UPDATE: 'true'
+      DEFAULT_GRAPH: 'http://www.example.com/my-graph'
+    volumes:
+      - './data/virtuoso:/data'
+    ports:
+      - '8890:8890'
+      - '1111:1111'
+  mysql:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: adams
+      MYSQL_PASSWORD: adams
+      MYSQL_USER: root
+      MYSQL_DATABASE: melovely_db
+    ports:
+      - '3306:3306'

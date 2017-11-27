@@ -1,10 +1,6 @@
 package de.hpi.semrecsys.main;
 
-import java.io.File;
-import java.util.Map;
-
 import com.hp.gagawa.java.elements.Html;
-
 import de.hpi.semrecsys.GeneratedRecommendation;
 import de.hpi.semrecsys.RandomRecommendation;
 import de.hpi.semrecsys.RecommendationId;
@@ -20,6 +16,9 @@ import de.hpi.semrecsys.persistence.RandomRecommendationDAO;
 import de.hpi.semrecsys.strategy.RecommendationStrategy;
 import de.hpi.semrecsys.strategy.RecommendationStrategyImpl;
 import de.hpi.semrecsys.utils.FileUtils;
+
+import java.io.File;
+import java.util.Map;
 
 /**
  * generates recommendations for the given product
@@ -56,7 +55,7 @@ public class Recommender {
 	 * @param type
 	 */
 	public void recommendGenerated(Product product1, String type) {
-		if (product1 != null && product1.getTitle() != null && !product1.getImgPathes().isEmpty()) {
+		if (product1 != null && product1.getTitle() != null) {
 
 			long start = System.currentTimeMillis();
 			RecommendationResultsHolder recommendationResults = recommendationStrategy.getRecommendationResults(

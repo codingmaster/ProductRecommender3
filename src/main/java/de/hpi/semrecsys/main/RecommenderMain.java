@@ -18,7 +18,7 @@ import de.hpi.semrecsys.strategy.RecommendationStrategyImpl;
 public class RecommenderMain {
 
 	static final double PRODUCT_NAME_THRESHOLD = 20;
-	static Customer customer = Customer.naturideen2;
+	static Customer customer = Customer.dobos;
 	static SemRecSysConfigurator configurator = SemRecSysConfigurator.getDefaultConfigurator(customer);
 	static RecommendationStrategy recommendationStrategy = new RecommendationStrategyImpl(configurator);
 
@@ -31,18 +31,21 @@ public class RecommenderMain {
 
 	static int[] naturideenSelectedProducts = { 110, 36, 78, 3232, 1868, 1358, 1563, 1797, 2512, 1117 };
 	static int[] melovelySelectedProducts = { 1815, 920, 3132, 3516, 3031, 3122, 3446 };
+	static int[] dobosSelectedProducts = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
 
 	public static void main(String[] args) {
 		int[] selectedProducts;
-		if (customer.equals(Customer.naturideen) || customer.equals(Customer.naturideen2)) {
-			selectedProducts = naturideenSelectedProducts;
-		} else {
-			selectedProducts = melovelySelectedProducts;
-		}
+//		if (customer.equals(Customer.naturideen) || customer.equals(Customer.naturideen2)) {
+//			selectedProducts = naturideenSelectedProducts;
+//		} else {
+//			selectedProducts = melovelySelectedProducts;
+//		}
 		// execute(55);
-		for (int productId : selectedProducts) {
-			executeComplete(productId);
+		for (int productId : dobosSelectedProducts) {
+			execute(productId);
 		}
+
+
 	}
 
 	private static void executeComplete(int productId) {

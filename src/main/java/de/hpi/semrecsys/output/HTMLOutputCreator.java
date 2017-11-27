@@ -40,7 +40,8 @@ import de.hpi.semrecsys.similarity.EntitySimilarityMatrix.EntityTuple;
  *
  */
 public class HTMLOutputCreator {
-	String productLinkPath = "catalog/product/view/id/";
+	String productLinkPath = "products/";
+	String productImgLinkPath = "api/v1/products/";
 	protected Body body = new Body();
 	Html html = new Html();
 	private String customerLogo;
@@ -151,7 +152,8 @@ public class HTMLOutputCreator {
 	protected Table productToHTMLTable(Product product, String recommendationScoreString) {
 		Table productTable = new Table();
 		Tr productTr = new Tr();
-
+		String imgPath = productImgLinkPath + product.getStoreProductId() +  "/images/0";
+		product.getImgPathes().add(imgPath);
 		Td imgTd = createImgTdNode(product.getImgPathes(), 165);
 
 		List<Node> tdNodes = new ArrayList<Node>();
@@ -270,7 +272,7 @@ public class HTMLOutputCreator {
 	}
 
 	protected A getProductLink(Product product) {
-		A link = new A(productLinkPath + product.getProductId());
+		A link = new A(productLinkPath + product.getStoreProductId());
 
 		link.appendText(product.getTitle());
 		return link;

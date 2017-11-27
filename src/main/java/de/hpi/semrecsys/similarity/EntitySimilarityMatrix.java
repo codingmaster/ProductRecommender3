@@ -1,29 +1,27 @@
 package de.hpi.semrecsys.similarity;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-
-import org.apache.log4j.Logger;
-
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.query.ResultSetFormatter;
-
 import de.hpi.semrecsys.config.RecommenderProperties;
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.model.Entity;
+import de.hpi.semrecsys.simentity.CategoryEntitySimilarityCalculator;
 import de.hpi.semrecsys.simentity.EntitySimilarityCalculator;
-import de.hpi.semrecsys.simentity.WikipageLinksEntitySimilarityCalculator;
 import de.hpi.semrecsys.utils.CollectionUtils;
 import de.hpi.semrecsys.utils.Namespacer;
 import de.hpi.semrecsys.utils.StringUtils;
 import de.hpi.semrecsys.virtuoso.SparqlQueryManager;
 import de.hpi.semrecsys.virtuoso.SparqlQueryManager.QueryType;
 import de.hpi.semrecsys.webservice.SparqlEndpointConnector;
+import org.apache.log4j.Logger;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
 /**
  * Matrix Containing Entity pairs and their similarity value Avoid reflexivity
@@ -47,7 +45,8 @@ public class EntitySimilarityMatrix {
 	private Namespacer namespacer;
 
 	public EntitySimilarityMatrix(SemRecSysConfigurator configurator, int limit) {
-		this.calculator = new WikipageLinksEntitySimilarityCalculator(configurator);
+		this.calculator = new CategoryEntitySimilarityCalculator(configurator);
+//TODO:		this.calculator = new WikipageLinksEntitySimilarityCalculator(configurator);
 		this.configurator = configurator;
 		this.namespacer = configurator.getNamespacer();
 		calculatedEntitiesMatrix = new HashMap<Entity, Map<Entity, Double>>();
@@ -63,10 +62,7 @@ public class EntitySimilarityMatrix {
 		int entityCount = 0;
 		for (Entity entity : entities) {
 
-			// System.out.println(entity);
-			if (entityCount % 1 == 0) {
-				log.info(entityCount + " > " + entity);
-			}
+			log.info(entityCount + " > " + entity);
 
 			entityCount++;
 			for (Entity entity2 : entities) {

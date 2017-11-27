@@ -15,6 +15,7 @@ public class ProductId implements java.io.Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	private int entityId;
+	private int productId;
 	private String attributeCode;
 	private long optionId;
 
@@ -27,6 +28,11 @@ public class ProductId implements java.io.Serializable {
 		this.optionId = optionId;
 	}
 
+	@Column(name = "product_id", nullable = false)
+	public int getProductId() {
+		return this.productId;
+	}
+
 	@Column(name = "entity_id", nullable = false)
 	public int getEntityId() {
 		return this.entityId;
@@ -34,6 +40,10 @@ public class ProductId implements java.io.Serializable {
 
 	public void setEntityId(int entityId) {
 		this.entityId = entityId;
+	}
+
+	public void setProductId(int productId) {
+		this.productId = productId;
 	}
 
 	@Column(name = "attribute_code", nullable = false)

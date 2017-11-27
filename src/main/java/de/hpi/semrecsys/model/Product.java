@@ -1,5 +1,10 @@
 package de.hpi.semrecsys.model;
 
+import de.hpi.semrecsys.DBObject;
+import de.hpi.semrecsys.ProductTable;
+import de.hpi.semrecsys.similarity.AttributeEntityMapping;
+import org.apache.log4j.Logger;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,13 +12,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
-import org.apache.log4j.Logger;
-
-import de.hpi.semrecsys.CategoryTable;
-import de.hpi.semrecsys.DBObject;
-import de.hpi.semrecsys.ProductTable;
-import de.hpi.semrecsys.similarity.AttributeEntityMapping;
 
 /**
  * Product created from a set of {@link ProductTable} objects
@@ -24,6 +22,7 @@ import de.hpi.semrecsys.similarity.AttributeEntityMapping;
 public class Product implements DBObject {
 
 	private Integer productId = null;
+	private Integer storeProductId = null;
 	private String title;
 	Logger log = Logger.getLogger(getClass());
 
@@ -48,7 +47,8 @@ public class Product implements DBObject {
 
 	private void initAttributes(List<ProductTable> productLines) {
 		for (ProductTable productLine : productLines) {
-			log.debug("line: " + productLine);
+			this.storeProductId = productLine.getId().getProductId();
+			log.debug("processing product: " + this.storeProductId + " (" + productLine.getId().getEntityId() + "): " +  productLine.getValue());
 			if (productLine.getValue() != null && !productLine.getValue().isEmpty()) {
 				Attribute attribute = new Attribute(productLine);
 
@@ -98,6 +98,14 @@ public class Product implements DBObject {
 	public void setProductId(int entity_id) {
 
 		this.productId = entity_id;
+	}
+
+	public Integer getStoreProductId() {
+		return storeProductId;
+	}
+
+	public void setStoreProductId(Integer storeProductId) {
+		this.storeProductId = storeProductId;
 	}
 
 	public void setTitle(String title) {
@@ -166,7 +174,7 @@ public class Product implements DBObject {
 	}
 
 	public String toSimpleString() {
-		return "Product: " + getProductId() + "\t" + getTitle();
+		return "Product: " + getStoreProductId() + "\t" + getTitle();
 	}
 
 }

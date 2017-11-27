@@ -1,5 +1,17 @@
 package de.hpi.semrecsys.config;
 
+import com.google.gson.Gson;
+import de.hpi.semrecsys.config.SemRecSysConfiguratorData.LanguageCode;
+import de.hpi.semrecsys.main.Main;
+import de.hpi.semrecsys.spotlight.SpotlightConnector;
+import de.hpi.semrecsys.utils.FileUtils;
+import de.hpi.semrecsys.utils.Namespacer;
+import de.hpi.semrecsys.utils.TextExtractor;
+import opennlp.tools.util.InvalidFormatException;
+import org.apache.log4j.Logger;
+import org.hibernate.exception.SQLGrammarException;
+import virtuoso.jdbc3.VirtuosoDataSource;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -7,22 +19,6 @@ import java.io.IOException;
 import java.util.InvalidPropertiesFormatException;
 import java.util.Map;
 import java.util.Properties;
-
-import opennlp.tools.util.InvalidFormatException;
-
-import org.apache.log4j.Logger;
-import org.hibernate.exception.SQLGrammarException;
-
-import virtuoso.jdbc3.VirtuosoDataSource;
-
-import com.google.gson.Gson;
-
-import de.hpi.semrecsys.config.SemRecSysConfiguratorData.LanguageCode;
-import de.hpi.semrecsys.main.Main;
-import de.hpi.semrecsys.spotlight.SpotlightConnector;
-import de.hpi.semrecsys.utils.FileUtils;
-import de.hpi.semrecsys.utils.Namespacer;
-import de.hpi.semrecsys.utils.TextExtractor;
 
 /**
  * Main configuration class. Singleton
@@ -41,7 +37,7 @@ public class SemRecSysConfigurator {
 	 * Properties paths
 	 */
 	static String propertiesDirPath;
-	SemRecSysConfiguratorData data = new SemRecSysConfiguratorData("virtuoso.properties", "sparql/sparql.xml",
+	SemRecSysConfiguratorData data = new SemRecSysConfiguratorData("sparql/sparql.xml",
 			"color_list", "custom");
 	private String srcSchema;
 	private String targetSchema;
@@ -57,7 +53,7 @@ public class SemRecSysConfigurator {
 	 * 
 	 */
 	public enum Customer {
-		melovely, naturideen, naturideen2;
+		melovely, naturideen, naturideen2, dobos;
 	}
 
 	/**
@@ -70,7 +66,7 @@ public class SemRecSysConfigurator {
 	 * @return default configurator singleton
 	 */
 	public static SemRecSysConfigurator getDefaultConfigurator(Customer customer, boolean dbInitMode) {
-		parameters = new ConfiguratorParameters(customer, LanguageCode.DE, null);
+		parameters = new ConfiguratorParameters(customer, LanguageCode.EN, null);
 		parameters.dbInitMode = dbInitMode;
 		return getDefaultConfigurator(parameters);
 	}
@@ -83,7 +79,7 @@ public class SemRecSysConfigurator {
 	 * @return default configurator singleton
 	 */
 	public static SemRecSysConfigurator getDefaultConfigurator(Customer customer) {
-		return getDefaultConfigurator(customer, LanguageCode.DE);
+		return getDefaultConfigurator(customer, LanguageCode.EN);
 	}
 
 	/**

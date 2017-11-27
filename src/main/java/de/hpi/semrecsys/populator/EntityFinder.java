@@ -1,19 +1,11 @@
 package de.hpi.semrecsys.populator;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import org.apache.log4j.Logger;
-
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.model.Attribute;
 import de.hpi.semrecsys.model.Attribute.AttributeType;
 import de.hpi.semrecsys.model.AttributeEntity;
-import de.hpi.semrecsys.model.Entity;
 import de.hpi.semrecsys.model.CustomEntity;
+import de.hpi.semrecsys.model.Entity;
 import de.hpi.semrecsys.model.Product;
 import de.hpi.semrecsys.similarity.AttributeEntityMapping;
 import de.hpi.semrecsys.spotlight.SpotlightConnector;
@@ -23,6 +15,13 @@ import de.hpi.semrecsys.spotlight.SpotlightResponse;
 import de.hpi.semrecsys.spotlight.SpotlightResponse.ResponseResource;
 import de.hpi.semrecsys.utils.Namespacer;
 import de.hpi.semrecsys.utils.TextExtractor;
+import org.apache.log4j.Logger;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 /**
  * finds entities from the given text using Spotlight Webservice
@@ -31,10 +30,10 @@ import de.hpi.semrecsys.utils.TextExtractor;
  */
 public class EntityFinder {
 
-	private static final double MINIMAL_SIM_THRESHOLD = 0.6;
-	private static final double MINIMAL_ATTRIBUTE_CONFIDENCE = 0.404;
-	private static final Double PLAIN_TEXT_CONFIDENCE = 0.404;
-	private static final Double PLAIN_TEXT_SIM_THRESHOLD = 0.999;
+	private static final double MINIMAL_SIM_THRESHOLD = 0.3;
+	private static final double MINIMAL_ATTRIBUTE_CONFIDENCE = 0.3;
+	private static final Double PLAIN_TEXT_CONFIDENCE = 0.3;
+	private static final Double PLAIN_TEXT_SIM_THRESHOLD = 0.5;
 	private TextExtractor textExtractor;
 	private SpotlightConnector spotlightConnector;
 	private Namespacer namespacer;
@@ -79,28 +78,29 @@ public class EntityFinder {
 		// for each string attribute in product
 		for (List<Attribute> attributeList : product.getAttributes().values()) {
 			for (Attribute attribute : attributeList) {
+				log.debug("Processing attribute: " + attribute.getValue());
 				if (attribute.getType().equals(AttributeType.unstruct)) {
-					processUnstructAttribute(attribute, attributeEntitiesMapping);
+					List<AttributeEntity> entities = processUnstructAttribute(attribute);
+					log.debug("Found: " + entities.size() + " entities: " + entities);
+
+					attributeEntitiesMapping.addAllAttributeEntities(entities);
 				} else {
-					processStructAttribute(attribute, attributeEntitiesMapping);
+					attributeEntitiesMapping.addAttributeEntity(processStructAttribute(attribute));
 				}
 			}
 		}
 		return attributeEntitiesMapping;
 	}
 
-	private AttributeEntityMapping processStructAttribute(Attribute attribute,
-			AttributeEntityMapping attributeEntityMapping) {
+	private AttributeEntity processStructAttribute(Attribute attribute) {
 		Entity entity = new Entity(attribute.getValue(), "meta");
 		entity.setMeta(true);
-		AttributeEntity attributeEntity = new AttributeEntity(attribute, entity);
-		attributeEntityMapping.addAttributeEntity(attributeEntity);
-		return attributeEntityMapping;
+		return new AttributeEntity(attribute, entity);
 	}
 
-	private AttributeEntityMapping processUnstructAttribute(Attribute attribute,
-			AttributeEntityMapping attributeEntityMapping) {
+	private List<AttributeEntity> processUnstructAttribute(Attribute attribute) {
 		List<ResponseResource> resources = getResources(attribute);
+		List<AttributeEntity> attributeEntities = new ArrayList<>();
 		if (!resources.isEmpty()) {
 			Map<Entity, List<ResponseResource>> entityResponseResourceMap = getEntityResponseResourceMap(resources);
 
@@ -109,10 +109,10 @@ public class EntityFinder {
 				List<ResponseResource> responseList = mapEntry.getValue();
 				AttributeEntity attributeEntity = new AttributeEntity(attribute, entity);
 				attributeEntity.addResponseResources(responseList);
-				attributeEntityMapping.addAttributeEntity(attributeEntity);
+				attributeEntities.add(attributeEntity);
 			}
 		}
-		return attributeEntityMapping;
+		return attributeEntities;
 	}
 
 	private List<ResponseResource> getResources(Attribute attribute) {

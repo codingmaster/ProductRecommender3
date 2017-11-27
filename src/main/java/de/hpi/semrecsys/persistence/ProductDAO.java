@@ -1,16 +1,16 @@
 package de.hpi.semrecsys.persistence;
 
-import java.io.Serializable;
-import java.util.List;
-import java.util.Random;
-
+import de.hpi.semrecsys.DBObject;
+import de.hpi.semrecsys.ProductTable;
+import de.hpi.semrecsys.model.Product;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 
-import de.hpi.semrecsys.DBObject;
-import de.hpi.semrecsys.ProductTable;
-import de.hpi.semrecsys.model.Product;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 /**
  * Database functionality for category {@link de.hpi.semrecsys.ProductTable}
@@ -56,6 +56,14 @@ public class ProductDAO extends AbstractDAO {
 
 		return product;
 	}
+
+    public List<Product> findAllProducts(){
+	    List<Product> products = new ArrayList<>();
+	    for(Object obj: super.findAll()) {
+	        new Product();
+        }
+        return products;
+    }
 
 
     /**

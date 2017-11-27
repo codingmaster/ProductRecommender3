@@ -1,17 +1,16 @@
 package de.hpi.semrecsys.config;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-
-import org.apache.log4j.Logger;
-
-import virtuoso.jdbc3.VirtuosoDataSource;
 import de.hpi.semrecsys.model.Entity;
 import de.hpi.semrecsys.spotlight.SpotlightConnector;
 import de.hpi.semrecsys.utils.Namespacer;
 import de.hpi.semrecsys.utils.TextExtractor;
+import org.apache.log4j.Logger;
+import virtuoso.jdbc3.VirtuosoDataSource;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
 
 /**
  * Helper class for configuration objects
@@ -19,13 +18,11 @@ import de.hpi.semrecsys.utils.TextExtractor;
  *
  */
 public class SemRecSysConfiguratorData {
-	public String langProperties;
 	public Namespacer namespacer;
 	public String spotlightUrl;
 	public TextExtractor textExtractor;
 	public SpotlightConnector spotlightConnector;
 	public VirtuosoDataSource virtuosoDatasource;
-	public String virtuosoProperties;
 	public RecommenderProperties recommenderProperties;
 	public String sparqlPropertiesPath;
 	public String colorsPath;
@@ -40,9 +37,7 @@ public class SemRecSysConfiguratorData {
 	public CustomAttributeSimilarityCreator customAttributeSimilarityCreator;
 	public int numberOfDbpediaTiples;
 
-	public SemRecSysConfiguratorData(String virtuosoProperties, String sparqlPropertiesPath, String colorsPath,
-			String customProperties) {
-		this.virtuosoProperties = virtuosoProperties;
+	public SemRecSysConfiguratorData(String sparqlPropertiesPath, String colorsPath, String customProperties) {
 		this.sparqlPropertiesPath = sparqlPropertiesPath;
 		this.colorsPath = colorsPath;
 		this.customProperties = customProperties;

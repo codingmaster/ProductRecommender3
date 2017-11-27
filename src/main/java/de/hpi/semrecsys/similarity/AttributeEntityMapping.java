@@ -1,19 +1,19 @@
 package de.hpi.semrecsys.similarity;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.model.Attribute;
 import de.hpi.semrecsys.model.AttributeEntity;
 import de.hpi.semrecsys.model.Entity;
 import de.hpi.semrecsys.model.Product;
 import de.hpi.semrecsys.utils.CollectionUtils;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * holds attributeEntitys. has inner class AttributeEntity<Attribute, Entity,
@@ -46,6 +46,12 @@ public class AttributeEntityMapping {
 	public void addAttributeEntity(AttributeEntity attributeEntity) {
 		attributeEntities.add(attributeEntity);
 		addToAttributeCount(attributeEntity);
+	}
+
+	public void addAllAttributeEntities(Collection<AttributeEntity> entities) {
+		for(AttributeEntity entity : entities){
+			addAttributeEntity(entity);
+		}
 	}
 
 	/**

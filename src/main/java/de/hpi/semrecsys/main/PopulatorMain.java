@@ -1,10 +1,11 @@
 package de.hpi.semrecsys.main;
 
-import static org.junit.Assert.assertTrue;
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.config.SemRecSysConfigurator.Customer;
 import de.hpi.semrecsys.populator.Populator;
 import de.hpi.semrecsys.populator.Populator.PopulationOption;
+
+import static org.junit.Assert.assertTrue;
 
 /***
  * Class used for the population of the virtuoso data server
@@ -13,17 +14,17 @@ import de.hpi.semrecsys.populator.Populator.PopulationOption;
  */
 public class PopulatorMain {
 
-	static Customer customer = Customer.melovely;
+	static Customer customer = Customer.dobos;
 	static SemRecSysConfigurator configurator = SemRecSysConfigurator.getDefaultConfigurator(customer);
 
 	static Populator populator = new Populator(configurator);
 
 	private static int numberOfProducts = 1000;
-	static boolean clean = false;
+	static boolean clean = true;
 
 
 	public static void main(String[] args) {
-		PopulationOption[] options = { PopulationOption.meta};
+		PopulationOption[] options = { PopulationOption.all};
 		execute(options);
 	}
 

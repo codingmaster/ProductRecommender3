@@ -1,15 +1,15 @@
 package de.hpi.semrecsys.main;
 
-import java.io.IOException;
-import java.sql.SQLException;
-import java.util.Set;
-
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.config.SemRecSysConfigurator.Customer;
 import de.hpi.semrecsys.model.Attribute.AttributeType;
 import de.hpi.semrecsys.persistence.BasicDAO;
 import de.hpi.semrecsys.utils.CollectionUtils;
 import de.hpi.semrecsys.utils.FileUtils;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.Set;
 
 
 /***
