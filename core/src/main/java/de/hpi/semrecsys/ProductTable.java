@@ -15,7 +15,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "product")
-public class ProductTable implements DBObject {
+public class ProductTable extends BaseEntity implements DBObject {
 
 	private ProductId id;
 	private String type;

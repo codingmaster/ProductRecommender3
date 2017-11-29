@@ -1,15 +1,17 @@
 package de.hpi.semrecsys.persistence;
 
-import java.sql.SQLException;
-import java.sql.Statement;
-
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.jdbc.Work;
+import org.springframework.stereotype.Component;
+
+import java.sql.SQLException;
+import java.sql.Statement;
 
 /**
  * basic DAO functionality
  */
+@Component
 public class BasicDAO extends AbstractDAO {
 	static BasicDAO instance;
 

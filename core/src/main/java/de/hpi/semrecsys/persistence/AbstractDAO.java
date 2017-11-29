@@ -1,19 +1,19 @@
 package de.hpi.semrecsys.persistence;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
-
+import de.hpi.semrecsys.DBObject;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Example;
-import org.hibernate.engine.spi.SessionFactoryImplementor;
+import org.hibernate.resource.transaction.spi.TransactionStatus;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-import de.hpi.semrecsys.DBObject;
-import de.hpi.semrecsys.config.HibernateConfigurator;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 /***
  * abstract handler for persistence objects uses {@link de.hpi.semrecsys.DBObject} <br>
@@ -25,18 +25,16 @@ import de.hpi.semrecsys.config.HibernateConfigurator;
  * represents standard data access object pattern<br>
  * @see <a href="http://en.wikipedia.org/wiki/Data_access_object">DAO</a>
  */
+@Component
 public abstract class AbstractDAO {
 
 	protected static final int BATCH_SIZE = 40;
 	protected final Log log = LogFactory.getLog(getClass());
-	protected final SessionFactory sessionFactory = getSessionFactory();
 
 	protected abstract Class<?> getType();
 
-	protected SessionFactory getSessionFactory() {
-		return HibernateConfigurator.getSessionFactory();
-	}
-
+	@Autowired
+	SessionFactory sessionFactory;
 
 	protected Session getSession() {
 		commitCurrentTransaction();
@@ -46,7 +44,7 @@ public abstract class AbstractDAO {
 	}
 
 	private void commitCurrentTransaction() {
-		if (sessionFactory.getCurrentSession().getTransaction().isActive()) {
+		if (sessionFactory.getCurrentSession().getTransaction().getStatus().equals(TransactionStatus.ACTIVE)) {
 			sessionFactory.getCurrentSession().getTransaction().commit();
 		}
 	}

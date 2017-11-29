@@ -6,6 +6,7 @@ import de.hpi.semrecsys.model.Product;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
+import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -15,6 +16,7 @@ import java.util.Random;
 /**
  * Database functionality for category {@link de.hpi.semrecsys.ProductTable}
  */
+@Component
 public class ProductDAO extends AbstractDAO {
 
 	private static ProductDAO productManager;
@@ -138,8 +140,7 @@ public class ProductDAO extends AbstractDAO {
 	public int getMaxId() {
 		Session session = getSession();
 		String hql = "select max(id.entityId) from " + getType().getSimpleName();
-		Integer size = ((Integer) session.createQuery(hql).uniqueResult()).intValue();
-		return size;
+		return (Integer) session.createQuery(hql).uniqueResult();
 	}
 
     /**
@@ -149,8 +150,7 @@ public class ProductDAO extends AbstractDAO {
 	public int getMinId() {
 		Session session = getSession();
 		String hql = "select min(id.entityId) from " + getType().getSimpleName();
-		Integer size = ((Integer) session.createQuery(hql).uniqueResult()).intValue();
-		return size;
+		return (Integer) session.createQuery(hql).uniqueResult();
 	}
 
     /**
@@ -160,8 +160,7 @@ public class ProductDAO extends AbstractDAO {
 	public long getProductSize() {
 		Session session = getSession();
 		String hql = "select count( distinct id.entityId) from " + getType().getSimpleName();
-		Long size = ((Long) session.createQuery(hql).uniqueResult()).longValue();
-		return size;
+		return (Long) session.createQuery(hql).uniqueResult();
 
 	}
 

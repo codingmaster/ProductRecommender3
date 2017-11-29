@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: recommender
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  database:
+    driver-class-name: org.postgresql.Driver
+  datasource:
+    url: jdbc:postgresql://localhost:5433/recommender
+    username: postgres
+    password: postgres
+  mail:
+    properties:
+      mail:
+        smtp:
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+server:
+  port: 8083
+  host: http://localhost:8083

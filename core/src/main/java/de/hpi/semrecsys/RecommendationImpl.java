@@ -13,7 +13,7 @@ import de.hpi.semrecsys.utils.StringUtils;
 
 @Entity
 @Table(name = "recommendation")
-public abstract class RecommendationImpl implements Recommendation {
+public abstract class RecommendationImpl extends BaseEntity implements Recommendation {
 
 	protected RecommendationId id;
 	protected int linkedProductId;

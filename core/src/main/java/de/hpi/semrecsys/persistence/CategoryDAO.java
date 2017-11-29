@@ -1,14 +1,16 @@
 package de.hpi.semrecsys.persistence;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import de.hpi.semrecsys.CategoryTable;
 import de.hpi.semrecsys.model.Category;
+import org.springframework.stereotype.Component;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Database functionality for category {@link de.hpi.semrecsys.CategoryTable}
  */
+@Component
 public class CategoryDAO extends AbstractDAO {
 
 	private static CategoryDAO categoryManager;

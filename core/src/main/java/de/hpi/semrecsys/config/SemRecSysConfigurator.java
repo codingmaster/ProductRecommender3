@@ -7,16 +7,13 @@ import de.hpi.semrecsys.spotlight.SpotlightConnector;
 import de.hpi.semrecsys.utils.FileUtils;
 import de.hpi.semrecsys.utils.Namespacer;
 import de.hpi.semrecsys.utils.TextExtractor;
-import opennlp.tools.util.InvalidFormatException;
 import org.apache.log4j.Logger;
 import org.hibernate.exception.SQLGrammarException;
 import virtuoso.jdbc3.VirtuosoDataSource;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.InvalidPropertiesFormatException;
 import java.util.Map;
 import java.util.Properties;
 
@@ -26,18 +23,22 @@ import java.util.Properties;
  * @author Michael Wolowyk
  * 
  */
+
 public class SemRecSysConfigurator {
 
 	private static SemRecSysConfigurator configurator;
-	static String virtuosoBaseGraph;
-	static String virtuosoHostUrl;
-	static Logger log = Logger.getLogger(SemRecSysConfigurator.class);
+	private static String virtuosoBaseGraph;
+	private static String virtuosoHostUrl;
+	private static Logger log = Logger.getLogger(SemRecSysConfigurator.class);
+
+	public static String DB_TARGET_SCHEMA = "jdbc.target_schema";
+	public static String DB_SRC_SCHEMA = "jdbc.src_schema";
 
 	/**
 	 * Properties paths
 	 */
-	static String propertiesDirPath;
-	SemRecSysConfiguratorData data = new SemRecSysConfiguratorData("sparql/sparql.xml",
+	private static String propertiesDirPath;
+	private SemRecSysConfiguratorData data = new SemRecSysConfiguratorData("sparql/sparql.xml",
 			"color_list", "custom");
 	private String srcSchema;
 	private String targetSchema;
@@ -107,7 +108,7 @@ public class SemRecSysConfigurator {
 	 *            configuration parameters
 	 * @return defualt configurator
 	 */
-	public static SemRecSysConfigurator getDefaultConfigurator(ConfiguratorParameters parameters) {
+	private static SemRecSysConfigurator getDefaultConfigurator(ConfiguratorParameters parameters) {
 		if (configurator == null) {
 			SemRecSysConfigurator.parameters = parameters;
 			propertiesDirPath = initPropertiesPath(parameters);
@@ -270,7 +271,7 @@ public class SemRecSysConfigurator {
 		data.recommenderProperties = new RecommenderProperties(properties);
 	}
 	
-	private void init() {
+	private void init(){
 		LanguageCode languageCode = parameters.languageCode;
 		if (customer == null) {
 			customer = Customer.melovely;
@@ -278,7 +279,11 @@ public class SemRecSysConfigurator {
 		initDBProperties(getCustomerPropertiesPath() + "/database.properties");
 		initJSONProperties(getCustomerPropertiesPath() + "/properties.json");
 		initVirtuosoDatasource(propertiesDirPath + "main.properties");
-		initSparqlProperties(propertiesDirPath + data.sparqlPropertiesPath);
+		try {
+			initSparqlProperties(propertiesDirPath + data.sparqlPropertiesPath);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 		initLangProperties(propertiesDirPath + languageCode.name().toLowerCase());
 		initMainProperties(propertiesDirPath + "main.properties");
 		if (customer.equals(Customer.melovely) && parameters.dbInitMode) {
@@ -315,11 +320,11 @@ public class SemRecSysConfigurator {
 
 	private void initDBProperties(String dbProperties) {
 		Properties databaseProperties = FileUtils.readProperties(dbProperties);
-		srcSchema = databaseProperties.getProperty(HibernateConfigurator.DB_SRC_SCHEMA);
-		targetSchema = databaseProperties.getProperty(HibernateConfigurator.DB_TARGET_SCHEMA);
+		srcSchema = databaseProperties.getProperty(DB_SRC_SCHEMA);
+		targetSchema = databaseProperties.getProperty(DB_TARGET_SCHEMA);
 	}
 
-	protected void initJSONProperties(String propertiesPath) {
+	private void initJSONProperties(String propertiesPath) {
 
 		String jsonText = FileUtils.readTextFromFile(propertiesPath);
 		Gson gson = new Gson();
@@ -328,23 +333,17 @@ public class SemRecSysConfigurator {
 
 	}
 
-	private void initSparqlProperties(String sparqlProperties) {
+	private void initSparqlProperties(String sparqlProperties) throws IOException {
 		Properties properties = getXMLProperties(sparqlProperties);
 		this.data.sparqlProperties = properties;
 
 	}
 
-	private Properties getXMLProperties(String propertiesPath) {
+	private Properties getXMLProperties(String propertiesPath) throws IOException {
 		Properties properties = new Properties();
-		try {
-			FileInputStream is = new FileInputStream(propertiesPath);
+		FileInputStream is = new FileInputStream(propertiesPath);
 
-			properties.loadFromXML(is);
-		} catch (InvalidPropertiesFormatException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		properties.loadFromXML(is);
 		return properties;
 	}
 
@@ -352,22 +351,18 @@ public class SemRecSysConfigurator {
 		Properties properties = FileUtils.readProperties(langProps + "/semrecsys.properties");
 		data.spotlightUrl = properties.getProperty("SPOTLIGHT_URL");
 		data.namespacer = initNamespacer(properties);
-		data.textExtractor = initTextExtractor(properties);
+		data.textExtractor = initTextExtractor();
 		data.spotlightConnector = initSpotlightConnector(data.spotlightUrl);
 		data.dbpediaSparqlEndpoint = properties.getProperty("DBPEDIA_ENDPOINT");
 		data.numberOfDbpediaTiples = Integer.valueOf(properties.getProperty("NUMBER_OF_DBPEDIA_TRIPLES"));
 		data.propertySizesFileName = langProps + "/" + "property_sizes.tsv";
 	}
 
-	private TextExtractor initTextExtractor(Properties properties) {
+	private TextExtractor initTextExtractor() {
 		TextExtractor productAnalyzer = null;
 
 		try {
 			productAnalyzer = new TextExtractor(parameters.languageCode);
-		} catch (InvalidFormatException e) {
-			e.printStackTrace();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -388,8 +383,7 @@ public class SemRecSysConfigurator {
 	}
 
 	private SpotlightConnector initSpotlightConnector(String spotlightUrl) {
-		SpotlightConnector connector = new SpotlightConnector(spotlightUrl);
-		return connector;
+		return new SpotlightConnector(spotlightUrl);
 	}
 
 	private void initVirtuosoDatasource(String props) {

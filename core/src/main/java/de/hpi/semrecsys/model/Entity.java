@@ -1,12 +1,13 @@
 package de.hpi.semrecsys.model;
 
-import java.io.Serializable;
-
 import de.hpi.semrecsys.DBObject;
-// default package
-// Generated Feb 18, 2014 10:01:26 AM by Hibernate Tools 3.4.0.CR1
 import de.hpi.semrecsys.persistence.EntityManager;
 import de.hpi.semrecsys.utils.Namespacer;
+
+import java.io.Serializable;
+
+// default package
+// Generated Feb 18, 2014 10:01:26 AM by Hibernate Tools 3.4.0.CR1
 
 /**
  * 
