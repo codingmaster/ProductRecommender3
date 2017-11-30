@@ -1,5 +1,6 @@
-package de.hpi.semrecsys;
+package de.hpi.semrecsys.api;
 
+import de.hpi.semrecsys.RecommendationImpl;
 import de.hpi.semrecsys.repository.RecommendationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;

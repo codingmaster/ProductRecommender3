@@ -25,6 +25,7 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <postgresql.version>9.4.1212.jre7</postgresql.version>
+        <springfox-swagger2.version>2.7.0</springfox-swagger2.version>
     </properties>
 
     <repositories>

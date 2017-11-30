@@ -1,5 +1,6 @@
 package de.hpi.semrecsys;
 
+import de.hpi.semrecsys.api.ProductApi;
 import de.hpi.semrecsys.repository.BaseRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,9 +9,11 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableAutoConfiguration
+@EnableSwagger2
 @ComponentScan(basePackageClasses = {BaseRepository.class, ProductApi.class})
 public class Application extends SpringBootServletInitializer {
 
