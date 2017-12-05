@@ -6,7 +6,6 @@ import de.hpi.semrecsys.model.Product;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
-import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -14,9 +13,8 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Database functionality for category {@link de.hpi.semrecsys.ProductTable}
+ * Database functionality for category {@link ProductTable}
  */
-@Component
 public class ProductDAO extends AbstractDAO {
 
 	private static ProductDAO productManager;

@@ -26,6 +26,7 @@ public class ProductId implements java.io.Serializable {
 		this.entityId = entityId;
 		this.attributeCode = attributeCode;
 		this.optionId = optionId;
+		this.productId = entityId;
 	}
 
 	@Column(name = "product_id", nullable = false)

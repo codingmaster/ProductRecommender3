@@ -87,7 +87,7 @@ public class RecommenderMain {
 	 */
 	public static void executeRand() {
 		while (true) {
-			recommender.recommendGenerated(productManager.getRandom(), type);
+			recommender.recommendGenerated(productManager.getRandom());
 		}
 
 	}
@@ -103,7 +103,7 @@ public class RecommenderMain {
 		int minId = configurator.getJsonProperties().getMinProdId();
 		for (int i = minId; i < maxId; i++) {
 			Product product1 = productManager.findById(i);
-			recommender.recommendGenerated(product1, type);
+			recommender.recommendGenerated(product1);
 			// recommender.recommendRandom(product1);
 		}
 	}
@@ -115,7 +115,7 @@ public class RecommenderMain {
 	 */
 	public static void execute(Integer productId) {
 		Product product1 = productManager.findById(productId);
-		recommender.recommendGenerated(product1, type);
+		recommender.recommendGenerated(product1);
 
 	}
 

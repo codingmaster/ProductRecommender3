@@ -13,6 +13,10 @@ public interface Recommendation extends DBObject {
 
 	public String recommendationScoreToString();
 
+	Double getScore();
+
+	Double getRelativeScore();
+
 	public boolean empty();
 
 	public String recommendationType();

@@ -1,32 +1,28 @@
 package de.hpi.semrecsys.virtuoso;
 
-import java.util.Iterator;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
-import virtuoso.jdbc3.VirtuosoDataSource;
-import virtuoso.jena.driver.VirtGraph;
-import virtuoso.jena.driver.VirtuosoQueryExecution;
-import virtuoso.jena.driver.VirtuosoQueryExecutionFactory;
-
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.shared.JenaException;
-
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.model.Attribute;
 import de.hpi.semrecsys.model.AttributeEntity;
 import de.hpi.semrecsys.model.Entity;
 import de.hpi.semrecsys.model.Product;
 import de.hpi.semrecsys.output.RecommendationResult;
-import de.hpi.semrecsys.persistence.ProductDAO;
 import de.hpi.semrecsys.similarity.AttributeEntityMapping;
 import de.hpi.semrecsys.similarity.EntitySimilarityMatrix.EntityTuple;
 import de.hpi.semrecsys.utils.DatatypeHelper;
 import de.hpi.semrecsys.utils.Namespacer;
 import de.hpi.semrecsys.virtuoso.SparqlQueryManager.QueryType;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import virtuoso.jdbc3.VirtuosoDataSource;
+import virtuoso.jena.driver.VirtGraph;
+import virtuoso.jena.driver.VirtuosoQueryExecution;
+import virtuoso.jena.driver.VirtuosoQueryExecutionFactory;
+
+import java.util.Iterator;
 
 /**
  * Executes virtuoso queries
@@ -36,7 +32,6 @@ public class VirtuosoQueryExecutor {
 	private VirtuosoDataSource dataSource;
 	private final SemRecSysConfigurator configurator;
 	private SparqlQueryManager queryManager;
-	ProductDAO productManager = ProductDAO.getDefault();
 	private Namespacer namespacer;
 	protected final Log log = LogFactory.getLog(getClass());
 	private VirtGraph graph;

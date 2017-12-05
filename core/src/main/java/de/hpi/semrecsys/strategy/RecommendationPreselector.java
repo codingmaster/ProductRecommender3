@@ -1,31 +1,28 @@
 package de.hpi.semrecsys.strategy;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-
-import de.hpi.semrecsys.persistence.ProductDAO;
-import org.apache.log4j.Logger;
-
-import virtuoso.jdbc3.VirtuosoDataSource;
-import virtuoso.jena.driver.VirtGraph;
-import virtuoso.jena.driver.VirtuosoQueryExecution;
-import virtuoso.jena.driver.VirtuosoQueryExecutionFactory;
-
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.rdf.model.RDFNode;
-
 import de.hpi.semrecsys.config.RecommenderProperties;
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.model.Product;
 import de.hpi.semrecsys.output.RecommendationResultsHolder;
+import de.hpi.semrecsys.service.PersistenceService;
 import de.hpi.semrecsys.similarity.category.ProductSimilarityCalculator;
 import de.hpi.semrecsys.utils.DatatypeHelper;
 import de.hpi.semrecsys.virtuoso.ProductTriplesCreator;
 import de.hpi.semrecsys.virtuoso.SparqlQueryManager;
 import de.hpi.semrecsys.virtuoso.SparqlQueryManager.QueryType;
 import de.hpi.semrecsys.virtuoso.VirtuosoQueryExecutor.QueryVariable;
+import org.apache.log4j.Logger;
+import virtuoso.jdbc3.VirtuosoDataSource;
+import virtuoso.jena.driver.VirtGraph;
+import virtuoso.jena.driver.VirtuosoQueryExecution;
+import virtuoso.jena.driver.VirtuosoQueryExecutionFactory;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 /**
  * First step in selection similar attributes
@@ -36,8 +33,8 @@ import de.hpi.semrecsys.virtuoso.VirtuosoQueryExecutor.QueryVariable;
 public class RecommendationPreselector {
 
 	private final SemRecSysConfigurator configurator;
-	ProductDAO productManager = ProductDAO.getDefault();
-	ProductSimilarityCalculator similarityCalculator;
+    private PersistenceService persistenceService;
+    ProductSimilarityCalculator similarityCalculator;
 	Logger log = Logger.getLogger(getClass());
 
 	public RecommendationPreselector(SemRecSysConfigurator configurator) {
@@ -46,7 +43,14 @@ public class RecommendationPreselector {
 		configurator.getRecommenderProperties();
 	}
 
-	public RecommendationResultsHolder getPreselectedSimilarProducts(Product product1, QueryType queryType, int number) {
+    public RecommendationPreselector(SemRecSysConfigurator configurator, PersistenceService persistenceService) {
+        this.persistenceService = persistenceService;
+	    this.configurator = configurator;
+	    this.similarityCalculator = new ProductSimilarityCalculator(configurator);
+	    configurator.getRecommenderProperties();
+    }
+
+    public RecommendationResultsHolder getPreselectedSimilarProducts(Product product1, QueryType queryType, int number) {
 		RecommendationResultsHolder recommendationResults = new RecommendationResultsHolder(product1);
 		SparqlQueryManager queryManager = new SparqlQueryManager(configurator);
 		VirtuosoDataSource dataSource = configurator.getVirtuosoDatasource();
@@ -86,7 +90,7 @@ public class RecommendationPreselector {
 				case product:
 					String productUri = node.asNode().getURI();
 					Integer productId = ProductTriplesCreator.getProductIdFromUri(productUri);
-					product = productManager.findById(productId);
+					product = persistenceService.getProduct(productId);
 					if (product == null || product.getTitle() == null) {
 						continue;
 					}

@@ -9,6 +9,7 @@ import de.hpi.semrecsys.utils.Namespacer;
 import de.hpi.semrecsys.utils.TextExtractor;
 import org.apache.log4j.Logger;
 import org.hibernate.exception.SQLGrammarException;
+import org.springframework.stereotype.Component;
 import virtuoso.jdbc3.VirtuosoDataSource;
 
 import java.io.File;
@@ -24,6 +25,7 @@ import java.util.Properties;
  * 
  */
 
+@Component
 public class SemRecSysConfigurator {
 
 	private static SemRecSysConfigurator configurator;
@@ -44,7 +46,9 @@ public class SemRecSysConfigurator {
 	private String targetSchema;
 	private String virtuosoSparqlEndpoint;
 	private String dbpediaNamespace;
-	private static Customer customer;
+	private static Customer customer = Customer.dobos;
+	private static LanguageCode languageCode = LanguageCode.EN;
+
 	private static ConfiguratorParameters parameters;
 
 	/**
@@ -80,7 +84,11 @@ public class SemRecSysConfigurator {
 	 * @return default configurator singleton
 	 */
 	public static SemRecSysConfigurator getDefaultConfigurator(Customer customer) {
-		return getDefaultConfigurator(customer, LanguageCode.EN);
+		return getDefaultConfigurator(customer, languageCode);
+	}
+
+	public static SemRecSysConfigurator getDefaultConfigurator(){
+		return getDefaultConfigurator(customer);
 	}
 
 	/**

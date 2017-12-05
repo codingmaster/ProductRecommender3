@@ -8,13 +8,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Table(name = "attribute")
-public class AttributeTable extends BaseEntity implements DBObject {
+public class AttributeTable extends BaseEntity{
 
 	private String type;
 	private int id;
@@ -24,11 +23,15 @@ public class AttributeTable extends BaseEntity implements DBObject {
 	public AttributeTable() {
 	}
 
+    public AttributeTable(String attributeCode, String type) {
+	    this.attributeCode = attributeCode;
+	    this.type = type;
+    }
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name="id", unique = true, nullable = false)
-	@Override
-	public Serializable getId() {
+	public int getId() {
 		return id;
 	}
 

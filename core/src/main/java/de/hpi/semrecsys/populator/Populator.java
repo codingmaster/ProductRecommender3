@@ -7,7 +7,7 @@ import com.hp.hpl.jena.sparql.graph.GraphOps;
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.model.Attribute.AttributeType;
 import de.hpi.semrecsys.model.Product;
-import de.hpi.semrecsys.persistence.ProductDAO;
+import de.hpi.semrecsys.service.PersistenceService;
 import de.hpi.semrecsys.virtuoso.AbstractTriplesCreator;
 import de.hpi.semrecsys.virtuoso.AttributeSimilarityTriplesCreator;
 import de.hpi.semrecsys.virtuoso.EntitySimilarityTriplesCreator;
@@ -39,7 +39,10 @@ public class Populator {
 	public static int PRINT_AFTER = 10;
 
 	private final SemRecSysConfigurator configurator;
-	private final ProductDAO productManager = ProductDAO.getDefault();
+//	private final ProductDAO productManager = ProductDAO.getDefault();
+
+	PersistenceService persistenceService;
+
 	private VirtuosoQueryExecutor queryExecutor;
 	
 	/**
@@ -71,6 +74,15 @@ public class Populator {
 		 */
 		products_small
 	}
+
+	public static Populator getDefault(PersistenceService persistenceService){
+	    return new Populator(SemRecSysConfigurator.getDefaultConfigurator(), persistenceService);
+    }
+
+	public Populator(SemRecSysConfigurator configurator, PersistenceService persistenceService){
+        this(configurator);
+        this.persistenceService = persistenceService;
+    }
 
 	public Populator(SemRecSysConfigurator configurator) {
 		this.configurator = configurator;
@@ -175,18 +187,20 @@ public class Populator {
 	}
 
 	private int populateProducts(boolean clean, String graphName) {
-		int startId = productManager.getMinId();
+//		int startId = productManager.getMinId();
+		int startId = 0;
 		return populateProducts(clean, graphName, startId, -1);
 	}
 
 	private int populateProducts(boolean clean, String graphName, int number) {
-		int startId = productManager.getMinId();
+//		int startId = productManager.getMinId();
+		int startId = 0;
 		return populateProducts(clean, graphName, startId, number);
 	}
 
 	private int populateProducts(boolean clean, String graphName, int startId, int number) {
 		VirtGraph graph = new VirtGraph(graphName, configurator.getVirtuosoDatasource());
-		log.info(productManager.getProductSize() + " products were found in the database");
+		log.info(persistenceService.count() + " products were found in the database");
 		cleanGraph(clean, graph);
 		populateProducts(startId, number, graph, clean);
 
@@ -194,7 +208,6 @@ public class Populator {
 	}
 
 	private void populateProducts(int startId, int number, VirtGraph graph, boolean clean) {
-		ProductTriplesCreator nodeCreator = new ProductTriplesCreator(configurator);
 		long start = System.currentTimeMillis();
 		int maxId = configurator.getJsonProperties().getMaxProdId(); 
 		if (number < 1) {
@@ -204,20 +217,26 @@ public class Populator {
 			if (i > maxId) {
 				break;
 			}
-			Product product = productManager.findById(i);
+			Product product = persistenceService.getProduct(i);
 			if (shouldBeExecuted(clean, product)) {
 				start = printExecutionTime(start, i, product);
 
-				try {
-					List<Triple> allTriples = nodeCreator.createTriplesForProduct(product);
-					GraphOps.addAll(graph, allTriples);
-				} catch (Exception ex) {
-					log.error("Exception for product " + product + " : " + ex.getMessage());
-				}
+				populateProduct(product);
 			} else {
 				log.warn("Skip product " + product);
 			}
 		}
+	}
+
+	public void populateProduct(Product product) {
+		try {
+            VirtGraph graph = new VirtGraph(configurator.getVirtuosoBaseGraph(), configurator.getVirtuosoDatasource());
+            ProductTriplesCreator nodeCreator = new ProductTriplesCreator(configurator);
+            List<Triple> allTriples = nodeCreator.createTriplesForProduct(product);
+            GraphOps.addAll(graph, allTriples);
+        } catch (Exception ex) {
+            log.error("Exception for product " + product + " : " + ex.getMessage());
+        }
 	}
 
 	private boolean shouldBeExecuted(boolean clean, Product product) {
@@ -243,6 +262,9 @@ public class Populator {
 
 	private int populate(boolean cleanGraph, String graphName, AbstractTriplesCreator triplesCreator, int number) {
 		log.info("Processing graph " + graphName + " ...");
+
+
+
 		List<Triple> triples = triplesCreator.createTriples(number);
 		VirtGraph graph = new VirtGraph(graphName, configurator.getVirtuosoDatasource());
 		cleanGraph(cleanGraph, graph);

@@ -2,6 +2,8 @@ package de.hpi.semrecsys;
 
 import de.hpi.semrecsys.api.ProductApi;
 import de.hpi.semrecsys.repository.BaseRepository;
+import de.hpi.semrecsys.service.PersistenceService;
+import de.hpi.semrecsys.service.ProductService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableAutoConfiguration
 @EnableSwagger2
-@ComponentScan(basePackageClasses = {BaseRepository.class, ProductApi.class})
+@ComponentScan(basePackageClasses = {BaseRepository.class, ProductApi.class, ProductService.class, PersistenceService.class})
 public class Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {

@@ -1,4 +1,7 @@
 version: '3'
+volumes:
+  pgdata:
+
 services:
   virtuoso:
     image: 'tenforce/virtuoso:1.2.0-virtuoso7.2.2'
@@ -10,13 +13,11 @@ services:
     ports:
       - '8890:8890'
       - '1111:1111'
-  mysql:
-    image: mysql
-    restart: always
+  db:
+    image: postgres:10.0
+    volumes:
+      - pgdata:/var/lib/postgresql/data
     environment:
-      MYSQL_ROOT_PASSWORD: adams
-      MYSQL_PASSWORD: adams
-      MYSQL_USER: root
-      MYSQL_DATABASE: melovely_db
+      - POSTGRES_DB=dobos
     ports:
-      - '3306:3306'
+      - "5433:5432"

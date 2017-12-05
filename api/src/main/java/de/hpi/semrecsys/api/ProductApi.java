@@ -2,7 +2,7 @@ package de.hpi.semrecsys.api;
 
 import de.hpi.semrecsys.ProductTable;
 import de.hpi.semrecsys.dto.ProductDto;
-import de.hpi.semrecsys.repository.ProductRepository;
+import de.hpi.semrecsys.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.transaction.annotation.Transactional;
@@ -20,19 +20,18 @@ import java.util.List;
 public class ProductApi {
 
     @Autowired
-    private ProductRepository productRepository;
+    private ProductService productService;
 
     @Transactional(readOnly = true)
     @RequestMapping(method = RequestMethod.GET)
     public List<ProductTable> get() {
-        return productRepository.findAll();
+        return productService.findProductTableEntries();
     }
 
-    @Transactional
     @RequestMapping(method = RequestMethod.POST)
     @ResponseStatus(value = HttpStatus.CREATED)
     public ProductDto create(@RequestBody ProductDto productDto) {
-        ProductTable productTable = new ProductTable();
+        productService.populateProduct(productDto);
         return productDto;
     }
 }

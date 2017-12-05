@@ -8,15 +8,18 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-import java.io.Serializable;
 
 @Entity
 @Table(name = "option")
-public class OptionTable extends BaseEntity implements DBObject {
+public class OptionTable extends BaseEntity{
 
 	private int id;
-	private String optionValue;
+	private String value;
 	private AttributeTable attributeTable;
+
+	public OptionTable(String value){
+	    this.value = value;
+    }
 
 	public OptionTable() {
 	}
@@ -24,8 +27,7 @@ public class OptionTable extends BaseEntity implements DBObject {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="id", unique = true, nullable = false)
-    @Override
-    public Serializable getId() {
+    public int getId() {
         return id;
     }
 
@@ -34,12 +36,12 @@ public class OptionTable extends BaseEntity implements DBObject {
 	}
 
 	@Column(name = "value")
-	public String getOptionValue() {
-		return this.optionValue;
+	public String getValue() {
+		return this.value;
 	}
 
-	public void setOptionValue(String optionValue) {
-		this.optionValue = optionValue;
+	public void setValue(String value) {
+		this.value = value;
 	}
 
     @ManyToOne

@@ -1,28 +1,25 @@
 package de.hpi.semrecsys.virtuoso;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
 import com.hp.hpl.jena.graph.Node;
 import com.hp.hpl.jena.graph.Triple;
 import com.hp.hpl.jena.graph.impl.LiteralLabel;
 import com.hp.hpl.jena.graph.impl.LiteralLabelFactory;
-
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.model.Attribute;
 import de.hpi.semrecsys.model.AttributeEntity;
 import de.hpi.semrecsys.model.Category;
 import de.hpi.semrecsys.model.Entity;
 import de.hpi.semrecsys.model.Product;
-import de.hpi.semrecsys.persistence.ProductDAO;
 import de.hpi.semrecsys.populator.EntityFinder;
 import de.hpi.semrecsys.similarity.AttributeEntityMapping;
 import de.hpi.semrecsys.spotlight.SpotlightResponse.ResponseResource;
 import de.hpi.semrecsys.utils.Namespacer;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Creates RDF triples for product
@@ -33,7 +30,7 @@ public class ProductTriplesCreator extends AbstractTriplesCreator {
 	private final Namespacer namespacer;
 	private final String lang;
 	protected final SemRecSysConfigurator configurator;
-	private final ProductDAO productManager = ProductDAO.getDefault();
+//	private final ProductDAO productManager = ProductDAO.getDefault();
 	protected final Log log = LogFactory.getLog(getClass());
 
 	protected static final String PROPERTY_PREFIX = "/prop#";
@@ -52,24 +49,24 @@ public class ProductTriplesCreator extends AbstractTriplesCreator {
 	@Override
 	public List<Triple> createTriples(int number) {
 		List<Triple> triples = new ArrayList<Triple>();
-		int maxId = configurator.getJsonProperties().getMaxProdId(); // productManager.getMaxId();
-		int startId = configurator.getJsonProperties().getMinProdId();
-		if (number < 1) {
-			number = maxId - startId;
-		}
-		for (Integer i = startId; i < number + startId; i++) {
-			if (i > maxId) {
-				break;
-			}
-			Product product = productManager.findById(i);
-			if (product != null && product.getTitle() != null) {
-				try {
-					triples = createTriplesForProduct(product);
-				} catch (Exception ex) {
-					log.error("Exception for product " + product + " : " + ex.getMessage());
-				}
-			}
-		}
+//		int maxId = configurator.getJsonProperties().getMaxProdId(); // productManager.getMaxId();
+//		int startId = configurator.getJsonProperties().getMinProdId();
+//		if (number < 1) {
+//			number = maxId - startId;
+//		}
+//		for (Integer i = startId; i < number + startId; i++) {
+//			if (i > maxId) {
+//				break;
+//			}
+//			Product product = productManager.findById(i);
+//			if (product != null && product.getTitle() != null) {
+//				try {
+//					triples = createTriplesForProduct(product);
+//				} catch (Exception ex) {
+//					log.error("Exception for product " + product + " : " + ex.getMessage());
+//				}
+//			}
+//		}
 		return triples;
 	}
 

@@ -9,7 +9,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Example;
 import org.hibernate.resource.transaction.spi.TransactionStatus;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -25,7 +24,6 @@ import java.util.List;
  * represents standard data access object pattern<br>
  * @see <a href="http://en.wikipedia.org/wiki/Data_access_object">DAO</a>
  */
-@Component
 public abstract class AbstractDAO {
 
 	protected static final int BATCH_SIZE = 40;

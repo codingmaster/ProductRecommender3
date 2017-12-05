@@ -6,6 +6,7 @@ import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.model.Product;
 import de.hpi.semrecsys.output.RecommendationResult;
 import de.hpi.semrecsys.output.RecommendationResultsHolder;
+import de.hpi.semrecsys.service.PersistenceService;
 import de.hpi.semrecsys.similarity.category.ProductSimilarityCalculator;
 import de.hpi.semrecsys.virtuoso.SparqlQueryManager.QueryType;
 import org.apache.log4j.Logger;
@@ -19,7 +20,8 @@ import java.util.Collections;
  */
 public class RecommendationStrategyImpl implements RecommendationStrategy {
 
-	RecommendationPreselector preselector;
+    private PersistenceService persistenceService;
+    RecommendationPreselector preselector;
 	RecommendationFilter filter;
 	ProductSimilarityCalculator similarityCalculator;
 
@@ -28,8 +30,15 @@ public class RecommendationStrategyImpl implements RecommendationStrategy {
 		init(configurator);
 	}
 
-	public void init(SemRecSysConfigurator configurator) {
-		this.preselector = new RecommendationPreselector(configurator);
+    public RecommendationStrategyImpl(SemRecSysConfigurator configurator, PersistenceService persistenceService) {
+        this.persistenceService = persistenceService;
+	    this.preselector = new RecommendationPreselector(configurator, persistenceService);
+	    this.filter = new RecommendationFilter(configurator);
+	    this.similarityCalculator = new ProductSimilarityCalculator(configurator);
+    }
+
+    public void init(SemRecSysConfigurator configurator) {
+		this.preselector = new RecommendationPreselector(configurator, persistenceService);
 		this.filter = new RecommendationFilter(configurator);
 		this.similarityCalculator = new ProductSimilarityCalculator(configurator);
 	}

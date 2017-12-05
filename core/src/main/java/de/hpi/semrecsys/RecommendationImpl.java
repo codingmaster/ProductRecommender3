@@ -76,6 +76,7 @@ public abstract class RecommendationImpl extends BaseEntity implements Recommend
 		return result;
 	}
 
+	@Override
 	@Column(name = "score", precision = 22, scale = 0)
 	public Double getScore() {
 		return this.score;
@@ -85,6 +86,7 @@ public abstract class RecommendationImpl extends BaseEntity implements Recommend
 		this.score = score;
 	}
 
+	@Override
 	@Column(name = "relative_score", precision = 22, scale = 0)
 	public Double getRelativeScore() {
 		return this.relativeScore;
