@@ -5,6 +5,7 @@ import de.hpi.semrecsys.RecommendationImpl;
 import de.hpi.semrecsys.dto.RecommendationDto;
 import de.hpi.semrecsys.repository.RecommendationRepository;
 import de.hpi.semrecsys.service.ProductService;
+import de.hpi.semrecsys.service.RecommenderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,6 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static org.junit.Assert.assertTrue;
+
 
 @RestController
 @RequestMapping("api/v1/recommendations")
@@ -24,7 +27,7 @@ public class RecommendationApi {
     private RecommendationRepository recommendationRepository;
 
     @Autowired
-    private ProductService productService;
+    private RecommenderService recommenderService;
 
     @Transactional(readOnly = true)
     @RequestMapping(method = RequestMethod.GET)
@@ -38,10 +41,10 @@ public class RecommendationApi {
         return recommendationRepository.findByIdProductId(productId);
     }
 
-    @Transactional(readOnly = true)
+    @Transactional(readOnly = false)
     @RequestMapping(value="{productId}", method = RequestMethod.POST)
     public List<RecommendationDto> recommend(@PathVariable int productId) {
-        List<Recommendation> recommendationResults = productService.recommendProduct(productId);
+        List<Recommendation> recommendationResults = recommenderService.recommendProduct(productId);
         return recommendationResults.stream().map(RecommendationDto::new).collect(Collectors.toList());
     }
 }

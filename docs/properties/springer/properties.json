@@ -1,0 +1,17 @@
+{
+  "customer": "springer",
+  "customerWebsite": "https://springer.com/",
+  "customerLogo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Springer.svg",
+  "attributes": [
+    {
+      "name": "_title",
+      "weight": 7,
+      "type": "unstruct"
+    },
+    {
+      "name": "_description",
+      "weight": 5,
+      "type": "unstruct"
+    }
+  ]
+}

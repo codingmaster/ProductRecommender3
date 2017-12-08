@@ -14,7 +14,7 @@ import static org.junit.Assert.assertTrue;
  */
 public class PopulatorMain {
 
-	static Customer customer = Customer.dobos;
+	static Customer customer = Customer.springer;
 	static SemRecSysConfigurator configurator = SemRecSysConfigurator.getDefaultConfigurator(customer);
 
 	static Populator populator = new Populator(configurator);

@@ -46,7 +46,7 @@ public class SemRecSysConfigurator {
 	private String targetSchema;
 	private String virtuosoSparqlEndpoint;
 	private String dbpediaNamespace;
-	private static Customer customer = Customer.dobos;
+	private static Customer customer = Customer.springer;
 	private static LanguageCode languageCode = LanguageCode.EN;
 
 	private static ConfiguratorParameters parameters;
@@ -58,7 +58,7 @@ public class SemRecSysConfigurator {
 	 * 
 	 */
 	public enum Customer {
-		melovely, naturideen, naturideen2, dobos;
+		melovely, naturideen, naturideen2, dobos, springer;
 	}
 
 	/**

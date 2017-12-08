@@ -55,7 +55,7 @@ public class Product implements DBObject {
 				String attributeCode = attribute.getAttributeCode();
 
 				String value = attribute.getValue();
-				if (attributeCode.equalsIgnoreCase("name")) {
+				if (attributeCode.equalsIgnoreCase("name") || attributeCode.contains("title")) {
 					this.title = value;
 				}
 				if (attributeCode.equalsIgnoreCase("img")) {

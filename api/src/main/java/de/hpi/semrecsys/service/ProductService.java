@@ -77,10 +77,4 @@ public class ProductService {
         }
         return attributeTable;
     }
-
-    public List<Recommendation> recommendProduct(int productId) {
-        Product product = persistenceService.getProduct(productId);
-        RecommendationResultsHolder recommendationResultsHolder = Recommender.getDefault(persistenceService).recommendGenerated(product);
-        return recommendationResultsHolder.getRecommendationResults().stream().map(RecommendationResult::toRecommendation).collect(Collectors.toList());
-    }
 }
