@@ -23,6 +23,7 @@ import java.util.Map;
  * 
  */
 public class AttributeEntityMapping {
+	private final SemRecSysConfigurator configurator;
 	List<AttributeEntity> attributeEntities = new ArrayList<AttributeEntity>();
 	Map<Attribute, Double> attributeCountMap = new HashMap<Attribute, Double>();
 	Map<String, Double> attributeCoefficientsMap;
@@ -33,6 +34,7 @@ public class AttributeEntityMapping {
 
 	public AttributeEntityMapping(SemRecSysConfigurator configurator) {
 		this.attributeCoefficientsMap = configurator.getJsonProperties().getAttributesByType();
+		this.configurator = configurator;
 	}
 
 	public void setProduct(Product product) {
@@ -86,7 +88,10 @@ public class AttributeEntityMapping {
 				if (aewList == null) {
 					aewList = new HashMap<Entity, AttributeEntity>();
 				}
-				aewList.put(aew.getEntity(), aew);
+
+				Entity entity = aew.getEntity();
+				entity.setLongUri(configurator.getNamespacer());
+				aewList.put(entity, aew);
 				groupedAttributeMap.put(attribute, aewList);
 			}
 
