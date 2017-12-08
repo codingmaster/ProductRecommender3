@@ -50,6 +50,7 @@
             <artifactId>gson</artifactId>
         </dependency>
 
+
         <dependency>
             <groupId>virtuoso.jdbc3</groupId>
             <artifactId>virtuoso-jdbc3</artifactId>
@@ -61,7 +62,7 @@
             <version>1.10</version>
         </dependency>
 
-        <!-- Jena - Virtuoso Connector -->
+         <!--Jena - Virtuoso Connector-->
         <dependency>
             <groupId>com.hp.hpl.jena</groupId>
             <artifactId>arq</artifactId>

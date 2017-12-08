@@ -19,6 +19,7 @@
         <!--<module>build-tools</module>-->
         <module>core</module>
         <module>api</module>
+        <module>tools</module>
     </modules>
 
     <properties>

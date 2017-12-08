@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS attribute
 CREATE TABLE IF NOT EXISTS option
 (
   id BIGINT PRIMARY KEY NOT NULL,
-  value        VARCHAR(255),
+  value        VARCHAR(21845),
   attribute_id BIGINT
 );
 
