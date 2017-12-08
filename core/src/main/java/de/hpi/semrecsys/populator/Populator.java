@@ -8,6 +8,7 @@ import de.hpi.semrecsys.config.SemRecSysConfigurator;
 import de.hpi.semrecsys.model.Attribute.AttributeType;
 import de.hpi.semrecsys.model.Product;
 import de.hpi.semrecsys.service.PersistenceService;
+import de.hpi.semrecsys.similarity.AttributeEntityMapping;
 import de.hpi.semrecsys.virtuoso.AbstractTriplesCreator;
 import de.hpi.semrecsys.virtuoso.AttributeSimilarityTriplesCreator;
 import de.hpi.semrecsys.virtuoso.EntitySimilarityTriplesCreator;
@@ -21,6 +22,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import virtuoso.jena.driver.VirtGraph;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -44,7 +46,7 @@ public class Populator {
 	PersistenceService persistenceService;
 
 	private VirtuosoQueryExecutor queryExecutor;
-	
+
 	/**
 	 * Options show, which graphs to populate
 	 */
@@ -170,7 +172,7 @@ public class Populator {
 		return graph.size();
 	}
 
-	private String getGraphSizes() {
+	public String getGraphSizes() {
 		SparqlQueryManager queryManager = new SparqlQueryManager(configurator);
 		String statQuery = queryManager.getQuery(QueryType.GRAPH_SIZES);
 		ResultSet resultSet = SparqlEndpointConnector.executeQuery(statQuery, configurator.getVirtuosoSparqlEndpoint());
@@ -178,8 +180,31 @@ public class Populator {
 		return resultString;
 	}
 
+	public List<String> getGraphNames(){
+		List<String> graphNames = new ArrayList<>();
+		SparqlQueryManager queryManager = new SparqlQueryManager(configurator);
+		String statQuery = queryManager.getQuery(QueryType.GRAPH_NAMES);
+		ResultSet resultSet = SparqlEndpointConnector.executeQuery(statQuery, configurator.getVirtuosoSparqlEndpoint());
+		while(resultSet.hasNext()){
+			graphNames.add(resultSet.next().get("g").toString());
+		}
+		return graphNames;
+	}
+
+	public String getEntitySimilarity(String customer){
+        SparqlQueryManager queryManager = new SparqlQueryManager(configurator);
+        String statQuery = queryManager.getQuery(QueryType.ENTITY_SIMILARITY);
+        String sparqlQueryString = statQuery.replaceAll("\\$CUSTOMER\\$", customer).replaceAll("\\$VIRTUOSOHOST\\$", configurator.getVirtuosoHostUrl());
+        ResultSet resultSet = SparqlEndpointConnector.executeQuery(sparqlQueryString, configurator.getVirtuosoSparqlEndpoint());
+        return ResultSetFormatter.asText(resultSet);
+    }
+
+    public AttributeEntityMapping getEntitiesForProduct(Product product){
+        return queryExecutor.getAttributeEntityMapping(product, QueryType.ATTRIBUTE_ENTITY_LIST);
+    }
+
 	
-	private int populateEntitySimilarity(int number, boolean clean, String graphName) {
+	public int populateEntitySimilarity(int number, boolean clean, String graphName) {
 		AbstractTriplesCreator triplesCreator = new EntitySimilarityTriplesCreator(configurator);
 		populate(clean, graphName, triplesCreator, number);
 		return getGraphSize(graphName);
@@ -228,6 +253,10 @@ public class Populator {
 		}
 	}
 
+	public void populateMeta(boolean clean){
+		populateMeta(clean, configurator.getMetaGraphName());
+	}
+
 	public void populateProduct(Product product) {
 		try {
             VirtGraph graph = new VirtGraph(configurator.getVirtuosoBaseGraph(), configurator.getVirtuosoDatasource());
@@ -237,6 +266,10 @@ public class Populator {
         } catch (Exception ex) {
             log.error("Exception for product " + product + " : " + ex.getMessage());
         }
+	}
+
+	public int populateEntitySimilarity(boolean clean) {
+		return populateEntitySimilarity(-1, clean, configurator.getEntitySimilarityUri());
 	}
 
 	private boolean shouldBeExecuted(boolean clean, Product product) {

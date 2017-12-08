@@ -3,16 +3,14 @@ package de.hpi.semrecsys.service;
 import de.hpi.semrecsys.AttributeTable;
 import de.hpi.semrecsys.OptionTable;
 import de.hpi.semrecsys.ProductTable;
-import de.hpi.semrecsys.Recommendation;
 import de.hpi.semrecsys.dto.AttributeDto;
 import de.hpi.semrecsys.dto.ProductDto;
-import de.hpi.semrecsys.main.Recommender;
 import de.hpi.semrecsys.model.Product;
-import de.hpi.semrecsys.output.RecommendationResult;
-import de.hpi.semrecsys.output.RecommendationResultsHolder;
 import de.hpi.semrecsys.populator.Populator;
 import de.hpi.semrecsys.repository.AttributeRepository;
 import de.hpi.semrecsys.repository.OptionRepository;
+import de.hpi.semrecsys.repository.ProductRepository;
+import de.hpi.semrecsys.repository.RecommendationRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,8 +18,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Map;
 
 @Service
 public class ProductService {
@@ -33,7 +32,16 @@ public class ProductService {
     private AttributeRepository attributeRepository;
 
     @Autowired
+    private RecommendationRepository recommendationRepository;
+
+    @Autowired
     private PersistenceService persistenceService;
+
+    @Autowired
+    private ProductRepository productRepository;
+
+    @Autowired
+    private GraphService graphService;
 
     private static final Logger LOG = LoggerFactory.getLogger(PersistenceService.class);
 
@@ -45,7 +53,10 @@ public class ProductService {
     public void populateProduct(ProductDto productDto){
         List<ProductTable> productLines = createProduct(productDto);
         Product product = new Product(productDto.getId(), productLines);
-        Populator.getDefault(persistenceService).populateProduct(product);
+        Populator populator = Populator.getDefault(persistenceService);
+        populator.populateMeta(false);
+        populator.populateProduct(product);
+        populator.populateEntitySimilarity(false);
     }
 
     @Transactional
@@ -76,5 +87,24 @@ public class ProductService {
             attributeTable = attributeRepository.save(attributeTable);
         }
         return attributeTable;
+    }
+
+    @Transactional
+    public Map<String, Long> deleteAllProducts(String customer, boolean withGraphs){
+        Map<String, Long> sizes = new HashMap<>();
+        productRepository.deleteAll();
+        attributeRepository.deleteAll();
+        optionRepository.deleteAll();
+        recommendationRepository.deleteAll();
+
+        if(withGraphs){
+            graphService.getGraphNames().stream().filter(s -> s.contains(customer)).forEach(graphService::cleanGraph);
+        }
+
+        sizes.put("products", productRepository.count());
+        sizes.put("attributes", attributeRepository.count());
+        sizes.put("options", optionRepository.count());
+        sizes.put("recommendations", recommendationRepository.count());
+        return sizes;
     }
 }

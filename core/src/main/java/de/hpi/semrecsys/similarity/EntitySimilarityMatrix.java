@@ -69,7 +69,9 @@ public class EntitySimilarityMatrix {
 				// System.out.println("\t" + entity2);
 				if (!isSimilarityAlreadyCalculated(entity, entity2)) {
 					similarity = calculator.calculateSimilarity(entity, entity2);
-					log.debug("Similarity: " + entity + " ; " + entity2 + " = " + similarity);
+					if(similarity > 0){
+						log.debug("Similarity: " + entity + " ; " + entity2 + " = " + similarity);
+					}
 					if (similarity >= minSimThreshold) {
 						putToCalculatedEntitiesMatrix(entity, entity2, similarity);
 					}

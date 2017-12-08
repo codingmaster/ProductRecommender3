@@ -30,9 +30,9 @@ import java.util.Map.Entry;
  */
 public class EntityFinder {
 
-	private static final double MINIMAL_SIM_THRESHOLD = 0.3;
-	private static final double MINIMAL_ATTRIBUTE_CONFIDENCE = 0.3;
-	private static final Double PLAIN_TEXT_CONFIDENCE = 0.3;
+	private static final double MINIMAL_SIM_THRESHOLD = 0.4;
+	private static final double MINIMAL_ATTRIBUTE_CONFIDENCE = 0.4;
+	private static final Double PLAIN_TEXT_CONFIDENCE = 0.4;
 	private static final Double PLAIN_TEXT_SIM_THRESHOLD = 0.5;
 	private TextExtractor textExtractor;
 	private SpotlightConnector spotlightConnector;

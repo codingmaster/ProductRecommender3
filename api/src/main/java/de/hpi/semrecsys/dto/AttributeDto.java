@@ -1,5 +1,7 @@
 package de.hpi.semrecsys.dto;
 
+import java.util.Objects;
+
 public class AttributeDto {
     private String key;
     private String value;
@@ -18,5 +20,24 @@ public class AttributeDto {
 
     public void setValue(String value) {
         this.value = value;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        AttributeDto that = (AttributeDto) o;
+        return Objects.equals(key, that.key) &&
+                Objects.equals(value, that.value);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(key, value);
+    }
+
+    @Override
+    public String toString() {
+        return getKey() + " -> " + getValue();
     }
 }

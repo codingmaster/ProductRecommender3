@@ -1,7 +1,11 @@
 package de.hpi.semrecsys.service;
 
+import de.hpi.semrecsys.model.AttributeEntity;
+import de.hpi.semrecsys.model.Product;
 import de.hpi.semrecsys.populator.Populator;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class GraphService {
@@ -18,5 +22,21 @@ public class GraphService {
 
     public int getGraphSize(String graphName){
         return populator.getGraphSize(graphName);
+    }
+
+    public String getGraphSizes(){
+        return populator.getGraphSizes();
+    }
+
+    public List<String> getGraphNames(){
+        return populator.getGraphNames();
+    }
+
+    public String getEntitySimilarity(String customer){
+        return populator.getEntitySimilarity(customer);
+    }
+
+    public List<AttributeEntity> getEntities(Product product){
+        return populator.getEntitiesForProduct(product).getAttributeEntities();
     }
 }

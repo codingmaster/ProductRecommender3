@@ -8,6 +8,7 @@ import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -23,9 +24,9 @@ import java.time.Instant;
 import java.util.*;
 
 @SpringBootApplication
-public class CsvParser implements CommandLineRunner {
+public class ProductPopulator implements CommandLineRunner {
 
-    private Logger log = LoggerFactory.getLogger(CsvParser.class);
+    private Logger log = LoggerFactory.getLogger(ProductPopulator.class);
     private static final Charset CVS_CHARSET = StandardCharsets.ISO_8859_1;
     private final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
@@ -43,14 +44,18 @@ public class CsvParser implements CommandLineRunner {
     @Value("${output-folder}")
     private String outputFolder;
 
+    @Autowired
+    private ProductSender productSender;
+
     @Override
     public void run(String... strings) throws Exception {
         clearOutput(Paths.get(outputFolder));
         convertCsv(Paths.get(inputFolder));
+        sendProducts(Paths.get(outputFolder));
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(CsvParser.class, args);
+        SpringApplication.run(ProductPopulator.class, args);
     }
 
     private void clearOutput(Path path) throws IOException {
@@ -216,6 +221,24 @@ public class CsvParser implements CommandLineRunner {
         try (BufferedWriter errorWriter = Files.newBufferedWriter(this.errorFile, StandardOpenOption.CREATE, StandardOpenOption.APPEND)) {
             errorWriter.write(errorType.name() + "\t" + lineNr + "\t" + key + "\t" + ex.getMessage() + "\n");
             errorWriter.flush();
+        }
+    }
+
+
+    private void sendProducts(Path folder) {
+        try (DirectoryStream<Path> stream = Files.newDirectoryStream(folder,
+                (p) -> Files.isRegularFile(p) && p.toString().toLowerCase().endsWith(".json"))) {
+            for (Path file : stream) {
+                String uid = file.getFileName().toString().replaceAll("\\.json", "");
+
+                try {
+                    productSender.sendProduct(uid, new String(Files.readAllBytes(file), StandardCharsets.UTF_8));
+                } catch (Exception ex) {
+                    log.error(ex.getMessage());
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

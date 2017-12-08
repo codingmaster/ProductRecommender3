@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
+	<entry key="GRAPH_NAMES">
+		SELECT DISTINCT ?g
+		WHERE {
+		GRAPH ?g { ?s ?p ?o }
+		}
+	</entry>
 	<entry key="GRAPH_SIZES">
 		SELECT ?g (COUNT(*) as ?count) { GRAPH ?g {?s ?p ?o.}
 		}
 		GROUP BY ?g
 		ORDER BY DESC(?count)
+	</entry>
+	<entry key="ENTITY_SIMILARITY">
+		Select distinct ?entity1 ?entity2 ?sim
+		from &lt;$VIRTUOSOHOST$/$CUSTOMER$_entity_similarity&gt;
+		where{
+		?s &lt;$VIRTUOSOHOST$/$CUSTOMER$/prop#sim_entity1&gt; ?entity1.
+		?s &lt;$VIRTUOSOHOST$/$CUSTOMER$/prop#sim_entity2&gt; ?entity2.
+		?s &lt;$VIRTUOSOHOST$/$CUSTOMER$/prop#sim_value&gt; ?sim.
+		FILTER (?entity1 != ?entity2)
+		}
 	</entry>
 	<entry key="ATTRIBUTE_ENTITY_LIST">
 		Select ?uri ?attribute_type ?count

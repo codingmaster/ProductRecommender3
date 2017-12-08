@@ -12,4 +12,5 @@ public enum CsvKey {
     }
 
     public static CsvKey UNIQUE_KEY = _id;
+    public static CsvKey NAME_KEY = _title;
 }
