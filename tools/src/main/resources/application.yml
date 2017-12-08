@@ -2,7 +2,6 @@ spring:
   main:
     web-environment: false
 
-
 input-folder: data/input
 output-folder: data/output
 recommender:

@@ -54,9 +54,9 @@ public class ProductService {
         List<ProductTable> productLines = createProduct(productDto);
         Product product = new Product(productDto.getId(), productLines);
         Populator populator = Populator.getDefault(persistenceService);
-        populator.populateMeta(false);
+//        populator.populateMeta(false);
         populator.populateProduct(product);
-        populator.populateEntitySimilarity(false);
+//        populator.populateEntitySimilarity(false);
     }
 
     @Transactional

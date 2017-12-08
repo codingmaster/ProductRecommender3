@@ -39,4 +39,9 @@ public class GraphService {
     public List<AttributeEntity> getEntities(Product product){
         return populator.getEntitiesForProduct(product).getAttributeEntities();
     }
+
+    public void populateEntities(){
+        populator.populateMeta(false);
+        populator.populateEntitySimilarity(false);
+    }
 }

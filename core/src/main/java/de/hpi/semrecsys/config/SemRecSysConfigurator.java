@@ -46,8 +46,13 @@ public class SemRecSysConfigurator {
 	private String targetSchema;
 	private String virtuosoSparqlEndpoint;
 	private String dbpediaNamespace;
-	private static Customer customer = Customer.springer;
+	private static Customer customer = Customer.SELECTED;
 	private static LanguageCode languageCode = LanguageCode.EN;
+
+	public static final double MINIMAL_SIM_THRESHOLD = 0.3;
+	public static final double MINIMAL_ATTRIBUTE_CONFIDENCE = 0.3;
+	public static final Double PLAIN_TEXT_CONFIDENCE = 0.3;
+	public static final Double PLAIN_TEXT_SIM_THRESHOLD = 0.3;
 
 	private static ConfiguratorParameters parameters;
 
@@ -59,6 +64,8 @@ public class SemRecSysConfigurator {
 	 */
 	public enum Customer {
 		melovely, naturideen, naturideen2, dobos, springer;
+
+		public static Customer SELECTED = springer;
 	}
 
 	/**

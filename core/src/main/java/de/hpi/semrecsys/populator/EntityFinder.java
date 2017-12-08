@@ -30,10 +30,6 @@ import java.util.Map.Entry;
  */
 public class EntityFinder {
 
-	private static final double MINIMAL_SIM_THRESHOLD = 0.4;
-	private static final double MINIMAL_ATTRIBUTE_CONFIDENCE = 0.4;
-	private static final Double PLAIN_TEXT_CONFIDENCE = 0.4;
-	private static final Double PLAIN_TEXT_SIM_THRESHOLD = 0.5;
 	private TextExtractor textExtractor;
 	private SpotlightConnector spotlightConnector;
 	private Namespacer namespacer;
@@ -122,7 +118,7 @@ public class EntityFinder {
 
 		List<ResponseResource> resourceEntities = getResourceEntities(text, confidence);
 		if (resourceEntities.isEmpty()) {
-			resourceEntities = getResourceEntities(text, MINIMAL_ATTRIBUTE_CONFIDENCE);
+			resourceEntities = getResourceEntities(text, SemRecSysConfigurator.MINIMAL_ATTRIBUTE_CONFIDENCE);
 		}
 		resources.addAll(resourceEntities);
 
@@ -130,11 +126,11 @@ public class EntityFinder {
 	}
 
 	private void updateConfidenceAndThreshold(Attribute attribute) {
-		confidence = MINIMAL_ATTRIBUTE_CONFIDENCE;
-		simThreshold = MINIMAL_SIM_THRESHOLD;
+		confidence = SemRecSysConfigurator.MINIMAL_ATTRIBUTE_CONFIDENCE;
+		simThreshold = SemRecSysConfigurator.MINIMAL_SIM_THRESHOLD;
 		if (attribute.getType().equals(AttributeType.unstruct)) {
-			confidence = PLAIN_TEXT_CONFIDENCE;
-			simThreshold = PLAIN_TEXT_SIM_THRESHOLD;
+			confidence = SemRecSysConfigurator.PLAIN_TEXT_CONFIDENCE;
+			simThreshold = SemRecSysConfigurator.PLAIN_TEXT_SIM_THRESHOLD;
 		}
 	}
 

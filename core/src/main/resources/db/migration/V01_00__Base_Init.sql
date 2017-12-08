@@ -1,8 +1,7 @@
 CREATE SEQUENCE IF NOT EXISTS hibernate_sequence;
-
 CREATE TABLE IF NOT EXISTS category
 (
-  id             BIGINT PRIMARY KEY NOT NULL,
+  id             SERIAL PRIMARY KEY NOT NULL,
   category_id    INTEGER      NOT NULL,
   children_count INTEGER      NOT NULL,
   level          INTEGER      NOT NULL,
@@ -33,14 +32,14 @@ CREATE TABLE IF NOT EXISTS product
 
 CREATE TABLE IF NOT EXISTS recommendation
 (
-  id             BIGINT PRIMARY KEY NOT NULL,
   product_id        INTEGER,
   linked_product_id INTEGER,
   type              VARCHAR(255),
   position          INTEGER,
   dtype             VARCHAR(255),
   score             DOUBLE PRECISION,
-  relative_score    DOUBLE PRECISION
+  relative_score    DOUBLE PRECISION,
+  PRIMARY KEY (product_id, type, position)
 );
 
 CREATE TABLE IF NOT EXISTS attribute

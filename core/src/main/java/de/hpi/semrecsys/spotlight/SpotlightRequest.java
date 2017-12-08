@@ -6,7 +6,7 @@ public class SpotlightRequest {
 	String spotter = "Default";
 	String policy = "whitelist";
 	String support = "0";
-	String confidence = "0.404";
+	String confidence;
 	private String types = "";
 
 	public SpotlightRequest(String text) {

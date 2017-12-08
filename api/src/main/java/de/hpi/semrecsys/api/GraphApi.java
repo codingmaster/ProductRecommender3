@@ -61,4 +61,10 @@ public class GraphApi {
         return ((LinkedListMultimap) attributeEntityDto.getAttributeEntitiesMap()).asMap();
     }
 
+    @Transactional(readOnly = false)
+    @RequestMapping(value="/entities", method = RequestMethod.POST)
+    public void populateEntities() {
+        graphService.populateEntities();
+    }
+
 }

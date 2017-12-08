@@ -4,7 +4,6 @@ import de.hpi.semrecsys.Recommendation;
 import de.hpi.semrecsys.RecommendationImpl;
 import de.hpi.semrecsys.dto.RecommendationDto;
 import de.hpi.semrecsys.repository.RecommendationRepository;
-import de.hpi.semrecsys.service.ProductService;
 import de.hpi.semrecsys.service.RecommenderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,8 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 import java.util.stream.Collectors;
-
-import static org.junit.Assert.assertTrue;
 
 
 @RestController

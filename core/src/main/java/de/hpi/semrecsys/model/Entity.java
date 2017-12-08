@@ -25,7 +25,8 @@ public class Entity implements DBObject, Comparable<Entity> {
 	private String name;
 	private Integer count = 0;
 	private boolean isMeta = false;
-	private Namespacer longUri;
+	private String longUri;
+	private Namespacer namespacer;
 
 	public Entity() {
 	}
@@ -110,10 +111,6 @@ public class Entity implements DBObject, Comparable<Entity> {
 		return EntityManager.getLongUri(namespacer, this);
 	}
 
-	public Namespacer getLongUri() {
-		return longUri;
-	}
-
 	public void setMeta(boolean isMeta) {
 		this.isMeta = isMeta;
 	}
@@ -141,7 +138,11 @@ public class Entity implements DBObject, Comparable<Entity> {
 		return count;
 	}
 
-	public void setLongUri(Namespacer longUri) {
+	public void setLongUri(String longUri) {
 		this.longUri = longUri;
+	}
+
+	public String getLongUri() {
+		return this.longUri;
 	}
 }

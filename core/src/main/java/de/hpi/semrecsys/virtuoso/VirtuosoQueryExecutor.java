@@ -202,6 +202,7 @@ public class VirtuosoQueryExecutor {
 			case uri:
 				String entityUri = node.asNode().getURI();
 				entity = new Entity(namespacer.process(entityUri));
+				entity.setLongUri(entityUri);
 				break;
 			case count:
 				count = (Integer) node.asNode().getLiteralValue();

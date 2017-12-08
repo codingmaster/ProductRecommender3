@@ -80,17 +80,16 @@ public class AttributeEntityMapping {
 
 	public Map<String, Map<Entity, AttributeEntity>> getGroupedAttributeEntities() {
 		if (groupedAttributeMap == null) {
-			groupedAttributeMap = new HashMap<String, Map<Entity, AttributeEntity>>();
+			groupedAttributeMap = new HashMap<>();
 
 			for (AttributeEntity aew : attributeEntities) {
 				String attribute = aew.getAttribute().getAttributeCode();
 				Map<Entity, AttributeEntity> aewList = groupedAttributeMap.get(attribute);
 				if (aewList == null) {
-					aewList = new HashMap<Entity, AttributeEntity>();
+					aewList = new HashMap<>();
 				}
 
 				Entity entity = aew.getEntity();
-				entity.setLongUri(configurator.getNamespacer());
 				aewList.put(entity, aew);
 				groupedAttributeMap.put(attribute, aewList);
 			}
