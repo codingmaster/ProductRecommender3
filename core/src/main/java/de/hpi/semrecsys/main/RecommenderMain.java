@@ -18,7 +18,7 @@ import de.hpi.semrecsys.strategy.RecommendationStrategyImpl;
 public class RecommenderMain {
 
 	static final double PRODUCT_NAME_THRESHOLD = 20;
-	static Customer customer = Customer.springer;
+	static Customer customer = Customer.SELECTED;
 	static SemRecSysConfigurator configurator = SemRecSysConfigurator.getDefaultConfigurator(customer);
 	static RecommendationStrategy recommendationStrategy = new RecommendationStrategyImpl(configurator);
 

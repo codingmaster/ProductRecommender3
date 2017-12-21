@@ -3,6 +3,7 @@ package de.hpi.semrecsys.base;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.google.common.base.Strings;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
@@ -31,7 +32,7 @@ public class ProductPopulator implements CommandLineRunner {
     private final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
     private static final int PRINT_OUTPUT = 10;
-    private int BUFFER_SIZE = 1;
+    private int BUFFER_SIZE = 5;
 
     private int errorCount = 0;
     private long productCount = 0;
@@ -105,15 +106,16 @@ public class ProductPopulator implements CommandLineRunner {
             String key = "UNKNOWN_KEY";
             try {
                 hasNext = parserIterator.hasNext();
-
-                if (!hasNext) break;
+                if(!hasNext)break;
 
                 CSVRecord csvRecord = parserIterator.next();
 
                 lineNr = parser.getCurrentLineNumber();
                 key = csvRecord.get(columns.get(CsvKey.UNIQUE_KEY));
                 JsonProduct product = createProduct(columns, csvRecord);
-                dataMap.put(product.getId(), product);
+                if(!Strings.isNullOrEmpty(product.getId())){
+                    dataMap.put(product.getId(), product);
+                }
 
                 if (lineNr % PRINT_OUTPUT == 0) {
                     log.info("CSV: Processing line: " + lineNr);

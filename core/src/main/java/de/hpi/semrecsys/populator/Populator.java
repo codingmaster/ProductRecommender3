@@ -50,7 +50,7 @@ public class Populator {
 	/**
 	 * Options show, which graphs to populate
 	 */
-	public static enum PopulationOption {
+	public enum PopulationOption {
 		/**
 		 * all graphs
 		 */
@@ -104,7 +104,7 @@ public class Populator {
 			populateMeta(clean, configurator.getMetaGraphName());
 		}
 		if (optionList.contains(PopulationOption.attribute_sim) || optionList.contains(PopulationOption.all)) {
-			populateAttributeSimilarity(clean, configurator.getAttributeSimilarityUri());
+			populateAttributeSimilarity(clean);
 		}
 		if (optionList.contains(PopulationOption.products) || optionList.contains(PopulationOption.all)) {
 			populateProducts(clean, configurator.getVirtuosoBaseGraph());
@@ -257,7 +257,7 @@ public class Populator {
 		populateMeta(clean, configurator.getMetaGraphName());
 	}
 
-	public void populateProduct(Product product) {
+	public Product populateProduct(Product product) {
 		try {
             VirtGraph graph = new VirtGraph(configurator.getVirtuosoBaseGraph(), configurator.getVirtuosoDatasource());
             ProductTriplesCreator nodeCreator = new ProductTriplesCreator(configurator);
@@ -266,6 +266,7 @@ public class Populator {
         } catch (Exception ex) {
             log.error("Exception for product " + product + " : " + ex.getMessage());
         }
+        return product;
 	}
 
 	public int populateEntitySimilarity(boolean clean) {
@@ -288,15 +289,13 @@ public class Populator {
 		return start;
 	}
 
-	private int populateAttributeSimilarity(boolean cleanGraph, String graphName) {
+	public int populateAttributeSimilarity(boolean cleanGraph) {
 		AbstractTriplesCreator nodeCreator = new AttributeSimilarityTriplesCreator(configurator);
-		return populate(cleanGraph, graphName, nodeCreator, -1);
+		return populate(cleanGraph, configurator.getAttributeSimilarityUri(), nodeCreator, -1);
 	}
 
 	private int populate(boolean cleanGraph, String graphName, AbstractTriplesCreator triplesCreator, int number) {
 		log.info("Processing graph " + graphName + " ...");
-
-
 
 		List<Triple> triples = triplesCreator.createTriples(number);
 		VirtGraph graph = new VirtGraph(graphName, configurator.getVirtuosoDatasource());

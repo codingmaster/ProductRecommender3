@@ -1,0 +1,16 @@
+gender,F,M,0.0409
+gender,F,U,0.73
+gender,F,C,0.0255
+gender,C,C,1.0000
+gender,C,M,0.3477
+gender,C,U,0.3377
+gender,C,F,0.0255
+gender,M,M,1.0000
+gender,M,U,0.5801
+gender,M,C,0.3477
+gender,M,F,0.0409
+gender,U,U,1.0000
+gender,U,M,0.5801
+gender,U,C,0.3377
+gender,U,F,0.73
+gender,F,F,1.0000

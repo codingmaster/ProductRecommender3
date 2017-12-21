@@ -78,7 +78,7 @@ public class AttributeEntity {
 			if (idx > 0) {
 				builder.append(", ");
 			}
-			builder.append(resource.getOriginString() + "(" + resource.getOffset() + ")");
+			builder.append(resource.getOriginString()).append("(").append(resource.getOffset()).append(")");
 			idx++;
 		}
 		builder.append("]");
@@ -91,6 +91,9 @@ public class AttributeEntity {
 			if (resource.getSimilarity() != null) {
 				weight += resource.getSimilarity();
 			}
+			String originString = resource.getOriginString();
+			String valueWithEntities = attribute.getValue().replaceAll(originString,  "<a href='"+ resource.getURI() + "'>" + originString + "</a>");
+			attribute.setValueWithEntities(valueWithEntities);
 		}
 
 	}

@@ -33,6 +33,7 @@ import de.hpi.semrecsys.model.Product;
 import de.hpi.semrecsys.persistence.EntityManager;
 import de.hpi.semrecsys.similarity.AttributeEntityMapping;
 import de.hpi.semrecsys.similarity.EntitySimilarityMatrix.EntityTuple;
+import de.hpi.semrecsys.spotlight.SpotlightResponse;
 
 /**
  * Creates output in HTML form for recommendations
@@ -210,10 +211,7 @@ public class HTMLOutputCreator {
 				if (idx > 0) {
 					pAttributes.appendText(", ");
 				}
-				String attributeValue = attribute.getValue();
-				if (attributeCode.equalsIgnoreCase("category")) {
-					attributeValue = attributeValue.split("_")[1];
-				}
+				String attributeValue = attribute.getValueWithEntities();
 				pAttributes.appendText(attributeValue);
 				idx++;
 			}

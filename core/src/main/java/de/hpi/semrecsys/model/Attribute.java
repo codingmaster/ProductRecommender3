@@ -11,6 +11,7 @@ public class Attribute {
 
 	String attributeCode;
 	String value;
+	String valueWithEntities;
 	Long optionId = -1L;
 	Double weight;
 	Integer count = 0;
@@ -36,9 +37,9 @@ public class Attribute {
 		this.attributeCode = productLine.getId().getAttributeCode();
 		this.value = productLine.getValue();
 		this.type = AttributeType.valueOf(productLine.getType());
-		long optionId = productLine.getId().getOptionId();
-		this.optionId = optionId;
+		this.optionId = productLine.getId().getOptionId();
 		this.productId = productLine.getId().getEntityId();
+		this.valueWithEntities = productLine.getValueWithEntities();
 	}
 
 	public void setCount(Integer count) {
@@ -66,6 +67,10 @@ public class Attribute {
 		return value;
 	}
 
+	public void setValue(String value) {
+		this.value = value;
+	}
+
 	public Long getOptionId() {
 		return optionId;
 	}
@@ -84,6 +89,14 @@ public class Attribute {
 
 	public void setType(AttributeType type) {
 		this.type = type;
+	}
+
+	public String getValueWithEntities() {
+		return valueWithEntities;
+	}
+
+	public void setValueWithEntities(String valueWithEntities) {
+		this.valueWithEntities = valueWithEntities;
 	}
 
 	@Override

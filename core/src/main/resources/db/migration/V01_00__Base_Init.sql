@@ -20,13 +20,14 @@ CREATE TABLE IF NOT EXISTS product_category
 
 CREATE TABLE IF NOT EXISTS product
 (
-  type           VARCHAR(21845),
+  type           VARCHAR(20),
   product_id     BIGINT,
   entity_id      INTEGER,
   attribute_id   INTEGER,
   attribute_code VARCHAR(255),
   option_id      INTEGER,
-  value          VARCHAR(21845),
+  value          TEXT,
+  value_with_entities TEXT,
   PRIMARY KEY (attribute_code, entity_id, option_id)
 );
 
@@ -52,7 +53,7 @@ CREATE TABLE IF NOT EXISTS attribute
 CREATE TABLE IF NOT EXISTS option
 (
   id BIGINT PRIMARY KEY NOT NULL,
-  value        VARCHAR(21845),
+  value        TEXT,
   attribute_id BIGINT
 );
 

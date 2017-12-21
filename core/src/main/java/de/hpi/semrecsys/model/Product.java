@@ -7,11 +7,13 @@ import org.apache.log4j.Logger;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * Product created from a set of {@link ProductTable} objects
@@ -93,6 +95,10 @@ public class Product implements DBObject {
 
 	public Map<String, List<Attribute>> getAttributes() {
 		return attributes;
+	}
+
+	public List<Attribute> getFlatAttributes(){
+		return attributes.values().stream().flatMap(Collection::stream).collect(Collectors.toList());
 	}
 
 	public void setProductId(int entity_id) {
