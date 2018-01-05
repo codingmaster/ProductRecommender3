@@ -2,23 +2,24 @@
   "customer": "dobos",
   "customerWebsite": "https://alpha.dobos.io/",
   "customerLogo": "https://alpha.dobos.io/assets/images/logo.png",
-  "minProdId": 1,
-  "maxProdId": 11,
   "attributes": [
     {
-      "name": "tag",
+      "name": "tags",
       "weight": 10,
-      "type": "unstruct"
+      "type": "unstruct",
+      "confidence" : 0.3
     },
     {
       "name": "name",
       "weight": 7,
-      "type": "unstruct"
+      "type": "unstruct",
+      "confidence" : 0.3
     },
     {
       "name": "description",
       "weight": 5,
-      "type": "unstruct"
+      "type": "unstruct",
+      "confidence" : 0.4
     }
   ]
 }

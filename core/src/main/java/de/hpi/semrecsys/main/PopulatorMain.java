@@ -1,7 +1,6 @@
 package de.hpi.semrecsys.main;
 
 import de.hpi.semrecsys.config.SemRecSysConfigurator;
-import de.hpi.semrecsys.config.SemRecSysConfigurator.Customer;
 import de.hpi.semrecsys.populator.Populator;
 import de.hpi.semrecsys.populator.Populator.PopulationOption;
 
@@ -14,8 +13,7 @@ import static org.junit.Assert.assertTrue;
  */
 public class PopulatorMain {
 
-	static Customer customer = Customer.springer;
-	static SemRecSysConfigurator configurator = SemRecSysConfigurator.getDefaultConfigurator(customer);
+	static SemRecSysConfigurator configurator = SemRecSysConfigurator.getDefaultConfigurator();
 
 	static Populator populator = new Populator(configurator);
 

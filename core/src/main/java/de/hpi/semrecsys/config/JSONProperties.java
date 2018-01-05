@@ -1,11 +1,11 @@
 package de.hpi.semrecsys.config;
 
+import de.hpi.semrecsys.model.Attribute.AttributeType;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import de.hpi.semrecsys.model.Attribute.AttributeType;
 
 /**
  * Container for properties from properties/customer/properties.json file
@@ -33,7 +33,7 @@ public class JSONProperties {
 	}
 
 	public Map<String, Double> getAttributesByType(AttributeType... types) {
-		attributesByType = new HashMap<String, Double>();
+		attributesByType = new HashMap<>();
 		List<String> typeList = new ArrayList<String>();
 		for (AttributeType attributeType : types) {
 			typeList.add(attributeType.name());
@@ -79,10 +79,11 @@ public class JSONProperties {
 		return filterAttributes;
 	}
 
-	static class JSONAttribute {
+	public static class JSONAttribute {
 		String name;
 		Double weight;
 		String type;
+		Double confidence;
 
 		public String getName() {
 			return name;
@@ -96,5 +97,8 @@ public class JSONProperties {
 			return weight;
 		}
 
+		public Double getConfidence() {
+			return confidence;
+		}
 	}
 }

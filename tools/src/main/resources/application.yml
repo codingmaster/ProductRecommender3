@@ -2,8 +2,8 @@ spring:
   main:
     web-environment: false
 
-input-folder: data/input
+input-folder: data/dobos
 output-folder: data/output
 recommender:
   url: http://localhost:8083
-  customer: springer
+  customer: dobos

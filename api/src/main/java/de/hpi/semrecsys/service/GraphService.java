@@ -44,4 +44,8 @@ public class GraphService {
         populator.populateMeta(false);
         populator.populateEntitySimilarity(false);
     }
+
+    public void populateAttributes(){
+        populator.populateAttributeSimilarity(false);
+    }
 }

@@ -1,17 +1,17 @@
 package de.hpi.semrecsys.config;
 
+import de.hpi.semrecsys.model.Entity;
+import de.hpi.semrecsys.utils.CollectionUtils;
+import de.hpi.semrecsys.utils.FileUtils;
+import org.apache.log4j.Logger;
+
 import java.io.File;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Set;
 import java.util.TreeMap;
-
-import org.apache.log4j.Logger;
-
-import de.hpi.semrecsys.model.Entity;
-import de.hpi.semrecsys.utils.CollectionUtils;
-import de.hpi.semrecsys.utils.FileUtils;
 
 /**
  * calculates attribute similarity map for each attribute type
@@ -38,9 +38,9 @@ public class CustomAttributeSimilarityCreator {
 	}
 
 	private void init(String fileName) {
-		attributeSimilarityMaps = new TreeMap<String, AttributeSimilarityMap>();
+		attributeSimilarityMaps = new TreeMap<>();
 		File dir = new File(fileName);
-		for (File file : dir.listFiles()) {
+		for (File file : Objects.requireNonNull(dir.listFiles())) {
 			List<String> lines = FileUtils.readTextFromFileToLines(file);
 			int idx = 0;
 			for (String line : lines) {

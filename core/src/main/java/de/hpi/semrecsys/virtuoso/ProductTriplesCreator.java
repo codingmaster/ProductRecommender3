@@ -85,7 +85,7 @@ public class ProductTriplesCreator extends AbstractTriplesCreator {
 
 	public List<Triple> createTriplesForProduct(Product product) {
 		EntityFinder creator = new EntityFinder(configurator);
-		List<Triple> result = new ArrayList<Triple>();
+		List<Triple> result = new ArrayList<>();
 		AttributeEntityMapping attributeEntityMapping = creator.getAttributeEntityMapping(product);
 		result.addAll(createTriplesForAttributeEntityMapping(attributeEntityMapping));
 		result.addAll(createCategoryTriplesForProduct(product));

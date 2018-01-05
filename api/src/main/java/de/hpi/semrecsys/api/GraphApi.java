@@ -67,4 +67,12 @@ public class GraphApi {
         graphService.populateEntities();
     }
 
+    @Transactional(readOnly = false)
+    @RequestMapping(value="/attributes", method = RequestMethod.POST)
+    public void populateAttributes() {
+        graphService.populateAttributes();
+    }
+
+
+
 }

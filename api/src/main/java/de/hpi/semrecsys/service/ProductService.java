@@ -5,6 +5,7 @@ import de.hpi.semrecsys.OptionTable;
 import de.hpi.semrecsys.ProductTable;
 import de.hpi.semrecsys.dto.AttributeDto;
 import de.hpi.semrecsys.dto.ProductDto;
+import de.hpi.semrecsys.model.Attribute;
 import de.hpi.semrecsys.model.Product;
 import de.hpi.semrecsys.populator.Populator;
 import de.hpi.semrecsys.repository.AttributeRepository;
@@ -55,8 +56,22 @@ public class ProductService {
         Product product = new Product(productDto.getId(), productLines);
         Populator populator = Populator.getDefault(persistenceService);
 //        populator.populateMeta(false);
-        populator.populateProduct(product);
+        product = populator.populateProduct(product);
+        updateProduct(product, productLines);
 //        populator.populateEntitySimilarity(false);
+    }
+
+    @Transactional
+    public void updateProduct(Product product, List<ProductTable> productLines) {
+        for(Attribute attribute :  product.getFlatAttributes()){
+            for(ProductTable productTable : productLines){
+                if(productTable.getId().getAttributeCode().equals(attribute.getAttributeCode())
+                        && productTable.getId().getOptionId() == attribute.getOptionId()){
+                    productTable.setValueWithEntities(attribute.getValueWithEntities());
+                }
+            }
+        }
+        productRepository.save(productLines);
     }
 
     @Transactional

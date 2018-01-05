@@ -33,23 +33,25 @@ public class EntityFinder {
 	private TextExtractor textExtractor;
 	private SpotlightConnector spotlightConnector;
 	private Namespacer namespacer;
-	private double simThreshold;
+//	private double simThreshold;
 
 	private EndpointType endpointType;
-	Logger log = Logger.getLogger(getClass());
-	private double confidence;
+	private Logger log = Logger.getLogger(getClass());
+//	private double confidence;
 	private AttributeEntityMapping attributeEntitiesMapping;
+	private SemRecSysConfigurator configurator;
 
 	public EntityFinder(SemRecSysConfigurator configurator) {
 		init(configurator);
 	}
 
 	private void init(SemRecSysConfigurator configurator) {
-		textExtractor = configurator.getTextExtractor();
-		spotlightConnector = configurator.getSpotlightConnector();
-		namespacer = configurator.getNamespacer();
-		endpointType = EndpointType.ANNOTATE;
-		attributeEntitiesMapping = new AttributeEntityMapping(configurator);
+		this.configurator = configurator;
+		this.textExtractor = configurator.getTextExtractor();
+		this.spotlightConnector = configurator.getSpotlightConnector();
+		this.namespacer = configurator.getNamespacer();
+		this.endpointType = EndpointType.ANNOTATE;
+		this.attributeEntitiesMapping = new AttributeEntityMapping(configurator);
 
 	}
 
@@ -76,10 +78,10 @@ public class EntityFinder {
 			for (Attribute attribute : attributeList) {
 				log.debug("Processing attribute: " + attribute.getValue());
 				if (attribute.getType().equals(AttributeType.unstruct)) {
-					List<AttributeEntity> entities = processUnstructAttribute(attribute);
-					log.debug("Found: " + entities.size() + " entities: " + entities);
+					List<AttributeEntity> attributeEntities = processUnstructAttribute(attribute);
+					log.debug("Found: " + attributeEntities.size() + " attributeEntities: " + attributeEntities);
 
-					attributeEntitiesMapping.addAllAttributeEntities(entities);
+					attributeEntitiesMapping.addAllAttributeEntities(attributeEntities);
 				} else {
 					attributeEntitiesMapping.addAttributeEntity(processStructAttribute(attribute));
 				}
@@ -112,27 +114,33 @@ public class EntityFinder {
 	}
 
 	private List<ResponseResource> getResources(Attribute attribute) {
-		updateConfidenceAndThreshold(attribute);
 		String text = attribute.getValue();
-		List<ResponseResource> resources = new ArrayList<SpotlightResponse.ResponseResource>();
 
-		List<ResponseResource> resourceEntities = getResourceEntities(text, confidence);
+		List<ResponseResource> resourceEntities = new ArrayList<>();
+		configurator.getJsonProperties().getAttributes()
+				.stream()
+				.filter(jsonAttribute -> jsonAttribute.getName().equals(attribute.getAttributeCode()))
+				.findFirst()
+				.ifPresent(jsonAttribute -> {
+					Double attributeConfidence = jsonAttribute.getConfidence();
+					resourceEntities.addAll(getResourceEntities(text, attributeConfidence));
+				});
+
 		if (resourceEntities.isEmpty()) {
-			resourceEntities = getResourceEntities(text, SemRecSysConfigurator.MINIMAL_ATTRIBUTE_CONFIDENCE);
+			resourceEntities.addAll(getResourceEntities(text, SemRecSysConfigurator.MINIMAL_ATTRIBUTE_CONFIDENCE));
 		}
-		resources.addAll(resourceEntities);
 
-		return resources;
+		return resourceEntities;
 	}
-
-	private void updateConfidenceAndThreshold(Attribute attribute) {
-		confidence = SemRecSysConfigurator.MINIMAL_ATTRIBUTE_CONFIDENCE;
-		simThreshold = SemRecSysConfigurator.MINIMAL_SIM_THRESHOLD;
-		if (attribute.getType().equals(AttributeType.unstruct)) {
-			confidence = SemRecSysConfigurator.PLAIN_TEXT_CONFIDENCE;
-			simThreshold = SemRecSysConfigurator.PLAIN_TEXT_SIM_THRESHOLD;
-		}
-	}
+//
+//	private void updateConfidenceAndThreshold(Attribute attribute) {
+//		confidence = SemRecSysConfigurator.MINIMAL_ATTRIBUTE_CONFIDENCE;
+//		simThreshold = SemRecSysConfigurator.MINIMAL_SIM_THRESHOLD;
+//		if (attribute.getType().equals(AttributeType.unstruct)) {
+//			confidence = SemRecSysConfigurator.PLAIN_TEXT_CONFIDENCE;
+//			simThreshold = SemRecSysConfigurator.PLAIN_TEXT_SIM_THRESHOLD;
+//		}
+//	}
 
 	/**
 	 * Executes request to Spotlight Endpoint and returns entity resources from
@@ -159,21 +167,9 @@ public class EntityFinder {
 		if (!text.isEmpty()) {
 			request.setText(text);
 			spotlightResponse = spotlightConnector.getSpotlightResponse(request, endpointType);
-			resources = getResourcesWithSimThreshold(resources);
+			log.debug("Spotlight Response: " + spotlightResponse);
 		}
 		return resources;
-	}
-
-	private List<ResponseResource> getResourcesWithSimThreshold(List<ResponseResource> resources) {
-		List<ResponseResource> result = new ArrayList<SpotlightResponse.ResponseResource>();
-
-		for (ResponseResource resource : resources) {
-			if (resource.getSimilarity() >= simThreshold) {
-				result.add(resource);
-			}
-		}
-
-		return result;
 	}
 
 	protected Map<Entity, List<ResponseResource>> getEntityResponseResourceMap(List<ResponseResource> resources) {
@@ -191,7 +187,7 @@ public class EntityFinder {
 
 			List<ResponseResource> entityResources = entityResponseResourceMap.get(entity);
 			if (entityResources == null) {
-				entityResources = new ArrayList<ResponseResource>();
+				entityResources = new ArrayList<>();
 			}
 			entityResources.add(resource);
 			entityResponseResourceMap.put(entity, entityResources);
