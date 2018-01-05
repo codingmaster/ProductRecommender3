@@ -4,3 +4,4 @@ recommender.jar
 */target/*
 .DS_Store
 out_*
+data/output/*
