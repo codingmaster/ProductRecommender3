@@ -49,10 +49,10 @@ public class SemRecSysConfigurator {
 	private static Customer customer = Customer.SELECTED;
 	private static LanguageCode languageCode = LanguageCode.EN;
 
-	public static final double MINIMAL_SIM_THRESHOLD = 0.3;
-	public static final double MINIMAL_ATTRIBUTE_CONFIDENCE = 0.3;
-	public static final Double PLAIN_TEXT_CONFIDENCE = 0.3;
-	public static final Double PLAIN_TEXT_SIM_THRESHOLD = 0.3;
+	public static final double MINIMAL_SIM_THRESHOLD = 0.4;
+	public static final double MINIMAL_ATTRIBUTE_CONFIDENCE = 0.4;
+	public static final Double PLAIN_TEXT_CONFIDENCE = 0.4;
+	public static final Double PLAIN_TEXT_SIM_THRESHOLD = 0.4;
 
 	private static ConfiguratorParameters parameters;
 
