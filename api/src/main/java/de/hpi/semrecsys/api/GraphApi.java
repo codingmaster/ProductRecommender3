@@ -55,7 +55,7 @@ public class GraphApi {
 
     @Transactional()
     @RequestMapping(value="/entities/{productId}", method = RequestMethod.GET)
-    public Map getEntitiesForProduct(@PathVariable int productId){
+    public Map getEntitiesForProduct(@PathVariable String productId){
         Product product = persistenceService.getProduct(productId);
         AttributeEntityDto attributeEntityDto = new AttributeEntityDto(product, graphService.getEntities(product));
         return ((LinkedListMultimap) attributeEntityDto.getAttributeEntitiesMap()).asMap();

@@ -16,7 +16,7 @@ import de.hpi.semrecsys.utils.StringUtils;
 public abstract class RecommendationImpl extends BaseEntity implements Recommendation {
 
 	protected RecommendationId id;
-	protected int linkedProductId;
+	protected String linkedProductId;
 	private Double score;
 	protected Double relativeScore;
 
@@ -24,7 +24,7 @@ public abstract class RecommendationImpl extends BaseEntity implements Recommend
 		super();
 	}
 
-	public RecommendationImpl(RecommendationId id, int linkedProductId) {
+	public RecommendationImpl(RecommendationId id, String linkedProductId) {
 		id.setType(recommendationType());
 		this.id = id;
 		this.linkedProductId = linkedProductId;
@@ -47,11 +47,11 @@ public abstract class RecommendationImpl extends BaseEntity implements Recommend
 	}
 
 	@Column(name = "linked_product_id", nullable = false)
-	public int getLinkedProductId() {
+	public String getLinkedProductId() {
 		return this.linkedProductId;
 	}
 
-	public void setLinkedProductId(int linkedProductId) {
+	public void setLinkedProductId(String linkedProductId) {
 		this.linkedProductId = linkedProductId;
 	}
 

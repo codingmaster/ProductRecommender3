@@ -3,6 +3,8 @@ package de.hpi.semrecsys.output;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.hp.gagawa.java.Node;
 import com.hp.gagawa.java.elements.A;
@@ -41,6 +43,7 @@ import de.hpi.semrecsys.spotlight.SpotlightResponse;
  *
  */
 public class HTMLOutputCreator {
+	String pathToImgSuffix = "";
 	String productLinkPath = "products/";
 	String productImgLinkPath = "api/v1/products/";
 	protected Body body = new Body();
@@ -52,7 +55,9 @@ public class HTMLOutputCreator {
 		HTMLOutputCreator.configurator = configurator;
 		String customerWebpage = configurator.getJsonProperties().getCustomerWebsite();
 		customerLogo = configurator.getJsonProperties().getCustomerLogo();
-		productLinkPath = customerWebpage + productLinkPath;
+		productLinkPath = configurator.getJsonProperties().getPathToProduct();
+		productImgLinkPath = configurator.getJsonProperties().getPathToImage();
+		pathToImgSuffix = configurator.getJsonProperties().getPathToImageSuffix();
 	}
 
 	public HTMLOutputCreator(SemRecSysConfigurator configurator, Product product) {
@@ -153,7 +158,8 @@ public class HTMLOutputCreator {
 	protected Table productToHTMLTable(Product product, String recommendationScoreString) {
 		Table productTable = new Table();
 		Tr productTr = new Tr();
-		String imgPath = productImgLinkPath + product.getStoreProductId() +  "/images/0";
+
+		String imgPath = productImgLinkPath + product.getStoreProductId() +  this.pathToImgSuffix;
 		product.getImgPathes().add(imgPath);
 		Td imgTd = createImgTdNode(product.getImgPathes(), 165);
 
@@ -212,6 +218,9 @@ public class HTMLOutputCreator {
 					pAttributes.appendText(", ");
 				}
 				String attributeValue = attribute.getValueWithEntities();
+				if(attributeValue == null){
+					attributeValue = attribute.getValue();
+				}
 				pAttributes.appendText(attributeValue);
 				idx++;
 			}

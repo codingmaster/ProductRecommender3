@@ -1,0 +1,31 @@
+{
+    "filter": {
+        "bool": {
+            "must": [
+                {
+                    "term": {
+                        "bibInfo.language": "EN"
+                    }
+                },
+                {
+                    "exists": {
+                        "field": "description"
+                    }
+                },
+                {
+                    "exists": {
+                        "field": "renditions.isbnWithOutHyphens"
+                    }
+                }
+            ]
+        }
+    },
+    "_source": [
+        "bibInfo.title",
+        "bibInfo.language",
+        "description",
+        "renditions.isbnWithOutHyphens"
+    ],
+    "from": 0,
+    "size": 100
+}

@@ -66,7 +66,7 @@ public abstract class RecommendationDAO extends AbstractDAO {
 		return validRecommendations;
 	}
 
-	protected List<Recommendation> getRecommendations(int productId, Class<?> type, int maxResults, int firstResult) {
+	protected List<Recommendation> getRecommendations(String productId, Class<?> type, int maxResults, int firstResult) {
 		Session session = getSession();
 		Criteria criteria = session.createCriteria(type);
 		criteria.add(Restrictions.eq("id.productId", productId));

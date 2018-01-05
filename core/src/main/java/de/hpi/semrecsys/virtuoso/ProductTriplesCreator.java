@@ -293,9 +293,9 @@ public class ProductTriplesCreator extends AbstractTriplesCreator {
 		return triples;
 	}
 
-	public static Integer getProductIdFromUri(String uri) {
+	public static String getProductIdFromUri(String uri) {
 		String pattern = "(" + PRODUCT_URI_BASE + ")([0-9]*)([^0-9]*)";
-		Integer productId = Integer.valueOf(uri.replaceAll(pattern, "$2"));
+		String productId = uri.replaceAll(pattern, "$2");
 		return productId;
 	}
 

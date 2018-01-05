@@ -14,15 +14,15 @@ public class ProductId implements java.io.Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private int entityId;
-	private int productId;
+	private String entityId;
+	private String productId;
 	private String attributeCode;
 	private long optionId;
 
 	public ProductId() {
 	}
 
-	public ProductId(int entityId, String attributeCode, long optionId) {
+	public ProductId(String entityId, String attributeCode, long optionId) {
 		this.entityId = entityId;
 		this.attributeCode = attributeCode;
 		this.optionId = optionId;
@@ -30,20 +30,20 @@ public class ProductId implements java.io.Serializable {
 	}
 
 	@Column(name = "product_id", nullable = false)
-	public int getProductId() {
+	public String getProductId() {
 		return this.productId;
 	}
 
 	@Column(name = "entity_id", nullable = false)
-	public int getEntityId() {
+	public String getEntityId() {
 		return this.entityId;
 	}
 
-	public void setEntityId(int entityId) {
+	public void setEntityId(String entityId) {
 		this.entityId = entityId;
 	}
 
-	public void setProductId(int productId) {
+	public void setProductId(String productId) {
 		this.productId = productId;
 	}
 
@@ -83,7 +83,7 @@ public class ProductId implements java.io.Serializable {
 	public int hashCode() {
 		int result = 17;
 
-		result = 37 * result + this.getEntityId();
+		result = 37 * result + this.getEntityId().hashCode();
 		result = 37 * result + (getAttributeCode() == null ? 0 : this.getAttributeCode().hashCode());
 		result = 37 * result + (int) this.getOptionId();
 		return result;

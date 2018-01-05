@@ -40,7 +40,7 @@ public class RecommendationApi {
 
     @Transactional(readOnly = false)
     @RequestMapping(value="{productId}", method = RequestMethod.POST)
-    public List<RecommendationDto> recommend(@PathVariable int productId) {
+    public List<RecommendationDto> recommend(@PathVariable String productId) {
         List<Recommendation> recommendationResults = recommenderService.recommendProduct(productId);
         return recommendationResults.stream().map(RecommendationDto::new).collect(Collectors.toList());
     }

@@ -15,7 +15,7 @@ public class Attribute {
 	Long optionId = -1L;
 	Double weight;
 	Integer count = 0;
-	int productId;
+	String productId;
 	AttributeType type;
 
 	public Attribute(String attributeCode, String value, Long optionId) {
@@ -75,11 +75,11 @@ public class Attribute {
 		return optionId;
 	}
 
-	public int getProductId() {
+	public String getProductId() {
 		return productId;
 	}
 
-	public void setProductId(int productId) {
+	public void setProductId(String productId) {
 		this.productId = productId;
 	}
 
@@ -142,6 +142,6 @@ public class Attribute {
 	}
 
 	public enum AttributeType {
-		struct, unstruct, split, cat, img;
+		struct, unstruct, split, cat, img, id;
 	}
 }

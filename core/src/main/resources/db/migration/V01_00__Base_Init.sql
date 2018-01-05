@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS category
 CREATE TABLE IF NOT EXISTS product_category
 (
   category_id INTEGER NOT NULL,
-  product_id  INTEGER NOT NULL,
+  product_id  VARCHAR(255) NOT NULL,
   CONSTRAINT product_category_pkey
   PRIMARY KEY (category_id, product_id)
 );
@@ -21,8 +21,8 @@ CREATE TABLE IF NOT EXISTS product_category
 CREATE TABLE IF NOT EXISTS product
 (
   type           VARCHAR(20),
-  product_id     BIGINT,
-  entity_id      INTEGER,
+  product_id     VARCHAR(255),
+  entity_id      VARCHAR(255),
   attribute_id   INTEGER,
   attribute_code VARCHAR(255),
   option_id      INTEGER,
@@ -33,8 +33,8 @@ CREATE TABLE IF NOT EXISTS product
 
 CREATE TABLE IF NOT EXISTS recommendation
 (
-  product_id        INTEGER,
-  linked_product_id INTEGER,
+  product_id        VARCHAR(255),
+  linked_product_id VARCHAR(255),
   type              VARCHAR(255),
   position          INTEGER,
   dtype             VARCHAR(255),

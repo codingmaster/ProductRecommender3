@@ -310,7 +310,7 @@ public class RecommendationResult extends GeneratedRecommendation implements Rec
 
 	@Override
 	public int compareTo(RecommendationResult o) {
-		if (o.getRelativeScore() >= this.getRelativeScore()) {
+		if (o.getScore() >= this.getScore()) {
 			return 1;
 		} else {
 			return -1;

@@ -19,7 +19,7 @@ public class GeneratedRecommendation extends RecommendationImpl {
 	public GeneratedRecommendation() {
 	}
 
-	public GeneratedRecommendation(RecommendationId id, int linkedProductId) {
+	public GeneratedRecommendation(RecommendationId id, String linkedProductId) {
 		super(id, linkedProductId);
 		id.setType(type);
 	}

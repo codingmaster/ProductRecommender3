@@ -1,0 +1,2340 @@
+{
+  "took": 209,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "failed": 0
+  },
+  "hits": {
+    "total": 169499,
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "58684",
+        "_score": 1,
+        "_source": {
+          "description": "Many-valued logics are becoming increasingly important in many branches of science. This is the second volume of a comprehensive two-volume handbook on many-valued logics by two leading members of the famous Polish school of logic. While the first volume was mainly concerned with theoretical foundations, this volume emphasizes automated reasoning, practical applications, and latest developments in closely related fields, such as fuzzy logics and rough set theory. It offers an extensive overview of Gentzen deduction systems and multi-sequential systems in many-valued logics and shows the application of the resolution principle to such logics. It discusses applications in such areas as software specification and electronic circuit verification and presents fuzzy logics and rough set theory in detail.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642084171"
+            },
+            {
+              "isbnWithOutHyphens": "9783540645078"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Many-Valued Logics 2"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "162768",
+        "_score": 1,
+        "_source": {
+          "description": "<p>Extensive descriptions of a wide range of key or world-class mineral deposits of China are presented in the context of the country’s general geology, tectonic units and mineral systems and their geodynamic evolution within the tectonic framework of the Asian continent. This comprehensive overview, incorporating the latest geological concepts, is the first such coverage written in English by a western expert, and will be of benefit to mineral explorers and miners, as well as to research scientists and students in institutions of higher education. In his compilation of this compendium of Chinese geology and mineral systems, Franco Pirajno draws on first-hand knowledge of China’s geology and mineral deposits gained in numerous field visits and research projects with Chinese colleagues from various academic institutions over the past 18 years.</p><ul><li>First time that a western-based book on China’s geology and mineral deposits is published </li><li>Appropriate for use by the mineral exploration industry </li><li>Modern English-language geological and mineral deposits information on China </li><li>Most useful to Western (and Chinese) geoscientists </li></ul>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9789400744448"
+            },
+            {
+              "isbnWithOutHyphens": "9789400744431"
+            },
+            {
+              "isbnWithOutHyphens": "9789401783873"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Geology and Tectonic Settings of China's Mineral Deposits"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "60297",
+        "_score": 1,
+        "_source": {
+          "description": "The maturation phenomenon refers to postischemic changes that develop hours or days following an ischemic insult. The delayed neuronal death of CA1 pyramidical cells of the hippocampus is a classic example. The report of the phenomenon has boosted research in this field, as it became evident that ischemic damage is not a sudden event but a process potentially susceptible to therapeutic intervention. In September 1990, the first international symposium on \"Maturation Phenomenon in Cerebral Ischemia\" was held in Tokyo. The second symposium was organized in Tokyo in March/April 1996. Since then, new developments have rapidly delivered information about the molecular nature and dynamics of mechanisms concerning cell death and recovery. This book contains the presentations of the 3rd international symposium held in Pozilly/Italy in April 1998. It outlines the present status of the investigation and provides further stimulation for research in this field.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642586026"
+            },
+            {
+              "isbnWithOutHyphens": "9783540650232"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Maturation Phenomenon in Cerebral Ischemia III"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "59699",
+        "_score": 1,
+        "_source": {
+          "description": "The history of laser applications in medicine starts al\u00ad In the early 1990s a concerted action program most with the invention of the laser itself. sponsored by the European Commission was carried out in Europe for the dissemination of the safe use of It was only a few months after Maiman's invention lasers in medicine, and in 1996 a similar program was when this new high-intensity light source was used for medical applications. Light as a therapeutic tool developed with Russia. It was this German--Russian had long been used in medicine, especially in oph\u00ad cooperation that led to a Russian version of the Ger\u00ad thalmology and dermatology. Therefore, these disci\u00ad man original loose-leaf handbook. The editors real\u00ad plines were the first to take advantage of this new tool. ized an ever-growing demand for an English version of this handbook, too. Therefore, the editors are very Although the early results were not as promising as grateful to the Springer publishing house for support\u00ad expected, a new field for medical diagnosis and treat\u00ad ment had been defined. Most of the difficulties in the ing the English edition of the German original.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642189791"
+            },
+            {
+              "isbnWithOutHyphens": "9783642623912"
+            },
+            {
+              "isbnWithOutHyphens": "9783540670056"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Applied Laser Medicine"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "161157",
+        "_score": 1,
+        "_source": {
+          "description": "Seismic waves - generated both by natural earthquakes and by man-made sources - have produced an enormous amount of information about the Earth's interior. In classical seismology, the Earth is modeled as a sequence of uniform horizontal layers (or spherical shells) having different elastic properties and one determines these properties from travel times and dispersion of seismic waves. The Earth, however, is not made of horizontally uniform layers, and classic seismic methods can take large-scale inhomogeneities into account. Smaller-scale irregularities, on the other hand, require other methods. Observations of continuous wave trains that follow classic direct S waves, known as coda waves, have shown that there are heterogeneities of random size scattered randomly throughout the layers of the classic seismic model. This book focuses on recent developments in the area of seismic wave propagation and scattering through the randomly heterogeneous structure of the Earth, with emphasis on the lithosphere. The presentation combines information from many sources to present a coherent introduction to the theory of scattering in acoustic and elastic materials and includes analyses of observations using the theoretical methods developed. The second edition especially includes new observational facts such as the spatial variation of medium inhomogeneities and the temporal change in scattering characteristics and recent theoretical developments in the envelope synthesis in random media for the last ten years. Mathematics is thoroughly rewritten for improving the readability. Written for advanced undergraduates or beginning graduate students of geophysics or planetary sciences, this book should also be of interest to civil engineers, seismologists, acoustical engineers, and others interested in wave propagation through inhomogeneous elastic media.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642443183"
+            },
+            {
+              "isbnWithOutHyphens": "9783642230295"
+            },
+            {
+              "isbnWithOutHyphens": "9783642230288"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Seismic Wave Propagation and Scattering in the Heterogeneous Earth : Second Edition"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "173417",
+        "_score": 1,
+        "_source": {
+          "description": "This atlas provides all the basic and advanced information required by surgeons in order to understand fully the skull base anatomy. It is organized according to anatomo-surgical pathways to the hidden areas of the skull base. These pathways are described in step-by-step fashion with the aid of a wealth of color images and illustrations. The emphasis is on endoscopic anatomy, but in order to provide a holistic perspective, informative three-dimensional reconstructions are presented alongside the endoscopic images and radiologic images are included when appropriate. In effect, windows are opened on the anatomy so that the reader is guided on a journey throughout the skull base region. This anatomically oriented atlas will serve as an ideal learning tool for novice surgeons and will also prove an invaluable reference for the more experienced surgeon.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783662508398"
+            },
+            {
+              "isbnWithOutHyphens": "9783642296642"
+            },
+            {
+              "isbnWithOutHyphens": "9783642296635"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Surgical Anatomy of the Internal Carotid Artery"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "58475",
+        "_score": 1,
+        "_source": {
+          "description": "This book concerns modern methods in scientific computing and linear algebra, relevant to image and signal processing. For these applications, it is important to consider ingredients such as: (1) sophisticated mathematical models of the problems, including a priori knowledge, (2) rigorous mathematical theories to understand the difficulties of solving problems which are ill-posed, and (3) fast algorithms for either real-time or data-massive computations. Such are the topics brought into focus by these proceedings of the Workshop on Scientific Computing (held in Hong Kong on March 10-12, 1997, the sixth in such series of Workshops held in Hong Kong since 1990), where the major themes were on numerical linear algebra, signal processing, and image processing.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9789813083608"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Scientific Computing"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "20912",
+        "_score": 1,
+        "_source": {
+          "description": "Integral, or structural, foams are one of the most remarkable materials that have been developed over the last fifteen years. As with all rapidly growing fields, the terminology seems to have grown even faster. Thus there are two names for the material structure itself. In the United States and in Japan the term for these plastics is Structural Foams, whereas in Europe and the USSR the term used is usually Integral Foams. We have adhered to the European term in the text and hope our colleagues will bear with us. Integral foams have a specific structure: a cellular core that gradually turns into a solid skin. The skin gives the part its form and stiffness, while the cellular core contributes to the very high strength-to-weight values of the material. These are higher than those of some unfoamed plastics and metals. The sandwich-like structure with its unique mechanical properties was prompted by nature. Wood and bone are strong and light-weight natural materials having a cellular structure. Since the sandwich-like structure of the integral foams resembles that of natural wood, the foams are often referred to as artifical wood or plastic wood, thereby emphasizing not only the formal structural similarity of these materials, but also one of the main functional applications of integral foams - replacement of wooden articles in various fields of engineering and construction.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783662024867"
+            },
+            {
+              "isbnWithOutHyphens": "9783540150381"
+            },
+            {
+              "isbnWithOutHyphens": "9783662024881"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Integral/Structural Polymer Foams"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "168773",
+        "_score": 1,
+        "_source": {
+          "description": "<p>Extensively updated since its second edition in 1985, <i>Chemotherapy in Psychiatry</i>, <i>Third Edition,</i> again addresses basic aspects of modern psychopharmacology and clinical applications of drugs used in the treatment of major psychiatric disorders, with major emphasis on psychotic, bipolar, and depressive disorders. The presentation covers descriptions of the main classes of psychotropic drugs, selected information concerning their known action mechanisms and metabolic disposition, and their clinical applications for acute illnesses and to prevent recurrences and long-term morbidity. Also covered are limitations and adverse effects of each type of agent, with emphasis on the fact that all psychotropic medicines have adverse effects that range from annoying to potentially lethal<i>. Chemotherapy in Psychiatry, Third Edition,</i> outlines the need to balance benefits and risks at the level of individual persons. Authoritative, and an important contribution to the literature, <i>Chemotherapy in Psychiatry, Third Edition</i> is an invaluable resource for physicians, scientists, trainees, and policymakers. </p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781461437093"
+            },
+            {
+              "isbnWithOutHyphens": "9781461437109"
+            },
+            {
+              "isbnWithOutHyphens": "9781461479260"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Chemotherapy in Psychiatry"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "165255",
+        "_score": 1,
+        "_source": {
+          "description": "<p>This is the third in a series of compendiums devoted to the subject of weld hot cracking.  It contains 22 papers presented at the 3<sup>rd</sup> International Hot Cracking Workshop in Columbus, Ohio USA in March 2010. In the context of this workshop, the term “hot cracking” refers to elevated temperature cracking associated with either the weld metal or heat-affected zone. These hot cracking phenomena include weld solidification cracking, HAZ and weld metal liquation cracking, and ductility-dip cracking. The book is divided into three major sections based on material type; specifically aluminum alloys, steels, and nickel-base alloys.  Each of these sections begins with a keynote paper from prominent researchers in the field: Dr. Sindo Kou from the University of Wisconsin, Dr. Thomas Böllinghaus from BAM and the University of Magdeburg, and Dr. John DuPont from Lehigh University.  The papers contained within include the latest insight into the mechanisms associated with hot cracking in these materials and methods to prevent cracking through material selection, process modification, or other means.  The three <i>Hot Cracking Phenomena in Welds</i> compendiums combined contain a total of 64 papers and represent the best collection of papers on the topic of hot cracking ever assembled. </p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642168635"
+            },
+            {
+              "isbnWithOutHyphens": "9783642168642"
+            },
+            {
+              "isbnWithOutHyphens": "9783662520109"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Hot Cracking Phenomena in Welds III"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "140973",
+        "_score": 1,
+        "_source": {
+          "description": "This practical step-by-step guide describes the key geological field techniques needed by today's exploration geologists involved in the search for metallic deposits. The techniques described are fundamental to the collection, storage and presentation of geological data and their use to locate ore. This book explains the various tasks which the exploration geologist is asked to perform in the sequence in which they might be employed in an actual exploration project. Hints and tips are give. The steps are illustrated with numerous examples drawn from real projects on which the author has worked. The book emphasizes traditional skills and shows how they can be combined effectively with modern technological approaches.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540743750"
+            },
+            {
+              "isbnWithOutHyphens": "9783642435782"
+            },
+            {
+              "isbnWithOutHyphens": "9783540743705"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Geological Methods in Mineral Exploration and Mining"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "140269",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Mechanochemistry as a branch of solid state chemistry enquires into processes which proceed in solids due to the application of mechanical energy. This provides a thorough, up to date overview of mechanochemistry of solids and minerals. Applications of mechanochemistry in nanoscience with special impact on nanogeoscience are described. Selected advanced identification methods, most frequently applied in nanoscience, are described as well as the advantage of mechanochemical approach in minerals engineering. Examples of industrial applications are given. Mechanochemical technology is being applied in many industrial fields: powder metallurgy (synthesis of nanometals, alloys and nanocompounds), building industry (activation of cements), chemical industry (solid waste treatment, catalyst synthesis, coal ashes utilization), minerals engineering (ore enrichment, enhancement of processes of extractive metallurgy), agriculture industry (solubility increase of fertilizers), and pharmaceutical industry (improvement of solubility and bioavailability of drugs).</P>\n<P>This reference serves as an introduction to newcomers to mechanochemistry, and encourages more experienced researchers to broaden their knowledge and discover novel applications in the field.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540748540"
+            },
+            {
+              "isbnWithOutHyphens": "9783540748557"
+            },
+            {
+              "isbnWithOutHyphens": "9783642094262"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Mechanochemistry in Nanoscience and Minerals Engineering"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "140170",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Wolfgang Pauli was not only one of the most influential physicists of the 20th century: His huge correspondence and unpublished manuscripts also demonstrate his deep interest in questions beyond physics.</P>\n<P>This volume explores the relevance of Pauli's visionary ideas with respect to several topics in science and philosophy that are if great contemporary interest: the role of symmetries in theoretical science; dual-aspect approaches to the mind-brain problem; the tension between psychological and physical time; the nature of creative activity and the origin of mathematical insight; and adaptive mutations and epigenetics in biology. Today we are in a position to appreciate how relevant Pauli's work and speculations have turned out to be. This book, authored by a team of internationally renowned experts, provides material and suggests directions for future studies of a variety of deep-seated and open problems, in particular concerning the relation between mind and matter.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642098949"
+            },
+            {
+              "isbnWithOutHyphens": "9783540851981"
+            },
+            {
+              "isbnWithOutHyphens": "9783540851974"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Recasting Reality"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "140322",
+        "_score": 1,
+        "_source": {
+          "description": "<P>The service sector has dominated advanced economies for years. In many countries, it accounts for more than 70% of gross domestic product, and approximately the same percentage of all employees work in this sector. To reflect the economic relevance of the service sector, services science must be established as an academic discipline. But the path in pursuit of this goal is riddled with challenges, especially in the fields of services research, service-oriented education and service-related collaborations. This book includes detailed articles and short statements on each field, written by academics and experts. They explain which challenges need to be met by research and academic training in the services community of the 21st century. The contributions contained in this book reflect the content of presentations and statements given at the first German Services Science Conference.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540744870"
+            },
+            {
+              "isbnWithOutHyphens": "9783642093906"
+            },
+            {
+              "isbnWithOutHyphens": "9783540744894"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Services Science"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "106848",
+        "_score": 1,
+        "_source": {
+          "description": "<P>This proceedings volume contains a selection of papers presented at the symposium \"International Conference on High Performance Scientific Computing'' held at the Hanoi Institute of Mathematics of the Vietnam National Center for Natural Science and Technology (NCST), March 10-14, 2003. The conference has been organized by the Hanoi Institute of Mathematics, SFB 359 ''Reactive Flows, Transport and Diffusion'', Heidelberg, Ho Chi Minh City University of Technology and Interdisciplinary Center for Scientific Computing (IWR), Heidelberg. The contributions cover the broad interdisciplinary spectrum of scientific computing and present recent advances in theory, development of methods, and applications in practice. Subjects covered are mathematical modelling, numerical simulation, methods for optimization and optimal control, parallel computing, symbolic computing, software development, applications of scientific computing in physics, chemistry, biology and mechanics, environmental and hydrology problems, transport, logistics and site location, communication networks, production scheduling, industrial and commercial problems.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540230274"
+            },
+            {
+              "isbnWithOutHyphens": "9783540271703"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Modeling, Simulation and Optimization of Complex Processes"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "136845",
+        "_score": 1,
+        "_source": {
+          "description": "<P>The galactose regulon of yeast is one of the best studied regulons. It is an ideal paradigm for demonstrating fundamental and evolving concepts in biology and is used in this book as a model system to explain various facets of conventional and modern biology.</P>\n<P></P>\n<P>The book starts with a brief historical overview on yeast research, i.e. early observations in enzyme adaptation, classical genetics, formulating hypotheses based on genetic inference. This is followed by molecular genetics of the galactose regulon, isolation of genes and testing of the hypotheses. The power of mutational analysis in deciphering molecular mechanisms is conveyed. Further, contemporary topics such as genomics, evolution, single cell analysis of transcriptional switching, binary and graded responses, biological consequences of feed back regulation in genetic circuits, and stochasticity are addressed. </P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642093302"
+            },
+            {
+              "isbnWithOutHyphens": "9783540740148"
+            },
+            {
+              "isbnWithOutHyphens": "9783540740155"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Galactose Regulon of Yeast"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "136852",
+        "_score": 1,
+        "_source": {
+          "description": "<P>The two fields of Geometric Modeling and Algebraic Geometry, though closely related, are traditionally represented by two almost disjoint scientific communities. Both fields deal with objects defined by algebraic equations, but the objects are studied in different ways.</P>\n<P>This contributed book presents, in 12 chapters written by leading experts, recent results which rely on the interaction of both fields. Some of these results have been obtained in the frame of the European GAIA II project (IST 2001-35512) entitled \"Intersection algorithms for geometry-based IT applications using approximate algebraic methods\".</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540721857"
+            },
+            {
+              "isbnWithOutHyphens": "9783642445514"
+            },
+            {
+              "isbnWithOutHyphens": "9783540721840"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Geometric Modeling and Algebraic Geometry"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "149660",
+        "_score": 1,
+        "_source": {
+          "description": "<P>The book provides an overview of the numerical modelling of radiation fields in multidimensional geometries. It covers advances and problems in the mathematical treatment of the radiative transfer equation, a partial integro-differential equation of high dimension that describes the propagation of the&nbsp;radiation in various fields. Highly accurate and&nbsp;fast methods&nbsp;with sound analytical foundations are particularly emphasized.&nbsp;The volume should not only serve as a basis for the selection of&nbsp;suitable methods for actual radiative transfer problems in disciplines from astronomy and climatology to radiological diagnostics but also be a starting point for additional mathematical investigations on many still unknown aspects of the transfer equation.<BR></P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540853688"
+            },
+            {
+              "isbnWithOutHyphens": "9783540853695"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Numerical Methods in Multidimensional Radiative Transfer"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "156850",
+        "_score": 1,
+        "_source": {
+          "description": "Induction chemotherapy, as part of an integrated plan of management for locally advanced cancers, is being practised throughout the world in independent, isolated departments in universities, teaching hospitals, and clinical schools. Frequently, however, teams are relatively unaware of the work being undertaken in other institutions, and this situation may slow further progress. This book aims to present the full range of management techniques and practices used in induction chemotherapy within one accessible volume. It provides up-to-date information on the pioneering and cutting edge practices employed in different institutions and documents the advantages of integrated treatment schedules. Patient selection is discussed, and each of the cancer types for which induction therapy has proved important is considered in detail. All who are responsible for the treatment of patients with locally advanced cancers will find this book to be an invaluable source of information. It will be particularly interesting for specialist oncologists aiming to set up and develop fully comprehensive cancer centres and for health administrators wishing to learn about the benefits of establishing such centres in strategic locations.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642181733"
+            },
+            {
+              "isbnWithOutHyphens": "9783642181726"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Induction Chemotherapy"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "156141",
+        "_score": 1,
+        "_source": {
+          "description": "<p>This book, as the outcome of the COST-728/NetFAM workshop, focuses on the follow\u00ading main topics: 1) on-line coupled meteorology-chemistry modelling with two-way feedbacks, 2) off-line coupled modelling and interfaces, 3) validation and case studies including air quality related episodes, and 4) integration of atmospheric chemical transport (ACT) models with numerical weather prediction (NWP).</p><p>This book is one of the first attempts to give an overall look on such integrated meso-meteorology and chemistry modelling approach. It reviews the current situation with the on-line and off-line coupling of mesoscale meteorological and ACT models worldwide as well as discusses advantages and shortcomings, best practices, and gives recommendations for on-line and off-line coupling of NWP and ACT models, implementation strategy for different feedback mechanisms, direct and indirect effects of aerosols and advanced interfaces between both types of models. The book is oriented towards numerical weather prediction and air quality modelling communities.</p><p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642139802"
+            },
+            {
+              "isbnWithOutHyphens": "9783642139796"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Integrated Systems of Meso-Meteorological and Chemical Transport Models"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "168300",
+        "_score": 1,
+        "_source": {
+          "description": "Dimensional analysis is an essential scientific method and a powerful tool for solving problems in physics and engineering. This book starts by introducing the Pi Theorem, which is the theoretical foundation of dimensional analysis. It also provides ample and detailed examples of how dimensional analysis is applied to solving problems in various branches of mechanics. The book covers the extensive findings on explosion mechanics and impact dynamics contributed by the author’s research group over the past forty years at the Chinese Academy of Sciences. <br>The book is intended for advanced undergraduates and graduate students of physics and engineering, as well as research scientists and engineers working in related fields.<br>Qingming Tan is a former researcher at the Institute of Mechanics, the Chinese Academy of Sciences, China.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642192333"
+            },
+            {
+              "isbnWithOutHyphens": "9783642192340"
+            },
+            {
+              "isbnWithOutHyphens": "9783642448065"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Dimensional Analysis"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "168608",
+        "_score": 1,
+        "_source": {
+          "description": "Central to the book are questions concerning the existence and the characteristics of justice motives, and concerning the influence that justice motives and justice judgements have on the emergence, but also the solution of social conflicts. Five main themes will be addressed: (1) “Introduction and justice motive”, (2) “organizational justice”, (3) “ecological justice”, (4) “social conflicts”, and (5) “solution of conflicts”.<br>The authors of the editions are scholars of psychology, as well as distinguished experts from various other disciplines, including sociologists, economists, legal scholar, educationalists, and ethicists. The common ground of all contributors is their independent conduction of empirical research on justice issues. Apart from the German contributors, authors represent scholars from the US, India, Korea, New Zealand, and various European countries (Austria, Switzerland, the Netherlands, UK, Sweden).",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642190346"
+            },
+            {
+              "isbnWithOutHyphens": "9783642428081"
+            },
+            {
+              "isbnWithOutHyphens": "9783642190353"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Justice and Conflicts"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "168723",
+        "_score": 1,
+        "_source": {
+          "description": "<p>Over the last decade, a great amount of effort and resources have been invested in the development of Semantic Web Service (SWS) frameworks. Numerous description languages, frameworks, tools, and matchmaking and composition algorithms have been proposed. Nevertheless, when faced with a real-world problem, it is still very hard to decide which of these different approaches to use.</p><p>In this book, the editors present an overall overview and comparison of the main current evaluation initiatives for SWS. The presentation is divided into four parts, each referring to one of the evaluation initiatives. Part I covers the long-established first two tracks of the Semantic Service Selection (S3) Contest – the OWL-S matchmaker evaluation and the SAWSDL matchmaker evaluation. Part II introduces the new S3 Jena Geography Dataset (JGD) cross evaluation contest. Part III presents the Semantic Web Service Challenge. Lastly, Part IV reports on the semantic aspects of the Web Service Challenge. The introduction to each part provides an overview of the evaluation initiative and overall results for its latest evaluation workshops. The following chapters in each part, written by the participants, detail their approaches, solutions and lessons learned.</p>This book is aimed at two different types of readers. Researchers on SWS technology receive an overview of existing approaches in SWS with a particular focus on evaluation approaches; potential users of SWS technologies receive a comprehensive summary of the respective strengths and weaknesses of current systems and thus guidance on factors that play a role in evaluation.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642426643"
+            },
+            {
+              "isbnWithOutHyphens": "9783642287350"
+            },
+            {
+              "isbnWithOutHyphens": "9783642287343"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Semantic Web Services"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "59098",
+        "_score": 1,
+        "_source": {
+          "description": "<P>This book is a comprehensive review of the rapidly advancing field of endovascular therapy, written by internationally recognized authorities in the field, many of whom are the innovators of the techniques and devices involved. Broad in scope, topics covered range from how to obtain training in approved endovascular techniques to promising new lines of investigational therapies. Reflecting the operative nature of many of the new endovascular therapies, this book is somewhat unique for an endovascular text in the strong representation of surgeons among its authors.</P>\n<P>Purpose: The purpose is to train and update physicians with diverse levels of experience and from a variety of specialties in established, new, and still evolving endovascular techniques. Given the wide variation in expertise among different specialties interested in performing these procedures, and acknowledging that different specialties lack skill in different aspects of various procedures, a book such as this is badly needed. The goals are accomplished by providing broad overviews of the basics for those with little experience and in-depth presentations of advanced topics for more skilled physicians.</P>\n<P>Audience: The audience includes vascular surgeons, who will take particular interest in the coverage of endovascular equipment and basic percutaneous techniques, and interventional cardiologists and radiologists, who have had little previous exposure to the operative aspects of endovascular therapy discussed in detail in this book.</P>\n<P><EM>From the preface to the second edition:</EM></P>\n<P><EM>Catheter-based diagnosis and treatment of vascular diseases has evolved over the last several decades, with a recent increase occurring in the utility of the therapeutic methods. This development has been stimulated by several factors including miniaturization of interventional devices and imaging technologies, and an emphasis on the utilization of minimally invasive, cost-effective treatments that reduce the economic impact of health care delivery. As part of this evolution, the development and adaptation of new interventional techniques and devices has produced a continual need for updating and training physicians in several subspecialties regarding the use of these methodologies. This requires not only adapting the technologies to current clinical practice but also establishing educational training curriculum in subspecialty fellowship programs.</EM></P>\n<P><EM>Because endovascular technologies are of multispecialty interest, a review of the entire scope of fundamental information regarding each aspect of the field is required to furnish a comprehensive review that will provide specific utility for individuals from different disciplines. For this reason, we have undertaken the development of this text to satisfy two goals. The first is to provide a broad overview of the entire range of topics for clinicians with little or no background relevant to the subject matter. Secondly, those with some familiarity will find definitive informational material to allow adaptation of endovascular technologies to their current clinical practice.</EM></P>\n<P><EM>To adequately understand and safely use catheter-based interventional therapies, knowledge of a number of topics beyond the clinical indications and techniques for applying endovascular methods is required. A thorough understand of the pathophysiology of vascular disease, safety issues regarding interventional devices and imaging methods, and a comprehension of fundamental biomaterials concepts is needed. These topics are addressed in detail and represent relatively mature aspects of this field that are otherwise characterized by continual change in devices and techniques as the field expands.</EM></P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781493950232"
+            },
+            {
+              "isbnWithOutHyphens": "9781441913876"
+            },
+            {
+              "isbnWithOutHyphens": "9781441913869"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Peripheral Endovascular Interventions"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "160471",
+        "_score": 1,
+        "_source": {
+          "description": "<p>An essential text for researchers and academics seeking the most comprehensive and up-to-date coverage of all aspects of ICT in education and e-learning, this book is a multidisciplinary forum covering technical, pedagogical, organizational, instructional, and policy aspects of the topic.  Special emphasis is given to applied research relevant to educational practice and guided by the educational realities in schools, colleges, universities and informal learning organizations. </p><p>The volume encompasses the current trends and issues which determine and inform the integration of ICT into educational practice, including teaching and learning, curriculum and instructional design, appropriate learning media and environments, teacher education and professional development, and appropriate assessment and evaluation.</p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781461410829"
+            },
+            {
+              "isbnWithOutHyphens": "9781461410836"
+            },
+            {
+              "isbnWithOutHyphens": "9781493940882"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Research on e-Learning and ICT in Education"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "49936",
+        "_score": 1,
+        "_source": {
+          "description": "Scheme provides a flexible and powerful language for programming embodying many of the best features of logical and functional programming. This enjoyable book provides readers with an introduction to programming in Scheme by constructing a series of interesting and re-usable programs. The book includes two diskettes containing MIT Scheme to run on Windows PCs.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781461223948"
+            },
+            {
+              "isbnWithOutHyphens": "9780387946818"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Programming in SCHEME"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "50565",
+        "_score": 1,
+        "_source": {
+          "description": "This book is about aerospace sensors, their principles of operation, and their typical advantages, shortcomings, and vulnerabilities. They are described in the framework of the subsystems where they function and in accordance with the flight mission they are designed to serve. The book is intended for students at the advanced undergraduate or graduate level and for research engineers who need to acquire this kind of knowledge. An effort has been made to explain, within a uniform framework of mathematical modeling, the physics upon which a certain sensor concept is based, its construction, its dynamics, and its error sources and their corresponding mathematical models. Equipped with such knowledge and understanding, the student or research engineer should be able to get involved in research and development activities of guidance, control, and navigation systems and to contribute to the initiation of novel ideas in the aerospace sensor field. As a designer and systems engineer, he should be able to correctly interpret the various items in a technical data list and thus to interact intelligently with manufacturers' representatives and other members of an R&D team. Much of the text has evolved from undergraduate and graduate courses given by the author during the past seventeen years at the Department of Aerospace Engineering at the Technion- Israel Institute of Technology and from his earlier research and development experience in flight control, guidance, navigation, and avionics at the Ministry of Defense Central Research Institute.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781461239963"
+            },
+            {
+              "isbnWithOutHyphens": "9780387946054"
+            },
+            {
+              "isbnWithOutHyphens": "9781461284659"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Aerospace Sensor Systems and Applications"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "48882",
+        "_score": 1,
+        "_source": {
+          "description": "Andrology is the fastest growing subspecialty in urology and has recently achieved remarkable advances in the understanding of the erectile mechanism and in reproductive medicine. <B>Male Infertility and Sexual Dysfunction</B> presents all the current avenues of treatment with emphasis on multidisciplinary considerations. Chapters are written by select international authorities presenting indepth coverage of their areas of expertise. Each topic will cover the background, anatomy, physiology, diagnosis, classification, and treatment (medical and/or surgical). Part I focuses on the study of male infertility and includes discussions of the basic sciences, office evaluation, laboratory and imaging techniques, and the use of testicular biopsy. This is followed by specialized chapters dealing with immunologic infertility, genital inflammation, reactive oxygen species, medical management, sperm processing and preventive adolescent andrology. Part II reflects a more diverse format in the coverage of sexual dysfunction and includes discussions of androgen insufficiency, nocturnal penile tumescence studies, neurotransmission, penile neurology, premature ejaculation, psychogenic impotence and the latest medical, noninvasive and surgical treatments.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781461218487"
+            },
+            {
+              "isbnWithOutHyphens": "9781461273103"
+            },
+            {
+              "isbnWithOutHyphens": "9780387948591"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Male Infertility and Sexual Dysfunction"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "49056",
+        "_score": 1,
+        "_source": {
+          "description": "Good software interface design is as crucial to a product's success as is its functionality. With the availability of visual development tools such as Visual Basic and Visual C++, more and more developers of applications will need to understand and use principles of good interface design. This book will help guide the reader to a better understanding of how to make Windows software simple to navigate and a pleasure to use. The author concentrates on the development of user-interfaces for Windows 95 and NT software and introduces some important design techniques such as prototyping, UI bulking, Rapid Layout Comparison, and the Side-by-Side Design Approach. <BR>Readers are assumed to have a working knowledge of development tools such as Visual C++ and to be working with the Microsoft Guidelines for Interface Design.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387948140"
+            },
+            {
+              "isbnWithOutHyphens": "9781461240600"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Craft of Windows 95™ Interface Design"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "49450",
+        "_score": 1,
+        "_source": {
+          "description": "The basement regions constitute more than two-thirds of outcropping bedrock material across our planet's continents. During the past 30 years French geomorphologists have contributed greatly to the characterization of some of the laws and patterns of landform evolution in shields and crystaliine areas with changing bioclimatic environments. This volume reflects the search for a better understanding of landscapes and landforms in igneous and metamorphic terrains at different latitudes. Furthermore, it covers a wide field of investigation gathered on four continents and addresses the issue at a wide range of spatial and timescales. It is an ideal volume not only for post-graduate geomorphology students but also for geoscience scholars concerned with igneous petrology, quaternary geology, physical geography, soil science and land use planning.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540676652"
+            },
+            {
+              "isbnWithOutHyphens": "9783642632013"
+            },
+            {
+              "isbnWithOutHyphens": "9783642568213"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Basement Regions"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "46773",
+        "_score": 1,
+        "_source": {
+          "description": "As with the first volume, <I>Volume Two</I> of <B>Economic and</B> <B>Financial Modeling with Mathematica  </B> is edited by Hal Varian, and its contributors are carefully selected by him to assure a high quality, practical work reflecting the efforts and expertise of an international cadre of Mathematica  users from the economic, financial, investments, quantitative business and operations research communities.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387945187"
+            },
+            {
+              "isbnWithOutHyphens": "9781461223405"
+            },
+            {
+              "isbnWithOutHyphens": "9781461275107"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Computational Economics and Finance"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "48344",
+        "_score": 1,
+        "_source": {
+          "description": "Mass movement of rocks in high mountains can severely injure the population and damage man-made structures in these areas. This book focuses on the understanding of the mechanisms of rockslides and rockfalls using a quantitative approach. The range and velocity of these hazards are calculated to serve as a basis for evacuations and other preventive measures. Examples from four continents illustrate the necessity of this kind of information. The book contains a wealth of information for practitioners and scientists working in the field of catastrophe prevention.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540671985"
+            },
+            {
+              "isbnWithOutHyphens": "9783642086533"
+            },
+            {
+              "isbnWithOutHyphens": "9783662046395"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Dynamics of Rockslides and Rockfalls"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "38307",
+        "_score": 1,
+        "_source": {
+          "description": "It is now 150 years ago, on 25th May 1842, that the son of a Salzburg ston\u00ad emason presented a scientific work \"On the coloured light of the double stars and certain other heavenly bodies\" at a meeting of the Royal Bo\u00ad hemian Society of Sciences held in Prague. Christian Andreas Doppler, then professor at the Prague Technical Institute, set a milestone in scien\u00ad tific history in the meeting room of the Royal Society in the Charles Uni\u00ad versity, just a few meters from the National Theatre where another genius from Salzburg, Wolfgang Amadeus Mozart, had celebrated his musical triumph with the premiere of his opera Don Giovanni fifty-five years earlier. Doppler's lecture set out in brilliant simplicity what we now call the Doppler principle, which since has found numerous uses in astronomy, which was of primary interest to Christian Doppler. In addition, it has found countless practical applications in physics, navigation, aeronautics, geodesy, medicine, science and technology. In medicine alone, Doppler sonography is now an established diagnostic procedure in the fields of childbirth, cardiology and diseases of the blood vessels, neurology, neuro\u00ad surgery and vascular surgery, and is continually finding new medical appli\u00ad cations in today's world of high technology.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783709166772"
+            },
+            {
+              "isbnWithOutHyphens": "9783211823675"
+            },
+            {
+              "isbnWithOutHyphens": "9783709173787"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Search for Christian Doppler"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "44931",
+        "_score": 1,
+        "_source": {
+          "description": "The impact of molecular genetics on plant breeding and, consequently, agri\u00ad culture, is potentially enonnous. Understanding and directing this potential im\u00ad pact is crucial because of the urgent issues that we face concerning sustainable agriculture for a growing world population as well as conservation of the world's rapidly dwindling plant genetic resources. This book is largely devoted to the applications of genetic markers that have been developed by the application of molecular genetics to practical problems. These are known as DNA markers. They have gained a certain notoriety in foren\u00ad sics, but can be used in a variety of practical situations. We are going through a period of accelerated breakthroughs in molecular ge\u00ad netics. Therefore, the authors of each chapter were encouraged to speculate about both current bottlenecks and the future of their subfields of research. We can cer\u00ad tainly apply molecular genetic tools and approaches to help resolve crucial ge\u00ad netic resource problems that face humanity. However, little has been discussed with respect to when or how we should use such tools, nor to who specifically should use them; therefore, social and economic analyses are important in the planning stages of projects that are aimed at practical results.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780817638023"
+            },
+            {
+              "isbnWithOutHyphens": "9781461598558"
+            },
+            {
+              "isbnWithOutHyphens": "9781461598572"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Impact of Plant Molecular Genetics"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "18962",
+        "_score": 1,
+        "_source": {
+          "description": "",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387963020"
+            },
+            {
+              "isbnWithOutHyphens": "9781461293682"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Higher Calculus: A History of Real and Complex Analysis from Euler to Weierstrass"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "49359",
+        "_score": 1,
+        "_source": {
+          "description": "Due to the rapid increase in readily available computing power, a corre\u00ad sponding increase in the complexity of problems being tackled has occurred in the field of systems as a whole. A plethora of new methods which can be used on the problems has also arisen with a constant desire to deal with more and more difficult applications. Unfortunately by increasing the ac\u00ad curacy in models employed along with the use of appropriate algorithms with related features, the resultant necessary computations can often be of very high dimension. This brings with it a whole new breed of problem which has come to be known as \"The Curse of Dimensionality\" . The expression \"Curse of Dimensionality\" can be in fact traced back to Richard Bellman in the 1960's. However, it is only in the last few years that it has taken on a widespread practical significance although the term di\u00ad mensionality does not have a unique precise meaning and is being used in a slightly different way in the context of algorithmic and stochastic complex\u00ad ity theory or in every day engineering. In principle the dimensionality of a problem depends on three factors: on the engineering system (subject), on the concrete task to be solved and on the available resources. A system is of high dimension if it contains a lot of elements/variables and/or the rela\u00ad tionship/connection between the elements/variables is complicated.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781461273738"
+            },
+            {
+              "isbnWithOutHyphens": "9780817639891"
+            },
+            {
+              "isbnWithOutHyphens": "9781461219965"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Computer Intensive Methods in Control and Signal Processing"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "51392",
+        "_score": 1,
+        "_source": {
+          "description": "During the university reform of the 1970s, the classical Faculty of Science of the venerable Ludwig-Maximilians-Universitat in Munich was divided into five smaller faculties. One was for mathematics, the others for physics, chemistry and pharmaceutics, biology, and the earth sciences. Nevertheless, in order to maintain an exchange of ideas between the various disciplines and so as not to permit the complete undermining of the original notion of \"universitas,,,l the Carl-Friedrich-von-Siemens Foundation periodically invites the pro\u00ad fessors from the former Faculty of Science to a luncheon gathering. These are working luncheons during which recent developments in the various disciplines are presented by means of short talks. The motivation for such talks does not come, in the majority of cases, from the respective subject itself, but from another discipline that is loosely affiliated with it. In this way, the controversy over the modern methods used in the proof of the Four-Color Theorem had also spread to disciplines outside of mathematics. I, as a trained algebraic topologist, was asked to comment on this. Naturally, I was acquainted with the Four-Color 1 A Latin word meaning the whole of something, a collective entirety. Vll viii Preface Problem but, up to that point, had never intensively studied it. As an outsider,2 I dove into the material, not so much to achieve any scientific progress with it but to make this already achieved objective more understandable.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781461217206"
+            },
+            {
+              "isbnWithOutHyphens": "9781461272540"
+            },
+            {
+              "isbnWithOutHyphens": "9780387984971"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Four-Color Theorem"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "51171",
+        "_score": 1,
+        "_source": {
+          "description": "Tibaldo and the Hole in the Calendar is the story of how an eleven-year old boy growing up in 16th century Italy loses his birthday when the Gregorian calendar replaces the Julian calendar in 1582, and how he fights to prevent this loss. The author cleverly weaves elements of the cultural and scientific milieu of his time into an engaging and intelligent tale. Tibaldo's father is a medical assistant, and his sister is a midwife. He grows up learning about current medical practices by watching his father and sister and by listening to the great Professor Turisanus, for whom his father works. Tibaldo is fascinated by medicine and proves himself to be a fast learner, quickly gaining the respect of Professor Turasanus, who becomes a mentor for Tibaldo and sends him to the very best of schools. However, when Tibaldo learns that the Julian calendar is about to be revised, he realizes that he is about to lose his 13th birthday and determines to do something about this. The result is amusing and informative.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387949352"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Tibaldo and the Hole in the Calendar"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "56594",
+        "_score": 1,
+        "_source": {
+          "description": "C axis Current I ~ . The (11 0) thick homoepitaxial film of 320 nm -------~ ~-=-=--==---==--==--==--- shows a very good surface flatness, which --------·· sJ;1 0] suggests the unique (110) atomic plane helps 2- A [1 1 OJ dimensional epitaxial growth of YBCO films, and shows excellent high Tc. The resultant 1. 0 surface morphology of YBCO is quite different Q ,. -- R(270)=1. 60 m 0 from the (110) heteroepitaxial films of similar 0 0. 0 \" thickness [11). In the case of heteroepitaxy ~ . ,,_. 1. 0 irrespective of c-axis [ 12] or a-axis oriented ~ ~. . ,. R(270)=3. 71 m 0 films [5), only thin films show flat surfaces, g 0. 0 . . Tc=92. 3K \"' which, however, give usually a degraded Tc due -~ 1. 0 v v I - to lattice mismatching. In conclusion, we have ::1. ,. . . . . R(270)=31. 9 mO succeeded to grow high-quality (11 0) YBCO ~ YBCO film . . Tc=90. 7 K 0. 0 ·;:: YBCO(IIO) 1 0 ·d·--~ YBCO thinfilms on (11 0) YBCO single crystal § substrate ~Xtt=u 1. 0 substra substrates with very flat surfaces and high Tc's. :£ R(270)=40. 1 m 0 0. 0 LLLLL. J. . . . LL~. t-J' L-Tc=9LWO. L-! L-K LLLLL. . . . L. . I. . . . l. . . . L. L. L. J. . . . . L. L. l. . . J 50 100 150 200 250 300 0 ACKNOWLEDGMENTS Temperature (K) One of the authors (T. U. ) would like to thank Fig.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9784431701989"
+            },
+            {
+              "isbnWithOutHyphens": "9784431684756"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Advances in Superconductivity IX"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "55281",
+        "_score": 1,
+        "_source": {
+          "description": "Four years ago we edited a volume of 36 papers entitled Molecular Approaches to Ecology and Evolution (Schierwater et ai. , 1994), in which we attempted to put to\u00ad gether a diverse array of papers that demonstrated the impact that the technologi\u00ad cal revolution ofmolecular biology has had on the field ofevolutionary biologyand ecology. The present volume borrows from that theme but attempts to focus more sharply on the impact that molecular biology has had on our understanding of dif\u00ad ferent hierarchical levels important in evolutionary and ecological studies. Because DNA sequence variation is at the heart ofeverypaper in the present volume, we feel it necessary to examine how DNA has affected study at various levels of biological organization. The majority of the chapters in the present volume follow themes es\u00ad tablished in the earlier volume; all chapters by authors in the previous volume are either fully updated or entirely new and expand into areas that we felt were impor\u00ad tant for a more complete understanding of the impact of DNA technology on ecol\u00ad ogy and evolution. The collection of papers in this volume cover a diverse array of ecological and evolutionary questions and demonstrates the breadth of coverage molecular tech\u00ad nology has imparted on modern evolutionary biology. There are also a broad range of hierarchical questions approached by the 17 papers in this volume.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783034898409"
+            },
+            {
+              "isbnWithOutHyphens": "9783764357252"
+            },
+            {
+              "isbnWithOutHyphens": "9783034889483"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Molecular Approaches to Ecology and Evolution"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "118266",
+        "_score": 1,
+        "_source": {
+          "description": "<P>The accompanying ecological research for using wind energy in the German North and Baltic Seas has brought out a variety of results concerning possible effects on the marine environment. This book provides an overview of the state of the accompanying ecological research in Germany. It shows the relevance of the new results of the research projects for the planning and permission process for offshore wind energy farms.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540346760"
+            },
+            {
+              "isbnWithOutHyphens": "9783540346777"
+            },
+            {
+              "isbnWithOutHyphens": "9783642421143"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Offshore Wind Energy"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "160584",
+        "_score": 1,
+        "_source": {
+          "description": "Currently, around one to two billion users are able to connect to the Internet, most of them living in the industrialized parts of the world. However, if we want to improve the quality of life of the world population with the help of access to information and education, it is necessary that in the next decade an additional five billion people gain access to the Internet. The next five billion Internet users are mainly living in emerging economies. Therefore, the main challenge is to lower the economic barrier using new approaches for infrastructure deployment and service delivery to billions of people. This book reflects the discussions of  the challenges from the Münchner Kreis with representatives from the ICT industry, academia, non-governmental organizations and governmental development organizations, among them many representatives from emerging economies in Africa and Asia. They had highlighted the real demand for ICT, and what impact ICT creates for the wealth and lifestyle of the people.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642122255"
+            },
+            {
+              "isbnWithOutHyphens": "9783642122248"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "ICT for the Next Five Billion People"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "135936",
+        "_score": 1,
+        "_source": {
+          "description": "<P>As a manifestation of a 'cognitive turn' observable in all social sciences, <EM>Cognitive Economics</EM> is concerned with the beliefs and mental operations held by actors placed within a dynamical and strategic environment. It appears as a synthesis of an educative research program, dealing with crossed expectations of actors, and an evolutionist research program on collective learning processes.</P>\n<P>The book mainly aims at extending the framework of game theory in order to better fit the results of rapidly increasing laboratory experiments concerned with individual choices and collective interactions. It also seeks to better explain some original economic phenomena involving boundedly rational agents in an institutional setting such as financial bubbles, job search or technological innovation.</P>\n<P>Written in an informal way, the book is addressed to philosophers or cognitive scientists curious of how economics deal with cognition,&nbsp;as well as&nbsp;graduate students in economics eager to discover how economic science evolves.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540713470"
+            },
+            {
+              "isbnWithOutHyphens": "9783642090509"
+            },
+            {
+              "isbnWithOutHyphens": "9783540713463"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Cognitive Economics"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "160678",
+        "_score": 1,
+        "_source": {
+          "description": "Is the procedural autonomy of EU Member State a myth or a reality? What should this concept be taken to mean? \nStarting from the analysis of requirements and principles regulating, generally speaking, the relationships between Member States’ and EU law, this book provides a definition of procedural autonomy able to account for the concept’s inherent limits. \nOut of an analysis of the more relevant EU jurisprudence, the author identifies the rationale underlying the interventions of the ECJ on issues of procedural autonomy and the common logic that emerges from it; and reveals how, in an unchanged context of ‘procedural autonomy’ of the Member States, national procedural law becomes more and more ‘functionalized’ to the requirements of effectiveness of substantive EU law. As such, we should speak of a ‘functionalized procedural competence’ rather than of procedural autonomy. But this is by no means a case of “Paradise Lost.”\nThe book includes a foreword by Prof. Jürgen Schwarze, one of the founding fathers of European Administrative Law.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642448560"
+            },
+            {
+              "isbnWithOutHyphens": "9783642125478"
+            },
+            {
+              "isbnWithOutHyphens": "9783642125461"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Procedural Autonomy of EU Member States: Paradise Lost?"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "161378",
+        "_score": 1,
+        "_source": {
+          "description": "<p>There is growing recognition of the need to address the fragility of digital information, on which our society heavily depends for smooth operation in all aspects of daily life. This has been discussed in many books and articles on digital preservation, so why is there a need for yet one more? Because, for the most part, those other publications focus on documents, images and webpages – objects that are normally rendered to be simply displayed by software to a human viewer. Yet there are clearly many more types of digital objects that may need to be preserved, such as databases, scientific data and software itself.</p><p>David Giaretta, Director of the Alliance for Permanent Access,  and his contributors explain why the tools and techniques used for preserving rendered objects are inadequate for all these other types of digital objects, and they provide the concepts, techniques and tools that are needed. The book is structured in three parts. The first part is on theory, i.e., the concepts and techniques that are essential for preserving digitally encoded information. The second part then shows practice, i.e., the use and validation of these tools and techniques. Finally, the third part concludes by addressing how to judge whether money is being well spent, in terms of effectiveness and cost sharing.</p><p>Various examples of digital objects from many sources are used to explain the tools and techniques presented. The presentation style mainly aims at practitioners in libraries, archives and industry who are either directly responsible for preservation or who need to prepare for audits of their archives. Researchers in digital preservation and developers of preservation tools and techniques will also find valuable practical information here. Researchers creating digitally encoded information of all kinds will also need to be aware of these topics so that they can help to ensure that their data is usable and can be valued by others now and in the future.</p><p>To further assist the reader, the book is supported by many hours of videos and presentations from the CASPAR project and by a set of open source software.</p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642168093"
+            },
+            {
+              "isbnWithOutHyphens": "9783642436604"
+            },
+            {
+              "isbnWithOutHyphens": "9783642168086"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Advanced Digital Preservation"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "161551",
+        "_score": 1,
+        "_source": {
+          "description": "The book examines the conditions for successful high-technology policy from theoretical and empirical perspectives. It enhances the predominant national systems of innovation approach to innovation policy with concepts based on new developments in the govern-ance of complex systems and processes. The conceptual framework of complex networks and systems is used to examine national policy approaches in countries that have created environments conducive to high-technology industries as well as individual high-technology sectors, such as biotechnology, alternative energy, and aerospace. Theoretical and empirical contributions are synthesised into lessons for high-tech policy and further research.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642438318"
+            },
+            {
+              "isbnWithOutHyphens": "9783642125621"
+            },
+            {
+              "isbnWithOutHyphens": "9783642125638"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Innovation Policy and Governance in High-Tech Industries"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "147354",
+        "_score": 1,
+        "_source": {
+          "description": "Tissue engineering is a multidisciplinary field incorporating the principles of biology, chemistry, engineering, and medicine to create biological substitutes of native tissues for scientific research or clinical use. Applications of this technology include studies of tissue development and function, investigations of drug response, and tissue repair and replacement. Tissue engineering is rapidly becoming one of the most promising treatment options for patients suffering from tissue failure.\n\nThis abundantly illustrated and clearly structured guide, written by leading experts, is intended to serve as a reference for all clinicians and researchers who deal with tissue engineering issues in their daily practice and for students studying tissue engineering at both the undergraduate and the graduate level. It will also be invaluable for professionals in related research areas, particularly those where cell and tissue culture is a new or emerging tool. The book is divided into three sections that present the latest findings in tissue engineering and their application in clinical practice. The first section discusses the basics and principles of tissue engineering, including scaffolds, cells, and technologies. The second and third sections then address in detail the tissue engineering of specific organs and tissue types. A visual approach is emphasized throughout, with numerous self-explanatory graphics, diagrams, and photos.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642028236"
+            },
+            {
+              "isbnWithOutHyphens": "9783642028243"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Tissue Engineering"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "137533",
+        "_score": 1,
+        "_source": {
+          "description": "<P>For the majority of industrial companies, customizing products and services is among the most critical means to deliver true customer value and achieve superior competitive advantage. The challenge is not to customize products and services in itself – but to do it in a profitable way. </P>\n<P>The implementation of a product configuration system is among the most powerful ways of achieving this in practice, offering a reduction of the lead time for products and quotations. It also achieves faster and more qualified responses to customer inquiries, fewer transfers of responsibility and fewer specification mistakes, a reduction of the resources spent for the specification of customized products, and the possibility of optimizing the products according to customer demands.</P>\n<P>This book presents an operational procedure for the design of product configuration systems in industrial companies. It is based on the experience gained from more than 40 product configuration projects in companies providing customer tailored products and services.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540714484"
+            },
+            {
+              "isbnWithOutHyphens": "9783540714491"
+            },
+            {
+              "isbnWithOutHyphens": "9783642090646"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Product Customization"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "79015",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Differential equations are often used in mathematical models for technological processes or devices. However, the design of a differential mathematical model is&nbsp;crucial and&nbsp;difficult in engineering.</P>\n<P>As a hands-on approach to learn how to pose a differential mathematical model&nbsp;the authors have selected 9 examples with important practical application and treat them as following:<BR>- Problem-setting and physical model formulation<BR>- Designing the differential mathematical model<BR>- Integration of the differential equations<BR>- Visualization of results</P>\n<P>Each step of the development of&nbsp;a differential model is&nbsp;enriched by respective Mathcad 11&nbsp;commands, todays necessary linkage of engineering significance and high computing complexity.</P>\n<P>To support readers of the book with respect to changes that might occur in future versions of Mathcad (Mathcad 12 for example), updates of examples, codes etc. can be downloaded from the following web page www.thermal.ru. Readers can work with Mathcad-sheets of the book without any Mathcad by help Mathcad Application Server Technology.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540268208"
+            },
+            {
+              "isbnWithOutHyphens": "9783642058783"
+            },
+            {
+              "isbnWithOutHyphens": "9783540208525"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Differential Models"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "126757",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Companies are constantly searching for new ways of creating higher profit and a larger market share. Growth seems to be the most appropriate tactic for surviving economically in difficult times. New instruments and methods as a support to a company’s growth strategy can be essential in gaining a competitive advantage. Knowledge management is one of the answers to this challenge. It can support strategic goals such as the improvement of efficiency, the minimization of risk and an increase in innovation, but also has inherent potentials which have not been leveraged yet. </P>\n<P>The first part of the book contains three case studis which illustrate the idea of knowledge networks for growth. The&nbsp;step-by-step methodology of the second part shows the reader how to build up and maintain these networks . The templates in the last part of the book ease the adaptation of networks for the reader's own company or his or her specific business needs. </P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540330738"
+            },
+            {
+              "isbnWithOutHyphens": "9783642069604"
+            },
+            {
+              "isbnWithOutHyphens": "9783540330721"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Knowledge Networks for Business Growth"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "137634",
+        "_score": 1,
+        "_source": {
+          "description": "<P>This book covers a wide area of the atmospheric science, focusing particularly on those physical and dynamical aspects of our environment which tend to create heat sources and sinks in the earth-atmosphere system and which it seeks to balance through circulation at different time and space scales. The processes of heat transfer in the atmosphere and ocean by general circulation and by waves and oscillations are discussed in detail. The heat balance of the atmosphere is considered, after taking into consideration the role of various types of greenhouse gases that may be present. In this context, the publication of the book will be very timely and will be welcomed by all those interested in knowing more about our atmosphere and the way it works, especially with regard to the contentious issue of global warming by greenhouse gases released by human activities on earth.</P>\n<P>Starting with the origin, composition and structure of the atmosphere, the physics part deals with the laws of heat and thermodynamics of dry and moist air, water vapor and its transformation into different phases and formation of cloud and rain under different stability conditions, solar and terrestrial radiation and their impact on the gaseous envelope in different layers of the atmosphere which create sources and sinks in different parts of the atmosphere especially in its boundary layers. The dynamics part highlights the various types of motion systems including the general circulation of waves and oscillations which create the heat balance in the earth-atmosphere system.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540784265"
+            },
+            {
+              "isbnWithOutHyphens": "9783540784272"
+            },
+            {
+              "isbnWithOutHyphens": "9783642097171"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Earth's Atmosphere"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "137886",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Neal Koblitz is a co-inventor of one of the two most popular forms of encryption and digital signature, and his autobiographical memoirs are collected in this volume. Besides his own personal career in mathematics and cryptography, Koblitz details his travels to the Soviet Union, Latin America, Vietnam and elsewhere; political activism; and academic controversies relating to math education, the C. P. Snow \"two-culture\" problem, and mistreatment of women in academia. These engaging stories fully capture the experiences of a student and later a scientist caught up in the tumultuous events of his generation.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540740780"
+            },
+            {
+              "isbnWithOutHyphens": "9783642430152"
+            },
+            {
+              "isbnWithOutHyphens": "9783540740773"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Random Curves"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "79762",
+        "_score": 1,
+        "_source": {
+          "description": "",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540270348"
+            },
+            {
+              "isbnWithOutHyphens": "9783540207887"
+            },
+            {
+              "isbnWithOutHyphens": "9783642058677"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Validation in Chemical Measurement"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "156970",
+        "_score": 1,
+        "_source": {
+          "description": "<p>This volume provides a comprehensive overview of recent developments in magnetic particle imaging (MPI), a novel imaging modality. Using various static and oscillating magnetic fields, and tracer materials made from iron oxide nanoparticles, MPI can perform background-free measurements of the particles’ local concentration. The method exploits the nonlinear remagnetization behavior of the particles and has the potential to surpass current methods for the detection of iron oxide in terms of sensitivity and spatiotemporal resolution. Starting from an introduction to the technology, the topics addressed include setting up an imaging device, assessment of image quality, development of new MPI tracer materials, and the first preclinical results. This is the first book to be published on magnetic particle imaging, and it will be an invaluable source of information for everyone with an interest in this exciting new modality.</p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642041990"
+            },
+            {
+              "isbnWithOutHyphens": "9783642041983"
+            },
+            {
+              "isbnWithOutHyphens": "9783662505816"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Magnetic Particle Imaging"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "119911",
+        "_score": 1,
+        "_source": {
+          "description": "<P>This is the first book to cover every angle in the clinical application of biologics.</P>\n<P>Prepared and edited by two leading clinicians in the field, including the prize-winning dermatologist Wolf-Henning Boehncke, this work carries complete authority.</P>\n<P>Readers will find that all of the biologics currently approved for clinical use are delineated in a standardized way, including crucial information that is of practical use in the field, such as contra-indications or monitoring needs.</P>\n<P>They will also find covered the whole area of \"differential therapy\" with biologics in fields such as dermatology, neurology, rheumatology and gastroenterology. This differential therapy is described in detail and summarized in treatment algorithms.</P>\n<P>While these more clinically oriented chapters form the core of this essential text, the editors have taken care to ensure that other issues are covered too. Thus, included are shorter sections on biologic biotechnology, as well as the safety, regulatory, and pharmaco-economic issues surrounding biologics.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642435676"
+            },
+            {
+              "isbnWithOutHyphens": "9783540290179"
+            },
+            {
+              "isbnWithOutHyphens": "9783540290186"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Biologics in General Medicine"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "144292",
+        "_score": 1,
+        "_source": {
+          "description": "<P>This&nbsp;book is the first comprehensive exploration of the legal framework of EU digital copyright law from the perspective of the ‘end-user’. This multi-faceted actor of the digital environment is a consumer of copyrighted works, a file-sharer of these works on the Internet, and a possible follow-on creator, who builds upon pre-existing digitised materials. All of these activities raise significant issues for national, European and international legal systems.<BR>The author critically evaluates the economic and legal consequences of the spectacular rise of user-generated content for existing copyright rules, with reference to human rights law, competition law and other important policies contained in the EC Treaty. He details policy options which would establish a balance between digital copyright law and the preservation of constitutionally-mandated end-user activities like personal use, private copying, educational and research activities and the unprecedented transformative uses enabled by digital technologies.<BR>This book is essential reading for lawyers, policymakers and academics interested in copyright law, competition law concerning digital media and information technology, consumer digital rights, Internet governance, freedom of expression and user data protection in digital settings.</P>\n<P></P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642095092"
+            },
+            {
+              "isbnWithOutHyphens": "9783540759843"
+            },
+            {
+              "isbnWithOutHyphens": "9783540759850"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "EU Digital Copyright Law and the End-User"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "119233",
+        "_score": 1,
+        "_source": {
+          "description": "<P><STRONG>Light and Light Sources</STRONG> gives an introduction to the working principles of high-intensity discharge (HID) lamps and points out challenges and problems associated with the development and operation of HID lamps. The state-of-the-art in electrode and plasma diagnostics as well as numerical methods used for the understanding of HID lamps are described. This volume addresses students as well as scientists and researchers at universities and in industry.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783540326847"
+            },
+            {
+              "isbnWithOutHyphens": "9783642069185"
+            },
+            {
+              "isbnWithOutHyphens": "9783540326854"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Light and Light Sources"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "91069",
+        "_score": 1,
+        "_source": {
+          "description": "<p>This new edition of Quantitative Sociodynamics presents a general strategy for interdisciplinary model building and its application to a quantitative description of behavioral changes based on social interaction processes. Originally, the crucial methods for the modeling of complex systems (stochastic methods and nonlinear dynamics) were developed in physics and mathematics, but they have very often proven their explanatory power in chemistry, biology, economics and the social sciences as well. Quantitative Sociodynamics provides a unified and comprehensive overview of the different stochastic methods, their interrelations and properties. In addition, it introduces important concepts from nonlinear dynamics (e.g. synergetics, chaos theory). The applicability of these fascinating concepts to social phenomena is carefully discussed. By incorporating decision-theoretical approaches, a fundamental dynamic model is obtained, which opens new perspectives in the social sciences. It includes many established models as special cases, e.g. the logistic equation, the gravity model, some diffusion models, evolutionary game theory and social field theory. Moreover, it implies numerous new results and is relevant for various application areas, such as opinion formation, migration, the self-organization of behavioral conventions, and the behavior of customers and voters. Theoretical results are complemented and illustrated by numerous computer simulations.</p><p>Quantitative Sociodynamics is relevant both for social scientists and natural scientists who are interested in the application of stochastic and synergetics concepts to interdisciplinary topics. </p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9783642115455"
+            },
+            {
+              "isbnWithOutHyphens": "9783642424021"
+            },
+            {
+              "isbnWithOutHyphens": "9783642115462"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Quantitative Sociodynamics"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "137470",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Natural resource management is entering a new era in which rapid environmental and social changes inevitably alter ecosystems and the benefits they provide to society. This textbook provides a new framework for natural resource management—a framework based on stewardship of ecosystems for ecological integrity and human well-being in a world dominated by uncertainty and change. The goal of ecosystem stewardship is to respond to and shape changes in social-ecological systems in order to sustain the supply and availability of ecosystem services by society. The book links recent advances in the theory of resilience, sustainability, and vulnerability with practical issues of ecosystem management and governance. Chapters by leading experts then illustrate these principles in major social-ecological systems of the world. Inclusion of review questions, glossary, and suggestions for additional reading makes <EM>Principles of Ecosystem Stewardship: Resilience-Based Natural Resource Management in a Changing World</EM> particularly suitable for use in all courses of resource management, resource ecology, sustainability science, and the human dimensions of global change. Professional resource managers, policy makers, leaders of NGOs, and researchers will find this novel synthesis a valuable tool in developing strategies for a more sustainable planet.</P>\n<P>About the Authors:</P>\n<P>F. Stuart Chapin, III is Professor of Ecology in the Institute of Arctic Biology, University of Alaska Fairbanks.</P>\n<P>Gary P. Kofinas is Associate Professor of Resource Policy and Management in the School of Natural Resources and Agricultural Sciences, University of Alaska Fairbanks.</P>\n<P>Carl Folke is Professor and Science Director of the Stockholm Resilience Centre, Stockholm University.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781489996503"
+            },
+            {
+              "isbnWithOutHyphens": "9780387730325"
+            },
+            {
+              "isbnWithOutHyphens": "9780387730332"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Principles of Ecosystem Stewardship"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "137829",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Field-emission, low-voltage scanning electron microscopy (LVSEM) is a field that has grown tremendously in recent years because is offers the optimal method for viewing complex surfaces at high resolution and in three dimensions. However, even though the instrumentation required to get good results at low beam voltage has become increasingly available, there has been a lag in its application to biological specimens. What seemed to be missing was volume that combined both the theory and practice of using this equipment in an optimal manner with a thorough treatment of biological specimen preparation. </P>\n<P><EM>Biological Low-Voltage Scanning Electron Microscopy</EM> is the first book to address both of these aspects of biological LVSEM. After providing a thorough description of the unique advantages and the operating constraints related to operating a scanning electron microscope at low beam voltage, the remainder of book focuses on the the best way to image all types of plant and animal cells and covers specimens that range from macromolecules to the surfaces revealed by de-embedding resin-embedded samples. Advanced specimen preparation techniques such as cryo-LVSEM, and immuno-gold-LVSEM are fully covered, as is x-ray microanalysis at low beam voltage and live-time stereo imaging. The preparative protocols provided represent the distilled essence of the experience of a group of world-renowned authors who have, for many decades, been instrumental in developing and applying new approaches to LVSEM to support their own biological research.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387729725"
+            },
+            {
+              "isbnWithOutHyphens": "9780387729701"
+            },
+            {
+              "isbnWithOutHyphens": "9781489995841"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Biological Low-Voltage Scanning Electron Microscopy"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "137855",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Ultra-wideband (UWB), short-pulse (SP) electromagnetics are now being used for an increasingly wide variety of applications, including collision avoidance radar, concealed object detection, and communications. Notable progress in UWB and SP technologies has been achieved by investigations of their theoretical bases and improvements in solid-state manufacturing, computers, and digitizers. UWB radar systems are also being used for mine clearing, oil pipeline inspections, archeology, geology, and electronic effects testing. <EM>Ultra-wideband Short-Pulse Electromagnetics 9</EM> presents selected papers of deep technical content and high scientific quality from the UWB-SP9 Conference, which was held from July 21-25, 2008, in Lausanne, Switzerland. The wide-ranging coverage includes contributions on electromagnetic theory, time-domain computational techniques, modeling, antennas, pulsed-power, UWB interactions, radar systems, UWB communications, and broadband systems and components. This book serves as a state-of-the-art reference for scientists and engineers working in these applications areas.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781493950751"
+            },
+            {
+              "isbnWithOutHyphens": "9780387778440"
+            },
+            {
+              "isbnWithOutHyphens": "9780387778457"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Ultra-Wideband, Short Pulse Electromagnetics 9"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "132800",
+        "_score": 1,
+        "_source": {
+          "description": "<P>All measurements of physical quantities are affected by uncertainty.&nbsp; Understanding the origin of uncertainty, evaluating its extent and suitably taking it into account in data analysis is essential for assessing the degree of accuracy of phenomenological relationships and physical laws in both scientific research and technological applications.</P>\n<P><EM>The&nbsp;Uncertainty&nbsp;in Physical Measurements: An Introduction to Data Analysis in the Physics Laboratory</EM>&nbsp;presents an introduction to uncertainty and to some of the most common procedures of data analysis.&nbsp; This book will serve the reader well by filling the gap between tutorial textbooks and highly specialized monographs.&nbsp; The book is divided into three parts. The first part is a phenomenological introduction to measurement and uncertainty: properties of instruments, different causes and corresponding expressions of uncertainty, histograms and distributions, and unified expression of uncertainty. The second part contains an introduction to probability theory, random variable distributions and basic statistical tools. The third part introduces the readers&nbsp;to some basic data analysis procedures: propagation of uncertainty, least squares fit, chi square test, and confidence intervals to name a few.</P>\n<P>The introduction of probability and statistical tools is made on phenomenological grounds, as a natural response to the problems arising in the laboratory practice.&nbsp; The author has made a concentrated effort to guarantee both accuracy and clarity through the introduction of a large number of figures and worked examples, many of them taken from laboratory experimentations and practice.&nbsp; The book is enriched by the detailed proposal of several simple experiments.</P>\n<P>Paolo Fornasini is a Professor of Physics at the University of Trento, Italy.&nbsp; He is the author, with Giuseppe Dalba,&nbsp;of <EM>Esercizi di Fisica: Meccanica e Termodinamica</EM> (Springer 2006).<</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387786506"
+            },
+            {
+              "isbnWithOutHyphens": "9781441926944"
+            },
+            {
+              "isbnWithOutHyphens": "9780387786490"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Uncertainty in Physical Measurements"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "144196",
+        "_score": 1,
+        "_source": {
+          "description": "Health Assets in a Global Context:\nTheory, Methods, Action\n\nEdited by Antony Morgan, Maggie Davies, and Erio Ziglio\n\n\nAs global health inequities continue to widen, policymakers are redoubling their efforts to address them. Yet the effectiveness and quality of these programs vary considerably, sometimes resulting in the reverse of expected outcomes. While local political issues or cultural conflicts may play a part in these situations, an important new book points to a universal factor: the prevailing deficit model of assessing health needs, which puts disadvantaged communities on the defensive while ignoring their potential strengths.\n\nThe asset model proposed in Health Assets in a Global Context offers a necessary complement to the problem-focused framework by assessing multiple levels of health-promoting aspects in populations, and promoting joint solutions between communities and outside agencies. The book provides not only rationales and methodologies (e.g., measuring resilience and similar elusive qualities) but also concrete examples of asset-based initiatives in use across the world on the individual and community levels, including:\n\n•\tStrengthening the assets of disadvantaged women (Germany).\n•\tSustainable community-based development programs (India).\n•\tUsing parental assets to control child malaria (West Africa).\n•\tAsset/evidence-based health promotion in the schools (Romania).\n•\tEvaluating asset-based programs (Latin America).\n•\tUsing social capital to promote health equity (Australia).\n\nHealth Assets in a Global Context offers a new, positive lens for viewing the world’s most resistant public health crises, making it fundamental reading for researchers and graduate students in public health, especially those involved in health promotion, health disparities, social determinants of health, and global health.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441959201"
+            },
+            {
+              "isbnWithOutHyphens": "9781441959218"
+            },
+            {
+              "isbnWithOutHyphens": "9781489999290"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Health Assets in a Global Context"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "144350",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Wireless systems are becoming increasingly pervasive and securing these systems has been challenging, in large part due to the unique properties associated with wireless communications. Securing these networks has traditionally been approached by taking a conventional approach involving cryptographic protocols. Such an approach inherently seeks to secure the wireless network at the link layer and above, and consequently fails to leverage the most unique characteristic of wireless communication: its physical layer.</P>\n<P>Securing Wireless Communications at the Physical Layer is a compilation of contributions by experts in wireless communications and security, and presents state-of-the-art results that examine the challenge of introducing security at the physical layer of a wireless system. Throughout this book there is an underlying theme that the rich multipath environment that is typical of wireless scenarios supports the establishment of new security services at the physical layer, including new mechanisms that establish cryptographic keys, that support communication with assured confidentiality, and that can authenticate transmitters in mobile environments. The book takes a holistic approach to covering topics related to physical layer security solutions, with contributions ranging from the theoretical underpinnings behind secure communications to practical systems validations that have been performed on real wireless systems. The book also covers topics related to ensuring that cooperative wireless communications at the physical layer is trustworthy. Additionally, the emerging area of modulation forensics, whereby a device is able to identify the modulation format being employed by other devices is explored.</P>\n<P>Securing Wireless Communications at the Physical Layer will serve as a valuable reference to engineers and researchers in the fields of security and wireless communications.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781489983756"
+            },
+            {
+              "isbnWithOutHyphens": "9781441913845"
+            },
+            {
+              "isbnWithOutHyphens": "9781441913852"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Securing Wireless Communications at the Physical Layer"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "144362",
+        "_score": 1,
+        "_source": {
+          "description": "<p>Pediatric Chronic Pain Current Science and Integrative Practice Brenda McClain and Santhanam Suresh, editors </p><p> In contrast to the days when children were thought to experience less pain than adults, we now know that this is not the case and that prolonged exposure to pain may predispose children to chronic pain syndromes later in life. For these reasons, pain management has become an essential part of pediatric care. Pediatric Chronic Painreflects current advances in the field, offering the pediatric specialist a comprehensive evidence base for the understanding, accurate assessment, and developmentally appropriate treatment of pain in children, from neonates to adolescents. The work of respected physicians and psychologists, this practical guide provides definitive information on frequently encountered syndromes, assessment tools, a wide range of mainstream and complementary intervention strategies (with special attention to opioid tolerance and tapers), and palliative care. Its groundbreaking coverage:</p><p><ul><li>Reviews the epidemiology of chronic pain in children and the history of its management. </li><li>Features in-depth discussion of pediatric musculoskeletal, abdominal, and pelvic pain syndromes, cancer, sickle cell anemia, and headaches. </li><li>Includes a concise guide to radiological imaging and other assessment modalities </li><li>Offers treatment rationales based on cutting-edge research. </li><li>Examines the spectrum of interventive techniques, including therapeutic blocks, implantable systems, physical therapy, pharmacotherapy, and complementary methods. </li><li>Clarifies the role of the nurse practitioner in managing chronic pain in children and adolescents</li></ul><p>Pediatric Chronic Pain will be a trusted daily reference for child psychologists, psychiatrists, and neurologists; medical and health psychologists in pediatric/adolescent settings; pediatric surgeons; and pediatricians, especially those with subspecialty training in neurology, hematology-oncology, and rheumatology.</p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441903501"
+            },
+            {
+              "isbnWithOutHyphens": "9781441903495"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Handbook of Pediatric Chronic Pain"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "119372",
+        "_score": 1,
+        "_source": {
+          "description": "<P>This volume serves as a succinct and well-organized reference volume focused on inflammatory CNS disease to a wide audience. The text is comprised of four sections revolving around current areas of interest in the fields of neuroimmunology, virology, pharmacology and disease. Sections of this text focus on a specific category of diseases as well as the pharmacological, virological, and immunological effects of and on the disease. </P>\n<P></P>\n<P>Although many have covered this topic, few have provided a volume as concise and efficient. Each disease is broken down on a variety of scientific levels without getting into the history of the disease. This approach provides a succinct overview of a specific subject encompassing interrelated topics pertaining to neurology, immunology and disease. The information provided in Central Nervous System Diseases and Inflammation will be useful for researchers, clinicians, as well as a valuable resource for students interested in the fascinating arena of neuroinflammation.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387738932"
+            },
+            {
+              "isbnWithOutHyphens": "9780387738949"
+            },
+            {
+              "isbnWithOutHyphens": "9781441944801"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Central Nervous System Diseases and Inflammation"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "119257",
+        "_score": 1,
+        "_source": {
+          "description": "<P>This cutting-edge sourcebook is ideal for physicians, addiction treatment practitioners, probation officers, testing programs, judges and anyone else facing challenges in practice with the treatment of drug court participants. The authors share their extensive knowledge in treatment of addiction and withdrawal, treatment for patients with dual diagnoses of mental illness and addiction, and treatment of diseases associated with drug use, such as tuberculosis, hepatitis, and HIV infection. Unparalleled discussions of the drug court system and the medical problems of drug court patients are presented. </P>\n<P>With concise yet comprehensive chapters, readers find essential coverage of drug testing, drug test collections and reports, and common scams for falsifying drug tests. Other topics include medical educational services that physicians can provide for attorneys, judges, counselors, probation officers, and clients; challenges that treating physicians encounter; appropriate use of sanctions and rewards; and medical interventions. The authors share their personal teaching file of cases from the Adult Drug Court in California to draw a detailed picture of how a Drug Court should be operated effectively. </P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387714325"
+            },
+            {
+              "isbnWithOutHyphens": "9780387714332"
+            },
+            {
+              "isbnWithOutHyphens": "9781441924421"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Drug Courts"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "144494",
+        "_score": 1,
+        "_source": {
+          "description": "<P>The crisis of the Santa Barbara offshore oil spill in 1969 led to the passage of radically new environmental laws that made the United States an international leader in environmental protection at the time. Since then, environmental regulation has proved detrimental to both industrial and environmental performance. It contributed to a deepening confrontation between environmental and industrial groups, a rift which spread to other areas of politics and society. This book traces the origin of the current conflict and carefully analyzes current environmental and resource policy. Other advanced nations, especially in the EU, evolved more sophisticated and cooperative policies. These have led to high environmental quality and have permitted the EU to lead in global reduction of greenhouse gas emissions. Moreover, the environmental regulatory policies have fostered robust industrial and fiscal performance. Americans know something has gone wrong in the U.S. The book's candid comparison of U.S. and EU policies yields fresh perspectives on sources of U.S. dilemmas in energy policy, Congressional lawmaking, and other areas of concern.</P>\n<P>\"Managing the environment has become an issue of such bitter partisanship in the U.S. that the prospects for further progress may seem bleak. Frank Manheim's detailed, even-handed, and historically grounded analysis offers a generous counterpoint to today's rancorous environmental politics. His book challenges Americans to look beyond domestic gridlock, and regain perspective by taking advantage of EU experience and building a sense of mission around the interlocking goals of climate stabilization, energy independence, and economic vitality.\"</P>\n<P>-Daniel Sarewitz, Director of the Consortium for Science, Policy, and Outcomes, Arizona State University</P>\n<P>&nbsp;Frank T. Manheim is an affiliate professor in the School of Public Policy, George Mason University. In course of more than 30 years as a federal government ocean and earth scientist he served on numerous interagency and scientific advisory panels including the National Academy of Science--National Research Council, National Science Foundation, U.S. Environmental Protection Agency, Bureau of Land Management and Minerals Management Service, and industry associations. Manheim has cooperated with European, Russian, and Japanese scientists and agencies and is a recipient of the Swedish Academy of Science Pettersson Medal for Excellence in Ocean Research. He is an author of 190 published articles and has edited or co-edited five books.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441945457"
+            },
+            {
+              "isbnWithOutHyphens": "9780387758763"
+            },
+            {
+              "isbnWithOutHyphens": "9780387758770"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Conflict Over Environmental Regulation in the United States"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "144590",
+        "_score": 1,
+        "_source": {
+          "description": "<p><em>Vision and Displays for Military and Security Applications</em> presents recent advances in projection technologies and associated simulation technologies for military and security applications. Specifically, this book covers night vision simulation, semi-automated methods in photogrammetry, and the development and evaluation of high-resolution laser projection technologies for simulation. Topics covered include: advances in high-resolution projection, advances in image generation, geographic modeling, and LIDAR imaging, as well as human factors research for daylight simulation and for night vision devices.</p> <p></p> <p>This title is ideal for optical engineers, simulator users and manufacturers, geomatics specialists, human factors researchers, and for engineers working with high-resolution display systems. It describes leading-edge methods for human factors research, and it describes the manufacture and evaluation of ultra-high resolution displays to provide unprecedented pixel density in visual simulation.</p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441917225"
+            },
+            {
+              "isbnWithOutHyphens": "9781489984333"
+            },
+            {
+              "isbnWithOutHyphens": "9781441917232"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Vision and Displays for Military and Security Applications"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "149595",
+        "_score": 1,
+        "_source": {
+          "description": "This is the first comprehensive reference on anesthesia and perioperative care for aortic surgery. Edited and written by leading experts in medicine, surgery, and anesthesia, it provides detailed descriptions of aortic surgery and anesthesia for specific aortic procedures, including ascending aorta, arch, descending aorta, endovascular surgery, trauma, and surgery for congenital aortic pathologies. The book devotes separate chapters to intraoperative echocardiography and cerebral monitoring, and because organ dysfunction is a major cause of mortality and morbidity after aortic surgery, it addresses spinal cord and renal protection. A final chapter covers postoperative care. Anesthesia and Perioperative Care for Aortic Surgery is a “must” for cardiac anesthesiologists, cardiac surgeons, intensivists, nurse anesthetists, and residents and fellows involved in this growing area.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387859217"
+            },
+            {
+              "isbnWithOutHyphens": "9780387859224"
+            },
+            {
+              "isbnWithOutHyphens": "9781461459453"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Anesthesia and Perioperative Care for Aortic Surgery"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "156033",
+        "_score": 1,
+        "_source": {
+          "description": "<p><p><p><b><i>Magnetic Resonance Angiography: Principles and Applications</i></b> is a comprehensive text covering magnetic resonance angiography (MRA) in current clinical use. The first part of the book focuses on techniques, with chapters on contrast-enhanced MRA, time of flight, phase contrast, time-resolved angiography, and coronary MRA, as well as several chapters devoted to new non-contrast MRA techniques. Additionally, chapters describe in detail specific topics such as high-field MRA, susceptibility-weighted imaging, acceleration strategies such as parallel imaging, vessel wall imaging, targeted contrast agents, and low dose contrast-enhanced MRA. The second part of the book covers clinical applications of MRA, with each chapter describing the MRA techniques and protocols for a particular disease and vascular territory, as well as the pathology and imaging findings relevant to the disease state being discussed. </p><p><b><i>Magnetic Resonance Angiography: Principles and Applications</i></b> is designed to bring together into a single textbook all of the MRA techniques in clinical practice today and will be a valuable resource for practicing radiologists and other physicians involved in the diagnosis and treatment of vascular diseases, as well as biomedical physicists, MRI technologists, residents, and fellows.</p><p><b>Editors</b></p><p><b>James C. Carr, MD</b>, is Director of Cardiovascular Imaging and Associate Professor of Radiology and Medicine at Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA.</p><p><b>Timothy J. Carroll, PhD</b>, is Assistant Professor in the Department of Radiology at Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA.<br></p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441916860"
+            },
+            {
+              "isbnWithOutHyphens": "9781441916853"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Magnetic Resonance Angiography"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "168533",
+        "_score": 1,
+        "_source": {
+          "description": "<p>The history of vaccines now goes back over 300 years to the work of Jenner but the last 50 years have seen an enormous acceleration of the pace of vaccine development and, accordingly, the impact on infectious diseases.  </p><p>However, no vaccine development has been easy and there is an interesting story attached to each.  The editor of this book brought together a number of the scientists responsible for modern vaccines and historians familiar with the stories about the ones developed in earlier centuries.  </p><p>The chapters in this book recount the hard work and detours that are intimately associated with vaccine development and give some sense of the perseverance that gave public health the tools of modern preventive medicine.   </p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781489993571"
+            },
+            {
+              "isbnWithOutHyphens": "9781441913388"
+            },
+            {
+              "isbnWithOutHyphens": "9781441913395"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "History of Vaccine Development"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "165678",
+        "_score": 1,
+        "_source": {
+          "description": "Immunotherapy is now recognized as an essential component of treatment for a wide\nvariety of cancers. It is an interdisciplinary field that is critically dependent upon an\nimproved understanding of a vast network of cross-regulatory cellular populations and\na diversity of molecular effectors; it is a leading example of translational medicine\nwith a favorable concept-to-clinical-trial timeframe of just a few years. There are many\nestablished immunotherapies already in existence, but there are exciting new cancer immunotherapies just on the horizon, which are likely to be more potent, less toxic and more cost effective than many therapies currently in use.\n\nExperimental and Applied Immunotherapy is a state-of-the-art text offering a roadmap\nleading to the creation of these future cancer-fighting immunotherapies. It includes essays\nby leading researchers that cover a wide variety of topics including T cell and non-T\ncell therapy, monoclonal antibody therapy, dendritic cell-based cancer vaccines, mesenchymal\nstromal cells, negative regulators in cancer immunology and immunotherapy,\nnon-cellular aspects of cancer immunotherapy, the combining of cancer vaccines with\nconventional therapies, the combining of oncolytic viruses with cancer immunotherapy,\ntransplantation, and more. The field of immunotherapy holds great promise that will\nsoon come to fruition if creative investigators can bridge seemingly disparate disciplines,\nsuch as T cell therapy, gene therapy, and transplantation therapy. This text is a vital tool in the building of that bridge.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781607619802"
+            },
+            {
+              "isbnWithOutHyphens": "9781627038225"
+            },
+            {
+              "isbnWithOutHyphens": "9781607619796"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Experimental and Applied Immunotherapy"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "168735",
+        "_score": 1,
+        "_source": {
+          "description": "<p><i>Long-Term Durability of Polymeric Matrix Composites</i> presents a comprehensive knowledge-set of matrix, fiber and interphase behavior under long-term aging conditions, theoretical modeling and experimental methods. This book covers long-term constituent behavior, predictive methodologies, experimental validation and design practice. Readers will also find a discussion of various applications, including aging air craft structures, aging civil infrastructure, in addition to engines and high temperature applications. This book also: </p><ul><li>Covers a wide range of polymeric matrix composite applications </li><li>Focuses on the durability and aging of various polymeric matrix composite materials </li><li>Describes micro-mechanical and multi-scale modeling and simulation techniques</li></ul><p><i>Long-Term Durability of Polymeric Matrix Composites </i>is an ideal book for engineers and materials scientists designing composite structures with long-term durability and damage tolerance requirements. </p><p> </p><p> </p><p><p> </p><p> </p> <p> </p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441993083"
+            },
+            {
+              "isbnWithOutHyphens": "9781489990211"
+            },
+            {
+              "isbnWithOutHyphens": "9781441993076"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Long-Term Durability of Polymeric Matrix Composites"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "165306",
+        "_score": 1,
+        "_source": {
+          "description": "The Massachusetts General Hospital (MGH) has a history of excellence and is internationally recognized as a world class medical center, providing quality medical care, advancing medicine through clinical and laboratory research and facilitating the education of exceptional health care professionals.   \n\nThe Massachusetts General Hospital Radiation Oncology Department, staff, residents and fellows, past and present, concur that MGH stands for Man’s Greatest Hospital. This decidedly immodest assessment is widely viewed amongst the group as being manifestly true, and that perception is clearly reflected in a marvelous esprit de corp. Such an unequivocally positive attitude is solidly based on the judgment that the best possible care is provided to each MGH patient, i.e. the patient is, in fact, Number One. There is a deep sense of pride in the contributions made by this department to the scientific advancement of oncology, with an objective to continue progressively and substantially increasing the proportion of patients who are free of tumor and of treatment related morbidity.  \n\nEvolution of Radiation of Oncology at Massachusetts General Hospital is the work of the former Chair of the Department, Herman D. Suit, with his successor, Jay S. Loeffler.  From 1970 – 2000, Dr. Suit’s guidance and management of this Department brought it to recognition as a world class center.  Dr. Suit was key in developing and building the Department that now includes The Northeast Proton Therapy Center at the MGH.  His passion for the science of radiation therapy and its evolution through the years is evident in this book.   Dr. Loeffler is a pioneer in the development and application of novel radiation delivery technologies and the use of biologics to enhance radiation effect for patients with brain tumors.  Dr. Suit and Dr. Loeffler continue their close collaboration at MGH.  This fascinating chronicle begins with the creation of MGH in 1811, followed by personal experiences of the Radiation Oncology Department.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441967442"
+            },
+            {
+              "isbnWithOutHyphens": "9781441967435"
+            },
+            {
+              "isbnWithOutHyphens": "9781489979346"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Evolution of Radiation Oncology at Massachusetts General Hospital"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "126980",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Collaborative Medicine Case Studies</P>\n<P>Evidence in Practice</P>\n<P></P>\n<P>Edited by Rodger Kessler and Dale Stafford, Berlin Family Health, Montpelier, Vermont and Department of Family Medicine University of Vermont College of Medicine</P>\n<P></P>\n<P>&nbsp;</P>\n<P>Just as the mind and body collaborate in maintaining one’s health, collaboration between primary and behavioral health care can bring patients more efficacious treatment and better long-term results, from better compliance with or less dependence on medication to more effective use of health care services. </P>\n<P></P>\n<P>Collaborative Medicine Case Studies shows physicians and mental health practitioners working together across a variety of settings to assess and treat entrenched illnesses, combined physical and psychological conditions (back pain/panic attacks, diabetes/bipolar disorder), and cases that defy straightforward diagnosis. At the same time, the cases reflect the economic and financial realities of contemporary health care. </P>\n<P></P>\n<P>The cases discussed generate creative solutions using different levels of collaboration depending on patient need and site variables, but all share important similarities: close communication, careful follow-up by physician and behavioral health collaborators, and patients who would not have been treated as effectively without collaborative care. Blending research evidence, clinical insight, welcome humor, and realistic optimism, these cases demonstrate impressive successes, instructive setbacks, and comparative viewpoints while shedding light on the logistical, financial, and training challenges of integrative practice.</P>\n<P></P>\n<P>A sampling of the three dozen cases:</P>\n<UL>\n<P>\n<LI>The head and the brain: migraines, orofacial pain, tinnitus.</LI>\n<P></P>\n<P>\n<LI>Comorbid PTSD and persistent pain.</LI>\n<P></P>\n<P>\n<LI>Individuals and couples with complex medical/emotional problems.</LI>\n<P></P>\n<P>\n<LI>Chronic illnesses: obesity, spina bifida, cardiovascular disease.</LI>\n<P></P>\n<P>\n<LI>A Hmong woman’s post-immigration depression. </LI>\n<P></P>\n<P>\n<LI>A physician with anorexia</LI>\n<P></P>\n<P>\n<LI>Burn patients who keep coming back without treatment success.</LI>\n<P></P></UL>\n<P></P>\n<P>Collaborative Medicine Case Studies is a blueprint for a vanguard in care, not only for physicians and psychologists but also for professionals and graduate students in health psychology and health care administration and finance.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387768939"
+            },
+            {
+              "isbnWithOutHyphens": "9780387768946"
+            },
+            {
+              "isbnWithOutHyphens": "9781441926418"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Collaborative Medicine Case Studies"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "119670",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Cultural Competence in Health Care</P>\n<P>A Guide for Professionals</P>\n<P></P>\n<P>Wen-Shing Tseng, University of Hawaii, Honolulu</P>\n<P>Jon Streltzer, University of Hawaii, Honolulu</P>\n<P></P>\n<P>Between a growing pan-ethnic patient base, the need to solve inequalities of care, and the clinical desirability of viewing clients in their entirety, applied cultural knowledge is emerging as a major goal of clinical and public health practice. <EM>Cultural Competence in Health Care</EM> offers a wealth of this crucial knowledge with emphasis on day-to-day clinical work. Authors Tseng and Streltzer, well-known experts on transcultural medicine and therapy, start by differentiating between disease and illness and advise on a range of practical matters, from discussing culturally sensitive subjects to negotiating compromises between traditional healing and established medicine, so that readers will gain both useful working techniques and valuable empathy with clients. Case studies highlight medical issues as they apply to various minority (and majority) groups, and eight insightful chapters reveal cultural dimensions expressed in: </P>\n<P></P>\n<UL>\n<P>\n<LI>Concepts of illness and illness behaviors.</LI>\n<P></P>\n<P>\n<LI>Assessment, interviews, and symptom presentation.</LI>\n<P></P>\n<P>\n<LI>Hospitalization, medication, family involvement, consent issues.</LI>\n<P></P>\n<P>\n<LI>Highly charged medical areas, e.g., pain management, transfusions, reproductive issues, organ donation.</LI>\n<P></P>\n<P>\n<LI>Frequently stigmatized conditions such as AIDS, STDs, cancer, and psychiatric disorders.</LI>\n<P></P>\n<P>\n<LI>Care by non-medical professionals, including social workers, physical therapists, and nutritionists.</LI>\n<P></P></UL>\n<P></P>\n<P><EM>Cultural Competence in Health Care</EM> is equally suited to use by practitioners and students in medicine, psychology, nursing, social work, and affiliated fields. And since it’s one of the only practice-oriented books on the topic, cross-cultural courses in training programs will find it especially useful.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387721712"
+            },
+            {
+              "isbnWithOutHyphens": "9781441944245"
+            },
+            {
+              "isbnWithOutHyphens": "9780387721705"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Cultural Competence in Health Care"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "119675",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Linear programming attracted the interest of mathematicians during and after World War II when the first computers were constructed and methods for solving large linear programming problems were sought in connection with specific practical problems—for example, providing logistical support for the U.S. Armed Forces or modeling national economies. Early attempts to apply linear programming methods to solve practical problems failed to satisfy expectations. There were various reasons for the failure. One of them, which is the central topic of this book, was the inexactness of the data used to create the models. This phenomenon, inherent in most pratical problems, has been dealt with in several ways. At first, linear programming models used \"average” values of inherently vague coefficients, but the optimal solutions of these models&nbsp;were not always optimal for the original problem itself. Later researchers developed the stochastic linear programming approach, but this too has its limitations. Recently, interest has been given to linear programming problems with data given as intervals, convex sets and/or fuzzy sets. The individual results of these studies have been promising, but the literature has not presented a unified theory.&nbsp;<STRONG>Linear Optimization Problems with Inexact Data</STRONG>&nbsp;attempts to present a comprehensive treatment of linear optimization with inexact data, summarizing existing results and presenting new ones within a unifying framework.</P>\n<P><EM>Audience</EM></P>\n<P>This book is intended for postgraduate or graduate students in the areas of operations research, optimization theory, linear algebra, interval analysis, reliable computing, and fuzzy sets. The book will also be useful for researchers in these respective areas.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441940940"
+            },
+            {
+              "isbnWithOutHyphens": "9780387326979"
+            },
+            {
+              "isbnWithOutHyphens": "9780387326986"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Linear Optimization Problems with Inexact Data"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "119935",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Poker websites. State lotteries. Sports betting. As gambling outlets become easier to find, more—and younger—people are risking their finances, family lives, and health. In <EM>the Pursuit of Winning</EM> brings together an international panel of 35 experts to present theoretical, clinical, sociological, historical, and spiritual perspectives on problem gambling, and test popular addiction and disease models in the field. Early chapters examine the general psychology of gambling, before moving on to the irrational ideas associated with compulsive wagering, from belief in luck to illusions of control. The seven chapters in the second half are devoted to evidence-based interventions from a variety of clinical orientations. Case examples, Q&amp;A sections, and a glossary add extra readability to the coverage. <P> <P>Among the highlights: <UL> <P> <LI>The genesis of gambling: human nature or social learning?</LI> <P> <P> <LI>Potential relationships between individual factors—including temperament, coping skills, and specific clinical syndromes—and problem gambling. </LI> <P> <P> <LI>Beyond the house edge: the view from economics and marketing. </LI> <P> <P> <LI>Cognitive-behavioral, transpersonal, and anger-management interventions for pathological gambling.</LI> <P> <P> <LI>Guidelines for developmentally appropriate treatment of gambling problems in youth.</LI> <P> <P> <LI>Cogent reviews of Gamblers Anonymous, telephone/online counseling, and the emerging science of pharmacology in gambling treatment.</LI> <P></P></UL> <P> <P>For addiction counselors, psychiatrists, health psychologists, clinical social workers, and researchers in behavioral medicine, here are solid insights into an underrecognized client population. Its balance of accessibility and scientific rigor make <EM>In the Pursuit of Winning</EM> an ideal textbook for applied and graduate programs in addiction counseling and health psychology.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387721729"
+            },
+            {
+              "isbnWithOutHyphens": "9781441944252"
+            },
+            {
+              "isbnWithOutHyphens": "9780387721736"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "In the Pursuit of Winning"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "107214",
+        "_score": 1,
+        "_source": {
+          "description": "<P>One of the main features of the world economy since the late nineteenth century has been the growing dominance of the American economy in both quantitative and qualitative terms. Aspects of this development - e.g. rationalization or the world-wide diffusion of Coca-Cola - have been researched, but largely in isolation. <STRONG>Americanization of the European Economy </STRONG>provides a comprehensive yet compact survey of the growth of American economic influence in Europe since the 1880s. Three distinct but cumulative waves of Americanization are identified. Americanization was (and still is) a complex process of technological, political, and cultural transfer, and this overview explains why and how the USA and the American model of industrial capitalism came to be accepted as the dominant paradigm of political economy in today's Europe.</P>\n<P><STRONG>Americanization of the European Economy </STRONG>summarizes the ongoing discussion by business historians, sociologists, and political scientists and makes it accessible to all types of readers who are interested in political and economic development.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441952592"
+            },
+            {
+              "isbnWithOutHyphens": "9781402029349"
+            },
+            {
+              "isbnWithOutHyphens": "9781402028847"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Americanization of the European Economy"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "107125",
+        "_score": 1,
+        "_source": {
+          "description": "Orthopoxviruses Pathogenic for Humans covers those viruses capable of causing disease in man, including monkeypox, smallpox, cowpox, and vaccinia. The coverage of each virus is comprehensive, covering the biology, molecular biology, and ecology of the virus as well as the clinical and epidemiological aspects of these viruses in humans and animals. In addition, this volume highlights developments in genetic engineering that are paving the way for potential therapeutic treatments of these viruses.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441937834"
+            },
+            {
+              "isbnWithOutHyphens": "9780387253060"
+            },
+            {
+              "isbnWithOutHyphens": "9780387253008"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Orthopoxviruses Pathogenic for Humans"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "107579",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Quality of Telephone-Based Spoken Dialogue Systems is a systematic overview of assessment, evaluation, and prediction methods for the quality of services such as travel and touristic information, phone-directory and messaging, or telephone-banking services. A new taxonomy of quality-of-service is presented which serves as a tool for classifying assessment and evaluation methods, for planning and interpreting evaluation experiments, and for estimating quality. A broad overview of parameters and evaluation methods is given, both on a system-component level and for a fully integrated system. Three experimental investigations illustrate the relationships between system characteristics and perceived quality. The resulting information is needed in all phases of system specification, design, implementation, and operation.</P>\n<P></P>\n<P>Although Quality of Telephone-Based Spoken Dialogue Systems is written from the perspective of an engineer in telecommunications, it is an invaluable source of information for professionals in signal processing, communication acoustics, computational linguistics, speech and language sciences, human factor design and ergonomics.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441935847"
+            },
+            {
+              "isbnWithOutHyphens": "9780387231860"
+            },
+            {
+              "isbnWithOutHyphens": "9780387231907"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Quality of Telephone-Based Spoken Dialogue Systems"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "107593",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Chassin’s Operative Strategies in Esophageal Surgery offers the reader a succinct review of surgical techniques for disorders of the esophagus. Spanning from well-established legacy procedures to the most up-to-date minimally invasive approaches for GERD, this brilliantly illustrated atlas exclusively presents the theoretical basis of the operations as well as the strategies required to steer clear of common pitfalls. Educed from Chassin’s Operative Strategies in General Surgery, this volume includes step-by-step descriptions of thirteen (13) operative procedures in esophageal surgery.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387321813"
+            },
+            {
+              "isbnWithOutHyphens": "9781441920744"
+            },
+            {
+              "isbnWithOutHyphens": "9780387259413"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Chassin's Operative Strategy in Esophageal Surgery"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "107606",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Recent developments of experimental techniques in cellular and molecular biology have made it possible to understand the molecular biology of male gametogenesis in greater detail. This book focuses on the description of specialized proteins, which are dominantly and/or specifically expressed in germ cells and localized in spermatozoa. There is an urgent need to classify proteins of spermatogenic cells with a view of their functions, and their applications in the regulation of fertility and in understanding infertility. The understanding of structural properties of male germ cell specific proteins can offer vulnerable points for targeted intervention in testis without generalized effects on stages of spermatogenesis. Besides targeted action in male germ cells, sperm specific proteins and polypeptides may also offer potential application in the development of a contraceptive vaccine.</P>\n<P></P>\n<P>Researchers in the fields of biochemistry, cell biology, molecular biology, reproductive biology and proteomics will find this book of interest.</P>\n<P></P>\n<P>&nbsp;</P>\n<P>&nbsp;</P>\n<P>&nbsp;</P>\n<P>\"This book is far superior to any previous book on the subject. I recommend this book with great enthusiasm.\"</P>\n<P></P>\n<P>Pawan K. Singal</P>\n<P>St. Boniface General Hospital Research Center </P>\n<P></P>\n<P>&nbsp;</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387253985"
+            },
+            {
+              "isbnWithOutHyphens": "9780387276557"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Proteomics  of Spermatogenesis"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "107411",
+        "_score": 1,
+        "_source": {
+          "description": "<P>A child presents with weight loss, fatigue, and stomach pain. Is the diagnosis psychological, as in an eating disorder? Might it be medical, as in a GI disorder? Could it be both?</P>\n<P>A young adolescent is assessed to have a gastrointestinal disorder. Do you take puberty into account when planning treatment?</P>\n<P>Complex overlapping of physical and psychological symptoms is a hallmark of cases such as these—and a major factor in making diagnosis and intervention difficult.</P>\n<P>In <STRONG>Pediatric Gastrointestinal Disorders:Biopsychosocial Assessment and Treatment</STRONG>, authors Cunningham and Banez pool their considerable expertise to give practitioners working with children a state-of-the-art, biopsychosocial grounding in this challenging area of practice:</P>\n<P>-In-depth overview of pediatric gastrointestinal disorders, their prevalence and etiology </P>\n<P></P>\n<P>-Descriptions of the most common disorders (including irritable bowel syndrome, recurring abdominal pain, rumination disorder, and fecal incontinence), with their typical psychological and behavioral symptoms \n<P></P>\n<P>-Conceptual and theoretical perspectives informing the authors’ biopsychosocial approach \n<P></P>\n<P>-Reviews of empirically-based, clinically sound assessment and treatment strategies \n<P></P>\n<P>-Case studies applying this knowledge in real-world detail, demonstrating collaborations between clinicians, patients, and families. \n<P>Its lucid presentation, level of detail, and commitment to integrative care make Assessment and Treatment of Gastrointestinal Disorders in Children an important resource for children’s practitioners in both the medical and mental health fields. By featuring examples ranging from toddlers to teens, the authors have modeled a continuum of developmentally appropriate treatment.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781489987235"
+            },
+            {
+              "isbnWithOutHyphens": "9780387256122"
+            },
+            {
+              "isbnWithOutHyphens": "9780387256115"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Pediatric Gastrointestinal Disorders"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "137057",
+        "_score": 1,
+        "_source": {
+          "description": "<P>In the modern practice of medicine, new challenges complicate the ethical care of patients. Today’s times require a contemporary take on the concept of medical ethics. The idea for this textbook was born out of a need for a teaching resource that merges medical ethics theory with the practical needs of modern clinical medicine. In <EM>Evidence-Based Medical Ethics: Cases for Practice-Based Learning</EM>, the authors address what has been missing in existing text books and ethics courses to date – clear-cut ethical and legal guidelines that provide a method for the reader to learn how to systematically manage dilemmas seen in the everyday practice of medicine. The reader is guided through several \"typical\" patient scenarios and prompted by various questions that should be entertained by the treating health care provider. Then, relevant evidence-based medicine, legal precedent, and the ethical theory that applies to the situation are revealed. Often, finding the \"best\" ethical solution for each problem is automatic, as the solution often becomes self-evident during information-gathering. This general method is reinforced throughout the text with multiple different cases, using a practice-based approach by building on the reader’s developing skills. Additionally, we have sought to emphasize a culturally competent manner in resolving these dilemmas, respectfully addressing issues of age, gender, and culture whenever possible. The main goal of <EM>Evidence-Based Medical Ethics: Cases for Practice-Bases Learning</EM> is to assist the reader in adapting a patient-centered and evidence-based approach to dilemmas faced in their future practice of medicine.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781617378829"
+            },
+            {
+              "isbnWithOutHyphens": "9781603272469"
+            },
+            {
+              "isbnWithOutHyphens": "9781603272452"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Evidence-Based Medical Ethics:"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "140118",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Oscar Zariski's work in mathematics permanently altered the foundations of algebraic geometry. The powerful tools he forged from the ideas of modern algebra allowed him to penetrate classical problems with an unaccustomed depth, and brought new rigor to the intuitive proofs of the Italian School. The students he trained at John Hopkins, and later at Harvard, are among the foremost mathematicians of our time.</P>\n<P>&nbsp;</P>\n<P>While what he called his \"real life\" is recorded in almost a hundred books and papers, this story of his \"unreal life\" is based upon Parikh's interviews with his family, colleagues, and students, and on his own memories from a series of tape-recorded interviews made a few years before his death in 1986.</P>\n<P>&nbsp;</P>\n<P>First published in 1991, The Unreal Life of Oscar Zariski was highly successful and widely praised, but has been out of print for many years. Springer is proud to make this book available again, introducing Oscar Zariski to a new generation of mathematicians.</P>\n<P>&nbsp;</P>\n<P>About this book:</P>\n<P>&nbsp;</P>\n<P>\"I want to express my appreciation to you for having penetrated so deeply into the many-faceted aspects of a complex and mercurial life.\"</P>\n<P>&nbsp;</P>\n<P>- Yole Zariski, Oscar Zariski's wife</P>\n<P>&nbsp;</P>\n<P>\"...an attractive book that recreates one of the great mathematical personalities of our century. Both mathematicians and nonspecialists will enjoy it.\"</P>\n<P>&nbsp;</P>\n<P>- Doru Stefanescu, Mathematical Reviews</P>\n<P>&nbsp;</P>\n<P>\"Carol Parikh's perceptive narrative of the life of Oscar Zariski, the man, is based on his own recollections tape recorded a few years before his death, and on the author's extensive interviews with his family, colleagues, and students. Here we learn of his birth in a Jewish settlement in eastern Poland, high school in Russia, university in Rome, and maturity in the United States...We see his development as a mathematician in the context of the people around him. We see his humanity in his love for his family and the care he devoted to his students...All this and more in Carol Parikh's prize-winning English prose make this book a delight to read.\" </P>\n<P>&nbsp;</P>\n<P>- Robin Hartshorne, American Mathematical Monthly</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387094304"
+            },
+            {
+              "isbnWithOutHyphens": "9780387094298"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Unreal Life of Oscar Zariski"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "140093",
+        "_score": 1,
+        "_source": {
+          "description": "<P>Connexins: A Guide is a practical and valuable reference and text covering a wide scope of information about the connexin family of membrane channel proteins. The editors and contributing authors intend for this cutting-edge work to be informative to scientists wishing to learn about the field, as well as to those who are active researchers in this area. Connexins: A Guide masterfully addresses specific needs of the scientific community; it is a comprehensive and comprehensible narrative of the uncommonly diverse connexin field, making previously hard-to-find information easily accessible, while also presenting intelligible insights into the extensive experimental methods and conceptual frameworks necessary to appreciate and understand the important roles that connexin channel proteins play in health and disease.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781627039109"
+            },
+            {
+              "isbnWithOutHyphens": "9781597454896"
+            },
+            {
+              "isbnWithOutHyphens": "9781934115466"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Connexins"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "161258",
+        "_score": 1,
+        "_source": {
+          "description": "In the 8 years since the publication of the first edition of Essentials of Anatomic Pathology, great strides have been made in our understanding of diseases and neoplastic processes. Many clinically important new histopathologic entities have been described or more fully defined in virtually every organ. Numerous clinically important diagnostic and prognostic markers have entered routine practice. Genetic testing for the early detection of cancers and the molecular classification of diseases has become increasingly important. This is an age of enlightenment in surgical pathology, and the authors of this new volume have captured this sense of excitement herein.\n\nThis much praised and widely used reference manual&nbsp;has been extensively revised and expanded to cover the entire field of anatomic pathology. The Third Edition features the incorporation of full-color images in the text with updates of new diagnostic and prognostic information. New classifications and numerous new entities and histologic variants are fully explored. Useful immunostaining biomarkers and emerging molecular targets and relevant molecular findings that have emerged from recent genomic studies are incorporated in each chapter.\n\nWritten by internationally recognized authorities, the comprehensive, evidence-based practice information is presented in an outline format that is clear and easy to follow. Up-to-date and richly detailed, Essentials of Anatomic Pathology, Third Edition offers both the pathologist-in-training and the practicing pathologist a concise summary of all the critical information needed to recognize, understand and interpret anatomic pathology.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441960436"
+            },
+            {
+              "isbnWithOutHyphens": "9781441960429"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Essentials of Anatomic Pathology"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "159710",
+        "_score": 1,
+        "_source": {
+          "description": "<EM>The Physical Basis of Biochemistry: Solutions Manual to the Second Edition</EM> offers solutions to the problem sets from the second edition of <EM>The Physical Basis of Biochemistry</EM>.\n<EM>The Physical Basis of Biochemistry</EM> is an introduction to the philosophy and practice of an interdisciplinary field in which biological systems are explored using the quantitative perspective of the physical scientist. As with the first edition, the idea that a fundamental understanding of the basic physical principles underlying chemical biological systems is vital remains the focus of this second edition. This new edition of <EM>The Physical Basis of Biochemistry</EM> has substantial new material added with respect to models at the simple molecular level (including van der Waals gases and virial treatments) which is tied to coverage of models of polymer thermo-dynamics. The second edition is partitioned into five sections: the central concept that science is a way of looking at the world; the physical under-pinnings of biophysical chemistry with an emphasis first on energy, work and forces of biological importance; exploring how models applicable to molecular biophysics are constructed; the three-dimensional potential energy surface put into motion; and a succinct discussion of the bio-physical methods used to evaluate structure and function in biological systems. Additionally, a section of appendices continues to serve the purpose of presenting some review information and certain topics in detail. <EM>The Physical Basis of Biochemistry</EM> will be of interest to quantitatively-oriented biologists as well as aspiring chemists, physicists, and engineers with an interest in biological systems.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441973634"
+            },
+            {
+              "isbnWithOutHyphens": "9781441973641"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Physical Basis of Biochemistry"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "160729",
+        "_score": 1,
+        "_source": {
+          "description": "Evidence-Based Imaging: Quality Imaging in Patient Care, Revised Edition presents the radiologist and clinician with a user-friendly guide to the evidence-based science and the merit behind the diagnostic imaging performed in medicine. Edited by Drs. L. Santiago Medina, C. Craig Blackmore, and Kimberly E. Applegate, this ideal reference gathers contributions by internationally-renowned specialists in the field. The book provides a systematic framework for understanding the best imaging choices for patient care. Chapters highlight key points that support the clinical applications, allowing fast access to pertinent information. Topics include patient selection, imaging strategies, test performance, cost-effectiveness, and applicability. This Revised Edition adds ten new chapters to the material from the original, hardcover edition, covering radiation risk in medical imaging, the economic and regulatory impact of evidence-based imaging in the new healthcare reform environment in the United States, and new topics on common disorders. By offering a clear understanding of the science behind the evidence, the book fills a void for radiologists, clinicians, residents, and others with an interest in medical imaging and a desire to implement an evidence-based approach.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441977779"
+            },
+            {
+              "isbnWithOutHyphens": "9781441977762"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Evidence-Based Imaging"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "159828",
+        "_score": 1,
+        "_source": {
+          "description": "<p><i>Maximum Dissipation Non-Equilibrium Thermodynamics and its Geometric Structure</i> explores the thermodynamics of non-equilibrium processes in materials. The book develops a general technique to construct nonlinear evolution equations describing non-equilibrium processes, while also developing a geometric context for non-equilibrium thermodynamics. Solid materials are the main focus in this volume, but the construction is shown to also apply to fluids. This volume also:   </p><p>•             Explains the theory behind a thermodynamically-consistent construction of non-linear evolution equations for non-equilibrium processes, based on supplementing the second law with a maximum dissipation criterion </p><p>•             Provides a geometric setting for non-equilibrium thermodynamics in differential topology and, in particular, contact structures that generalize Gibbs </p><p>•            Models processes that include thermoviscoelasticity, thermoviscoplasticity, thermoelectricity and dynamic fracture </p><p>•            Recovers several standard time-dependent constitutive models as maximum dissipation processes </p><p>•            Produces transport models that predict finite velocity of propagation </p><p>•            Emphasizes applications to the time-dependent modeling of soft biological tissue</p><p> <i>Maximum Dissipation Non-Equilibrium Thermodynamics and its Geometric Structure</i> will be valuable for researchers, engineers and graduate students in non-equilibrium thermodynamics and the mathematical modeling of material behavior.</p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441977649"
+            },
+            {
+              "isbnWithOutHyphens": "9781441977656"
+            },
+            {
+              "isbnWithOutHyphens": "9781489981745"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Maximum Dissipation Non-Equilibrium Thermodynamics and its Geometric Structure"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "160969",
+        "_score": 1,
+        "_source": {
+          "description": "<P>The <EM>Handbook of Critical and Intensive Care Medicine, </EM>second edition, is a comprehensive, user-friendly guide for students, residents, fellows, and attending physicians who cover the ICU. The book's concise and up-to-date information includes frequently performed procedures and therapeutic guidelines that have great efficacy and relevance in everyday ICU rotations. For ease of reference, the chapters follow an outline format and are divided by organ systems as well as by special topics such as trauma and toxicology. Whether used bedside, in the office, at home, or on the go, the Handbook is truly a one-stop reference for all your ICU needs.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387928517"
+            },
+            {
+              "isbnWithOutHyphens": "9780387928500"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Handbook of Critical and Intensive Care Medicine"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "165130",
+        "_score": 1,
+        "_source": {
+          "description": "<P>The emergence of Web technologies for data and knowledge interaction gives rise to the need for supportive frameworks for knowledge distribution. Semantic Web technologies aim at providing shared semantic spacesfor Web contents, such that people, applications and communities can use a common platform to share information. Also, many of the challenging aspects of the research problems tackled in the Semantic Web area fall in the realm of artificial intelligence or employment of AI techniques.</P>\n<P></P><EM>\n<P>Canadian Semantic Web: Technologies and Applications </EM>is an edited volume contributed by worldwide leaders in Semantic Web research, and was based on the May 2009, Canadian Semantic Web Symposium, Kelowna, BC. This volume will introduce the most advanced working theories, prototypes and applications on; AI technologies in the Semantic Web, Languages, tools and methodologies for the Semantic Web, Searching, querying, visualizing and interpreting the Semantic Web, Semantic Web-based Knowledge Management, Semantic Grid and semantic Grid services, Trust, privacy, security on the Semantic Web and more. A special focus on applications of semantic web technology on electronic health.</P>\n<P>About this book:</P>\n<P>Introduces the most advanced working theories, prototypes and applications.</P>\n<P>Provides a special focus on applications of semantic web technology on electronic health.</P>\n<P></P>\n<P>This book is intended for practitioners and researchers working in the related fields of the Semantic Web. Advanced-level focusing on computer science will also find this book valuable as a secondary text or reference book.</P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441973351"
+            },
+            {
+              "isbnWithOutHyphens": "9781441973344"
+            },
+            {
+              "isbnWithOutHyphens": "9781489999221"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Canadian Semantic Web"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "161532",
+        "_score": 1,
+        "_source": {
+          "description": "Neuropsychological research on the neural basis of behavior generally asserts that brain mechanisms ultimately suffice to explain all psychologically described phenomena. This assumption stems from the idea that the brain consists entirely of material particles and fields, and that all causal mechanisms relevant to neuroscience can be formulated solely in terms of properties of these elements. Contemporary basic physical theory differs from classic physics on the important matter of how consciousness of human agents enters into the structure of empirical phenomena. The new principles contradict the older idea that local mechanical processes alone account for the structure of all empirical data. Contemporary physical theory brings directly into the overall causal structure certain psychologically described choices made by human agents about how they will act. This key development in basic physical theory is applicable to neuroscience. <i>Brain, Mind and Consciousness: Advances in Neuroscience Research</i> explores this new framework.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781461404361"
+            },
+            {
+              "isbnWithOutHyphens": "9781489993823"
+            },
+            {
+              "isbnWithOutHyphens": "9781461404354"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Brain, Mind and Consciousness"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "161493",
+        "_score": 1,
+        "_source": {
+          "description": "<p><i>Perioperative Addiction</i> addresses an issue that every anesthesiologist will encounter many times during the course of his or her career:  the patient who arrives for operative care under the influence of legal or illegal drugs.  The editors and contributors provide expert guidance on how to identify and manage the addicted patient, approaching the subject from the vantage points of the specific drug and of special patient populations.</p><p>  </p><p>Features:  </p><p>·         Guidance for spotting and managing addicted patients</p><p>·         All common and important drugs of addiction, from opioids, cocaine, club drugs, and alcohol, to tobacco, marijuana, nitrous oxide, inhalants, and propofol</p><p>·         Special populations, including pregnant women, pain patients, adolescents, older patients, and healthcare professionals </p><p>·         Fascinating overview of the long history of addiction</p><p>·         Genetic basis of addiction, and the range of pharmacological treatments for addiction </p><p> </p><p>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781461401704"
+            },
+            {
+              "isbnWithOutHyphens": "9781489999504"
+            },
+            {
+              "isbnWithOutHyphens": "9781461401698"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Perioperative Addiction"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "127320",
+        "_score": 1,
+        "_source": {
+          "description": "<P>For today’s health care professional, clinical expertise is not enough—one has to know the market. Even when a facility has its own marketing department, practitioners are regularly called on for their input. <EM>Health Services Marketing</EM>: A Practitioner’s Guide clearly and succinctly explains the range of marketing activities and techniques, from promotions to pricing, so any health professional can learn to navigate this bewildering but increasingly important aspect of healthcare. Richard Thomas’ step-by-step guide for developing a marketing plan and carrying out a successful campaign offers a hands-on approach to proven methods for staying a step ahead of the healthcare marketing game:</P>\n<P></P>\n<UL>\n<P>\n<LI>The health industry as seen from the marketing perspective.</LI>\n<P></P>\n<P>\n<LI>Healthcare products, and the consumers who need them.</LI>\n<P></P>\n<P>\n<LI>What marketing can (and can’t) do for a medical practice.</LI>\n<P></P>\n<P>\n<LI>Demographics and beyond: how social marketing works.</LI>\n<P></P>\n<P>\n<LI>Where your marketing dollar goes: staying on budget. </LI>\n<P></P>\n<P>\n<LI>Market positioning: knowing the competition, building the strategy.</LI>\n<P></P>\n<P>\n<LI>Evaluating a marketing plan’s effectiveness.</LI>\n<P></P>\n<P>\n<LI>Plus dozens of forms, checklists, and questionnaires to simplify the process.</LI>\n<P></P></UL>\n<P></P>\n<P>Useful to practitioners and administrators alike, and equally suited to the for-profit as to the non-profit organization, <EM>Health Services</EM> <EM>Marketing </EM>gives the reader valuable tools to reach out to consumers and build lasting relationships. </P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9780387736068"
+            },
+            {
+              "isbnWithOutHyphens": "9780387736044"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "Health Services Marketing"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "59182",
+        "_score": 1,
+        "_source": {
+          "description": "<EM>The Physical Basis of Biochemistry</EM> is an introduction to the philosophy and practice of an interdisciplinary field in which biological systems are explored using the quantitative perspective of the physical scientist. As with the first edition, the idea that a fundamental understanding of the basic physical principles underlying chemical biological systems is vital remains the focus of this second edition. This new edition of <EM>The Physical Basis of Biochemistry</EM> has substantial new material added with respect to models at the simple molecular level (including van der Waals gases and virial treatments) which is tied to coverage of models of polymer thermo-dynamics. The second edition is partitioned into five sections: the central concept that science is a way of looking at the world; the physical under-pinnings of biophysical chemistry with an emphasis first on energy, work and forces of biological importance; exploring how models applicable to molecular biophysics are constructed; the three-dimensional potential energy surface put into motion; and a succinct discussion of the bio-physical methods used to evaluate structure and function in biological systems. Additionally, a section of appendices continues to serve the pur¬pose of presenting some review information and certain topics in detail. <EM>The Physical Basis of Biochemistry</EM> will be of interest to quantitatively-oriented biologists as well as aspiring chemists, physicists, and engineers with an interest in biological systems.",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441963246"
+            },
+            {
+              "isbnWithOutHyphens": "9781493950249"
+            },
+            {
+              "isbnWithOutHyphens": "9781441963239"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Physical Basis of Biochemistry"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "135587",
+        "_score": 1,
+        "_source": {
+          "description": "<P>\"In this volume, Dr. Henry Kellerman has constructed a lens through which the inner working of pscyhological symptoms can be clearly seen.&nbsp; Along with this he has proposed a code for unraveling such symptoms.&nbsp; He then carefully applies this symptom-code, in detail, to a wide variety of symptoms.&nbsp; This is an important psychoanalytic work; and elegant conception, elegantly presented.\" -- Harry Sands, Ph.D., Founder and Executive Editor, <EM>Journal of Psychotherapy and Psychoanalysis</EM>; and Former President, New York State Psychological Association</P>\n<P>\"In a compelling theoretical synthesis, Dr. Kellerman proposes that the only phenomenon in psychoanalysis and psychotherapy subject to cure is the patient's psychological symptom.&nbsp; All else is helping the patient struggle better.&nbsp; An X-ray of the symptom is developed and a method to efficiently penetrate the symptom is demonstrated. The important contribution here is that Kellerman has distilled the four basic elements that comprise a symptom-code -- a universal key that unlocks symptoms.&nbsp; I believe this work is a tour de force, and constitutes a classic advance psychoanalytic understanding.\" -- Vincenzo Conigliaro, M.D., Dean and Medical Director, Training Institute for Mental Health</P>\n<P>\"Dr. Kellerman introduces a system called the symptom-code that enables clinicians to understand and treate a wide variety of debilitating symptoms.&nbsp; Much of Dr. Kellerman's case material reads like a detective story in which the symptom-code is applied and the meaning of the symptom becomes readily apparent.&nbsp; The reader will find these cases fascinating and the explanations given by Dr. Kellerman quite convincing.\" -- Mary Beth M. Cresci, Past President, Section of Psychologist/Psychoanalyst Practitioners</P>\n<P></P>\n<P>In analysis, a particular symptom may be cured as a by-product of therapy, with neither the therapist nor the client knowing how the cure came about. But what if the therapist were armed with an analytically sound method, a \"master key\" for curing nearly all symptoms, regardless of client history?</P>\n<P></P>\n<P>In <EM>The Psychoanalysis of Symptoms</EM>, Henry Kellerman introduces the symptom-code, a powerful blueprint for understanding and eliminating a wide variety of clients’ psychological and emotional symptoms. This time-efficient method synthesizes knowledge of symptoms found throughout the psychiatric literature, empowering both analyst and client to larger underlying conflicts. The author demonstrates the procedure in step-by-step detail, with case examples that distinguish between curable symptoms and more ego-entrenched forms that can be diminished but not completely erased. </P>\n<P></P>\n<P>Included in this volume:</P>\n<UL>\n<P>\n<LI>The symptom-code: theoretical, scientific, and clinical contexts.</LI>\n<P></P>\n<P>\n<LI>Symptom-code procedures applied at different stages of symptom development.</LI>\n<P></P>\n<P>\n<LI>Accessible symptoms: the method used in treating obsessions, intrusive thoughts, migraines, compulsions, and agoraphobia.</LI>\n<P></P>\n<P>\n<LI>Treatment-resistant symptoms: uses of the method in cases of anorexia, hoarding, dissociative disorder, and more.</LI>\n<P></P>\n<P>\n<LI>Is it a symptom or a character trait? Personality issues and the symptom-code.</LI>\n<P></P>\n<P>\n<LI>The migration of symptoms in the psyche.</LI>\n<P></P></UL>\n<P></P>\n<P>In presenting a symptom-cure methodology that is effective, lasting, and brief, <EM>The Psychoanalysis of Symptoms</EM> offers analysts a straighter path on each client’s unique journey. </P>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781441924704"
+            },
+            {
+              "isbnWithOutHyphens": "9780387722481"
+            },
+            {
+              "isbnWithOutHyphens": "9780387722474"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "The Psychoanalysis of Symptoms"
+          }
+        }
+      },
+      {
+        "_index": "sprcom-product-v2",
+        "_type": "edition",
+        "_id": "103748",
+        "_score": 1,
+        "_source": {
+          "description": "In this book, we have attempted to produce a reference on high resolution focused ion beams (FIBs) that will be useful for both the user and the designer of FIB instrumentation. We have included a mix of theory and applications that seemed most useful to us. <BR>The field of FIBs has advanced rapidly since the application of the first field emission ion sources in the early 1970s. The development of the liquid metal ion source (LMIS) in the late 1960s and early 1970s and its application for FIBs in the late 1970s have resulted in a powerful tool for research and for industry. There have been hundreds of papers written on many aspects of LMIS and FIBs, and a useful and informative book on these subjects was published in 1991 by Phil Prewett and Grame Mair. Because there have been so many new applications and uses found for FIBs in the last ten years we felt that it was time for another book on the subject. <BR>",
+          "renditions": [
+            {
+              "isbnWithOutHyphens": "9781461352297"
+            },
+            {
+              "isbnWithOutHyphens": "9781461507659"
+            },
+            {
+              "isbnWithOutHyphens": "9780306473500"
+            }
+          ],
+          "bibInfo": {
+            "language": "EN",
+            "title": "High Resolution Focused Ion Beams: FIB and its Applications"
+          }
+        }
+      }
+    ]
+  }
+}

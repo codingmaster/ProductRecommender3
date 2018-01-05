@@ -5,7 +5,7 @@ import de.hpi.semrecsys.RecommendationId;
 
 public class RecommendationDto extends BaseDto{
 
-    private final int linkedProductId;
+    private final String linkedProductId;
     private final int position;
     private final Double score;
     private final Double relativeScore;
@@ -18,7 +18,7 @@ public class RecommendationDto extends BaseDto{
         this.relativeScore = recommendation.getRelativeScore();
     }
 
-    public int getLinkedProductId() {
+    public String getLinkedProductId() {
         return linkedProductId;
     }
 

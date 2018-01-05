@@ -16,24 +16,24 @@ public class RecommendationId implements java.io.Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private int productId;
+	private String productId;
 	private String type;
 	private int position;
 
 	public RecommendationId() {
 	}
 
-	public RecommendationId(int productId, int position) {
+	public RecommendationId(String productId, int position) {
 		this.productId = productId;
 		this.position = position;
 	}
 
 	@Column(name = "product_id", nullable = false)
-	public int getProductId() {
+	public String getProductId() {
 		return this.productId;
 	}
 
-	public void setProductId(int productId) {
+	public void setProductId(String productId) {
 		this.productId = productId;
 	}
 
@@ -72,7 +72,7 @@ public class RecommendationId implements java.io.Serializable {
 	public int hashCode() {
 		int result = 17;
 
-		result = 37 * result + this.getProductId();
+		result = 37 * result + this.getProductId().hashCode();
 		result = 37 * result + (getType() == null ? 0 : this.getType().hashCode());
 		result = 37 * result + this.getPosition();
 

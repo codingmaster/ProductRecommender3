@@ -89,7 +89,7 @@ public class RecommendationPreselector {
 				switch (queryVariable) {
 				case product:
 					String productUri = node.asNode().getURI();
-					Integer productId = ProductTriplesCreator.getProductIdFromUri(productUri);
+					String productId = ProductTriplesCreator.getProductIdFromUri(productUri);
 					product = persistenceService.getProduct(productId);
 					if (product == null || product.getTitle() == null) {
 						continue;

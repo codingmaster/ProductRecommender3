@@ -106,12 +106,12 @@ public class Populator {
 		if (optionList.contains(PopulationOption.attribute_sim) || optionList.contains(PopulationOption.all)) {
 			populateAttributeSimilarity(clean);
 		}
-		if (optionList.contains(PopulationOption.products) || optionList.contains(PopulationOption.all)) {
-			populateProducts(clean, configurator.getVirtuosoBaseGraph());
-		}
-		if (optionList.contains(PopulationOption.products_small)) {
-			populateProducts(clean, configurator.getVirtuosoBaseGraph(), numberOfProducts);
-		}
+//		if (optionList.contains(PopulationOption.products) || optionList.contains(PopulationOption.all)) {
+//			populateProducts(clean, configurator.getVirtuosoBaseGraph());
+//		}
+//		if (optionList.contains(PopulationOption.products_small)) {
+//			populateProducts(clean, configurator.getVirtuosoBaseGraph(), numberOfProducts);
+//		}
 		if (optionList.contains(PopulationOption.entity_sim) || optionList.contains(PopulationOption.all)) {
 			populateEntitySimilarity(-1, clean, configurator.getEntitySimilarityUri());
 		}
@@ -211,47 +211,47 @@ public class Populator {
 
 	}
 
-	private int populateProducts(boolean clean, String graphName) {
-//		int startId = productManager.getMinId();
-		int startId = 0;
-		return populateProducts(clean, graphName, startId, -1);
-	}
+//	private int populateProducts(boolean clean, String graphName) {
+////		int startId = productManager.getMinId();
+//		int startId = 0;
+//		return populateProducts(clean, graphName, startId, -1);
+//	}
+//
+//	private int populateProducts(boolean clean, String graphName, int number) {
+////		int startId = productManager.getMinId();
+//		int startId = 0;
+//		return populateProducts(clean, graphName, startId, number);
+//	}
+//
+//	private int populateProducts(boolean clean, String graphName, int startId, int number) {
+//		VirtGraph graph = new VirtGraph(graphName, configurator.getVirtuosoDatasource());
+//		log.info(persistenceService.count() + " products were found in the database");
+//		cleanGraph(clean, graph);
+//		populateProducts(startId, number, graph, clean);
+//
+//		return graph.size();
+//	}
 
-	private int populateProducts(boolean clean, String graphName, int number) {
-//		int startId = productManager.getMinId();
-		int startId = 0;
-		return populateProducts(clean, graphName, startId, number);
-	}
-
-	private int populateProducts(boolean clean, String graphName, int startId, int number) {
-		VirtGraph graph = new VirtGraph(graphName, configurator.getVirtuosoDatasource());
-		log.info(persistenceService.count() + " products were found in the database");
-		cleanGraph(clean, graph);
-		populateProducts(startId, number, graph, clean);
-
-		return graph.size();
-	}
-
-	private void populateProducts(int startId, int number, VirtGraph graph, boolean clean) {
-		long start = System.currentTimeMillis();
-		int maxId = configurator.getJsonProperties().getMaxProdId(); 
-		if (number < 1) {
-			number = maxId - startId;
-		}
-		for (Integer i = startId; i < number + startId; i++) {
-			if (i > maxId) {
-				break;
-			}
-			Product product = persistenceService.getProduct(i);
-			if (shouldBeExecuted(clean, product)) {
-				start = printExecutionTime(start, i, product);
-
-				populateProduct(product);
-			} else {
-				log.warn("Skip product " + product);
-			}
-		}
-	}
+//	private void populateProducts(int startId, int number, VirtGraph graph, boolean clean) {
+//		long start = System.currentTimeMillis();
+//		int maxId = configurator.getJsonProperties().getMaxProdId();
+//		if (number < 1) {
+//			number = maxId - startId;
+//		}
+//		for (Integer i = startId; i < number + startId; i++) {
+//			if (i > maxId) {
+//				break;
+//			}
+//			Product product = persistenceService.getProduct(String.valueOf(i));
+//			if (shouldBeExecuted(clean, product)) {
+//				start = printExecutionTime(start, i, product);
+//
+//				populateProduct(product);
+//			} else {
+//				log.warn("Skip product " + product);
+//			}
+//		}
+//	}
 
 	public void populateMeta(boolean clean){
 		populateMeta(clean, configurator.getMetaGraphName());

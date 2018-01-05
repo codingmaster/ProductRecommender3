@@ -18,6 +18,9 @@ public class JSONProperties {
 	private List<JSONAttribute> attributes = new ArrayList<JSONAttribute>();
 	private String customer;
 	private String customerWebsite;
+	private String pathToImage;
+	private String pathToImageSuffix;
+	private String pathToProduct;
 	private String customerLogo;
 	private Integer minProdId = -1;
 	private Integer maxProdId = -1;
@@ -77,6 +80,18 @@ public class JSONProperties {
 
 	public List<String> getFilterAttributes() {
 		return filterAttributes;
+	}
+
+	public String getPathToImage() {
+		return pathToImage;
+	}
+
+	public String getPathToProduct() {
+		return pathToProduct;
+	}
+
+	public String getPathToImageSuffix() {
+		return pathToImageSuffix;
 	}
 
 	public static class JSONAttribute {

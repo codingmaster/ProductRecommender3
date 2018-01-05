@@ -47,7 +47,7 @@ public class ProductCategoryDAO extends AbstractDAO {
      * @param productId
      * @return set of categories
      */
-	public Set<Category> findCategoriesForProduct(int productId) {
+	public Set<Category> findCategoriesForProduct(String productId) {
 		Set<Category> result = new HashSet<Category>();
 		List<ProductCategory> productCategories = findByProductId(productId);
 		for (ProductCategory productCategory : productCategories) {
@@ -65,7 +65,7 @@ public class ProductCategoryDAO extends AbstractDAO {
      * @param productId
      * @return
      */
-	public List<ProductCategory> findByProductId(int productId) {
+	public List<ProductCategory> findByProductId(String productId) {
 		Session session = getSession();
 		Criteria criteria = session.createCriteria(getType());
 		criteria.add(Restrictions.eq("id.productId", productId));

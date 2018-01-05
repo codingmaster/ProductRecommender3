@@ -7,6 +7,7 @@ import com.google.common.base.Strings;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
+import org.jsoup.Jsoup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +28,7 @@ import java.util.*;
 @SpringBootApplication
 public class ProductPopulator implements CommandLineRunner {
 
+    public static final char DELIMITER = ';';
     private Logger log = LoggerFactory.getLogger(ProductPopulator.class);
     private static final Charset CVS_CHARSET = StandardCharsets.ISO_8859_1;
     private final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
@@ -86,7 +88,7 @@ public class ProductPopulator implements CommandLineRunner {
     }
 
     private void createJSONproductsFromCSV(Path path, Map<String, JsonProduct> dataMap) throws IOException {
-        CSVFormat format = CSVFormat.DEFAULT.withIgnoreSurroundingSpaces().withHeader().withIgnoreEmptyLines();
+        CSVFormat format = CSVFormat.DEFAULT.withDelimiter(DELIMITER).withIgnoreSurroundingSpaces().withHeader().withIgnoreEmptyLines();
         CSVParser parser = CSVParser.parse(path.toFile(), CVS_CHARSET, format);
         Map<String, Integer> headers = parser.getHeaderMap();
         log.info("Found headers: ");
@@ -145,7 +147,8 @@ public class ProductPopulator implements CommandLineRunner {
         JsonProduct product = new JsonProduct();
         for(Map.Entry<CsvKey, Integer> column : columns.entrySet()){
             Integer columnIdx = column.getValue();
-            product.getValues().put(column.getKey(), csvRecord.get(columnIdx));
+            String value = Jsoup.parse(csvRecord.get(columnIdx)).text();
+            product.getValues().put(column.getKey(), value);
         }
 
         return product;

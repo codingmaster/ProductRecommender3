@@ -23,8 +23,8 @@ import java.util.stream.Collectors;
  */
 public class Product implements DBObject {
 
-	private Integer productId = null;
-	private Integer storeProductId = null;
+	private String productId = null;
+	private String storeProductId = null;
 	private String title;
 	Logger log = Logger.getLogger(getClass());
 
@@ -37,12 +37,12 @@ public class Product implements DBObject {
 	public Product() {
 	}
 
-	public Product(Integer productId, List<ProductTable> productLines) {
+	public Product(String productId, List<ProductTable> productLines) {
 		this.productId = productId;
 		initAttributes(productLines);
 	}
 
-	public Product(Integer productId, List<ProductTable> productLines, Set<Category> categories) {
+	public Product(String productId, List<ProductTable> productLines, Set<Category> categories) {
 		this(productId, productLines);
 		this.categories = categories;
 	}
@@ -89,7 +89,7 @@ public class Product implements DBObject {
 		return attributeEntityMapping;
 	}
 
-	public int getProductId() {
+	public String getProductId() {
 		return productId;
 	}
 
@@ -101,16 +101,16 @@ public class Product implements DBObject {
 		return attributes.values().stream().flatMap(Collection::stream).collect(Collectors.toList());
 	}
 
-	public void setProductId(int entity_id) {
+	public void setProductId(String entity_id) {
 
 		this.productId = entity_id;
 	}
 
-	public Integer getStoreProductId() {
+	public String getStoreProductId() {
 		return storeProductId;
 	}
 
-	public void setStoreProductId(Integer storeProductId) {
+	public void setStoreProductId(String storeProductId) {
 		this.storeProductId = storeProductId;
 	}
 

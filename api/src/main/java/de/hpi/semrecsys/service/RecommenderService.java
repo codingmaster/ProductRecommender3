@@ -25,7 +25,7 @@ public class RecommenderService {
         this.recommender = Recommender.getDefault(persistenceService);
     }
 
-    public List<Recommendation> recommendProduct(int productId) {
+    public List<Recommendation> recommendProduct(String productId) {
         Product product = persistenceService.getProduct(productId);
         RecommendationResultsHolder recommendationResultsHolder = recommender.recommendGenerated(product);
         return recommendationResultsHolder.getRecommendationResults().stream().map(RecommendationResult::toRecommendation).collect(Collectors.toList());

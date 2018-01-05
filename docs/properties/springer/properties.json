@@ -2,16 +2,21 @@
   "customer": "springer",
   "customerWebsite": "https://springer.com/",
   "customerLogo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Springer.svg",
+  "pathToImage" : "https://images.springer.com/sgw/books/medium/",
+  "pathToImageSuffix" : ".jpg",
+  "pathToProduct" : "https://www.springer.com/de/book/",
   "attributes": [
     {
       "name": "_title",
       "weight": 7,
-      "type": "unstruct"
+      "type": "unstruct",
+      "confidence" : 0.3
     },
     {
       "name": "_description",
       "weight": 5,
-      "type": "unstruct"
+      "type": "unstruct",
+      "confidence" : 0.4
     }
   ]
 }

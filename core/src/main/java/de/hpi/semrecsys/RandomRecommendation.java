@@ -15,7 +15,7 @@ public class RandomRecommendation extends RecommendationImpl {
 	public RandomRecommendation() {
 	}
 
-	public RandomRecommendation(RecommendationId id, int linkedProductId) {
+	public RandomRecommendation(RecommendationId id, String linkedProductId) {
 		super(id, linkedProductId);
 		id.setType(type);
 	}

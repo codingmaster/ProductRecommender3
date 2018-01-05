@@ -50,7 +50,7 @@ public class ProductDAO extends AbstractDAO {
 
 	@Override
 	public Product findById(Serializable serProductId) {
-		Integer id = (Integer) serProductId;
+		String id =  String.valueOf(serProductId);
 		List<ProductTable> productLines = findProductLines(id);
 		Product product = new Product(id, productLines);
 
@@ -73,7 +73,7 @@ public class ProductDAO extends AbstractDAO {
      */
 	public Product findByName(String name) {
 		List<ProductTable> productLines = findProductLines("name", name);
-		Integer id = productLines.get(0).getId().getEntityId();
+		String id = productLines.get(0).getId().getEntityId();
 		Product product = findById(id);
 		return product;
 	}
@@ -104,7 +104,7 @@ public class ProductDAO extends AbstractDAO {
 		return result;
 	}
 
-	private List<ProductTable> findProductLines(int productId) {
+	private List<ProductTable> findProductLines(String productId) {
 		Session session = getSession();
 		Criteria criteria = session.createCriteria(getType());
 		criteria.add(Restrictions.eq("id.entityId", productId));

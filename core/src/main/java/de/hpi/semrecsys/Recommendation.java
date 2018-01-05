@@ -9,7 +9,7 @@ public interface Recommendation extends DBObject {
 
 	public RecommendationId getId();
 
-	public int getLinkedProductId();
+	public String getLinkedProductId();
 
 	public String recommendationScoreToString();
 

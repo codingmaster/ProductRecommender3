@@ -19,7 +19,7 @@ public class SystemRecommendation extends RecommendationImpl {
 
 	}
 
-	public SystemRecommendation(RecommendationId id, Integer linkedProductId) {
+	public SystemRecommendation(RecommendationId id, String linkedProductId) {
 		super(id, linkedProductId);
 		id.setType(type);
 	}

@@ -41,13 +41,13 @@ public class PersistenceService {
         return productRepository.findAll();
     }
 
-    public Product getProduct(int productId){
+    public Product getProduct(String productId){
         List<ProductTable> productTableList = productRepository.findByIdEntityId(productId);
         return new Product(productId, productTableList);
     }
 
     @Transactional
-    public ProductTable createProductTableEntry(int entityId, String attributeCode, String attributeValue) {
+    public ProductTable createProductTableEntry(String entityId, String attributeCode, String attributeValue) {
         AttributeTable attributeTable = getAttributeTable(attributeCode);
         OptionTable optionTable = optionRepository.findByAttributeTableIdAndValue(attributeTable.getId(), attributeValue);
         if(optionTable == null){

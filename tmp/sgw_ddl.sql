@@ -1,0 +1,15052 @@
+create sequence ACCOUNTSTATUS_SEQ
+	cache 100
+/
+
+create sequence ALERINTERAREATYPEORDER_SEQ
+	cache 100
+/
+
+create sequence ALERTINGPREFERENCES_SEQ
+	cache 100
+/
+
+create sequence ALERTINGPROFILE_SEQ
+	cache 100
+/
+
+create sequence ALERTINGSERVICESTYPE_SEQ
+	cache 100
+/
+
+create sequence ALERTINTERESTAREASTYPE_SEQ
+	cache 100
+/
+
+create sequence ALERTPROFILECHANGENTRY_SEQ
+	cache 100
+/
+
+create sequence ALERT_MIGR_SEQ
+	cache 100
+/
+
+create sequence ANNOUNCEMENT_SEQ
+	cache 100
+/
+
+create sequence APPARTICLE_SEQ
+	cache 100
+/
+
+create sequence APPAUTHOR_SEQ
+	cache 100
+/
+
+create sequence APPBOOKSERIES_SEQ
+	cache 100
+/
+
+create sequence APPBOOK_SEQ
+	cache 100
+/
+
+create sequence APPCHAPTER_SEQ
+	cache 100
+/
+
+create sequence APPISSUE_SEQ
+	cache 100
+/
+
+create sequence APPJOURNAL_SEQ
+	cache 100
+/
+
+create sequence APPVOLUME_SEQ
+	cache 100
+/
+
+create sequence AQAFFILIATION_SEQ
+/
+
+create sequence AREAOFWORKMODULE_SEQ
+	nocache
+/
+
+create sequence ARTICALERTWHITEJOURNAL_SEQ
+	cache 100
+/
+
+create sequence ARTICLEDATA_SEQ
+	cache 100
+/
+
+create sequence ARTICLEDIRECTOINFORMAT_SEQ
+	cache 100
+/
+
+create sequence ARTICLEMAILINGINCLUSIO_SEQ
+	cache 100
+/
+
+create sequence AUTHOQUERYEXTERNACONFI_SEQ
+	nocache
+/
+
+create sequence AUTHORQUERYMOCKCONFIG_SEQ
+	nocache
+/
+
+create sequence AUTHORQUERY_SEQ
+	cache 100
+/
+
+create sequence AUTHOSPRINGERLINKACCES_SEQ
+	nocache
+/
+
+create sequence AVAILABILITYSTATUS_SEQ
+	cache 100
+/
+
+create sequence BFLOWCOLLABORATOR_SEQ
+/
+
+create sequence BLACKLISTENTRY_SEQ
+	cache 100
+/
+
+create sequence BMCONFIGURATION_SEQ
+	cache 100
+/
+
+create sequence BOOKCATALOGREQUEST_SEQ
+	cache 100
+/
+
+create sequence BOOKSELLERINFORMATION_SEQ
+	cache 100
+/
+
+create sequence BOOKSELLERRANKINGTYPE_SEQ
+	cache 100
+/
+
+create sequence BOOKSELLTOPICSCMAPPING_SEQ
+	cache 100
+/
+
+create sequence BOOK_EBOOK_LNK_SEQ
+	cache 100
+/
+
+create sequence BOUNCESTATISTICENTRY_SEQ
+	cache 100
+/
+
+create sequence CACHEGROUPKEY_SEQ
+	cache 100
+/
+
+create sequence CASPERCOLLABORATOR_SEQ
+	nocache
+/
+
+create sequence CATEGORYSET_SEQ
+	cache 100
+/
+
+create sequence CATEGORY_SEQ
+	cache 100
+/
+
+create sequence CENTERCOMPONENT_SEQ
+	cache 100
+/
+
+create sequence CENTER_SEQ
+	cache 100
+/
+
+create sequence CHANNELURL_SEQ
+	cache 100
+/
+
+create sequence CHANNEL_SEQ
+	cache 100
+/
+
+create sequence CITATION_SEQ
+	cache 100
+/
+
+create sequence CLASSOFGOODS_SEQ
+	cache 100
+/
+
+create sequence CMACHANNVIEWPERMISSION_SEQ
+	cache 100
+/
+
+create sequence CMAPRIVILEGE_SEQ
+	cache 100
+/
+
+create sequence CONTENITEMTEXTFRAGMENT_SEQ
+	cache 100
+/
+
+create sequence CONTENTITEMEXTERNALURL_SEQ
+	cache 100
+/
+
+create sequence CONTENTITEMIMAGE_SEQ
+	cache 100
+/
+
+create sequence CONTENTITEMLINK_SEQ
+	cache 100
+/
+
+create sequence CONTENTITEM_SEQ
+	cache 100
+/
+
+create sequence CONTENTLIST_SEQ
+	cache 100
+/
+
+create sequence CONTENTTEXT_SEQ
+	cache 100
+/
+
+create sequence COPYRIGHTHOLDER_SEQ
+	cache 100
+/
+
+create sequence COUNTRYSET_SEQ
+	cache 100
+/
+
+create sequence COUNTRYSTATE_SEQ
+	cache 100
+/
+
+create sequence COUNTRY_SEQ
+	cache 100
+/
+
+create sequence CREDITCARDTYPE_SEQ
+	cache 100
+/
+
+create sequence CURRENCY_SEQ
+	cache 100
+/
+
+create sequence CUSTOCATALOGQUEUEENTRY_SEQ
+	cache 100
+/
+
+create sequence CUSTOMCATALOGREQUEST_SEQ
+	cache 100
+/
+
+create sequence CUSTOMCATALOGSORTOPTIO_SEQ
+	cache 100
+/
+
+create sequence DANGLINGBFLOWREFERENCE_SEQ
+	nocache
+/
+
+create sequence DANGLINGPRODUCTREFEREN_SEQ
+	cache 100
+/
+
+create sequence DELIVERYAREA_SEQ
+	cache 100
+/
+
+create sequence DESIGNCOLOURCHANNASSOC_SEQ
+	cache 100
+/
+
+create sequence DESIGNCOLOURCOMPONENT_SEQ
+	cache 100
+/
+
+create sequence DESIGNCOLOURDATA_SEQ
+	cache 100
+/
+
+create sequence DESIGNCOMPONENTCATEGOR_SEQ
+	cache 100
+/
+
+create sequence DESIGNIMAGECHANNEASSOC_SEQ
+	cache 100
+/
+
+create sequence DESIGNIMAGECOMPONENT_SEQ
+	cache 100
+/
+
+create sequence DESIGNIMAGEDATA_SEQ
+	cache 100
+/
+
+create sequence DISCOUNSELECTIOCRITERI_SEQ
+	nocache
+/
+
+create sequence DISCOUNTDEFINITION_SEQ
+	cache 100
+/
+
+create sequence DISCOUNT_MIGR_SEQ
+	cache 100
+/
+
+create sequence DOCUMENTFOLDER_SEQ
+	cache 100
+/
+
+create sequence DOCUMENT_SEQ
+	cache 100
+/
+
+create sequence DOICITATIONCONTRIBUTOR_SEQ
+	nocache
+/
+
+create sequence DOICITATION_SEQ
+	nocache
+/
+
+create sequence DOWNLOADEDEBOOKS_SEQ
+	cache 100
+/
+
+create sequence EBOOKDOWNLOADFIGURES_SEQ
+	nocache
+/
+
+create sequence EBOOKDOWNLOAFIGURSETTI_SEQ
+	nocache
+/
+
+create sequence EBOOKNOTBUYABLE_SEQ
+	nocache
+/
+
+create sequence EBOOKPACKAGE_SEQ
+	cache 100
+/
+
+create sequence EBOOKRENTAL_SEQ
+/
+
+create sequence EBOOKRESPONSIBLEEDITOR_SEQ
+	nocache
+/
+
+create sequence EBOOKRETAILLINK_SEQ
+	nocache
+/
+
+create sequence EDIBOAMEMSPRINGLINKACC_SEQ
+	nocache
+/
+
+create sequence EMAILFORMATTYPE_SEQ
+	cache 100
+/
+
+create sequence EMBEDDEDOBJECTDESCRIPT_SEQ
+	cache 100
+/
+
+create sequence ENTEREDCOUPON_SEQ
+	nocache
+/
+
+create sequence EXTENDTOCALERMAILMAILS_SEQ
+	nocache
+/
+
+create sequence EXTERNALPRODUCTPRICE_SEQ
+	nocache
+/
+
+create sequence EXTERNALURL_SEQ
+	cache 100
+/
+
+create sequence FAILEDJMSMESSAGE_SEQ
+	cache 100
+/
+
+create sequence FORMELEMENT_SEQ
+	cache 100
+/
+
+create sequence FORM_SEQ
+	cache 100
+/
+
+create sequence FREECOPYACCOUNTPOSTING_SEQ
+	nocache
+/
+
+create sequence FREECOPYRATINGSTATE_SEQ
+	nocache
+/
+
+create sequence FREECOPYRATING_SEQ
+	nocache
+/
+
+create sequence FULFILLMENTCENTER_SEQ
+	cache 100
+/
+
+create sequence GENDERTYPE_SEQ
+	cache 100
+/
+
+create sequence GEOIPDATA_SEQ
+	cache 100
+/
+
+create sequence GOOGLESITEMAP_SEQ
+	cache 100
+/
+
+create sequence GROUPMEMBERSHIPSTATUS_SEQ
+	cache 100
+/
+
+create sequence GROUPMEMBERSHIP_SEQ
+	cache 100
+/
+
+create sequence GROUPMEMBERSHISHORTCUT_SEQ
+	cache 100
+/
+
+create sequence HISTORY_SEQ
+	cache 100
+/
+
+create sequence IMAGEDESCRIPTION_SEQ
+	cache 100
+/
+
+create sequence IMAGEFOLDER_SEQ
+	cache 100
+/
+
+create sequence IMAGETYPE_SEQ
+	cache 100
+/
+
+create sequence IMAGE_SEQ
+	cache 100
+/
+
+create sequence IMPORTSTATUS_SEQ
+	cache 100
+/
+
+create sequence INSTRUCTORCONTACT_SEQ
+	nocache
+/
+
+create sequence INSTRUCTORINFORMATION_SEQ
+	cache 100
+/
+
+create sequence INTELLECTUALUNIT_SEQ
+	nocache
+/
+
+create sequence JOURNALBLOGPOST_SEQ
+	cache 100
+/
+
+create sequence JOURNALBLOG_SEQ
+	cache 100
+/
+
+create sequence JOURNALONLINELIBRARY_SEQ
+	cache 100
+/
+
+create sequence JOURNALSHIPMENTCOST_SEQ
+	cache 100
+/
+
+create sequence JOUTOCSUBSUPPRESSIOENT_SEQ
+	cache 100
+/
+
+create sequence KNOORDER_SEQ
+	cache 100
+/
+
+create sequence LANGUAGE_SEQ
+	cache 100
+/
+
+create sequence LIBRARIANINFORMATION_SEQ
+	nocache
+/
+
+create sequence LINKEDOBJECT_SEQ
+	cache 100
+/
+
+create sequence LINKEDPRODUCT_SEQ
+	cache 100
+/
+
+create sequence LINKTARGET_SEQ
+	cache 100
+/
+
+create sequence LISTMANUALLINK_SEQ
+	cache 100
+/
+
+create sequence MAILINGPARENT_SEQ
+	cache 100
+/
+
+create sequence MAILING_SEQ
+	cache 100
+/
+
+create sequence MARKETINGUSERGROUP_SEQ
+	cache 100
+/
+
+create sequence MARKETINGUSER_SEQ
+	cache 100
+/
+
+create sequence MARKETING_SEQ
+	cache 100
+/
+
+create sequence MARKETIPRODUCTINTEREST_SEQ
+	nocache
+/
+
+create sequence MEMBERSHIPHISTORY_SEQ
+	cache 100
+/
+
+create sequence MIMETYPE_SEQ
+	cache 100
+/
+
+create sequence MOSTINTERESTEDINTYPE_SEQ
+	cache 100
+/
+
+create sequence MOSTVIEWEDARTICLE_SEQ
+	cache 100
+/
+
+create sequence MOSTVIEWEDAUTHOR_SEQ
+	cache 100
+/
+
+create sequence MSCTREE_SEQ
+	cache 100
+/
+
+create sequence NL_CAMPAIGN_GOAL_SEQ
+/
+
+create sequence NL_EXPORTED_NEWSLETTER_SEQ
+	cache 100
+/
+
+create sequence NL_GESACAMPAIGN_SEQ
+	cache 100
+/
+
+create sequence NL_GESACATEGORY_SEQ
+/
+
+create sequence NL_LAYOUTCOLUMN_SEQ
+	cache 100
+/
+
+create sequence NL_LAYOUTOBJECT_SEQ
+	cache 100
+/
+
+create sequence NL_XSLTOBJECT_SEQ
+	cache 100
+/
+
+create sequence OAUTHACCESS_SEQ
+/
+
+create sequence OAUTHCLIENT_SEQ
+/
+
+create sequence OBJECTCATEGORY_SEQ
+	cache 100
+/
+
+create sequence OBJECTTYPE_SEQ
+	cache 100
+/
+
+create sequence ONLINEEXAMCOPYCONFIG_SEQ
+	cache 100
+/
+
+create sequence ONLINEREVIEWCOPYSTATE_SEQ
+	cache 100
+/
+
+create sequence ONLINEXAMCOPIESCONFIGU_SEQ
+/
+
+create sequence OPENCHOICMEMBERSHIDATA_SEQ
+	nocache
+/
+
+create sequence OPENCHOICPAYMESUPPRESS_SEQ
+	nocache
+/
+
+create sequence ORDERADDRESS_SEQ
+	cache 100
+/
+
+create sequence ORDERARTICLE_SEQ
+	cache 100
+/
+
+create sequence ORDERITEM_SEQ
+	cache 100
+/
+
+create sequence ORDERPAYMENT_SEQ
+	nocache
+/
+
+create sequence ORDER_SEQ
+	nocache
+/
+
+create sequence PAYMENTTYPE_SEQ
+	cache 100
+/
+
+create sequence PAYMENT_SEQ
+	nocache
+/
+
+create sequence PDFCATALOGCUSTOMFIELDS_SEQ
+	cache 100
+/
+
+create sequence PERSISTENTPROPERTYHISTORY_SEQ
+/
+
+create sequence PERSISTENTPROPERTY_SEQ
+	cache 100
+/
+
+create sequence PERSISTENTSAPORDERITEM_SEQ
+	nocache
+/
+
+create sequence PERSISTENTSAPORDER_SEQ
+	nocache
+/
+
+create sequence PERSISTPROPERTYHISTORY_SEQ
+	nocache
+/
+
+create sequence PLACEOFWORKTYPE_SEQ
+	cache 100
+/
+
+create sequence PORTLETLINK_SEQ
+	cache 100
+/
+
+create sequence PORTLET_SEQ
+/
+
+create sequence PPMPRODUCTTYPE_SEQ
+	cache 100
+/
+
+create sequence PREDEFINEDTYPEDTEASER_SEQ
+	cache 100
+/
+
+create sequence PRICEDATA_SEQ
+	cache 100
+/
+
+create sequence PRODUCTDISCOUNPROMOCOD_SEQ
+	cache 100
+/
+
+create sequence PRODUCTLINKCATEGORY_SEQ
+	cache 100
+/
+
+create sequence PRODUCTLINK_SEQ
+	cache 100
+/
+
+create sequence PRODUCTSHORTCUT_SEQ
+	cache 100
+/
+
+create sequence PRODUCTWITHPRODUCTLINKS_SEQ
+	cache 100
+/
+
+create sequence PRODUCT_SEQ
+	cache 100
+/
+
+create sequence PROMOCODE_SEQ
+	cache 100
+/
+
+create sequence PUBLIHOUSEIMPORMAPPING_SEQ
+	nocache
+/
+
+create sequence PUBLISHINGHOUSE_SEQ
+	cache 100
+/
+
+create sequence PUNYURL_SEQ
+	cache 100
+/
+
+create sequence RANDOMTEASERPOOL_SEQ
+	cache 100
+/
+
+create sequence REFERRERURL_SEQ
+	cache 100
+/
+
+create sequence REGIONALCHANNEL_SEQ
+	cache 100
+/
+
+create sequence REGIONALCOLOURDATA_SEQ
+	cache 100
+/
+
+create sequence REGIONALIMAGEDATA_SEQ
+	cache 100
+/
+
+create sequence REGIONALVIEW_SEQ
+	cache 100
+/
+
+create sequence REQUESTPRINTEXAMCOPIES_SEQ
+	cache 100
+/
+
+create sequence REQUESTTASK_SEQ
+	cache 100
+/
+
+create sequence RESOURCEBUNDLE_SEQ
+	cache 100
+/
+
+create sequence RESOURCE_SEQ
+	cache 100
+/
+
+create sequence RESPONSIBLEPERSON_SEQ
+	cache 100
+/
+
+create sequence REVIEWERINFORMATION_SEQ
+	cache 100
+/
+
+create sequence RSSCHANNELDATA_SEQ
+	cache 100
+/
+
+create sequence SALESREGIODISCODEFINIT_SEQ
+	nocache
+/
+
+create sequence SALESREGION_SEQ
+	cache 100
+/
+
+create sequence SALESRIGHTCONTRACT_SEQ
+	cache 100
+/
+
+create sequence SALESRIGHTHOLDER_SEQ
+	cache 100
+/
+
+create sequence SALUTATIONTYPE_SEQ
+	cache 100
+/
+
+create sequence SAVEDCATALOG_SEQ
+	cache 100
+/
+
+create sequence SCHEDULINGINFORMATION_SEQ
+	cache 100
+/
+
+create sequence SEARCHCONFIGURATION_SEQ
+	cache 100
+/
+
+create sequence SEARCH_MIGR_SEQ
+	cache 100
+/
+
+create sequence SEC_MIGR_SEQ
+	cache 100
+/
+
+create sequence SENDMAILSTATISTICENTRY_SEQ
+	cache 100
+/
+
+create sequence SENTFORMDATA_SEQ
+	cache 100
+/
+
+create sequence SENTFORM_SEQ
+	cache 100
+/
+
+create sequence SHIPMENTCOST_SEQ
+	cache 100
+/
+
+create sequence SHIPMENTSERVICE_SEQ
+	cache 100
+/
+
+create sequence SHORTURLDOMAIN_SEQ
+	nocache
+/
+
+create sequence SHORTURL_SEQ
+	nocache
+/
+
+create sequence SNAPSHOGROUPMEMBERSHIP_SEQ
+	nocache
+/
+
+create sequence SNAPSHOTGROUP_SEQ
+	nocache
+/
+
+create sequence SOCIEEXTENDEDTOCACCESS_SEQ
+	nocache
+/
+
+create sequence SOCIETYJOURNAL_SEQ
+	nocache
+/
+
+create sequence SOCIETY_SEQ
+	nocache
+/
+
+create sequence SPRINGERADDRESS_SEQ
+	cache 100
+/
+
+create sequence SPRINGERGROUPTYPE_SEQ
+	cache 100
+/
+
+create sequence SPRINGERGROUP_SEQ
+	cache 100
+/
+
+create sequence SPRINGERUSER_SEQ
+	cache 100
+/
+
+create sequence SPRINGLINKONLIDATEMAPP_SEQ
+/
+
+create sequence SSBM_LDB_OBJECT_SEQ
+	cache 100
+/
+
+create sequence STOREDBOOKSELLERSEARCH_SEQ
+	cache 100
+/
+
+create sequence STOREDEASYSEARCH_SEQ
+	cache 100
+/
+
+create sequence STOREDPROFILESEARCH_SEQ
+	cache 100
+/
+
+create sequence STRINGVALUE_SEQ
+	cache 100
+/
+
+create sequence SUBJECTANDRECIPIENT_SEQ
+	cache 100
+/
+
+create sequence SUBJECTCODETREE_SEQ
+	cache 100
+/
+
+create sequence TAB_SEQ
+	cache 100
+/
+
+create sequence TASKMEMORY_SEQ
+	cache 100
+/
+
+create sequence TAXDELIVERYROUTE_SEQ
+	cache 100
+/
+
+create sequence TAXRATE_SEQ
+	cache 100
+/
+
+create sequence TEASERLINK_SEQ
+	cache 100
+/
+
+create sequence TEASER_SEQ
+	cache 100
+/
+
+create sequence TEMPLATEDATA_SEQ
+	cache 100
+/
+
+create sequence TESTPERSISTENCE_SEQ
+	cache 100
+/
+
+create sequence TEXTENTRY_SEQ
+	cache 100
+/
+
+create sequence TIMEDMEMBERSDEFINITION_SEQ
+	cache 100
+/
+
+create sequence TOCALERT_SEQ
+	cache 100
+/
+
+create sequence TOCJOURNALFREQUENCY_SEQ
+	nocache
+/
+
+create sequence TOKENGROUP_SEQ
+	cache 100
+/
+
+create sequence TOKENS_MIGR_SEQ
+	cache 100
+/
+
+create sequence TOKENUSAGEHISTORY_SEQ
+	cache 100
+/
+
+create sequence TOKEN_SEQ
+	cache 100
+/
+
+create sequence TOPICSUBJECCODEMAPPING_SEQ
+	cache 100
+/
+
+create sequence TRACKEDARTICLE_SEQ
+	cache 100
+/
+
+create sequence TRACKEDBOOKAUTHOR_SEQ
+	nocache
+/
+
+create sequence TRACKEDBOOK_SEQ
+	nocache
+/
+
+create sequence TYPEOFWORKTYPE_SEQ
+	cache 100
+/
+
+create sequence UNIQUETOKEN_SEQ
+	cache 100
+/
+
+create sequence URLMAPPING_SEQ
+	cache 100
+/
+
+create sequence USERDESCRIPTOR_SEQ
+	cache 100
+/
+
+create sequence USER_MIGR_SEQ
+	cache 100
+/
+
+create sequence VIEWDESCRIPTOR_SEQ
+	cache 100
+/
+
+create sequence WATERMARKINFORMATION_SEQ
+	nocache
+/
+
+create sequence WEBTRACKINGCATEGORY_SEQ
+/
+
+create sequence WORKFLOWSTATUS_SEQ
+	cache 100
+/
+
+create sequence ZRVCOLLABORATOR_SEQ
+	cache 100
+/
+
+create table JPOX_TABLES
+(
+	CLASS_NAME VARCHAR2(128),
+	TABLE_NAME VARCHAR2(128),
+	TYPE VARCHAR2(4),
+	OWNER VARCHAR2(2),
+	VERSION VARCHAR2(20)
+)
+/
+
+create unique index SYS_C0014435
+	on JPOX_TABLES ()
+/
+
+create table COUNTRY
+(
+	ID NUMBER not null,
+	AGENTPROCODE VARCHAR2(256),
+	CURRENCY_FK NUMBER,
+	DEFAULTREGIONALVIEW_FK NUMBER,
+	ISMAINCOUNTRYFORISOCODE NUMBER(1),
+	ISOCODE VARCHAR2(256),
+	NAME VARCHAR2(256),
+	SPECIALPRICETYPE VARCHAR2(256),
+	SPRINGERCOUNTRYCODE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	ISHOUSENOAFTERSTREET NUMBER(1),
+	VATINPUTALLOWED NUMBER(1),
+	TELEPHONEMANDATORY NUMBER(1)
+)
+/
+
+create unique index COUNTRY_PK
+	on COUNTRY ()
+/
+
+create unique index COUNTRY_U51
+	on COUNTRY ()
+/
+
+create index COUNTRY_N50
+	on COUNTRY ()
+/
+
+create unique index COUNTRY_U52
+	on COUNTRY ()
+/
+
+create index COUNTRY_N54
+	on COUNTRY ()
+/
+
+create unique index COUNTRY_U53
+	on COUNTRY ()
+/
+
+create index COUNTRY_N49
+	on COUNTRY ()
+/
+
+create table COUNTRYSET
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	SZTYPE VARCHAR2(256),
+	COUNTRYSET1_FK NUMBER,
+	COUNTRYSET2_FK NUMBER
+)
+/
+
+create index CS_SZTYPE
+	on COUNTRYSET ()
+/
+
+create unique index COUNTRYSET_PK
+	on COUNTRYSET ()
+/
+
+create index COUNTRYSET_N51
+	on COUNTRYSET ()
+/
+
+create unique index COUNTRYSET_U50
+	on COUNTRYSET ()
+/
+
+create index COUNTRYSET_N49
+	on COUNTRYSET ()
+/
+
+create table COUNTRYSTATE
+(
+	ID NUMBER not null,
+	COUNTRY_FK NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index COUNTRYSTATE_PK
+	on COUNTRYSTATE ()
+/
+
+create index COUNTRYSTATE_N49
+	on COUNTRYSTATE ()
+/
+
+create index COUNTRYSTATE_N50
+	on COUNTRYSTATE ()
+/
+
+create table COUNTRY_COUNTRYSET
+(
+	COUNTRYSET_FK NUMBER not null,
+	COUNTRY_FK NUMBER not null
+)
+/
+
+create unique index COUNTRY_COUNTRYSET_PK
+	on COUNTRY_COUNTRYSET ()
+/
+
+create index COUNTRY_COUNTRYSET_N50
+	on COUNTRY_COUNTRYSET ()
+/
+
+create index COUNTRY_COUNTRYSET_N49
+	on COUNTRY_COUNTRYSET ()
+/
+
+create table CURRENCY
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	SYMBOL VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index CURRENCY_PK
+	on CURRENCY ()
+/
+
+create unique index CURRENCY_U49
+	on CURRENCY ()
+/
+
+create table DELIVERYAREA
+(
+	ID NUMBER not null,
+	COUNTRYSET_FK NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index DELIVERYAREA_PK
+	on DELIVERYAREA ()
+/
+
+create index DELIVERYAREA_N49
+	on DELIVERYAREA ()
+/
+
+create table DELIVERYAREA_USASTATE
+(
+	DELIVERYAREA_FK NUMBER not null,
+	COUNTRYSTATE_FK NUMBER not null
+)
+/
+
+create index DELIVERYAREA_USASTATE_N50
+	on DELIVERYAREA_USASTATE ()
+/
+
+create unique index DELIVERYAREA_USASTATE_PK
+	on DELIVERYAREA_USASTATE ()
+/
+
+create index DELIVERYAREA_USASTATE_N49
+	on DELIVERYAREA_USASTATE ()
+/
+
+create table FULFILLMENTCENTER
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	SALESREGION_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	VKORG VARCHAR2(4)
+)
+/
+
+create unique index FULFILLMENTCENTER_PK
+	on FULFILLMENTCENTER ()
+/
+
+create index FULFILLMENTCENTER_N49
+	on FULFILLMENTCENTER ()
+/
+
+create table LANGUAGE
+(
+	ID NUMBER not null,
+	CODE VARCHAR2(256),
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	DEFAULTCOUNTRY_FK NUMBER
+)
+/
+
+create index LANGUAGE_N51
+	on LANGUAGE ()
+/
+
+create unique index LANGUAGE_PK
+	on LANGUAGE ()
+/
+
+create index LANGUAGE_N50
+	on LANGUAGE ()
+/
+
+create unique index LANGUAGE_U49
+	on LANGUAGE ()
+/
+
+create table PAYMENTTYPE
+(
+	ID NUMBER not null,
+	COUNTRIES_FK NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	PAYMENTMETHODCODE VARCHAR2(256),
+	AREA VARCHAR2(256),
+	REMARKS VARCHAR2(256),
+	SAPPAYMENTMETHODCODE VARCHAR2(256)
+)
+/
+
+create index PAYMENTTYPE_N50
+	on PAYMENTTYPE ()
+/
+
+create index PAYMENTTYPE_N51
+	on PAYMENTTYPE ()
+/
+
+create index PAYMENTTYPE_N52
+	on PAYMENTTYPE ()
+/
+
+create index PAYMENTTYPE_N53
+	on PAYMENTTYPE ()
+/
+
+create index PAYMENTTYPE_N49
+	on PAYMENTTYPE ()
+/
+
+create unique index PAYMENTTYPE_PK
+	on PAYMENTTYPE ()
+/
+
+create table PUBLISHINGHOUSE
+(
+	ID NUMBER not null,
+	CODE VARCHAR2(256),
+	ISDISPLAYEDINADVANCEDSEARCH NUMBER(1),
+	ISDISPLAYEDINSEMIAUTOMATICLIMY NUMBER(1),
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	ENABLEDFORBOOKAUTHOREMAIL NUMBER(1) default 0,
+	ENABLEDFORIMPRINTDISPLAY NUMBER(1) default 0  not null,
+	SUPPRESSCONTACTFORMS NUMBER(1) default 0  not null,
+	ORCCOPYRIGHTYEAR NUMBER,
+	PRODUCTFLYERENABLED NUMBER(1) default 1  not null,
+	SPRINGERLOGOHEADERREPLACEDBYUR NUMBER(1) default 0  not null,
+	EBOOKVISIBLE NUMBER(1) default 1  not null,
+	ENABLEDFOREBOOKFIGURESEMAIL NUMBER(1) not null,
+	ENABLEDFORBOOKAUTHORSURVEYEMIS NUMBER(1) default 0  not null,
+	EBOOKBUYABLE NUMBER(1) default 1  not null,
+	MAXREWARDYEARS NUMBER,
+	ENABLEDFORCHAPTERAUTHOREMAIL NUMBER(1) default 0  not null
+)
+/
+
+create index ENABLEDFORBOOKAUTHORSURVEY_IX
+	on PUBLISHINGHOUSE ()
+/
+
+create index ENABLEDFORBOOKAUTHOREMAIL_IX
+	on PUBLISHINGHOUSE ()
+/
+
+create index PUBLISHINGHOUSE_N49
+	on PUBLISHINGHOUSE ()
+/
+
+create unique index PUBLISHINGHOUSE_PK
+	on PUBLISHINGHOUSE ()
+/
+
+create unique index PUBLISHINGHOUSE_U49
+	on PUBLISHINGHOUSE ()
+/
+
+create table REGIONALVIEW
+(
+	ID NUMBER not null,
+	DEFAULTCOUNTRY_FK NUMBER,
+	LOCALESTRING VARCHAR2(256),
+	NAME VARCHAR2(256),
+	SHOWGROSSPRICES NUMBER(1),
+	JDOVERSION NUMBER default 1,
+	COLLATORLOCALESTRING VARCHAR2(256),
+	CBCNETPRICESEXCEPTIONPRESENT NUMBER(1),
+	ABCCODESTRING VARCHAR2(256),
+	KNOORDERINJECTIONENABLED NUMBER(1),
+	INDEXABLE NUMBER(1),
+	DISPLAYUSPCONTENTTEXTSENABLED NUMBER(1),
+	CURRENCYIDENTIFIERFORCBC VARCHAR2(256),
+	ONLINEEXAMCOPYFORMID NUMBER,
+	VIEWFOREXPORTKEY_FK NUMBER,
+	APPARTICLETITLELANGUAGE VARCHAR2(256),
+	CUSTOMCATALOGTEMPLATEIDENTIFV2 VARCHAR2(256),
+	SHOWGROSSPRICESINFLYERANDCATJN NUMBER(1) default 0  not null,
+	COREMEDIALOCALE VARCHAR2(256),
+	COREMEDIAPREFIX VARCHAR2(256)
+)
+/
+
+create index REGIONALVIEW_N50
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N60
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N59
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N49
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N54
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N56
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N52
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N53
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N55
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N57
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N58
+	on REGIONALVIEW ()
+/
+
+create unique index REGIONALVIEW_PK
+	on REGIONALVIEW ()
+/
+
+create index REGIONALVIEW_N51
+	on REGIONALVIEW ()
+/
+
+create unique index REGIONALVIEW_U49
+	on REGIONALVIEW ()
+/
+
+create table SALESREGION
+(
+	ID NUMBER not null,
+	COUNTRIES_FK NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index SALESREGION_PK
+	on SALESREGION ()
+/
+
+create index SALESREGION_N49
+	on SALESREGION ()
+/
+
+create table SHIPMENTCOST
+(
+	ID NUMBER not null,
+	CURRENCY_FK NUMBER,
+	FIXAMOUNT NUMBER(12,2),
+	VARIABLEAMOUNT NUMBER(12,2),
+	JDOVERSION NUMBER default 1,
+	SHIPSERVI_SHIPMENTCOSTS_FK NUMBER
+)
+/
+
+create unique index SHIPMENTCOST_PK
+	on SHIPMENTCOST ()
+/
+
+create index SHIPMENTCOST_N49
+	on SHIPMENTCOST ()
+/
+
+create index SHIPMENTCOST_N50
+	on SHIPMENTCOST ()
+/
+
+create table SHIPMENTSERVICE
+(
+	ID NUMBER not null,
+	DELIVERYAREA_FK NUMBER,
+	DELIVERYTIMEMAX NUMBER(10),
+	DELIVERYTIMEMIN NUMBER(10),
+	FREIGHTMETHOD VARCHAR2(256),
+	NAME VARCHAR2(256),
+	PRODUCTTYPE VARCHAR2(256),
+	SHIPPINGMODE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	FUFICE_SHIPMENTSERVICES_FK NUMBER
+)
+/
+
+create index SHIPMENTSERVICE_N49
+	on SHIPMENTSERVICE ()
+/
+
+create unique index SHIPMENTSERVICE_PK
+	on SHIPMENTSERVICE ()
+/
+
+create index SHIPMENTSERVICE_N50
+	on SHIPMENTSERVICE ()
+/
+
+create index SHIPMENTSERVICE_N51
+	on SHIPMENTSERVICE ()
+/
+
+create table ANNUALVOLUME
+(
+	ID NUMBER not null,
+	JOURNAL_FK NUMBER,
+	NUMBEROFISSUES NUMBER(10),
+	NUMBEROFVOLUMES NUMBER(10),
+	YEAR NUMBER(10),
+	JDOVERSION NUMBER default 1,
+	DISCRIMINATOR VARCHAR2(256)
+)
+/
+
+create index ANNUALVOLUME_N49
+	on ANNUALVOLUME ()
+/
+
+create index AV_DISCRIMINATOR
+	on ANNUALVOLUME ()
+/
+
+create unique index ANNUALVOLUME_PK
+	on ANNUALVOLUME ()
+/
+
+create table ASSET
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index A_JDOTYPE
+	on ASSET ()
+/
+
+create unique index ASSET_JDOTYPE_IDX
+	on ASSET ()
+/
+
+create unique index ASSET_PK
+	on ASSET ()
+/
+
+create table ASSETCATEGORPRIORI_INTEGER
+(
+	ASSET_FK NUMBER not null,
+	CATEGORY_FK NUMBER not null,
+	INTEGER_VALUE NUMBER(10),
+	INTEGER_IDX NUMBER(10) default -1  not null
+)
+/
+
+create index ASSETCATEGORPRIORI_INTEGER_N49
+	on ASSETCATEGORPRIORI_INTEGER ()
+/
+
+create index ASSETCAT_INT_IDX
+	on ASSETCATEGORPRIORI_INTEGER ()
+/
+
+create index ASSETCATEGORPRIORI_INT_COM_IDX
+	on ASSETCATEGORPRIORI_INTEGER ()
+/
+
+create index ASSETCATEGORPRIOR2_INT_COM_IDX
+	on ASSETCATEGORPRIORI_INTEGER ()
+/
+
+create index ASSETCATEGORPRIORI_INTEGER_N50
+	on ASSETCATEGORPRIORI_INTEGER ()
+/
+
+create unique index ASSETCATEGORPRIORI_INTEGER_PK
+	on ASSETCATEGORPRIORI_INTEGER ()
+/
+
+create table CATEGORY
+(
+	ID NUMBER not null,
+	SUBJECTCODE VARCHAR2(256),
+	SUPERCATEGORY_FK NUMBER,
+	TITLE VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index CAT_COMBINE_SUBJECTCODE_IDX
+	on CATEGORY ()
+/
+
+create unique index CATEGORY_PK
+	on CATEGORY ()
+/
+
+create unique index CATEGORY_U49
+	on CATEGORY ()
+/
+
+create index CATEGORY_N50
+	on CATEGORY ()
+/
+
+create table CITATION
+(
+	ID NUMBER not null,
+	IMPACTFACTOR FLOAT,
+	NUMBEROFJOURNALSLISTED NUMBER(10),
+	RANKING NUMBER(10),
+	TYPE VARCHAR2(256),
+	YEAR NUMBER(10),
+	JDOVERSION NUMBER default 1,
+	JOURNAL_CITATIONS_FK NUMBER
+)
+/
+
+create index CITATION_N50
+	on CITATION ()
+/
+
+create unique index CITATION_PK
+	on CITATION ()
+/
+
+create index CITATION_N49
+	on CITATION ()
+/
+
+create table CLASSOFGOODS
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index CLASSOFGOODS_PK
+	on CLASSOFGOODS ()
+/
+
+create table COUNTRY_SALECONTRASALECOUN
+(
+	SALESRIGHTCONTRACT_FK NUMBER not null,
+	COUNTRY_FK NUMBER not null
+)
+/
+
+create index COUNTRY_SALECONTRASALECOUN_N50
+	on COUNTRY_SALECONTRASALECOUN ()
+/
+
+create unique index COUNTRY_SALECONTRASALECOUN_PK
+	on COUNTRY_SALECONTRASALECOUN ()
+/
+
+create index COUNTRY_SALECONTRASALECOUN_N49
+	on COUNTRY_SALECONTRASALECOUN ()
+/
+
+create table HISTORY
+(
+	ID NUMBER not null,
+	INTLSHORTTITLE VARCHAR2(256),
+	ISSN VARCHAR2(256),
+	PUBLISHINGHOUSECODE VARCHAR2(256),
+	SHORTTITLE VARCHAR2(256),
+	SUBTITLE VARCHAR2(256),
+	TITLE VARCHAR2(256),
+	VALIDFROM TIMESTAMP(6),
+	VALIDTO TIMESTAMP(6),
+	JDOVERSION NUMBER default 1,
+	JOURNAL_HISTORIES_FK NUMBER
+)
+/
+
+create unique index HISTORY_PK
+	on HISTORY ()
+/
+
+create index HISTORY_N49
+	on HISTORY ()
+/
+
+create table ISSUE
+(
+	ID NUMBER not null,
+	DISTRIBUTIONDATE TIMESTAMP(6),
+	ISAVAILABLE NUMBER(1),
+	ISSUENUMBER VARCHAR2(256),
+	JOURNAL_FK NUMBER,
+	PATHTEXT VARCHAR2(256),
+	PRODUCTIONDATE TIMESTAMP(6),
+	PUBLISHEDONLINE NUMBER(1),
+	VOLUME_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	DISCRIMINATOR VARCHAR2(256)
+)
+/
+
+create index I_DISCRIMINATOR
+	on ISSUE ()
+/
+
+create unique index ISSUE_PK
+	on ISSUE ()
+/
+
+create index ISSUE_N50
+	on ISSUE ()
+/
+
+create index ISSUE_N49
+	on ISSUE ()
+/
+
+create table JOURNALSHIPMENTCOST
+(
+	ID NUMBER not null,
+	AMOUNT NUMBER,
+	CURRENCY_FK NUMBER,
+	SHIPMENTSERVICE_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	ANNUAVOLU_SHIPMENTCOSTS_FK NUMBER
+)
+/
+
+create index JOURNALSHIPMENTCOST_N49
+	on JOURNALSHIPMENTCOST ()
+/
+
+create index JOURNALSHIPMENTCOST_N51
+	on JOURNALSHIPMENTCOST ()
+/
+
+create index JOURNALSHIPMENTCOST_N50
+	on JOURNALSHIPMENTCOST ()
+/
+
+create unique index JOURNALSHIPMENTCOST_PK
+	on JOURNALSHIPMENTCOST ()
+/
+
+create table JOURNALSUBSCRIPTION
+(
+	ID NUMBER not null,
+	ANNUALVOLUME_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index JOURNALSUBSCRIPTION_N49
+	on JOURNALSUBSCRIPTION ()
+/
+
+create index JS_JDOTYPE
+	on JOURNALSUBSCRIPTION ()
+/
+
+create unique index JOURNALSUBSCRIPTION_PK
+	on JOURNALSUBSCRIPTION ()
+/
+
+create table LINKEDOBJECT
+(
+	ID NUMBER not null,
+	LINKTYPE VARCHAR2(256),
+	NAME VARCHAR2(256),
+	ORDERNO NUMBER(10),
+	TYPE VARCHAR2(256),
+	VALUE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	ASSET_LINKEDOBJECTS_FK NUMBER
+)
+/
+
+create index LINKEDOBJECT_N49
+	on LINKEDOBJECT ()
+/
+
+create index LINKEDOBJECT_N50
+	on LINKEDOBJECT ()
+/
+
+create unique index LINKEDOBJECT_PK
+	on LINKEDOBJECT ()
+/
+
+create table MOSTVIEWEDARTICLE
+(
+	ID NUMBER not null,
+	DOI VARCHAR2(256),
+	ONLINEDATE TIMESTAMP(6),
+	PRINTDATE TIMESTAMP(6),
+	RANK NUMBER(10),
+	SPRINGERLINKURL VARCHAR2(256),
+	TITLE VARCHAR2(1000),
+	VIEWS NUMBER(10),
+	JDOVERSION NUMBER default 1,
+	JOUR_MOSTVIEWEDARTICLES_FK NUMBER
+)
+/
+
+create index MOSTVIEWEDARTICLE_N49
+	on MOSTVIEWEDARTICLE ()
+/
+
+create unique index MOSTVIEWEDARTICLE_PK
+	on MOSTVIEWEDARTICLE ()
+/
+
+create table MOSTVIEWEDAUTHOR
+(
+	ID NUMBER not null,
+	FIRSTNAME VARCHAR2(256),
+	MIDDLENAME VARCHAR2(256),
+	MOSTVIEWEDARTICLE_FK NUMBER,
+	SEQ NUMBER(10),
+	SURNAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index MOSTVIEWEDAUTHOR_N49
+	on MOSTVIEWEDAUTHOR ()
+/
+
+create unique index MOSTVIEWEDAUTHOR_PK
+	on MOSTVIEWEDAUTHOR ()
+/
+
+create table RENDITION_RENDMEDISETCHILD
+(
+	MEDIASETS_FK NUMBER not null,
+	MEDIASETCHILDREN_FK NUMBER not null
+)
+/
+
+create index PPMMEDIA_PPMMEDMEDSETCHILD_N50
+	on RENDITION_RENDMEDISETCHILD ()
+/
+
+create index PPMMEDIA_PPMMEDMEDSETCHILD_N49
+	on RENDITION_RENDMEDISETCHILD ()
+/
+
+create unique index PPMMEDIA_PPMMEDMEDSETCHILD_PK
+	on RENDITION_RENDMEDISETCHILD ()
+/
+
+create table PPMMEDORDESERSTATUS_STRING
+(
+	PPMMEDIA_FK NUMBER not null,
+	ORDERSERIES_FK NUMBER not null
+)
+/
+
+create index PPMMEDORDESERSTATUS_STRING_N49
+	on PPMMEDORDESERSTATUS_STRING ()
+/
+
+create index PPMMEDORDESERSTATUS_STRING_N50
+	on PPMMEDORDESERSTATUS_STRING ()
+/
+
+create unique index PPMMEDORDESERSTATUS_STRING_PK
+	on PPMMEDORDESERSTATUS_STRING ()
+/
+
+create table PPMPRODUCTTYPE
+(
+	ID NUMBER not null,
+	CLASSOFGOODS_FK NUMBER,
+	CODE VARCHAR2(256),
+	ISEONLY NUMBER(1),
+	JDOVERSION NUMBER default 1,
+	NOTDISPLAYEDASPARALLELVERSION NUMBER(1) default 0  not null
+)
+/
+
+create unique index PPMPRODUCTTYPE_U49
+	on PPMPRODUCTTYPE ()
+/
+
+create index PPMPRODUCTTYPE_N50
+	on PPMPRODUCTTYPE ()
+/
+
+create unique index PPMPRODUCTTYPE_PK
+	on PPMPRODUCTTYPE ()
+/
+
+create table PRICEDATA
+(
+	ID NUMBER not null,
+	APPROX NUMBER(1),
+	COUNTRY_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	CURRENCY_FK NUMBER,
+	INCLUDESSHIPMENT NUMBER(1),
+	ISGROSS NUMBER(1),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	MINQUANTITY NUMBER(10),
+	PRICE NUMBER(12,2),
+	PRICETYPE VARCHAR2(256),
+	PRODUCT_FK NUMBER,
+	VALIDFROM TIMESTAMP(6),
+	VALIDTO TIMESTAMP(6),
+	JDOVERSION NUMBER default 1,
+	ELECTRONICSHARE NUMBER
+)
+/
+
+create index PRICEDATA_N55
+	on PRICEDATA ()
+/
+
+create index PRICEDATA_N51
+	on PRICEDATA ()
+/
+
+create index PRICEDATA_N49
+	on PRICEDATA ()
+/
+
+create index PRICEDATA_N52
+	on PRICEDATA ()
+/
+
+create index PRICEDATA_N50
+	on PRICEDATA ()
+/
+
+create index PRICEDATA_N54
+	on PRICEDATA ()
+/
+
+create index PRICEDATA_N53
+	on PRICEDATA ()
+/
+
+create unique index PRICEDATA_PK
+	on PRICEDATA ()
+/
+
+create table PRICEDATA_PROMCODEREDUPRIC
+(
+	PROMOCODE_FK NUMBER not null,
+	PRICEDATA_FK NUMBER not null
+)
+/
+
+create index PRICEDATA_PROMCODEREDUPRIC_N49
+	on PRICEDATA_PROMCODEREDUPRIC ()
+/
+
+create index PRICEDATA_PROMCODEREDUPRIC_N50
+	on PRICEDATA_PROMCODEREDUPRIC ()
+/
+
+create unique index PRICEDATA_PROMCODEREDUPRIC_PK
+	on PRICEDATA_PROMCODEREDUPRIC ()
+/
+
+create table PRODUCT
+(
+	ID NUMBER not null,
+	ABAXXID NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	EXTERNALID VARCHAR2(256),
+	IMPORTFILENAME VARCHAR2(256),
+	ISDELETED NUMBER(1),
+	KEYWORDSSTRING VARCHAR2(2048),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PUBLICATIONLANGUAGESSTRING VARCHAR2(256),
+	PUBLISHINGHOUSE_FK NUMBER,
+	SUBTITLE VARCHAR2(500),
+	TITLE VARCHAR2(1024),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256),
+	LASTCACHINGDATE TIMESTAMP(6),
+	PUBLISHINGHOUSEDEPT VARCHAR2(256),
+	IMPORTDATE TIMESTAMP(6),
+	EXTERNALPRODUCTID VARCHAR2(256),
+	DISCOUNTEDPRICE_FK NUMBER,
+	PRICE_FK NUMBER,
+	DESCRIPTION VARCHAR2(256),
+	COVERURL VARCHAR2(256),
+	SANITIZEDTITLE VARCHAR2(2000)
+)
+/
+
+create index PRODUCT_N55
+	on PRODUCT ()
+/
+
+create index LASTMOD_LASTCACHE_IDX
+	on PRODUCT ()
+/
+
+create unique index PRODUCT_U49
+	on PRODUCT ()
+/
+
+create index PRODUCT_N57
+	on PRODUCT ()
+/
+
+create index PRODUCT_N56
+	on PRODUCT ()
+/
+
+create unique index PRODUCT_JDOTYPE_IDX
+	on PRODUCT ()
+/
+
+create unique index PRODUCT_U51
+	on PRODUCT ()
+/
+
+create index P_JDOTYPE
+	on PRODUCT ()
+/
+
+create index PRODUCT_NABAXX
+	on PRODUCT ()
+/
+
+create index PRODUCT_N51
+	on PRODUCT ()
+/
+
+create index PRODUCT_N54
+	on PRODUCT ()
+/
+
+create index PRODUCTS_ID_DEL_IDX
+	on PRODUCT ()
+/
+
+create index PRODUCT_COMBINE_RSS_IDX
+	on PRODUCT ()
+/
+
+create index PRODUCT_N50
+	on PRODUCT ()
+/
+
+create unique index PRODUCT_PK
+	on PRODUCT ()
+/
+
+create index PRODUCT_N52
+	on PRODUCT ()
+/
+
+create index PRODUCT_N53
+	on PRODUCT ()
+/
+
+create index PRODUCT_N49
+	on PRODUCT ()
+/
+
+create index PRODUCT_TITLE_IDX
+	on PRODUCT ()
+/
+
+create table PROMOCODE
+(
+	ID NUMBER not null,
+	CODE VARCHAR2(256),
+	DISCOUNTAMOUNT NUMBER,
+	"FROM" TIMESTAMP(6),
+	NAME VARCHAR2(256),
+	PROMOCODETYPE NUMBER,
+	"TO" TIMESTAMP(6),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index PROMOCODE_PK
+	on PROMOCODE ()
+/
+
+create index PROMOCODE_N52
+	on PROMOCODE ()
+/
+
+create index PROMOCODE_N49
+	on PROMOCODE ()
+/
+
+create unique index PROMOCODE_U50
+	on PROMOCODE ()
+/
+
+create index PROMOCODE_N51
+	on PROMOCODE ()
+/
+
+create table SALESRIGHTCONTRACT
+(
+	ID NUMBER not null,
+	PRODUCT_FK NUMBER,
+	SALESRIGHTHOLDER_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index SALESRIGHTCONTRACT_N49
+	on SALESRIGHTCONTRACT ()
+/
+
+create index SALESRIGHTCONTRACT_N50
+	on SALESRIGHTCONTRACT ()
+/
+
+create unique index SALESRIGHTCONTRACT_PK
+	on SALESRIGHTCONTRACT ()
+/
+
+create table SALESRIGHTHOLDER
+(
+	ID NUMBER not null,
+	CITY VARCHAR2(256),
+	COMPANY VARCHAR2(256),
+	CUSTOMERID NUMBER,
+	NAME1 VARCHAR2(256),
+	NAME2 VARCHAR2(256),
+	NAME3 VARCHAR2(256),
+	STREET VARCHAR2(256),
+	ZIPCODE VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index SALESRIGHTHOLDER_N50
+	on SALESRIGHTHOLDER ()
+/
+
+create index SALESRIGHTHOLDER_N49
+	on SALESRIGHTHOLDER ()
+/
+
+create unique index SALESRIGHTHOLDER_PK
+	on SALESRIGHTHOLDER ()
+/
+
+create table VOLUME
+(
+	ID NUMBER not null,
+	ANNUALVOLUME_FK NUMBER,
+	VOLUMENO NUMBER(10),
+	JDOVERSION NUMBER default 1,
+	DISCRIMINATOR VARCHAR2(256)
+)
+/
+
+create index VOLUME_N49
+	on VOLUME ()
+/
+
+create index V_DISCRIMINATOR
+	on VOLUME ()
+/
+
+create unique index VOLUME_PK
+	on VOLUME ()
+/
+
+create table ZRVCOLLABORATOR
+(
+	ID NUMBER not null,
+	ADDITION VARCHAR2(256),
+	CITY VARCHAR2(256),
+	COUNTRY VARCHAR2(256),
+	DEPARTMENT VARCHAR2(256),
+	EMAIL VARCHAR2(256),
+	FAX VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	INSTITUTIONNAME VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	NOOFFREECOPIES NUMBER,
+	POSTALCODE VARCHAR2(256),
+	REMARK VARCHAR2(256),
+	SEQNO NUMBER(10),
+	STREET VARCHAR2(256),
+	STREETNO VARCHAR2(256),
+	SUBDEPARTMENT VARCHAR2(256),
+	TEL VARCHAR2(256),
+	TYPE VARCHAR2(256),
+	VALIDFROM TIMESTAMP(6),
+	VALIDTO TIMESTAMP(6),
+	XMLID VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	ISSUE_ZRVCOLLABORATORS_FK NUMBER,
+	VOLUME_ZRVCOLLABORATORS_FK NUMBER,
+	JOURNAL_COLLABORATORS_FK NUMBER,
+	INSTITUTION VARCHAR2(256)
+)
+/
+
+create index ZRVCOLLABORATOR_N52
+	on ZRVCOLLABORATOR ()
+/
+
+create index ZRVCOLLABORATOR_N51
+	on ZRVCOLLABORATOR ()
+/
+
+create index ZRVCOLLABORATOR_N50
+	on ZRVCOLLABORATOR ()
+/
+
+create index ZRVCOLLABORATOR_N49
+	on ZRVCOLLABORATOR ()
+/
+
+create unique index ZRVCOLLABORATOR_PK
+	on ZRVCOLLABORATOR ()
+/
+
+create table TAXDELIVERYROUTE
+(
+	ID NUMBER not null,
+	FROMCOUNTRY_FK NUMBER,
+	HASDELIVERYBOUNDARY NUMBER(1),
+	TOCOUNTRY_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index TAXDELIVERYROUTE_PK
+	on TAXDELIVERYROUTE ()
+/
+
+create index TAXDELIVERYROUTE_N50
+	on TAXDELIVERYROUTE ()
+/
+
+create index TAXDELIVERYROUTE_N49
+	on TAXDELIVERYROUTE ()
+/
+
+create index TAXDELIVERYROUTE_N51
+	on TAXDELIVERYROUTE ()
+/
+
+create table TAXRATE
+(
+	ID NUMBER not null,
+	CLASSOFGOODS_FK NUMBER,
+	COUNTRY_FK NUMBER,
+	STATE_FK NUMBER,
+	TAXRATE NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index TAXRATE_PK
+	on TAXRATE ()
+/
+
+create index TAXRATE_N51
+	on TAXRATE ()
+/
+
+create index TAXRATE_N50
+	on TAXRATE ()
+/
+
+create index TAXRATE_N52
+	on TAXRATE ()
+/
+
+create index TAXRATE_N49
+	on TAXRATE ()
+/
+
+create table ACCOUNTSTATUS
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index ACCOUNTSTATUS_PK
+	on ACCOUNTSTATUS ()
+/
+
+create index ACCOUNTSTATUS_N49
+	on ACCOUNTSTATUS ()
+/
+
+create table ALERSERVTYPE_ALERTIPREFERE
+(
+	ALERTINGPREFERENCES_FK NUMBER not null,
+	ALERTINGSERVICESTYPE_FK NUMBER not null
+)
+/
+
+create unique index ALERSERVTYPE_ALERTIPREFERE_PK
+	on ALERSERVTYPE_ALERTIPREFERE ()
+/
+
+create index ALERSERVTYPE_ALERTIPREFERE_N50
+	on ALERSERVTYPE_ALERTIPREFERE ()
+/
+
+create index ALERSERVTYPE_ALERTIPREFERE_N49
+	on ALERSERVTYPE_ALERTIPREFERE ()
+/
+
+create table ALERTINGINTERESTAREASTYPE
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	ALERTPROFILETYPE NUMBER,
+	DISPLAYED NUMBER(1) default 1  not null
+)
+/
+
+create index ALERTINGINTERESTAREASTYPE_N51
+	on ALERTINGINTERESTAREASTYPE ()
+/
+
+create index ALERTINGINTERESTAREASTYPE_N50
+	on ALERTINGINTERESTAREASTYPE ()
+/
+
+create unique index ALERTINGINTERESTAREASTYPE_PK
+	on ALERTINGINTERESTAREASTYPE ()
+/
+
+create index ALERTINGINTERESTAREASTYPE_N49
+	on ALERTINGINTERESTAREASTYPE ()
+/
+
+create table ALERTINGPREFERENCES
+(
+	ID NUMBER not null,
+	BOOKSELLERRANKING_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	EMAILFORMAT_FK NUMBER,
+	ISBOOKSELLERSUBSCRIBER NUMBER(1) default 0,
+	ISENDUSERSUBSCRIBER NUMBER(1) default 0,
+	ISJUSTRELEASEDSUBSCRIBER NUMBER(1) default 0,
+	ISLIBRARIANSSUBSCRIBER NUMBER(1) default 0,
+	ISSPRINGERNEWSONLINESUBSCRIBER NUMBER(1) default 0,
+	ISUNSUBSCRIBED NUMBER(1) default 0,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SENDINFORMATIONPERPOSTALMAIL NUMBER(1) default 0,
+	SPRINGERUSER_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	ISCREATEDTOCIMPORTUSER NUMBER(1) default 0,
+	ISTOCSUBSCRIBER NUMBER(1) default 0,
+	ISTOCIMPORTEMAILSENT NUMBER(1) default 0,
+	TOCJOURNALNOSSTRING VARCHAR2(4000),
+	ISUPDATEDTOCIMPORTUSER NUMBER(1) default 0,
+	BOOKSELLERPROFILE_FK NUMBER,
+	ENDUSERPROFILE_FK NUMBER,
+	LIBRARIANPROFILE_FK NUMBER,
+	CITATIONALERTFREQUENCY VARCHAR2(256),
+	LASTCITATIONALERT TIMESTAMP(6),
+	PAGEFLAVOR VARCHAR2(256),
+	NOPROMOTIONEMAILSENABLED NUMBER(1) default 0  not null
+)
+/
+
+create index USER_FK_UNIQUE
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERPRE_COMBINE2_IDX
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREF_COMBINE_IDX
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N60
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N59
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N56
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N57
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N55
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N58
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N67
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N68
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N69
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N70
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N71
+	on ALERTINGPREFERENCES ()
+/
+
+create unique index ALERTINGPREFERENCES_PK
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N51
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N52
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N54
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N49
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N53
+	on ALERTINGPREFERENCES ()
+/
+
+create index ALERTINGPREFERENCES_N50
+	on ALERTINGPREFERENCES ()
+/
+
+create table ALERTINGSERVICESTYPE
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index ALERTINGSERVICESTYPE_PK
+	on ALERTINGSERVICESTYPE ()
+/
+
+create index ALERTINGSERVICESTYPE_N49
+	on ALERTINGSERVICESTYPE ()
+/
+
+create table BOOKSELLERINFORMATION
+(
+	ID NUMBER not null,
+	COUNTRY_FK NUMBER,
+	CUSTOMERNUMBER VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	SPRINGERUSER_FK NUMBER,
+	STORENAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	APPROVALPLANACCESSINCE TIMESTAMP(6),
+	ACCOUNTMANAGER_FK NUMBER,
+	ACCESSGRANTEDFIRSTTIME NUMBER(1)
+)
+/
+
+create index BOOKSELLERINFORMATION_N51
+	on BOOKSELLERINFORMATION ()
+/
+
+create index BOOKSELLERINFORMATION_N52
+	on BOOKSELLERINFORMATION ()
+/
+
+create unique index BOOKSELLERINFORMATION_U50
+	on BOOKSELLERINFORMATION ()
+/
+
+create unique index BOOKSELLERINFORMATION_PK
+	on BOOKSELLERINFORMATION ()
+/
+
+create index BOOKSELLERINFORMATION_N49
+	on BOOKSELLERINFORMATION ()
+/
+
+create table BOOKSELLERRANKINGTYPE
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index BOOKSELLERRANKINGTYPE_PK
+	on BOOKSELLERRANKINGTYPE ()
+/
+
+create index BOOKSELLERRANKINGTYPE_N49
+	on BOOKSELLERRANKINGTYPE ()
+/
+
+create table CMAPRIVILEGE
+(
+	ID NUMBER not null,
+	ALIAS VARCHAR2(256),
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index CMAPRIVILEGE_PK
+	on CMAPRIVILEGE ()
+/
+
+create table CMAPRIVILEGE_SPRIGROCMAPRI
+(
+	SPRINGERGROUP_FK NUMBER not null,
+	CMAPRIVILEGE_FK NUMBER not null
+)
+/
+
+create unique index CMAPRIVILEGE_SPRIGROCMAPRI_PK
+	on CMAPRIVILEGE_SPRIGROCMAPRI ()
+/
+
+create index CMAPRIVILEGE_SPRIGROCMAPRI_N49
+	on CMAPRIVILEGE_SPRIGROCMAPRI ()
+/
+
+create index CMAPRIVILEGE_SPRIGROCMAPRI_N50
+	on CMAPRIVILEGE_SPRIGROCMAPRI ()
+/
+
+create table CREDITCARDTYPE
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index CREDITCARDTYPE_PK
+	on CREDITCARDTYPE ()
+/
+
+create index CREDITCARDTYPE_N49
+	on CREDITCARDTYPE ()
+/
+
+create table EMAILFORMATTYPE
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index EMAILFORMATTYPE_PK
+	on EMAILFORMATTYPE ()
+/
+
+create index EMAILFORMATTYPE_N49
+	on EMAILFORMATTYPE ()
+/
+
+create table GENDERTYPE
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index GENDERTYPE_PK
+	on GENDERTYPE ()
+/
+
+create index GENDERTYPE_N49
+	on GENDERTYPE ()
+/
+
+create table GROUPMEMBERSHIP
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DATEVALIDFROM TIMESTAMP(6),
+	DATEVALIDTO TIMESTAMP(6),
+	GROUPMEMBERSHIPSTATUS_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SPRINGERGROUP_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	SUBSCRIPTIONREASONDEFINITION VARCHAR2(256),
+	SUBSCRIPTIONREASON VARCHAR2(256)
+)
+/
+
+create unique index GROUPMEMBERSHIP_PK
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N55
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N51
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N58
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N57
+	on GROUPMEMBERSHIP ()
+/
+
+create index USER_GROUP_UNIQUE
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N59
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N50
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N56
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N53
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N49
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N54
+	on GROUPMEMBERSHIP ()
+/
+
+create index GROUPMEMBERSHIP_N52
+	on GROUPMEMBERSHIP ()
+/
+
+create table GROUPMEMBERSHIPSHORTCUT
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	TIMEDMEMBERSHIPDEFINITION_FK NUMBER,
+	URLSTRING VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index GROUPMEMBERSHIPSHORTCUT_N53
+	on GROUPMEMBERSHIPSHORTCUT ()
+/
+
+create unique index GROUPMEMBERSHIPSHORTCUT_PK
+	on GROUPMEMBERSHIPSHORTCUT ()
+/
+
+create index GROUPMEMBERSHIPSHORTCUT_N50
+	on GROUPMEMBERSHIPSHORTCUT ()
+/
+
+create index GROUPMEMBERSHIPSHORTCUT_N49
+	on GROUPMEMBERSHIPSHORTCUT ()
+/
+
+create index GROUPMEMBERSHIPSHORTCUT_N52
+	on GROUPMEMBERSHIPSHORTCUT ()
+/
+
+create unique index GROUPMEMBERSHIPSHORTCUT_U53
+	on GROUPMEMBERSHIPSHORTCUT ()
+/
+
+create index GROUPMEMBERSHIPSHORTCUT_N51
+	on GROUPMEMBERSHIPSHORTCUT ()
+/
+
+create index GRPMEMBSHORTCUT_URLSTR_LOWER
+	on GROUPMEMBERSHIPSHORTCUT ()
+/
+
+create table GROUPMEMBERSHIPSTATUS
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index GROUPMEMBERSHIPSTATUS_PK
+	on GROUPMEMBERSHIPSTATUS ()
+/
+
+create index GROUPMEMBERSHIPSTATUS_N49
+	on GROUPMEMBERSHIPSTATUS ()
+/
+
+create table IMPGROUPDAUSE_SPRINGERUSER
+(
+	IMPORTGROUP_FK NUMBER not null,
+	SPRINGERUSER_FK NUMBER not null
+)
+/
+
+create index IMPGROUPDAUSE_SPRINGERUSER_N49
+	on IMPGROUPDAUSE_SPRINGERUSER ()
+/
+
+create index IMPGROUPDAUSE_SPRINGERUSER_N50
+	on IMPGROUPDAUSE_SPRINGERUSER ()
+/
+
+create unique index IMPGROUPDAUSE_SPRINGERUSER_PK
+	on IMPGROUPDAUSE_SPRINGERUSER ()
+/
+
+create table IMPOGROALLUSE_SPRINGERUSER
+(
+	IMPORTGROUP_FK NUMBER not null,
+	SPRINGERUSER_FK NUMBER not null
+)
+/
+
+create index IMPOGROALLUSE_SPRINGERUSER_N49
+	on IMPOGROALLUSE_SPRINGERUSER ()
+/
+
+create index IMPOGROALLUSE_SPRINGERUSER_N50
+	on IMPOGROALLUSE_SPRINGERUSER ()
+/
+
+create unique index IMPOGROALLUSE_SPRINGERUSER_PK
+	on IMPOGROALLUSE_SPRINGERUSER ()
+/
+
+create table INSTRUCTORINFORMATION
+(
+	ID NUMBER not null,
+	CLASSNAME VARCHAR2(256),
+	CLASSSIZE NUMBER(10),
+	CLASSSTARTDATE VARCHAR2(256),
+	FACULTYWEBPAGE VARCHAR2(1024),
+	INSTITUTIONNAME VARCHAR2(256),
+	SPRINGERUSER_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	INSTRUCTORCONTACT_FK NUMBER,
+	NEWLYAPPOINTED NUMBER(1) default (0)  not null,
+	TYPEOFSCHOOL VARCHAR2(256),
+	UNIVERSITYNAME VARCHAR2(256),
+	DEPARTMENT VARCHAR2(256),
+	SWBID VARCHAR2(256),
+	FREECOPIESMAXAMOUNT NUMBER(10),
+	ADDEDBONUSCOPIES NUMBER(10) default 0  not null
+)
+/
+
+create unique index INSTRUCTORINFORMATION_U50
+	on INSTRUCTORINFORMATION ()
+/
+
+create unique index INSTRUCTORINFORMATION_U49
+	on INSTRUCTORINFORMATION ()
+/
+
+create index INSTRUCTORINFORMATION_N60
+	on INSTRUCTORINFORMATION ()
+/
+
+create index INSTRUCTORINFORMATION_N50
+	on INSTRUCTORINFORMATION ()
+/
+
+create unique index INSTRUCTORINFORMATION_PK
+	on INSTRUCTORINFORMATION ()
+/
+
+create table MARKETING
+(
+	ID NUMBER not null,
+	PLACEOFWORK_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	TYPEOFWORK_FK NUMBER,
+	YEAROFBIRTH NUMBER(10),
+	JDOVERSION NUMBER default 1,
+	MARKETINGPRODUCTINTEREST_FK NUMBER,
+	AFFILIATION VARCHAR2(256),
+	VERTICALTYPE_FK NUMBER
+)
+/
+
+create index MARKETING_N50
+	on MARKETING ()
+/
+
+create unique index MARKETING_N49
+	on MARKETING ()
+/
+
+create index MARKETING_N51
+	on MARKETING ()
+/
+
+create index MARKETING_N52
+	on MARKETING ()
+/
+
+create index MARKETING_N60
+	on MARKETING ()
+/
+
+create index MARKETING_N53
+	on MARKETING ()
+/
+
+create unique index MARKETING_PK
+	on MARKETING ()
+/
+
+create table MOSTINTERESTEDINTYPE
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index MOSTINTERESTEDINTYPE_N49
+	on MOSTINTERESTEDINTYPE ()
+/
+
+create unique index MOSTINTERESTEDINTYPE_PK
+	on MOSTINTERESTEDINTYPE ()
+/
+
+create table PAYMENT
+(
+	ID NUMBER not null,
+	BANKACCOUNTNUMBER VARCHAR2(256),
+	BANKCODE VARCHAR2(256),
+	BANKNAME VARCHAR2(256),
+	CREDITCARDTYPE_FK NUMBER,
+	MONTHVALIDTO VARCHAR2(256),
+	OWNER VARCHAR2(256),
+	PAYMENTTYPE_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	VATID VARCHAR2(256),
+	YEARVALIDTO VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index PAYMENT_N49
+	on PAYMENT ()
+/
+
+create index PAYMENT_N52
+	on PAYMENT ()
+/
+
+create unique index PAYMENT_U50
+	on PAYMENT ()
+/
+
+create unique index PAYMENT_PK
+	on PAYMENT ()
+/
+
+create index PAYMENT_N51
+	on PAYMENT ()
+/
+
+create table PLACEOFWORKTYPE
+(
+	ID NUMBER not null,
+	ALERTPROFILETYPE NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index PLACEOFWORKTYPE_N50
+	on PLACEOFWORKTYPE ()
+/
+
+create unique index PLACEOFWORKTYPE_PK
+	on PLACEOFWORKTYPE ()
+/
+
+create index PLACEOFWORKTYPE_N49
+	on PLACEOFWORKTYPE ()
+/
+
+create table SALUTATIONTYPE
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index SALUTATIONTYPE_N49
+	on SALUTATIONTYPE ()
+/
+
+create unique index SALUTATIONTYPE_PK
+	on SALUTATIONTYPE ()
+/
+
+create table SPRIGROGROTYP_SPRIGROUTYPE
+(
+	SPRINGERGROUPTYPE_FK NUMBER not null,
+	SPRINGERGROUP_FK NUMBER not null
+)
+/
+
+create index SPRIGROGROTYP_SPRIGROUTYPE_N50
+	on SPRIGROGROTYP_SPRIGROUTYPE ()
+/
+
+create index SPRIGROGROTYP_SPRIGROUTYPE_N49
+	on SPRIGROGROTYP_SPRIGROUTYPE ()
+/
+
+create unique index SPRIGROGROTYP_SPRIGROUTYPE_PK
+	on SPRIGROGROTYP_SPRIGROUTYPE ()
+/
+
+create table SPRINGERADDRESS
+(
+	ID NUMBER not null,
+	CITY VARCHAR2(256),
+	COUNTRY_FK NUMBER,
+	DEPARTMENT VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	MIDDLENAME VARCHAR2(256),
+	ORGANIZATION VARCHAR2(256),
+	PHONENUMBER VARCHAR2(256),
+	POSTOFFICEBOX VARCHAR2(256),
+	SALUTATIONTYPE_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	STATE_FK NUMBER,
+	STREET VARCHAR2(256),
+	STREETNUMBER VARCHAR2(256),
+	TITLE VARCHAR2(256),
+	ZIPCODE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	ADDRESSTYPE VARCHAR2(256),
+	PRIMARYSAPACADEMICTITLE_FK NUMBER,
+	SECONDARYSAPACADEMICTITLE_FK NUMBER,
+	BUSINESSPARTNERID VARCHAR2(256),
+	VATID VARCHAR2(256),
+	ISSTREETACTIVE NUMBER(1),
+	CREATION TIMESTAMP(6),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTSAPSYNCSUCCESS TIMESTAMP(6),
+	LASTSAPSYNCTRY TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	CREATOR_FK NUMBER,
+	ENDUSERBUSINESSPARTNERID VARCHAR2(256)
+)
+/
+
+create index SPRINGERADDRESS_N62
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N61
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N64
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N63
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N60
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N59
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_TYPE
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N50
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N51
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N49
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N53
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N54
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N52
+	on SPRINGERADDRESS ()
+/
+
+create unique index SPRINGERADDRESS_PK
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N56
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N55
+	on SPRINGERADDRESS ()
+/
+
+create index SPRINGERADDRESS_N57
+	on SPRINGERADDRESS ()
+/
+
+create table SPRINGERGROUP
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DESCRIPTION VARCHAR2(4000),
+	INTERNALNAME VARCHAR2(4000),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	GROUPDISCRIMINATOR VARCHAR2(256),
+	SOCIETYCENTER_FK NUMBER,
+	SOCIETYCHANNEL_FK NUMBER,
+	DISCOUNTTYPESTRING VARCHAR2(256),
+	DISCOUNTSELECTIONCRITERIA_FK NUMBER,
+	DISPLAYOFGROUPMEMBERSHIPSUPP5T NUMBER(1) default 0  not null
+)
+/
+
+create index SPRINGERGROUP_N55
+	on SPRINGERGROUP ()
+/
+
+create index SPRINGERGROUP_N49
+	on SPRINGERGROUP ()
+/
+
+create index SPRINGERGROUP_N51
+	on SPRINGERGROUP ()
+/
+
+create unique index SPRINGERGROUP_U49
+	on SPRINGERGROUP ()
+/
+
+create index SPRINGERGROUP_N53
+	on SPRINGERGROUP ()
+/
+
+create index SPRINGERGROUP_N50
+	on SPRINGERGROUP ()
+/
+
+create index SPRINGERGROUP_N52
+	on SPRINGERGROUP ()
+/
+
+create unique index SPRINGERGROUP_U51
+	on SPRINGERGROUP ()
+/
+
+create index SG_GROUPDISCRIMINATOR
+	on SPRINGERGROUP ()
+/
+
+create index SPRINGERGROUP_N54
+	on SPRINGERGROUP ()
+/
+
+create index GROUP_GROUP_IDX
+	on SPRINGERGROUP ()
+/
+
+create index GROUP_GROUP2_IDX
+	on SPRINGERGROUP ()
+/
+
+create index GROUP_GROUP3_IDX
+	on SPRINGERGROUP ()
+/
+
+create unique index SPRINGERGROUP_PK
+	on SPRINGERGROUP ()
+/
+
+create table SPRINGERGROUPTYPE
+(
+	ID NUMBER not null,
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index GROUP_MEM_IDX
+	on SPRINGERGROUPTYPE ()
+/
+
+create unique index SPRINGERGROUPTYPE_PK
+	on SPRINGERGROUPTYPE ()
+/
+
+create table TIMEDMEMBERSHIPDEFINITION
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAME VARCHAR2(256),
+	SPRINGERGROUP_FK NUMBER,
+	VALIDFROM TIMESTAMP(6),
+	VALIDTO TIMESTAMP(6),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index TIMEDMEMBERSHIPDEFINITION_N49
+	on TIMEDMEMBERSHIPDEFINITION ()
+/
+
+create index TIMEDMEMBERSHIPDEFINITION_N55
+	on TIMEDMEMBERSHIPDEFINITION ()
+/
+
+create index TIMEDMEMBERSHIPDEFINITION_N50
+	on TIMEDMEMBERSHIPDEFINITION ()
+/
+
+create index TIMEDMEMBERSHIPDEFINITION_N53
+	on TIMEDMEMBERSHIPDEFINITION ()
+/
+
+create index TIMEDMEMBERSHIPDEFINITION_N54
+	on TIMEDMEMBERSHIPDEFINITION ()
+/
+
+create index TIMEDMEMBERSHIPDEFINITION_N51
+	on TIMEDMEMBERSHIPDEFINITION ()
+/
+
+create index TIMEDMEMBERSHIPDEFINITION_N52
+	on TIMEDMEMBERSHIPDEFINITION ()
+/
+
+create unique index TIMEDMEMBERSHIPDEFINITION_U49
+	on TIMEDMEMBERSHIPDEFINITION ()
+/
+
+create unique index TIMEDMEMBERSHIPDEFINITION_PK
+	on TIMEDMEMBERSHIPDEFINITION ()
+/
+
+create table TOKEN
+(
+	ID NUMBER not null,
+	CODE VARCHAR2(256),
+	NUMBEROFUSES NUMBER,
+	TOKENGROUP_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index TOKEN_U50
+	on TOKEN ()
+/
+
+create index TOKEN_N49
+	on TOKEN ()
+/
+
+create unique index TOKEN_PK
+	on TOKEN ()
+/
+
+create unique index TOKENLOWER
+	on TOKEN ()
+/
+
+create table TOKENGROUP
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAME VARCHAR2(256),
+	TIMEDMEMBERSHIPDEFINITION_FK NUMBER,
+	TOKENSMAXUSES NUMBER,
+	VALIDFROM TIMESTAMP(6),
+	VALIDTO TIMESTAMP(6),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index TOKENGROUP_PK
+	on TOKENGROUP ()
+/
+
+create index TOKENGROUP_N55
+	on TOKENGROUP ()
+/
+
+create unique index TOKENGROUP_U52
+	on TOKENGROUP ()
+/
+
+create index TOKENGROUP_N49
+	on TOKENGROUP ()
+/
+
+create index TOKENGROUP_N53
+	on TOKENGROUP ()
+/
+
+create index TOKENGROUP_N50
+	on TOKENGROUP ()
+/
+
+create index TOKENGROUP_N54
+	on TOKENGROUP ()
+/
+
+create index TOKENGROUP_N51
+	on TOKENGROUP ()
+/
+
+create index TOKENGROUP_N52
+	on TOKENGROUP ()
+/
+
+create table TOKENUSAGEHISTORY
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	TOKEN_FK NUMBER,
+	TOKENGROUP_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index TOKENUSAGEHISTORY_PK
+	on TOKENUSAGEHISTORY ()
+/
+
+create index TOKENUSAGEHISTORY_N54
+	on TOKENUSAGEHISTORY ()
+/
+
+create index TOKENUSAGEHISTORY_N51
+	on TOKENUSAGEHISTORY ()
+/
+
+create index TOKENUSAGEHISTORY_N49
+	on TOKENUSAGEHISTORY ()
+/
+
+create index TOKENUSAGEHISTORY_N50
+	on TOKENUSAGEHISTORY ()
+/
+
+create index TOKENUSAGEHISTORY_N53
+	on TOKENUSAGEHISTORY ()
+/
+
+create index TOKENUSAGEHISTORY_N52
+	on TOKENUSAGEHISTORY ()
+/
+
+create index TOKENUSAGEHISTORY_N55
+	on TOKENUSAGEHISTORY ()
+/
+
+create table TYPEOFWORKTYPE
+(
+	ID NUMBER not null,
+	ALERTPROFILETYPE NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index TYPEOFWORKTYPE_PK
+	on TYPEOFWORKTYPE ()
+/
+
+create index TYPEOFWORKTYPE_N49
+	on TYPEOFWORKTYPE ()
+/
+
+create index TYPEOFWORKTYPE_N50
+	on TYPEOFWORKTYPE ()
+/
+
+create table SALESREGIONDISCOUNTDEFINITION
+(
+	ID NUMBER not null,
+	DISCOUNTPERCENTAGE NUMBER,
+	ISGLOBALDISCOUNT NUMBER(1),
+	PRODUCTDISCOUNTGROUP VARCHAR2(256),
+	SPRINGERGROUP_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index SALESREGIONDISCOUNTDEFINSL_PK
+	on SALESREGIONDISCOUNTDEFINITION ()
+/
+
+create index SALESREGIONDISCOUNTDEFINSL_N50
+	on SALESREGIONDISCOUNTDEFINITION ()
+/
+
+create index SALESREGIONDISCOUNTDEFINSL_N49
+	on SALESREGIONDISCOUNTDEFINITION ()
+/
+
+create table GEOIPDATA
+(
+	ID NUMBER not null,
+	COUNTRYCODE VARCHAR2(256),
+	COUNTRYNAME VARCHAR2(256),
+	IPFROM VARCHAR2(256),
+	IPNUMFROM NUMBER,
+	IPNUMTO NUMBER,
+	IPTO VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index GEOIPDATA_INTR3
+	on GEOIPDATA ()
+/
+
+create unique index GEOIPDATA_PK
+	on GEOIPDATA ()
+/
+
+create index GEOIPDATA_N51
+	on GEOIPDATA ()
+/
+
+create index GEOIPDATA_N52
+	on GEOIPDATA ()
+/
+
+create index GEOIPDATA_INTR2
+	on GEOIPDATA ()
+/
+
+create table KNOORDER
+(
+	ID NUMBER not null,
+	AMOUNT NUMBER(10),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	ISBN VARCHAR2(20),
+	ISBN13 VARCHAR2(20),
+	ITEMID NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PRICEAMOUNT NUMBER,
+	PRICECURRENCY_FK NUMBER,
+	REGIONALVIEW_FK NUMBER,
+	SESSIONID VARCHAR2(256),
+	USER_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index KNOORDER_N55
+	on KNOORDER ()
+/
+
+create unique index KNOORDER_PK
+	on KNOORDER ()
+/
+
+create index KNOORDER_N52
+	on KNOORDER ()
+/
+
+create index KNOORDER_N54
+	on KNOORDER ()
+/
+
+create index KNOORDER_N49
+	on KNOORDER ()
+/
+
+create index KNOORDER_N50
+	on KNOORDER ()
+/
+
+create index KNOORDER_N51
+	on KNOORDER ()
+/
+
+create index KNOORDER_N53
+	on KNOORDER ()
+/
+
+create table ORDERADDRESS
+(
+	ID NUMBER not null,
+	ADDRESSTYPE VARCHAR2(256),
+	CITY VARCHAR2(256),
+	COUNTRY_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DEPARTMENT VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LASTNAME VARCHAR2(256),
+	MIDDLENAME VARCHAR2(256),
+	ORGANIZATION VARCHAR2(256),
+	PHONENUMBER VARCHAR2(256),
+	POSTOFFICEBOX VARCHAR2(256),
+	SALUTATION_FK NUMBER,
+	STATE_FK NUMBER,
+	STREET VARCHAR2(256),
+	STREETNUMBER VARCHAR2(256),
+	TITLE VARCHAR2(256),
+	ZIPCODE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	PRIMARYSAPACADEMICTITLE_FK NUMBER,
+	SECONDARYSAPACADEMICTITLE_FK NUMBER,
+	BUSINESSPARTNERID VARCHAR2(256)
+)
+/
+
+create index ORDERADDRESS_N58
+	on ORDERADDRESS ()
+/
+
+create index ORDERADDRESS_N49
+	on ORDERADDRESS ()
+/
+
+create index ORDERADDRESS_N50
+	on ORDERADDRESS ()
+/
+
+create index ORDERADDRESS_N55
+	on ORDERADDRESS ()
+/
+
+create index ORDERADDRESS_N56
+	on ORDERADDRESS ()
+/
+
+create index ORDERADDRESS_N57
+	on ORDERADDRESS ()
+/
+
+create index ORDERADDRESS_N54
+	on ORDERADDRESS ()
+/
+
+create index ORDERADDRESS_N52
+	on ORDERADDRESS ()
+/
+
+create index ORDERADDRESS_N53
+	on ORDERADDRESS ()
+/
+
+create index ORDERADDRESS_N51
+	on ORDERADDRESS ()
+/
+
+create unique index ORDERADDRESS_PK
+	on ORDERADDRESS ()
+/
+
+create table ORDERARTICLE
+(
+	ID NUMBER not null,
+	ARTICLECOMMENT VARCHAR2(4000),
+	ARTICLETITLE VARCHAR2(4000),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DOI VARCHAR2(512),
+	GROSSPRICEAMOUNT NUMBER,
+	JOURNALNUMBER NUMBER,
+	JOURNALTITLE VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NETPRICEAMOUNT NUMBER,
+	ORDER_FK NUMBER,
+	TAXAMOUNT NUMBER,
+	TAXRATE FLOAT,
+	JDOVERSION NUMBER default 1,
+	AUTHORNAME VARCHAR2(1000)
+)
+/
+
+create index ORDERARTICLE_N52
+	on ORDERARTICLE ()
+/
+
+create index ORDERARTICLE_N50
+	on ORDERARTICLE ()
+/
+
+create index ORDERARTICLE_N49
+	on ORDERARTICLE ()
+/
+
+create index ORDERARTICLE_N51
+	on ORDERARTICLE ()
+/
+
+create index ORDERARTICLE_N53
+	on ORDERARTICLE ()
+/
+
+create unique index ORDERARTICLE_PK
+	on ORDERARTICLE ()
+/
+
+create table ORDERITEM
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	CURRENCY_FK NUMBER,
+	DISCOUNTAMOUNT VARCHAR2(256),
+	DISCOUNTGROUP VARCHAR2(256),
+	DISCOUNTPROMOCODE VARCHAR2(256),
+	DISCOUNTTOKEN VARCHAR2(256),
+	GROSSORDERPRICEAMOUNT NUMBER,
+	ISAPPROXIMATEPRICE NUMBER(1),
+	ISZRVSHIPMENTINPRICEINCLUDED NUMBER(1),
+	ISBN VARCHAR2(256),
+	ISBN13 VARCHAR2(256),
+	JOURNALENDDATE VARCHAR2(256),
+	JOURNALSTARTDATE VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	MAINSUBJECTCODE VARCHAR2(256),
+	MINQUANTITYFORPRICE NUMBER(10),
+	NETLISTPRICEAMOUNT NUMBER,
+	NETORDERPRICEAMOUNT NUMBER,
+	NEXTQUANTITY NUMBER(10),
+	ORDER_FK NUMBER,
+	ORDERQUANTITY NUMBER(10),
+	PRICETYPE VARCHAR2(256),
+	PRODUCT_FK NUMBER,
+	PUBLANGUAGES VARCHAR2(256),
+	REDUCTIONREASON VARCHAR2(256),
+	SUBSCRIPTIONTERM FLOAT,
+	TAXRATE NUMBER,
+	ZRVSHIPMENTAMOUNT NUMBER,
+	ZRVSHIPMENTCURRENCY_FK NUMBER,
+	ZRVSHIPMENTSERVICECODE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	DISCOUNTRATE VARCHAR2(256),
+	PRODUCTDISCOUNTGROUP VARCHAR2(256),
+	PURCHASEORDERNOITEM VARCHAR2(256),
+	PDFDOWNLOADLINK VARCHAR2(512)
+)
+/
+
+create index ORDERITEM_N53
+	on ORDERITEM ()
+/
+
+create index ORDERITEM_N52
+	on ORDERITEM ()
+/
+
+create unique index ORDERITEM_PK
+	on ORDERITEM ()
+/
+
+create index ORDERITEM_N55
+	on ORDERITEM ()
+/
+
+create index ORDERITEM_N54
+	on ORDERITEM ()
+/
+
+create index ORDERITEM_N51
+	on ORDERITEM ()
+/
+
+create index ORDERITEM_N49
+	on ORDERITEM ()
+/
+
+create index ORDERITEM_N50
+	on ORDERITEM ()
+/
+
+create table ORDERPAYMENT
+(
+	ID NUMBER not null,
+	BANKACCOUNTNUMBER VARCHAR2(256),
+	BANKCODE VARCHAR2(256),
+	BANKNAME VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	CREDITCARDNUMBER VARCHAR2(256),
+	CREDITCARDTYPE_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	MONTHVALIDTO VARCHAR2(256),
+	OWNER VARCHAR2(256),
+	PAYMENTTYPE_FK NUMBER,
+	VATID VARCHAR2(256),
+	YEARVALIDTO VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	WORLDPAYTRANSACTIONID VARCHAR2(256)
+)
+/
+
+create index ORDERPAYMENT_N53
+	on ORDERPAYMENT ()
+/
+
+create index ORDERPAYMENT_N49
+	on ORDERPAYMENT ()
+/
+
+create index ORDERPAYMENT_N50
+	on ORDERPAYMENT ()
+/
+
+create index ORDERPAYMENT_N55
+	on ORDERPAYMENT ()
+/
+
+create unique index ORDERPAYMENT_PK
+	on ORDERPAYMENT ()
+/
+
+create index ORDERPAYMENT_N51
+	on ORDERPAYMENT ()
+/
+
+create index ORDERPAYMENT_N52
+	on ORDERPAYMENT ()
+/
+
+create index ORDERPAYMENT_N54
+	on ORDERPAYMENT ()
+/
+
+create table BOOKSELLERTOPICSCMAPPING
+(
+	ID NUMBER not null,
+	SUBJECTCODE VARCHAR2(256),
+	TOPIC VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index BOOKSELLERTOPICSCMAPPING_N49
+	on BOOKSELLERTOPICSCMAPPING ()
+/
+
+create index BOOKSELLERTOPICSCMAPPING_N50
+	on BOOKSELLERTOPICSCMAPPING ()
+/
+
+create unique index BOOKSELLERTOPICSCMAPPING_PK
+	on BOOKSELLERTOPICSCMAPPING ()
+/
+
+create table GOOGLESITEMAP
+(
+	ID NUMBER not null,
+	CHANGEFREQ NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LASTMOD TIMESTAMP(6),
+	LOC VARCHAR2(256),
+	PRIORITY NUMBER,
+	JDOVERSION NUMBER default 1,
+	URLTYPE_FK NUMBER,
+	JUSTUPDATED NUMBER(1) default 0  not null,
+	SITEPREFIXED NUMBER(1) default 0
+)
+/
+
+create unique index GOOGLESITEMAP_PK
+	on GOOGLESITEMAP ()
+/
+
+create index GOOGLESITEMAP_N50
+	on GOOGLESITEMAP ()
+/
+
+create index GOOGLESITEMAP_N52
+	on GOOGLESITEMAP ()
+/
+
+create index GOOGLESITEMAP_N49
+	on GOOGLESITEMAP ()
+/
+
+create index GOOGLESITEMAP_N51
+	on GOOGLESITEMAP ()
+/
+
+create index GOOGLESITEMAP_N53
+	on GOOGLESITEMAP ()
+/
+
+create index GOOGLESITEMAP_N54
+	on GOOGLESITEMAP ()
+/
+
+create table TOPICSUBJECTCODEMAPPING
+(
+	ID NUMBER not null,
+	SUBJECTCODE VARCHAR2(256),
+	TOPIC VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index TOPICSUBJECTCODEMAPPING_PK
+	on TOPICSUBJECTCODEMAPPING ()
+/
+
+create index TOPICSUBJECTCODEMAPPING_N49
+	on TOPICSUBJECTCODEMAPPING ()
+/
+
+create index TOPICSUBJECTCODEMAPPING_N50
+	on TOPICSUBJECTCODEMAPPING ()
+/
+
+create table ARTICLDATAMAILINGS_MAILING
+(
+	ARTICLEDATA_FK NUMBER not null,
+	MAILING_FK NUMBER not null
+)
+/
+
+create unique index ARTICLDATAMAILINGS_MAILING_PK
+	on ARTICLDATAMAILINGS_MAILING ()
+/
+
+create index ARTICLDATAMAILINGS_MAILING_N50
+	on ARTICLDATAMAILINGS_MAILING ()
+/
+
+create index ARTICLDATAMAILINGS_MAILING_N49
+	on ARTICLDATAMAILINGS_MAILING ()
+/
+
+create table BLACKLISTENTRY
+(
+	ID NUMBER not null,
+	EMAIL VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index BLACKLISTENTRY_PK
+	on BLACKLISTENTRY ()
+/
+
+create unique index BLACKLISTENTRY_U49
+	on BLACKLISTENTRY ()
+/
+
+create table BOUNCESTATISTICENTRY
+(
+	ID NUMBER not null,
+	"DATE" TIMESTAMP(6),
+	EMAIL VARCHAR2(256),
+	PARENT_FK NUMBER,
+	REASON VARCHAR2(4000),
+	SUBJECT VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index IDX_BOUNCEMAILSTEN_COMBIN
+	on BOUNCESTATISTICENTRY ()
+/
+
+create unique index BOUNCESTATISTICENTRY_PK
+	on BOUNCESTATISTICENTRY ()
+/
+
+create index BOUNCESTATISTICENTRY_N49
+	on BOUNCESTATISTICENTRY ()
+/
+
+create table EVEARDATAEVEMA_EVENTMAILING
+(
+	EVENTARTICLEDATA_FK NUMBER not null,
+	EVENTMAILING_FK NUMBER not null
+)
+/
+
+create unique index EVEARDATAEVEMA_EVENTMAILJU_PK
+	on EVEARDATAEVEMA_EVENTMAILING ()
+/
+
+create index EVEARDATAEVEMA_EVENTMAILJU_N50
+	on EVEARDATAEVEMA_EVENTMAILING ()
+/
+
+create index EVEARDATAEVEMA_EVENTMAILJU_N49
+	on EVEARDATAEVEMA_EVENTMAILING ()
+/
+
+create table EVENTARTICLEDATA
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index EAD_JDOTYPE
+	on EVENTARTICLEDATA ()
+/
+
+create unique index EVENTARTICLEDATA_PK
+	on EVENTARTICLEDATA ()
+/
+
+create table EVENTMAILING
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	TEMPLATE_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256),
+	REGARDNOEMAILSFLAGENABLED NUMBER(1) default NULL  not null,
+	TEMPLATENAME VARCHAR2(512)
+)
+/
+
+create index EM_JDOTYPE
+	on EVENTMAILING ()
+/
+
+create unique index EVENTMAILING_PK
+	on EVENTMAILING ()
+/
+
+create index EVENTMAILING_N49
+	on EVENTMAILING ()
+/
+
+create table EVENTTEMPLATEDATA
+(
+	ID NUMBER not null,
+	"FROM" VARCHAR2(256),
+	FROMALIAS VARCHAR2(256),
+	INTERNALNAME VARCHAR2(256),
+	REPLYTO VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index ETD_JDOTYPE
+	on EVENTTEMPLATEDATA ()
+/
+
+create unique index EVENTTEMPLATEDATA_PK
+	on EVENTTEMPLATEDATA ()
+/
+
+create unique index EVENTTEMPLATEDATA_U49
+	on EVENTTEMPLATEDATA ()
+/
+
+create table IMPORTEVENTMAILING
+(
+	ID NUMBER not null,
+	GROUPID NUMBER,
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index IEM_JDOTYPE
+	on IMPORTEVENTMAILING ()
+/
+
+create unique index IMPORTEVENTMAILING_PK
+	on IMPORTEVENTMAILING ()
+/
+
+create table MAILING
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PARENT_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index M_JDOTYPE
+	on MAILING ()
+/
+
+create index MAILING_N53
+	on MAILING ()
+/
+
+create index MAILING_ID_COMBINED_IDX
+	on MAILING ()
+/
+
+create index IDX_MAILING_COMBIN
+	on MAILING ()
+/
+
+create unique index MAILING_PK
+	on MAILING ()
+/
+
+create index MAILING_N49
+	on MAILING ()
+/
+
+create index MAILING_N52
+	on MAILING ()
+/
+
+create index MAILING_N50
+	on MAILING ()
+/
+
+create index MAILING_N51
+	on MAILING ()
+/
+
+create table MAILINGPARENT
+(
+	ID NUMBER not null,
+	INTERNALNAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index MP_JDOTYPE
+	on MAILINGPARENT ()
+/
+
+create index MAILINGPARENT_U49
+	on MAILINGPARENT ()
+/
+
+create unique index MAILINGPARENT_PK
+	on MAILINGPARENT ()
+/
+
+create table NTAARTICLEDATA
+(
+	ID NUMBER not null,
+	ALARMTYPESDATA VARCHAR2(256),
+	MAINSUBJECTCODES VARCHAR2(4000),
+	SUBJECTCODEDATA VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index NTAAD_JDOTYPE
+	on NTAARTICLEDATA ()
+/
+
+create unique index NTAARTICLEDATA_PK
+	on NTAARTICLEDATA ()
+/
+
+create table NTADESCRIPTOR
+(
+	ID NUMBER not null,
+	TEMPLATE_FK NUMBER,
+	VIEWID NUMBER,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256),
+	AUTOMATICDISPATCHSEQUENCENUMO7 NUMBER(10),
+	TEMPLATENAME VARCHAR2(512)
+)
+/
+
+create index NTADESCRIPTOR_U50
+	on NTADESCRIPTOR ()
+/
+
+create index NTAD_JDOTYPE
+	on NTADESCRIPTOR ()
+/
+
+create unique index NTADESCRIPTOR_PK
+	on NTADESCRIPTOR ()
+/
+
+create index NTADESCRIPTOR_N49
+	on NTADESCRIPTOR ()
+/
+
+create table NTADSINFORMAP_SCHEDUINFORM
+(
+	NTADESCRIPTOR_FK NUMBER not null,
+	STRING_KEY VARCHAR2(256) not null,
+	SCHEDULINGINFORMATION_FK NUMBER
+)
+/
+
+create index NTADSINFORMAP_SCHEDUINFORM_N50
+	on NTADSINFORMAP_SCHEDUINFORM ()
+/
+
+create index NTADSINFORMAP_SCHEDUINFORM_N49
+	on NTADSINFORMAP_SCHEDUINFORM ()
+/
+
+create unique index NTADSINFORMAP_SCHEDUINFORM_PK
+	on NTADSINFORMAP_SCHEDUINFORM ()
+/
+
+create table NTATEMPLATEDATA
+(
+	ID NUMBER not null,
+	"FROM" VARCHAR2(256),
+	FROMALIAS VARCHAR2(256),
+	INTERNALNAME VARCHAR2(256),
+	REPLYTO VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index NTATD_JDOTYPE
+	on NTATEMPLATEDATA ()
+/
+
+create unique index NTATEMPLATEDATA_PK
+	on NTATEMPLATEDATA ()
+/
+
+create unique index NTATEMPLATEDATA_U49
+	on NTATEMPLATEDATA ()
+/
+
+create table ONLINEEXAMCOPYSTATE
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	DISCOUNT NUMBER,
+	DOWNLOADURL VARCHAR2(256),
+	LICENSEEXPIRATION TIMESTAMP(6),
+	PRODUCTID NUMBER,
+	REMINDERCOUNT NUMBER,
+	STATE VARCHAR2(256),
+	TOBASKETURL VARCHAR2(256),
+	TOKEN VARCHAR2(256),
+	TOKENEXPIRATION TIMESTAMP(6),
+	USERID NUMBER,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index OECS_JDOTYPE
+	on ONLINEEXAMCOPYSTATE ()
+/
+
+create unique index ONLINEEXAMCOPYSTATE_PK
+	on ONLINEEXAMCOPYSTATE ()
+/
+
+create index ONLINEEXAMCOPYSTATE_N49
+	on ONLINEEXAMCOPYSTATE ()
+/
+
+create table PUNYURL
+(
+	ID NUMBER not null,
+	ARTICLEID NUMBER,
+	CLICKED NUMBER(1),
+	MAILING_FK NUMBER,
+	PRODUCTID NUMBER,
+	URL VARCHAR2(512),
+	USERID NUMBER,
+	JDOVERSION NUMBER default 1,
+	USERTYPE NUMBER(10),
+	OPENED NUMBER(1)
+)
+/
+
+create index PUNYURL_N52
+	on PUNYURL ()
+/
+
+create index PUNYURL_N49
+	on PUNYURL ()
+/
+
+create index PUNYURL_N53
+	on PUNYURL ()
+/
+
+create index PUNYURL_N51
+	on PUNYURL ()
+/
+
+create index IDX_PUNY_COMBINE4
+	on PUNYURL ()
+/
+
+create index IDX_PUNY_COMBINE
+	on PUNYURL ()
+/
+
+create index PUNYURL_UNQ_4ALL
+	on PUNYURL ()
+/
+
+create index IDX_PUNY_COMBINE2
+	on PUNYURL ()
+/
+
+create index IDX_PUNY_COMBINE3
+	on PUNYURL ()
+/
+
+create index "punyurl_opened_IDX"
+	on PUNYURL ()
+/
+
+create index "punyurl_clicked_IDX"
+	on PUNYURL ()
+/
+
+create unique index PUNYURL_PK
+	on PUNYURL ()
+/
+
+create index PUNYURL_N50
+	on PUNYURL ()
+/
+
+create table SCHEDULINGINFORMATION
+(
+	ID NUMBER not null,
+	ACTIVE NUMBER(1),
+	CRONEXPRESSION VARCHAR2(256),
+	LASTRUN TIMESTAMP(6),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index SCHEDULINGINFORMATION_PK
+	on SCHEDULINGINFORMATION ()
+/
+
+create table SENDMAILSTATISTICENTRY
+(
+	ID NUMBER not null,
+	"DATE" TIMESTAMP(6),
+	EMAIL VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	PARENT_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index SENDMAILSTATISTICENTRY_N50
+	on SENDMAILSTATISTICENTRY ()
+/
+
+create index SENDMAILSTATISTICENTRY_N49
+	on SENDMAILSTATISTICENTRY ()
+/
+
+create index IDX_SENDMAILSTEN_COMBIN
+	on SENDMAILSTATISTICENTRY ()
+/
+
+create unique index SENDMAILSTATISTICENTRY_PK
+	on SENDMAILSTATISTICENTRY ()
+/
+
+create table URLMAPPING
+(
+	ID NUMBER not null,
+	URL VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index URLMAPPING_U49
+	on URLMAPPING ()
+/
+
+create unique index URLMAPPING_PK
+	on URLMAPPING ()
+/
+
+create table USERDESCRIPTOR
+(
+	ID NUMBER not null,
+	USERID NUMBER,
+	JDOVERSION NUMBER default 1,
+	IMPEVEMAI_AFFECTEDUSERS_FK NUMBER
+)
+/
+
+create index USERDESCRIPTOR_N49
+	on USERDESCRIPTOR ()
+/
+
+create unique index USERDESCRIPTOR_U50
+	on USERDESCRIPTOR ()
+/
+
+create unique index USERDESCRIPTOR_PK
+	on USERDESCRIPTOR ()
+/
+
+create table TASKMEMORY
+(
+	ID NUMBER not null,
+	FILELASTMODIFICATION TIMESTAMP(6),
+	FILENAME VARCHAR2(256),
+	RETRYCOUNT NUMBER(10),
+	TASKNAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	LASTSIMSYNCID NUMBER default 0  not null
+)
+/
+
+create unique index TASKMEMORY_PK
+	on TASKMEMORY ()
+/
+
+create unique index TASKMEMORY_U49
+	on TASKMEMORY ()
+/
+
+create table UNIQUETOKEN
+(
+	ID NUMBER not null,
+	TOKEN VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index UNIQUETOKEN_PK
+	on UNIQUETOKEN ()
+/
+
+create unique index UNIQUETOKEN_U49
+	on UNIQUETOKEN ()
+/
+
+create unique index UNIQUELOWER
+	on UNIQUETOKEN ()
+/
+
+create table BOOK_EBOOK_LNK
+(
+	ID NUMBER not null,
+	BOOKISBN VARCHAR2(256),
+	BOOKISBN13 VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	EBOOKISBN VARCHAR2(256),
+	EBOOKISBN13 VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index BOOK_EBOOK_LNK_N49
+	on BOOK_EBOOK_LNK ()
+/
+
+create unique index BOOK_EBOOK_LNK_PK
+	on BOOK_EBOOK_LNK ()
+/
+
+create unique index BOOK_EBOOK_LNK_U52
+	on BOOK_EBOOK_LNK ()
+/
+
+create index BOOK_EBOOK_LNK_N55
+	on BOOK_EBOOK_LNK ()
+/
+
+create unique index BOOK_EBOOK_LNK_U54
+	on BOOK_EBOOK_LNK ()
+/
+
+create unique index BOOK_EBOOK_LNK_U50
+	on BOOK_EBOOK_LNK ()
+/
+
+create unique index BOOK_EBOOK_LNK_U49
+	on BOOK_EBOOK_LNK ()
+/
+
+create index BOOK_EBOOK_LNK_N51
+	on BOOK_EBOOK_LNK ()
+/
+
+create index BOOK_EBOOK_LNK_N53
+	on BOOK_EBOOK_LNK ()
+/
+
+create table DOWNLOADEDEBOOKS
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	"DATE" DATE,
+	EMAIL VARCHAR2(256),
+	ISBN VARCHAR2(256),
+	ISBN13 VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PRODUCT_FK NUMBER,
+	SOURCE VARCHAR2(256),
+	USER_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index DOWNLOADEDEBOOKS_PK
+	on DOWNLOADEDEBOOKS ()
+/
+
+create index DOWNLOADEDEBOOKS_N50
+	on DOWNLOADEDEBOOKS ()
+/
+
+create index DOWNLOADEDEBOOKS_N51
+	on DOWNLOADEDEBOOKS ()
+/
+
+create index DOWNLOADEDEBOOKS_N56
+	on DOWNLOADEDEBOOKS ()
+/
+
+create index DOWNLOADEDEBOOKS_N53
+	on DOWNLOADEDEBOOKS ()
+/
+
+create index DOWNLOADEDEBOOKS_N55
+	on DOWNLOADEDEBOOKS ()
+/
+
+create index DOWNLOADEDEBOOKS_N49
+	on DOWNLOADEDEBOOKS ()
+/
+
+create index DOWNLOADEDEBOOKS_N52
+	on DOWNLOADEDEBOOKS ()
+/
+
+create index DOWNLOADEDEBOOKS_N54
+	on DOWNLOADEDEBOOKS ()
+/
+
+create table PRODUCTDISCOUNTPROMOCODE
+(
+	ID NUMBER not null,
+	CODE VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DISCOUNT VARCHAR2(256),
+	HASBEENUSED NUMBER(1),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PRODUCT_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	VALIDFROM DATE,
+	VALIDTO DATE,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index PRODUCTDISCOUNTPROMOCODE_N53
+	on PRODUCTDISCOUNTPROMOCODE ()
+/
+
+create unique index PRODUCTDISCOUNTPROMOCODE_U51
+	on PRODUCTDISCOUNTPROMOCODE ()
+/
+
+create index PRODUCTDISCOUNTPROMOCODE_N51
+	on PRODUCTDISCOUNTPROMOCODE ()
+/
+
+create unique index PRODUCTDISCOUNTPROMOCODE_PK
+	on PRODUCTDISCOUNTPROMOCODE ()
+/
+
+create index PRODUCTDISCOUNTPROMOCODE_N50
+	on PRODUCTDISCOUNTPROMOCODE ()
+/
+
+create index PRODUCTDISCOUNTPROMOCODE_N49
+	on PRODUCTDISCOUNTPROMOCODE ()
+/
+
+create index PRODUCTDISCOUNTPROMOCODE_N52
+	on PRODUCTDISCOUNTPROMOCODE ()
+/
+
+create index PRODUCTDISCOUNTPROMOCODE_N54
+	on PRODUCTDISCOUNTPROMOCODE ()
+/
+
+create table TOCALERT
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	EMAIL VARCHAR2(256),
+	ISSN VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SHAREDATA NUMBER(1),
+	JDOVERSION NUMBER default 1,
+	ISMIGRATED NUMBER(1)
+)
+/
+
+create index TOCALERT_N55
+	on TOCALERT ()
+/
+
+create unique index TOCALERT_PK
+	on TOCALERT ()
+/
+
+create index TOCALERT_N53
+	on TOCALERT ()
+/
+
+create index TOCALERT_N49
+	on TOCALERT ()
+/
+
+create index TOCALERT_N50
+	on TOCALERT ()
+/
+
+create index TOCALERT_N52
+	on TOCALERT ()
+/
+
+create index TOCALERT_N51
+	on TOCALERT ()
+/
+
+create index TOCALERT_N54
+	on TOCALERT ()
+/
+
+create table JMS_REFERENCE_LOG
+(
+	MESSAGEID NUMBER not null,
+	DESTINATION VARCHAR2(255) not null,
+	TXID NUMBER,
+	TXOP CHAR,
+	REDELIVERED CHAR,
+	REDELIVERS NUMBER
+)
+/
+
+create index JMS_REF_TXID
+	on JMS_REFERENCE_LOG ()
+/
+
+create index JMS_REF_TXOP
+	on JMS_REFERENCE_LOG ()
+/
+
+create index IDX$$_7F230001
+	on JMS_REFERENCE_LOG ()
+/
+
+create unique index SYS_C0014985
+	on JMS_REFERENCE_LOG ()
+/
+
+create table JMS_TRANSACTION_LOG
+(
+	TXID NUMBER
+)
+/
+
+create table DIRECTMARKETING
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	EXCLUDEDOPERATOR VARCHAR2(256),
+	INCLUDEDOPERATOR VARCHAR2(256),
+	SCHEDULINGINFORMATION_FK NUMBER,
+	TEMPLATE_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256),
+	TEMPLATENAME VARCHAR2(512)
+)
+/
+
+create unique index DIRECTMARKETING_PK
+	on DIRECTMARKETING ()
+/
+
+create index DIRECTMARKETING_N50
+	on DIRECTMARKETING ()
+/
+
+create index DIRECTMARKETING_N49
+	on DIRECTMARKETING ()
+/
+
+create table DIRMAREXCGROU_MARKUSERGROU
+(
+	DIRECTMARKETING_FK NUMBER not null,
+	MARKETINGUSERGROUP_FK NUMBER not null
+)
+/
+
+create unique index DIRMAREXCGROU_MARKUSERGROU_PK
+	on DIRMAREXCGROU_MARKUSERGROU ()
+/
+
+create index DIRMAREXCGROU_MARKUSERGROU_N49
+	on DIRMAREXCGROU_MARKUSERGROU ()
+/
+
+create index DIRMAREXCGROU_MARKUSERGROU_N50
+	on DIRMAREXCGROU_MARKUSERGROU ()
+/
+
+create table DIRMARINCGROU_MARKUSERGROU
+(
+	DIRECTMARKETING_FK NUMBER not null,
+	MARKETINGUSERGROUP_FK NUMBER not null
+)
+/
+
+create unique index DIRMARINCGROU_MARKUSERGROU_PK
+	on DIRMARINCGROU_MARKUSERGROU ()
+/
+
+create index DIRMARINCGROU_MARKUSERGROU_N49
+	on DIRMARINCGROU_MARKUSERGROU ()
+/
+
+create index DIRMARINCGROU_MARKUSERGROU_N50
+	on DIRMARINCGROU_MARKUSERGROU ()
+/
+
+create table DMARDATADIMAR_DIRECTMARKET
+(
+	DIRECTMARKETING_FK NUMBER not null,
+	DMARTICLEDATA_FK NUMBER not null
+)
+/
+
+create unique index DMARDATADIMAR_DIRECTMARKET_PK
+	on DMARDATADIMAR_DIRECTMARKET ()
+/
+
+create index DMARDATADIMAR_DIRECTMARKET_N49
+	on DMARDATADIMAR_DIRECTMARKET ()
+/
+
+create index DMARDATADIMAR_DIRECTMARKET_N50
+	on DMARDATADIMAR_DIRECTMARKET ()
+/
+
+create table DMARTICLEDATA
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create unique index DMARTICLEDATA_PK
+	on DMARTICLEDATA ()
+/
+
+create table DMTEMPLATEDATA
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create unique index DMTEMPLATEDATA_PK
+	on DMTEMPLATEDATA ()
+/
+
+create table MARKETINGUSER
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	EMAIL VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	GROUP_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LASTNAME VARCHAR2(256),
+	SALUTATION_FK NUMBER,
+	TITLE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	EMAILCC VARCHAR2(256)
+)
+/
+
+create index MARKETINGUSER_N55
+	on MARKETINGUSER ()
+/
+
+create index MARKETINGUSER_N56
+	on MARKETINGUSER ()
+/
+
+create unique index MARKETINGUSER_PK
+	on MARKETINGUSER ()
+/
+
+create index MARKETINGUSER_N51
+	on MARKETINGUSER ()
+/
+
+create index MARKETINGUSER_N53
+	on MARKETINGUSER ()
+/
+
+create index MARKETINGUSER_N50
+	on MARKETINGUSER ()
+/
+
+create index MARKETINGUSER_N52
+	on MARKETINGUSER ()
+/
+
+create index MARKETINGUSER_N49
+	on MARKETINGUSER ()
+/
+
+create index MARKETINGUSER_N54
+	on MARKETINGUSER ()
+/
+
+create table MARKETINGUSERGROUP
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DESCRIPTION VARCHAR2(256),
+	LANGUAGE_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index MARKETINGUSERGROUP_N51
+	on MARKETINGUSERGROUP ()
+/
+
+create unique index MARKETINGUSERGROUP_PK
+	on MARKETINGUSERGROUP ()
+/
+
+create index MARKETINGUSERGROUP_N52
+	on MARKETINGUSERGROUP ()
+/
+
+create index MARKETINGUSERGROUP_N49
+	on MARKETINGUSERGROUP ()
+/
+
+create index MARKETINGUSERGROUP_N50
+	on MARKETINGUSERGROUP ()
+/
+
+create index MARKETINGUSERGROUP_N53
+	on MARKETINGUSERGROUP ()
+/
+
+create unique index MARKETINGUSERGROUP_U51
+	on MARKETINGUSERGROUP ()
+/
+
+create table MARUSEATTRIMAP_STRINGVALUE
+(
+	MARKETINGUSER_FK NUMBER not null,
+	STRING_KEY VARCHAR2(256) not null,
+	STRINGVALUE_FK NUMBER
+)
+/
+
+create unique index MARUSEATTRIMAP_STRINGVALUE_PK
+	on MARUSEATTRIMAP_STRINGVALUE ()
+/
+
+create index MARUSEATTRIMAP_STRINGVALUE_N50
+	on MARUSEATTRIMAP_STRINGVALUE ()
+/
+
+create index MARUSEATTRIMAP_STRINGVALUE_N49
+	on MARUSEATTRIMAP_STRINGVALUE ()
+/
+
+create table STRINGVALUE
+(
+	ID NUMBER not null,
+	VALUE VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index STRINGVALUE_PK
+	on STRINGVALUE ()
+/
+
+create index STRINGVALUE_VALUE
+	on STRINGVALUE ()
+/
+
+create table NTAARDATAVIEW_REGIONALVIEW
+(
+	NTAARTICLEDATA_FK NUMBER not null,
+	REGIONALVIEW_FK NUMBER not null
+)
+/
+
+create unique index NTAARDATAVIEW_REGIONALVIEW_PK
+	on NTAARDATAVIEW_REGIONALVIEW ()
+/
+
+create index NTAARDATAVIEW_REGIONALVIEW_N50
+	on NTAARDATAVIEW_REGIONALVIEW ()
+/
+
+create index NTAARDATAVIEW_REGIONALVIEW_N49
+	on NTAARDATAVIEW_REGIONALVIEW ()
+/
+
+create table EVEARTDATAVIE_REGIONALVIEW
+(
+	EVENTARTICLEDATA_FK NUMBER not null,
+	REGIONALVIEW_FK NUMBER not null
+)
+/
+
+create unique index EVEARTDATAVIE_REGIONALVIEW_PK
+	on EVEARTDATAVIE_REGIONALVIEW ()
+/
+
+create index EVEARTDATAVIE_REGIONALVIEW_N49
+	on EVEARTDATAVIE_REGIONALVIEW ()
+/
+
+create index EVEARTDATAVIE_REGIONALVIEW_N50
+	on EVEARTDATAVIE_REGIONALVIEW ()
+/
+
+create table NTAMAILING
+(
+	ID NUMBER not null,
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256),
+	DURATION FLOAT,
+	PRODUCTAVERAGE FLOAT,
+	TOTALEMAILS NUMBER(10),
+	UNSUBSCRIBERS NUMBER(10),
+	FINISHED NUMBER(1),
+	"TO" TIMESTAMP(6),
+	"FROM" TIMESTAMP(6),
+	DURATIONMEANTIME FLOAT
+)
+/
+
+create unique index NTAMAILING_PK
+	on NTAMAILING ()
+/
+
+create index NTAMAILING_N49
+	on NTAMAILING ()
+/
+
+create index NTAMAILING_N50
+	on NTAMAILING ()
+/
+
+create index IDX_NTAM_COMBINE1
+	on NTAMAILING ()
+/
+
+create index NTAMAILING_ID_COMBINED_IDX
+	on NTAMAILING ()
+/
+
+create table JOURNALBLOG
+(
+	ID NUMBER not null,
+	ADMINPASSWORD VARCHAR2(1024),
+	ADMINUSERNAME VARCHAR2(1024),
+	BLOGURL VARCHAR2(1024),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	JOURNALNO NUMBER(10),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index JOURNALBLOG_PK
+	on JOURNALBLOG ()
+/
+
+create index JOURNALBLOG_N53
+	on JOURNALBLOG ()
+/
+
+create index JOURNALBLOG_N50
+	on JOURNALBLOG ()
+/
+
+create index JOURNALBLOG_N49
+	on JOURNALBLOG ()
+/
+
+create index JOURNALBLOG_N52
+	on JOURNALBLOG ()
+/
+
+create index JOURNALBLOG_N51
+	on JOURNALBLOG ()
+/
+
+create index JOURNALBLOG_N54
+	on JOURNALBLOG ()
+/
+
+create table JOURNALBLOGPOST
+(
+	ID NUMBER not null,
+	ARTICLEDOI VARCHAR2(1024),
+	ARTICLETITLE VARCHAR2(4000),
+	JOURNALBLOG_FK NUMBER,
+	POSTID NUMBER,
+	PUBLISHINGDATE TIMESTAMP(6),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create index ARTICLEDOI_IDX
+	on JOURNALBLOGPOST ()
+/
+
+create unique index JOURNALBLOGPOST_PK
+	on JOURNALBLOGPOST ()
+/
+
+create index JOURNALBLOGPOST_N50
+	on JOURNALBLOGPOST ()
+/
+
+create index JOURNALBLOGPOST_N49
+	on JOURNALBLOGPOST ()
+/
+
+create table REFERRERURL
+(
+	ID NUMBER not null,
+	TIMEDMEMBERSHIPDEFINITION_FK NUMBER,
+	URLSTRING VARCHAR2(256),
+	JDOVERSION NUMBER,
+	ISVIRTUAL NUMBER(1)
+)
+/
+
+create unique index REFERRERURL_PK
+	on REFERRERURL ()
+/
+
+create index REFERRERURL_N49
+	on REFERRERURL ()
+/
+
+create index REFERRERURL_N50
+	on REFERRERURL ()
+/
+
+create index REFERRERURL_N51
+	on REFERRERURL ()
+/
+
+create table MEMBERSHIPHISTORY
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SPRINGERGROUP_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	VALIDFROM TIMESTAMP(6),
+	VALIDTO TIMESTAMP(6),
+	JDOVERSION NUMBER,
+	MEMBERSHIPTYPE VARCHAR2(256),
+	GROUPMEMBERSHIPSHORTCUTURLSTKO VARCHAR2(256),
+	TOKEN_FK NUMBER,
+	TOKENGROUP_FK NUMBER,
+	REFERRERURLSTRING VARCHAR2(256),
+	MEMBERSHIPDEFINITIONNAME VARCHAR2(256)
+)
+/
+
+create index MEMBERSHIPHISTORY_N53
+	on MEMBERSHIPHISTORY ()
+/
+
+create index IDX_MEMBERSHIPHISTORY
+	on MEMBERSHIPHISTORY ()
+/
+
+create index MEMBERSHIPHISTORY_N59
+	on MEMBERSHIPHISTORY ()
+/
+
+create unique index MEMBERSHIPHISTORY_PK
+	on MEMBERSHIPHISTORY ()
+/
+
+create index MEMBERSHIPHISTORY_N52
+	on MEMBERSHIPHISTORY ()
+/
+
+create index MEMBERSHIPHISTORY_N54
+	on MEMBERSHIPHISTORY ()
+/
+
+create index MEMBERSHIPHISTORY_N56
+	on MEMBERSHIPHISTORY ()
+/
+
+create index MEMBERSHIPHISTORY_N58
+	on MEMBERSHIPHISTORY ()
+/
+
+create index MEMBERSHIPHISTORY_N49
+	on MEMBERSHIPHISTORY ()
+/
+
+create index MEMBERSHIPHISTORY_N51
+	on MEMBERSHIPHISTORY ()
+/
+
+create index MEMBERSHIPHISTORY_N55
+	on MEMBERSHIPHISTORY ()
+/
+
+create index MEMBERSHIPHISTORY_N50
+	on MEMBERSHIPHISTORY ()
+/
+
+create index MEMBERSHIPHISTORY_N57
+	on MEMBERSHIPHISTORY ()
+/
+
+create table SYNONYM_TABLE
+(
+	WORDNET_ID NUMBER not null,
+	NUM NUMBER not null,
+	WORD VARCHAR2(256) not null
+)
+/
+
+create unique index SYS_C0015062
+	on SYNONYM_TABLE ()
+/
+
+create table REQUESTEDPRINTEXAMCOPIES
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	"DATE" DATE,
+	EMAIL VARCHAR2(256),
+	ISBN VARCHAR2(256),
+	ISBN13 VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PRODUCT_FK NUMBER,
+	SOURCE VARCHAR2(256),
+	USER_FK NUMBER,
+	JDOVERSION NUMBER
+)
+/
+
+create index REQUESTEDPRINTEXAMCOPIES_N54
+	on REQUESTEDPRINTEXAMCOPIES ()
+/
+
+create index REQUESTEDPRINTEXAMCOPIES_N52
+	on REQUESTEDPRINTEXAMCOPIES ()
+/
+
+create index REQUESTEDPRINTEXAMCOPIES_N56
+	on REQUESTEDPRINTEXAMCOPIES ()
+/
+
+create unique index REQUESTEDPRINTEXAMCOPIES_PK
+	on REQUESTEDPRINTEXAMCOPIES ()
+/
+
+create index REQUESTEDPRINTEXAMCOPIES_N50
+	on REQUESTEDPRINTEXAMCOPIES ()
+/
+
+create index REQUESTEDPRINTEXAMCOPIES_N55
+	on REQUESTEDPRINTEXAMCOPIES ()
+/
+
+create index REQUESTEDPRINTEXAMCOPIES_N49
+	on REQUESTEDPRINTEXAMCOPIES ()
+/
+
+create index REQUESTEDPRINTEXAMCOPIES_N51
+	on REQUESTEDPRINTEXAMCOPIES ()
+/
+
+create index REQUESTEDPRINTEXAMCOPIES_N53
+	on REQUESTEDPRINTEXAMCOPIES ()
+/
+
+create table APPARTICLETITLES_STRING
+(
+	APPARTICLE_FK NUMBER not null,
+	STRING_KEY VARCHAR2(256) not null,
+	STRING_VALUE VARCHAR2(4000)
+)
+/
+
+create index TOCARTICLETITLES_STRING_N49
+	on APPARTICLETITLES_STRING ()
+/
+
+create unique index TOCARTICLETITLES_STRING_PK
+	on APPARTICLETITLES_STRING ()
+/
+
+create table APPAUTHOR
+(
+	ID NUMBER not null,
+	FIRSTNAME VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	APPARTICLE_AUTHORS_FK NUMBER,
+	APPARTICLE_EDITORS_FK NUMBER,
+	CORRESPONDINGAFFILIATIONID VARCHAR2(256),
+	AFFILIATIONIDS VARCHAR2(256),
+	AFFILIATIONORGADDRESSPOSTCODE VARCHAR2(256),
+	AFFILIATIONORGADDRESSCITY VARCHAR2(256),
+	AFFILIATIONORGADDRESS VARCHAR2(256),
+	AFFILIATIONORGADDRESSSTREET VARCHAR2(256),
+	AFFILIATIONORGADDRESSCOUNTRY VARCHAR2(256),
+	AFFILIATIONORGDIVISION VARCHAR2(256),
+	EMAIL VARCHAR2(256),
+	AFFILIATIONORGNAME VARCHAR2(256)
+)
+/
+
+create index TOCAUTHOR_N50
+	on APPAUTHOR ()
+/
+
+create index TOCAUTHOR_N49
+	on APPAUTHOR ()
+/
+
+create unique index TOCAUTHOR_PK
+	on APPAUTHOR ()
+/
+
+create index APPAUTHOR_EMAIL_LOWER
+	on APPAUTHOR ()
+/
+
+create table APPISSUE
+(
+	ID NUMBER not null,
+	CONTAININGVOLUME_FK NUMBER,
+	COPYRIGHTYEAR NUMBER(10) not null,
+	ISSUEIDSTART NUMBER not null,
+	JOURNALWASKNOWNININDEX NUMBER(1),
+	ONLINEDATEDAY NUMBER(10) not null,
+	ONLINEDATEMONTH NUMBER(10) not null,
+	ONLINEDATEYEAR NUMBER(10) not null,
+	PROCESSEDFORALERTING NUMBER(1),
+	VOLUMEWASKNOWNININDEX NUMBER(1),
+	WASKNOWNININDEX NUMBER(1),
+	ZIPFILENAMEOFFIRSTIMPORT VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	LASTMODIFICATION TIMESTAMP(6),
+	CREATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	CREATOR_FK NUMBER,
+	"COMMENT" VARCHAR2(4000),
+	FORCEINCLUSION NUMBER(1),
+	ARTICLECITATION VARCHAR2(256),
+	ALERTINGNOTIFICATIONCREATION TIMESTAMP(6),
+	ALERTSENDDATECALCULATED TIMESTAMP(6),
+	CLOSINGDATE TIMESTAMP(6),
+	INCREMENTALISSUE NUMBER(1),
+	PREVIOUSALERTDATE TIMESTAMP(6),
+	PREVIOUSALERTBEGINNDATE TIMESTAMP(6),
+	PREVIOUSFREQUENCYDATE TIMESTAMP(6),
+	NEXTFREQUENCYDATE TIMESTAMP(6),
+	PERIODICINPROGRESS NUMBER(1) default 0  not null,
+	PROCESSEDBYVENDOR VARCHAR2(256)
+)
+/
+
+create index APPISSUE_N54
+	on APPISSUE ()
+/
+
+create index APPISSUE_N51
+	on APPISSUE ()
+/
+
+create index APPISSUE_N52
+	on APPISSUE ()
+/
+
+create index APPISSUE_N53
+	on APPISSUE ()
+/
+
+create index APPISSUE_COMBINE_IDX
+	on APPISSUE ()
+/
+
+create index TOCISSUE_N50
+	on APPISSUE ()
+/
+
+create index TOCISSUE_N51
+	on APPISSUE ()
+/
+
+create index TOCISSUE_N49
+	on APPISSUE ()
+/
+
+create index TOCISSUE_N54
+	on APPISSUE ()
+/
+
+create index TOCISSUE_N52
+	on APPISSUE ()
+/
+
+create index TOCISSUE_N53
+	on APPISSUE ()
+/
+
+create index APPISSUE_N49
+	on APPISSUE ()
+/
+
+create index APPISSUE_N50
+	on APPISSUE ()
+/
+
+create unique index TOCISSUE_PK
+	on APPISSUE ()
+/
+
+create table APPJOURNAL
+(
+	ID NUMBER not null,
+	ABBREVIATEDTITLE VARCHAR2(256),
+	ELECTRONICISSN VARCHAR2(256),
+	JOURNALNO NUMBER,
+	PRINTISSN VARCHAR2(256),
+	SUBTITLE VARCHAR2(256),
+	TITLE VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create index APPJOURNAL_COMBINE_IDX
+	on APPJOURNAL ()
+/
+
+create unique index TOCJOURNAL_U49
+	on APPJOURNAL ()
+/
+
+create unique index TOCJOURNAL_PK
+	on APPJOURNAL ()
+/
+
+create table APPJOUVOLUMBYNUM_APPVOLUME
+(
+	APPJOURNAL_FK NUMBER not null,
+	LONG_KEY NUMBER not null,
+	APPVOLUME_FK NUMBER
+)
+/
+
+create index TOCJOUVOLUMBYNUM_TOCVOLUME_N49
+	on APPJOUVOLUMBYNUM_APPVOLUME ()
+/
+
+create index TOCJOUVOLUMBYNUM_TOCVOLUME_N50
+	on APPJOUVOLUMBYNUM_APPVOLUME ()
+/
+
+create unique index TOCJOUVOLUMBYNUM_TOCVOLUME_PK
+	on APPJOUVOLUMBYNUM_APPVOLUME ()
+/
+
+create table APPVOLISSUESBYNUM_APPISSUE
+(
+	APPVOLUME_FK NUMBER not null,
+	LONG_KEY NUMBER not null,
+	APPISSUE_FK NUMBER
+)
+/
+
+create unique index TOCVOLISSUESBYNUM_TOCISSUE_PK
+	on APPVOLISSUESBYNUM_APPISSUE ()
+/
+
+create index TOCVOLISSUESBYNUM_TOCISSUE_N50
+	on APPVOLISSUESBYNUM_APPISSUE ()
+/
+
+create index TOCVOLISSUESBYNUM_TOCISSUE_N49
+	on APPVOLISSUESBYNUM_APPISSUE ()
+/
+
+create table APPVOLUME
+(
+	ID NUMBER not null,
+	CONTAININGJOURNAL_FK NUMBER,
+	VOLUMEIDSTART NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index TOCVOLUME_PK
+	on APPVOLUME ()
+/
+
+create index TOCVOLUME_N49
+	on APPVOLUME ()
+/
+
+create table ALERTINGINTERESTAREASTYPEORDER
+(
+	ID NUMBER not null,
+	"ORDER" NUMBER(10) not null,
+	JDOVERSION NUMBER not null,
+	ENABLED NUMBER(1)
+)
+/
+
+create unique index ALERTINGINTERESTAREASTYPN5_PK
+	on ALERTINGINTERESTAREASTYPEORDER ()
+/
+
+create table ALINARTYPEORD_ALINARTYPEOR
+(
+	ALERTINGINTERESTAREASTYPRR NUMBER not null,
+	REGIONALVIEW_FK NUMBER not null,
+	ALERTINGINTERESTAREASTYPZF NUMBER
+)
+/
+
+create unique index ALINARTYPEORD_ALINARTYPEOR_PK
+	on ALINARTYPEORD_ALINARTYPEOR ()
+/
+
+create index ALINARTYPEORD_ALINARTYPEOR_N49
+	on ALINARTYPEORD_ALINARTYPEOR ()
+/
+
+create index ALINARTYPEORD_ALINARTYPEOR_N50
+	on ALINARTYPEORD_ALINARTYPEOR ()
+/
+
+create index ALINARTYPEORD_ALINARTYPEOR_N51
+	on ALINARTYPEORD_ALINARTYPEOR ()
+/
+
+create table TOCTEMPLATEDATA
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null
+)
+/
+
+create unique index TOCTEMPLATEDATA_PK
+	on TOCTEMPLATEDATA ()
+/
+
+create table ARTICLEMAILINGINCLUSION
+(
+	ID NUMBER not null,
+	ARTICLEID NUMBER not null,
+	INCLUDED NUMBER not null,
+	MAILINGID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index ARTICLEMAILINGINCLUSION_PK
+	on ARTICLEMAILINGINCLUSION ()
+/
+
+create index ARTICLEMAILINGINCLUSION_N50
+	on ARTICLEMAILINGINCLUSION ()
+/
+
+create index ARTICLEMAILINGINCLUSION_N49
+	on ARTICLEMAILINGINCLUSION ()
+/
+
+create index ARTICLEMAILINGINCLUSION_N51
+	on ARTICLEMAILINGINCLUSION ()
+/
+
+create table JMS_USERS
+(
+	USERID VARCHAR2(32) not null,
+	PASSWD VARCHAR2(32) not null,
+	CLIENTID VARCHAR2(128)
+)
+/
+
+create unique index SYS_C0015091
+	on JMS_USERS ()
+/
+
+create table JMS_ROLES
+(
+	ROLEID VARCHAR2(32) not null,
+	USERID VARCHAR2(32) not null
+)
+/
+
+create unique index SYS_C0015092
+	on JMS_ROLES ()
+/
+
+create table JMS_SUBSCRIPTIONS
+(
+	CLIENTID VARCHAR2(128) not null,
+	SUBNAME VARCHAR2(128) not null,
+	TOPIC VARCHAR2(255) not null,
+	SELECTOR VARCHAR2(255)
+)
+/
+
+create unique index SYS_C0015093
+	on JMS_SUBSCRIPTIONS ()
+/
+
+create table JMS_TRANSACTIONS
+(
+	TXID NUMBER not null
+)
+/
+
+create unique index SYS_C0015094
+	on JMS_TRANSACTIONS ()
+/
+
+create table APPBOOK
+(
+	ID NUMBER not null,
+	"COMMENT" VARCHAR2(4000),
+	COPYRIGHTYEAR NUMBER(10),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DOI VARCHAR2(256),
+	ELECTRONICISBN VARCHAR2(256),
+	ISPROCESSEDFORALERTING NUMBER(1),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PRINTISBN VARCHAR2(256),
+	SERIES_FK NUMBER,
+	TITLE VARCHAR2(256),
+	VOLUMENUMBER VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	ISHISTORICALALERT NUMBER(1),
+	MEDIATYPE VARCHAR2(256),
+	FORCEINCLUSION NUMBER(1),
+	LANGUAGE VARCHAR2(256),
+	ALERTINGNOTIFICATIONCREATION TIMESTAMP(6),
+	PROCESSEDBYVENDOR VARCHAR2(256)
+)
+/
+
+create index TOCBOOK_N55
+	on APPBOOK ()
+/
+
+create index APPBOOK_N50
+	on APPBOOK ()
+/
+
+create index APPBOOK_N49
+	on APPBOOK ()
+/
+
+create index APPBOOK_N51
+	on APPBOOK ()
+/
+
+create index APPBOOK_N52
+	on APPBOOK ()
+/
+
+create unique index TOCBOOK_PK
+	on APPBOOK ()
+/
+
+create index TOCBOOK_N52
+	on APPBOOK ()
+/
+
+create unique index TOCBOOK_U54
+	on APPBOOK ()
+/
+
+create unique index TOCBOOK_U50
+	on APPBOOK ()
+/
+
+create index TOCBOOK_N51
+	on APPBOOK ()
+/
+
+create index TOCBOOK_N53
+	on APPBOOK ()
+/
+
+create table APPBOOKCHAPTERS_APPCHAPTER
+(
+	APPBOOK_FK NUMBER not null,
+	INTEGER_KEY NUMBER(10) not null,
+	APPCHAPTER_FK NUMBER
+)
+/
+
+create index TOCBOOKCHAPTERS_TOCCHAPTER_N50
+	on APPBOOKCHAPTERS_APPCHAPTER ()
+/
+
+create unique index APPBOOKCHAPTER_CHAPTER_IDX
+	on APPBOOKCHAPTERS_APPCHAPTER ()
+/
+
+create unique index TOCBOOKCHAPTERS_TOCCHAPTER_PK
+	on APPBOOKCHAPTERS_APPCHAPTER ()
+/
+
+create index TOCBOOKCHAPTERS_TOCCHAPTER_N49
+	on APPBOOKCHAPTERS_APPCHAPTER ()
+/
+
+create table APPBOOKSERIES
+(
+	ID NUMBER not null,
+	ORDERNO VARCHAR2(256),
+	TITLE VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index TOCBOOKSERIES_PK
+	on APPBOOKSERIES ()
+/
+
+create unique index TOCBOOKSERIES_U49
+	on APPBOOKSERIES ()
+/
+
+create table NTAMAILAFPRODUCTS_PPMMEDIA
+(
+	NTAMAILING_FK NUMBER not null,
+	PPMMEDIA_FK NUMBER not null
+)
+/
+
+create index NTAMAILAFPRODUCTS_PPMMEDIA_N49
+	on NTAMAILAFPRODUCTS_PPMMEDIA ()
+/
+
+create unique index NTAMAILAFPRODUCTS_PPMMEDIA_PK
+	on NTAMAILAFPRODUCTS_PPMMEDIA ()
+/
+
+create index NTAMAILAFPRODUCTS_PPMMEDIA_N50
+	on NTAMAILAFPRODUCTS_PPMMEDIA ()
+/
+
+create table BOOKSERIESTOCARTICLEDATA
+(
+	ID NUMBER not null,
+	"FROM" TIMESTAMP(6),
+	ORDERNUMBERSSTRING VARCHAR2(4000),
+	"TO" TIMESTAMP(6),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null
+)
+/
+
+create unique index BOOKSERIESTOCARTICLEDATA_PK
+	on BOOKSERIESTOCARTICLEDATA ()
+/
+
+create table JOURNALTOCARTICLEDATA
+(
+	ID NUMBER not null,
+	"FROM" TIMESTAMP(6),
+	JOURNALNUMBERSSTRING VARCHAR2(4000),
+	"TO" TIMESTAMP(6),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null
+)
+/
+
+create index IDX_TO_1
+	on JOURNALTOCARTICLEDATA ()
+/
+
+create unique index JOURNALTOCARTICLEDATA_PK
+	on JOURNALTOCARTICLEDATA ()
+/
+
+create table BOOKSERIESTOCTEMPLATEDATA
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null
+)
+/
+
+create unique index BOOKSERIESTOCTEMPLATEDATA_PK
+	on BOOKSERIESTOCTEMPLATEDATA ()
+/
+
+create table JOURNALTOCSUBSCRIPTIONSUPPREG9
+(
+	ID NUMBER not null,
+	JOURNALNO NUMBER(10) not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index JOURNALTOCSUBSCRIPTIONSUD8_PK
+	on JOURNALTOCSUBSCRIPTIONSUPPREG9 ()
+/
+
+create unique index JOURNALTOCSUBSCRIPTIONSUD8_U49
+	on JOURNALTOCSUBSCRIPTIONSUPPREG9 ()
+/
+
+create table ALEINTARETYP_PRALPROFIINAR
+(
+	PROFESSIOALERTINPROFILE_FK NUMBER not null,
+	ALERTIINTERESTAREASTYPE_FK NUMBER not null
+)
+/
+
+create unique index ALEINTARETYP_PRALPROFIINAR_PK
+	on ALEINTARETYP_PRALPROFIINAR ()
+/
+
+create index ALEINTARETYP_PRALPROFIINAR_N50
+	on ALEINTARETYP_PRALPROFIINAR ()
+/
+
+create index ALEINTARETYP_PRALPROFIINAR_N49
+	on ALEINTARETYP_PRALPROFIINAR ()
+/
+
+create table ALERPROFIPUBLLANG_LANGUAGE
+(
+	ALERTINGPROFILE_FK NUMBER not null,
+	LANGUAGE_FK NUMBER not null
+)
+/
+
+create unique index ALERPROFIPUBLLANG_LANGUAGE_PK
+	on ALERPROFIPUBLLANG_LANGUAGE ()
+/
+
+create index ALERPROFIPUBLLANG_LANGUAGE_N50
+	on ALERPROFIPUBLLANG_LANGUAGE ()
+/
+
+create index ALERPROFIPUBLLANG_LANGUAGE_N49
+	on ALERPROFIPUBLLANG_LANGUAGE ()
+/
+
+create table ALERTINGPROFILE
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	ISUNSUBSCRIBED NUMBER(1) default 0,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null,
+	ISMANUALLYMODIFIED NUMBER(1),
+	AREAOFWORKMODULE_FK NUMBER
+)
+/
+
+create index ALERTINGPROFILE_N53
+	on ALERTINGPROFILE ()
+/
+
+create index ALERTINGPROFILE_COMBINE
+	on ALERTINGPROFILE ()
+/
+
+create index ALERTINGPROFILE_N52
+	on ALERTINGPROFILE ()
+/
+
+create unique index ALERTINGPROFILE_PK
+	on ALERTINGPROFILE ()
+/
+
+create index ALERTINGPROFILE_N51
+	on ALERTINGPROFILE ()
+/
+
+create index ALERTINGPROFILE_N49
+	on ALERTINGPROFILE ()
+/
+
+create index ALERTINGPROFILE_N50
+	on ALERTINGPROFILE ()
+/
+
+create index ALERTINGPROFILE_ISUNSUB
+	on ALERTINGPROFILE ()
+/
+
+create table CATEGORY_ENDALEPROFISUBARE
+(
+	ENDUSERALERTINGPROFILE_FK NUMBER not null,
+	CATEGORY_FK NUMBER not null
+)
+/
+
+create unique index CATEGORY_ENDALEPROFISUBARE_PK
+	on CATEGORY_ENDALEPROFISUBARE ()
+/
+
+create index CATEGORY_ENDALEPROFISUBARE_N50
+	on CATEGORY_ENDALEPROFISUBARE ()
+/
+
+create index CATEGORY_ENDALEPROFISUBARE_N49
+	on CATEGORY_ENDALEPROFISUBARE ()
+/
+
+create table ENDALEPROFILTOCJOUSUB_DATE
+(
+	ENDUSERALERTINGPROFILE_FK NUMBER not null,
+	STRING_KEY VARCHAR2(256) not null,
+	DATE_VALUE TIMESTAMP(6)
+)
+/
+
+create index ENDPROF_COMBINE_IDX
+	on ENDALEPROFILTOCJOUSUB_DATE ()
+/
+
+create index ENDPROF_COMBINE2_IDX
+	on ENDALEPROFILTOCJOUSUB_DATE ()
+/
+
+create unique index ENDALEPROFILTOCJOUSUB_DATE_PK
+	on ENDALEPROFILTOCJOUSUB_DATE ()
+/
+
+create index ENDALEPROFILTOCJOUSUB_DATE_N49
+	on ENDALEPROFILTOCJOUSUB_DATE ()
+/
+
+create index ENDALP_STRING_KEY_IDX
+	on ENDALEPROFILTOCJOUSUB_DATE ()
+/
+
+create index ENDPROF_COMBINE3_IDX
+	on ENDALEPROFILTOCJOUSUB_DATE ()
+/
+
+create index ENDPROF_COMBINE4_IDX
+	on ENDALEPROFILTOCJOUSUB_DATE ()
+/
+
+create table ENDALEPROTOCBOOSERSUB_DATE
+(
+	ENDUSERALERTINGPROFILE_FK NUMBER not null,
+	STRING_KEY VARCHAR2(256) not null,
+	DATE_VALUE TIMESTAMP(6)
+)
+/
+
+create unique index ENDALEPROTOCBOOSERSUB_DATE_PK
+	on ENDALEPROTOCBOOSERSUB_DATE ()
+/
+
+create index ENDALEPROTOCBOOSERSUB_DATE_N49
+	on ENDALEPROTOCBOOSERSUB_DATE ()
+/
+
+create table MOSINTINTYPE_PRALPROMOININ
+(
+	PROFESSIOALERTINPROFILE_FK NUMBER not null,
+	MOSTINTERESTEDINTYPE_FK NUMBER not null
+)
+/
+
+create unique index MOSINTINTYPE_PRALPROMOININ_PK
+	on MOSINTINTYPE_PRALPROMOININ ()
+/
+
+create index MOSINTINTYPE_PRALPROMOININ_N49
+	on MOSINTINTYPE_PRALPROMOININ ()
+/
+
+create index MOSINTINTYPE_PRALPROMOININ_N50
+	on MOSINTINTYPE_PRALPROMOININ ()
+/
+
+create table ALERTINGPROFILECHANGEENTRY
+(
+	ID NUMBER not null,
+	ADDITIONALINFOJUSTINCASE VARCHAR2(256),
+	OPERATION VARCHAR2(256),
+	TIMESTAMP TIMESTAMP(6),
+	TYPE VARCHAR2(256),
+	TYPEID NUMBER,
+	USER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	SUBPROFILE VARCHAR2(256)
+)
+/
+
+create unique index ALERTINGPROFILECHANGEENTRY_PK
+	on ALERTINGPROFILECHANGEENTRY ()
+/
+
+create index ALERTINGPROFILECHANGEENTRY_N49
+	on ALERTINGPROFILECHANGEENTRY ()
+/
+
+create table AQAFFILIATION
+(
+	ID NUMBER not null,
+	ISOPENCHOICEFORFREE NUMBER(1),
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	ISACTIVE NUMBER(1),
+	BUSINESSPARTNERID VARCHAR2(256),
+	OPENCHOICEPOLICY VARCHAR2(256),
+	COUNTRY_FK NUMBER,
+	CITY VARCHAR2(256),
+	SEARCHTERMS VARCHAR2(256),
+	RINGGOLDID VARCHAR2(256),
+	UMBRELLABPID VARCHAR2(256),
+	ISAPPROVALACTIVE NUMBER(1),
+	FUNDINGNOTE VARCHAR2(256)
+)
+/
+
+create index AQAFFILIATION_N50
+	on AQAFFILIATION ()
+/
+
+create index AQAFFILIATION_N51
+	on AQAFFILIATION ()
+/
+
+create index AQAFFILIATION_N52
+	on AQAFFILIATION ()
+/
+
+create index AQAFFILIATION_N49
+	on AQAFFILIATION ()
+/
+
+create unique index AQAFFILIATION_PK
+	on AQAFFILIATION ()
+/
+
+create table APPBOOSECONSUBCODES_STRING
+(
+	APPBOOK_FK NUMBER not null,
+	INTEGER_KEY NUMBER(10) not null,
+	STRING_VALUE VARCHAR2(256)
+)
+/
+
+create unique index APPBOOSECONSUBCODES_STRING_PK
+	on APPBOOSECONSUBCODES_STRING ()
+/
+
+create index APPBOOSECONSUBCODES_STRING_N49
+	on APPBOOSECONSUBCODES_STRING ()
+/
+
+create table RSSCHANNELDATA
+(
+	ID NUMBER not null,
+	CHANNEL_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	REGIONALVIEW_FK NUMBER,
+	RSSDATACHECKSUM VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create index RSSCHANNELDATA_N55
+	on RSSCHANNELDATA ()
+/
+
+create unique index RSSCHANNELDATA_PK
+	on RSSCHANNELDATA ()
+/
+
+create index RSSCHANNELDATA_N52
+	on RSSCHANNELDATA ()
+/
+
+create index RSSCHANNELDATA_N50
+	on RSSCHANNELDATA ()
+/
+
+create index RSSCHANNELDATA_N49
+	on RSSCHANNELDATA ()
+/
+
+create index RSSCHANNELDATA_N53
+	on RSSCHANNELDATA ()
+/
+
+create index RSSCHANNELDATA_N51
+	on RSSCHANNELDATA ()
+/
+
+create index RSSCHANNELDATA_N54
+	on RSSCHANNELDATA ()
+/
+
+create index CHANNEL_VIEW_UNIQUE
+	on RSSCHANNELDATA ()
+/
+
+create table NL_SPECIAL_ENV
+(
+	ID NUMBER not null,
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_SPECIAL_ENV_PK
+	on NL_SPECIAL_ENV ()
+/
+
+create table NL_TOC
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_TOC_PK
+	on NL_TOC ()
+/
+
+create table NL_HEADLINE
+(
+	ID NUMBER not null,
+	HEADLINELEVEL VARCHAR2(256),
+	HEADLINETEXT VARCHAR2(4000),
+	SELECTEDFORTOC NUMBER(1) not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create index NL_HEADLINE_N50
+	on NL_HEADLINE ()
+/
+
+create index NL_HEADLINE_N49
+	on NL_HEADLINE ()
+/
+
+create unique index NL_HEADLINE_PK
+	on NL_HEADLINE ()
+/
+
+create table NL_LINK
+(
+	ID NUMBER not null,
+	GENERATEDLINK VARCHAR2(2048),
+	LINK VARCHAR2(2048),
+	LINKTEXT VARCHAR2(4000),
+	LINKTYPE VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create index NL_LINK_N50
+	on NL_LINK ()
+/
+
+create index NL_LINK_N49
+	on NL_LINK ()
+/
+
+create unique index NL_LINK_PK
+	on NL_LINK ()
+/
+
+create table NL_NEWSLETTER
+(
+	ID NUMBER not null,
+	COREMETRICSCATEGORY_FK NUMBER,
+	COREMETRICSVENDOR_FK NUMBER,
+	DESCRIPTION VARCHAR2(4000),
+	EXPORTEDNEWSLETTER_FK NUMBER,
+	GENERATETRACKING NUMBER(1),
+	GESACAMPAIGN_FK NUMBER,
+	HEADERIMAGEID NUMBER,
+	INTERNALNAME VARCHAR2(256),
+	LINEWIDTH NUMBER(10) not null,
+	NAMEFREETEXT VARCHAR2(4000),
+	NEWSLETTERTYPE VARCHAR2(256),
+	REGIONALVIEW_FK NUMBER,
+	STATUS VARCHAR2(256),
+	SUBJECTLINE VARCHAR2(4000),
+	TYPE VARCHAR2(256),
+	VERSIONSNUMBER NUMBER(10) not null,
+	VIEWNAME VARCHAR2(256),
+	XSLTOBJECT_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	NEWSLETTERS_INTEGER_IDX NUMBER(10),
+	LINKTEXT VARCHAR2(256),
+	LINK VARCHAR2(256),
+	CAMPAIGNGOAL_FK NUMBER,
+	VERSIONSNUMBERTYPEINTERNAL NUMBER(10),
+	VERSIONSNUMBERTYPEISI NUMBER(10),
+	VERSIONSNUMBERTYPEOTHER NUMBER(10)
+)
+/
+
+create index NL_NEWSLETTER_N59
+	on NL_NEWSLETTER ()
+/
+
+create index NL_NEWSLETTER_N51
+	on NL_NEWSLETTER ()
+/
+
+create index NL_NEWSLETTER_N55
+	on NL_NEWSLETTER ()
+/
+
+create index NL_NEWSLETTER_N57
+	on NL_NEWSLETTER ()
+/
+
+create index NL_NEWSLETTER_N54
+	on NL_NEWSLETTER ()
+/
+
+create index NL_NEWSLETTER_N52
+	on NL_NEWSLETTER ()
+/
+
+create index NL_NEWSLETTER_N50
+	on NL_NEWSLETTER ()
+/
+
+create index NL_NEWSLETTER_N56
+	on NL_NEWSLETTER ()
+/
+
+create index NL_NEWSLETTER_N58
+	on NL_NEWSLETTER ()
+/
+
+create index NL_NEWSLETTER_N53
+	on NL_NEWSLETTER ()
+/
+
+create index NL_NEWSLETTER_N49
+	on NL_NEWSLETTER ()
+/
+
+create unique index NL_NEWSLETTER_PK
+	on NL_NEWSLETTER ()
+/
+
+create table NL_TWOCOLUMN
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_TWOCOLUMN_PK
+	on NL_TWOCOLUMN ()
+/
+
+create table NL_LAYOUTOBJECT
+(
+	ID NUMBER not null,
+	CONTAININGCOLUMN_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	STYLECLASS VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	COLUMN_CONTENTS_INTEGER_IDX NUMBER(10)
+)
+/
+
+create index NL_LAYOUTOBJECT_N54
+	on NL_LAYOUTOBJECT ()
+/
+
+create unique index NL_LAYOUTOBJECT_PK
+	on NL_LAYOUTOBJECT ()
+/
+
+create index NL_LAYOUTOBJECT_N52
+	on NL_LAYOUTOBJECT ()
+/
+
+create index NL_LAYOUTOBJECT_N51
+	on NL_LAYOUTOBJECT ()
+/
+
+create index NL_LAYOUTOBJECT_N50
+	on NL_LAYOUTOBJECT ()
+/
+
+create index NL_LAYOUTOBJECT_N53
+	on NL_LAYOUTOBJECT ()
+/
+
+create index NL_LAYOUTOBJECT_N49
+	on NL_LAYOUTOBJECT ()
+/
+
+create table NL_GESACATEGORY
+(
+	ID NUMBER not null,
+	CATEGORY VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	LASTGESACAMPAIGNNUMBER NUMBER(10)
+)
+/
+
+create index NL_GESACATEGORY_N53
+	on NL_GESACATEGORY ()
+/
+
+create unique index NL_GESACATEGORY_PK
+	on NL_GESACATEGORY ()
+/
+
+create index NL_GESACATEGORY_N49
+	on NL_GESACATEGORY ()
+/
+
+create index NL_GESACATEGORY_N52
+	on NL_GESACATEGORY ()
+/
+
+create index NL_GESACATEGORY_N50
+	on NL_GESACATEGORY ()
+/
+
+create index NL_GESACATEGORY_N51
+	on NL_GESACATEGORY ()
+/
+
+create table NL_LAYOUTCONTAINER
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_LAYOUTCONTAINER_PK
+	on NL_LAYOUTCONTAINER ()
+/
+
+create table NL_PRODUCT
+(
+	ID NUMBER not null,
+	HEADLINE VARCHAR2(4000),
+	IMAGEID VARCHAR2(256),
+	INDICATOR VARCHAR2(256),
+	PRODUCTKEY VARCHAR2(256),
+	PRODUCTTYPE VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_PRODUCT_PK
+	on NL_PRODUCT ()
+/
+
+create index NL_PRODUCT_N50
+	on NL_PRODUCT ()
+/
+
+create index NL_PRODUCT_N51
+	on NL_PRODUCT ()
+/
+
+create index NL_PRODUCT_N49
+	on NL_PRODUCT ()
+/
+
+create index NL_PRODUCT_N52
+	on NL_PRODUCT ()
+/
+
+create table NL_SEPERATING
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_SEPERATING_PK
+	on NL_SEPERATING ()
+/
+
+create table NL_TEXT
+(
+	ID NUMBER not null,
+	TEXT VARCHAR2(4000),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_TEXT_PK
+	on NL_TEXT ()
+/
+
+create table NL_THREE_CONTENT
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_THREE_CONTENT_PK
+	on NL_THREE_CONTENT ()
+/
+
+create table NL_LISTCONTAINER
+(
+	ID NUMBER not null,
+	LISTTYPE VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_LISTCONTAINER_PK
+	on NL_LISTCONTAINER ()
+/
+
+create index NL_LISTCONTAINER_N49
+	on NL_LISTCONTAINER ()
+/
+
+create table NL_LAYOUTCOLUMN
+(
+	ID NUMBER not null,
+	CONTAINER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	COLUMNS_INTEGER_IDX NUMBER(10)
+)
+/
+
+create index NL_LAYOUTCOLUMN_N49
+	on NL_LAYOUTCOLUMN ()
+/
+
+create unique index NL_LAYOUTCOLUMN_PK
+	on NL_LAYOUTCOLUMN ()
+/
+
+create table NL_COREMETRICS_CATEGORY
+(
+	ID NUMBER not null,
+	CATEGORY VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create index NL_COREMETRICS_CATEGORY_N49
+	on NL_COREMETRICS_CATEGORY ()
+/
+
+create index NL_COREMETRICS_CATEGORY_N53
+	on NL_COREMETRICS_CATEGORY ()
+/
+
+create unique index NL_COREMETRICS_CATEGORY_PK
+	on NL_COREMETRICS_CATEGORY ()
+/
+
+create index NL_COREMETRICS_CATEGORY_N52
+	on NL_COREMETRICS_CATEGORY ()
+/
+
+create index NL_COREMETRICS_CATEGORY_N50
+	on NL_COREMETRICS_CATEGORY ()
+/
+
+create index NL_COREMETRICS_CATEGORY_N51
+	on NL_COREMETRICS_CATEGORY ()
+/
+
+create table NL_GESACAMPAIGN
+(
+	ID NUMBER not null,
+	CAMPAIGNNAMEABBREV VARCHAR2(256),
+	CATEGORY_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	GESANAME VARCHAR2(256),
+	GESANUMBER NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	GESA_CAMPAIGNS_INTEGER_IDX NUMBER(10)
+)
+/
+
+create index NL_GESACAMPAIGN_N52
+	on NL_GESACAMPAIGN ()
+/
+
+create index NL_GESACAMPAIGN_N56
+	on NL_GESACAMPAIGN ()
+/
+
+create unique index NL_GESACAMPAIGN_PK
+	on NL_GESACAMPAIGN ()
+/
+
+create index NL_GESACAMPAIGN_N49
+	on NL_GESACAMPAIGN ()
+/
+
+create index NL_GESACAMPAIGN_N55
+	on NL_GESACAMPAIGN ()
+/
+
+create index NL_GESACAMPAIGN_N50
+	on NL_GESACAMPAIGN ()
+/
+
+create index NL_GESACAMPAIGN_N53
+	on NL_GESACAMPAIGN ()
+/
+
+create index NL_GESACAMPAIGN_N54
+	on NL_GESACAMPAIGN ()
+/
+
+create index NL_GESACAMPAIGN_N51
+	on NL_GESACAMPAIGN ()
+/
+
+create table NL_COREMETRICS_VENDOR
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	VENDOR VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create index NL_COREMETRICS_VENDOR_N50
+	on NL_COREMETRICS_VENDOR ()
+/
+
+create index NL_COREMETRICS_VENDOR_N51
+	on NL_COREMETRICS_VENDOR ()
+/
+
+create index NL_COREMETRICS_VENDOR_N49
+	on NL_COREMETRICS_VENDOR ()
+/
+
+create index NL_COREMETRICS_VENDOR_N52
+	on NL_COREMETRICS_VENDOR ()
+/
+
+create index NL_COREMETRICS_VENDOR_N53
+	on NL_COREMETRICS_VENDOR ()
+/
+
+create unique index NL_COREMETRICS_VENDOR_PK
+	on NL_COREMETRICS_VENDOR ()
+/
+
+create table ADDITIONALPPMMEDIADATA
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index ADDITIONALPPMMEDIADATA_PK
+	on ADDITIONALPPMMEDIADATA ()
+/
+
+create table ADDITIONALPRODUCTDATA
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index ADDITIONALPRODUCTDATA_PK
+	on ADDITIONALPRODUCTDATA ()
+/
+
+create table ADDITIONALJOURNALDATA
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index ADDITIONALJOURNALDATA_PK
+	on ADDITIONALJOURNALDATA ()
+/
+
+create table ADDITIONALBOOKSERIESDATA
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index ADDITIONALBOOKSERIESDATA_PK
+	on ADDITIONALBOOKSERIESDATA ()
+/
+
+create table RESOURCESYNCHISTORY
+(
+	ID NUMBER not null,
+	CHANGEDATE TIMESTAMP(6),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index RESOURCESYNCHISTORY_PK
+	on RESOURCESYNCHISTORY ()
+/
+
+create index RESOURCESYNCHISTORY_N49
+	on RESOURCESYNCHISTORY ()
+/
+
+create table CATEGORY_TIMEMEMBDEFINCATE
+(
+	WITHSUBJECTCODES_FK NUMBER not null,
+	CATEGORY_FK NUMBER not null
+)
+/
+
+create unique index CATEGORY_TIMEMEMBDEFINCATE_PK
+	on CATEGORY_TIMEMEMBDEFINCATE ()
+/
+
+create index CATEGORY_TIMEMEMBDEFINCATE_N50
+	on CATEGORY_TIMEMEMBDEFINCATE ()
+/
+
+create index CATEGORY_TIMEMEMBDEFINCATE_N49
+	on CATEGORY_TIMEMEMBDEFINCATE ()
+/
+
+create table CATEGORY_SPRINGEGROUPCATEG
+(
+	WITHSUBJECTCODES_FK NUMBER not null,
+	CATEGORY_FK NUMBER not null
+)
+/
+
+create unique index CATEGORY_SPRINGEGROUPCATEG_PK
+	on CATEGORY_SPRINGEGROUPCATEG ()
+/
+
+create index CATEGORY_SPRINGEGROUPCATEG_N50
+	on CATEGORY_SPRINGEGROUPCATEG ()
+/
+
+create index CATEGORY_SPRINGEGROUPCATEG_N49
+	on CATEGORY_SPRINGEGROUPCATEG ()
+/
+
+create table CATEGORY_TOKENGROUPCATEGOR
+(
+	WITHSUBJECTCODES_FK NUMBER not null,
+	CATEGORY_FK NUMBER not null
+)
+/
+
+create unique index CATEGORY_TOKENGROUPCATEGOR_PK
+	on CATEGORY_TOKENGROUPCATEGOR ()
+/
+
+create index CATEGORY_TOKENGROUPCATEGOR_N50
+	on CATEGORY_TOKENGROUPCATEGOR ()
+/
+
+create index CATEGORY_TOKENGROUPCATEGOR_N49
+	on CATEGORY_TOKENGROUPCATEGOR ()
+/
+
+create table STRING_REGIONAVIEWPUBLLANG
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_REGIONAVIEWPUBLLANG_PK
+	on STRING_REGIONAVIEWPUBLLANG ()
+/
+
+create index STRING_REGIONAVIEWPUBLLANG_N49
+	on STRING_REGIONAVIEWPUBLLANG ()
+/
+
+create table STRING_REGIOVIEWTOLEDOFOAL
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_REGIOVIEWTOLEDOFOAL_PK
+	on STRING_REGIOVIEWTOLEDOFOAL ()
+/
+
+create index STRING_REGIOVIEWTOLEDOFOAL_N49
+	on STRING_REGIOVIEWTOLEDOFOAL ()
+/
+
+create table LANGUAGE_REGVIEWDEPULAFOAL
+(
+	REGIONALVIEW_FK NUMBER not null,
+	LANGUAGE_FK NUMBER not null
+)
+/
+
+create unique index LANGUAGE_REGVIEWDEPULAFOAL_PK
+	on LANGUAGE_REGVIEWDEPULAFOAL ()
+/
+
+create index LANGUAGE_REGVIEWDEPULAFOAL_N49
+	on LANGUAGE_REGVIEWDEPULAFOAL ()
+/
+
+create index LANGUAGE_REGVIEWDEPULAFOAL_N50
+	on LANGUAGE_REGVIEWDEPULAFOAL ()
+/
+
+create table STRING_REGIOVIEWLAFOCBCSE
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_REGIOVIEWLAFOCBCSE_PK
+	on STRING_REGIOVIEWLAFOCBCSE ()
+/
+
+create index STRING_REGIOVIEWLAFOCBCSE_N49
+	on STRING_REGIOVIEWLAFOCBCSE ()
+/
+
+create table STRING_REGIONAVIEWSHORNAME
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_REGIONAVIEWSHORNAME_PK
+	on STRING_REGIONAVIEWSHORNAME ()
+/
+
+create index STRING_REGIONAVIEWSHORNAME_N49
+	on STRING_REGIONAVIEWSHORNAME ()
+/
+
+create table EASYONECLICKSIGNUPTEMPLATEDATA
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null
+)
+/
+
+create unique index EASYONECLICKSIGNUPTEMPLATT3_PK
+	on EASYONECLICKSIGNUPTEMPLATEDATA ()
+/
+
+create table EBOOKPACKAGE
+(
+	ID NUMBER not null,
+	CODE VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	TEXT VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create index EBOOKPACKAGE_N49
+	on EBOOKPACKAGE ()
+/
+
+create unique index EBOOKPACKAGE_PK
+	on EBOOKPACKAGE ()
+/
+
+create index EBOOKPACKAGE_N52
+	on EBOOKPACKAGE ()
+/
+
+create index EBOOKPACKAGE_N50
+	on EBOOKPACKAGE ()
+/
+
+create unique index EBOOKPACKAGE_U49
+	on EBOOKPACKAGE ()
+/
+
+create index EBOOKPACKAGE_N51
+	on EBOOKPACKAGE ()
+/
+
+create index EBOOKPACKAGE_N53
+	on EBOOKPACKAGE ()
+/
+
+create table CUSTOMCATALOGQUEUEENTRY
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	CUSTOMCATALOGREQUEST_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	RETRYAFTER TIMESTAMP(6)
+)
+/
+
+create index CUSTOMCATALOGQUEUEENTRY_N53
+	on CUSTOMCATALOGQUEUEENTRY ()
+/
+
+create unique index CUSTOMCATALOGQUEUEENTRY_PK
+	on CUSTOMCATALOGQUEUEENTRY ()
+/
+
+create index CUSTOMCATALOGQUEUEENTRY_N51
+	on CUSTOMCATALOGQUEUEENTRY ()
+/
+
+create index CUSTOMCATALOGQUEUEENTRY_N52
+	on CUSTOMCATALOGQUEUEENTRY ()
+/
+
+create index CUSTOMCATALOGQUEUEENTRY_N49
+	on CUSTOMCATALOGQUEUEENTRY ()
+/
+
+create index CUSTOMCATALOGQUEUEENTRY_N50
+	on CUSTOMCATALOGQUEUEENTRY ()
+/
+
+create table CUSTOMCATALOGREQUEST
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PDFCATALOGMODULE_FK NUMBER,
+	PDFDELETEDBYCLEANUPTASK NUMBER(1) not null,
+	JDOVERSION NUMBER not null,
+	REGIONALVIEW_FK NUMBER,
+	ERRONEOUSBUILDCOUNT NUMBER(10) default 0  not null
+)
+/
+
+create index CUSTOMCATALOGREQUEST_N54
+	on CUSTOMCATALOGREQUEST ()
+/
+
+create index CUSTOMCATALOGREQUEST_N51
+	on CUSTOMCATALOGREQUEST ()
+/
+
+create unique index CUSTOMCATALOGREQUEST_PK
+	on CUSTOMCATALOGREQUEST ()
+/
+
+create index CUSTOMCATALOGREQUEST_N49
+	on CUSTOMCATALOGREQUEST ()
+/
+
+create index CUSTOMCATALOGREQUEST_N50
+	on CUSTOMCATALOGREQUEST ()
+/
+
+create index CUSTOMCATALOGREQUEST_N52
+	on CUSTOMCATALOGREQUEST ()
+/
+
+create index CUSTOMCATALOGREQUEST_N53
+	on CUSTOMCATALOGREQUEST ()
+/
+
+create table ARTICLEALERTWHITELISTEDJOURNAL
+(
+	ID NUMBER not null,
+	JOURNALNO NUMBER(10) not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index ARTICLEALERTWHITELISTEDJOT8_PK
+	on ARTICLEALERTWHITELISTEDJOURNAL ()
+/
+
+create unique index ARTICLEALERTWHITELISTEDJHG_U49
+	on ARTICLEALERTWHITELISTEDJOURNAL ()
+/
+
+create table SAPACADEMICTITLE
+(
+	ID NUMBER not null,
+	DEFAULTTITLE VARCHAR2(256),
+	POSITIONTYPE VARCHAR2(256),
+	SAPCODE VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index SAPACADEMICTITLE_PK
+	on SAPACADEMICTITLE ()
+/
+
+create unique index SAPACADEMICTITLE_U49
+	on SAPACADEMICTITLE ()
+/
+
+create table ONLINEREVIEWCOPYSTATE
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DATEOFFIRSTEACCESS TIMESTAMP(6),
+	EVERSIONAVAILABLE NUMBER(1),
+	EXPIRATIONALERT NUMBER(1),
+	FREEPRINTCOPYORDERDATE TIMESTAMP(6),
+	FREEPRINTCOPYORDERPRICE NUMBER,
+	FREEPRINTREVIEWCOPYDATE TIMESTAMP(6),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LASTREVIEWREJECTEDDATE TIMESTAMP(6),
+	LASTREVIEWSUBMITTEDDATE TIMESTAMP(6),
+	NOEVERSIONREMINDER NUMBER(1),
+	NUMBEROFDAYSEACCESSWASUSED NUMBER(10),
+	PRODUCT_FK NUMBER,
+	RETAILNETPRICE NUMBER,
+	REVIEWSUBMITTEDCOUNT NUMBER(10),
+	REVIEWVALIDATEDDATE TIMESTAMP(6),
+	USER_FK NUMBER,
+	JDOVERSION NUMBER,
+	EXPIRATIONALERTSENT NUMBER(1),
+	EXPIREDINFOSENT NUMBER(1),
+	STILLNOEVERSIONSENT NUMBER(1) not null,
+	BECAMEAVAILABLE_FK NUMBER,
+	REVIEWREJECTEDCOUNT NUMBER(10) default 0  not null,
+	REVIEWVALIDATEDCOUNT NUMBER(10) default 0  not null,
+	DELETEDFLAG NUMBER(1) default 0  not null,
+	EXTENDEDUNTIL TIMESTAMP(6)
+)
+/
+
+create index ONLINEREVIEWCOPYSTATE_N55
+	on ONLINEREVIEWCOPYSTATE ()
+/
+
+create index ONLINEREVIEWCOPYSTATE_N54
+	on ONLINEREVIEWCOPYSTATE ()
+/
+
+create unique index ONLINEREVIEWCOPYSTATE_PK
+	on ONLINEREVIEWCOPYSTATE ()
+/
+
+create index ONLINEREVIEWCOPYSTATE_N51
+	on ONLINEREVIEWCOPYSTATE ()
+/
+
+create index ONLINEREVIEWCOPYSTATE_N52
+	on ONLINEREVIEWCOPYSTATE ()
+/
+
+create index ONLINEREVIEWCOPYSTATE_N49
+	on ONLINEREVIEWCOPYSTATE ()
+/
+
+create index ONLINEREVIEWCOPYSTATE_N53
+	on ONLINEREVIEWCOPYSTATE ()
+/
+
+create index ONLINEREVIEWCOPYSTATE_N50
+	on ONLINEREVIEWCOPYSTATE ()
+/
+
+create table LAORAVAILPUHO_PUBLISHHOUSE
+(
+	PUBLISHINGHOUSE_FK NUMBER not null,
+	LANGUAGE_FK NUMBER not null
+)
+/
+
+create unique index LAORAVAILPUHO_PUBLISHHOUSE_PK
+	on LAORAVAILPUHO_PUBLISHHOUSE ()
+/
+
+create index LAORAVAILPUHO_PUBLISHHOUSE_N49
+	on LAORAVAILPUHO_PUBLISHHOUSE ()
+/
+
+create index LAORAVAILPUHO_PUBLISHHOUSE_N50
+	on LAORAVAILPUHO_PUBLISHHOUSE ()
+/
+
+create table REVIEWERINFORMATION
+(
+	ID NUMBER not null,
+	EMPLOYER VARCHAR2(256),
+	SPRINGERUSER_FK NUMBER,
+	JDOVERSION NUMBER
+)
+/
+
+create index REVIEWERINFORMATION_N50
+	on REVIEWERINFORMATION ()
+/
+
+create unique index REVIEWERINFORMATION_PK
+	on REVIEWERINFORMATION ()
+/
+
+create index REVIEWERINFORMATION_N49
+	on REVIEWERINFORMATION ()
+/
+
+create table STRING_REVINFJOBTYPASSTRIN
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_REVINFJOBTYPASSTRIN_PK
+	on STRING_REVINFJOBTYPASSTRIN ()
+/
+
+create index STRING_REVINFJOBTYPASSTRIN_N49
+	on STRING_REVINFJOBTYPASSTRIN ()
+/
+
+create table STRING_SPRINGEUSEHISEMAADD
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256),
+	INTEGER_IDX NUMBER(10) not null
+)
+/
+
+create unique index STRING_SPRINGEUSEHISEMAADD_PK
+	on STRING_SPRINGEUSEHISEMAADD ()
+/
+
+create index STRING_SPRINGEUSEHISEMAADD_N49
+	on STRING_SPRINGEUSEHISEMAADD ()
+/
+
+create table CUSCATALOGREQFORSTR_STRING
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index CUSCATREQFORSTRINGS_STRING_PK
+	on CUSCATALOGREQFORSTR_STRING ()
+/
+
+create index CUSCATREQFORSTRINGS_STRING_N49
+	on CUSCATALOGREQFORSTR_STRING ()
+/
+
+create table CUSTOMCATALOG_FILENAMES
+(
+	CUSTOMCATALOGREQUEST_FK NUMBER not null,
+	FORMAT VARCHAR2(256) not null,
+	FILENAME VARCHAR2(512)
+)
+/
+
+create unique index CUSTOMCATALOG_FILENAMES_PK
+	on CUSTOMCATALOG_FILENAMES ()
+/
+
+create index CUSTOMCATALOG_FILENAMES_N49
+	on CUSTOMCATALOG_FILENAMES ()
+/
+
+create table CUSTOMCATALOGSORTOPTION
+(
+	ID NUMBER not null,
+	ASCENDING NUMBER(1),
+	CUSTOMCATALOGREQUEST_FK NUMBER,
+	SORTTYPESTRING VARCHAR2(256),
+	JDOVERSION NUMBER,
+	SORT_OPTIONS_INTEGER_IDX NUMBER(10),
+	PDFCATALOGCUSTOMFIELDS_FK NUMBER,
+	DEFAULT_SORT_OPTIONS_INTYF_IDX NUMBER(10)
+)
+/
+
+create index CUSTOMCATALOGSORTOPTION_N49
+	on CUSTOMCATALOGSORTOPTION ()
+/
+
+create unique index CUSTOMCATALOGSORTOPTION_PK
+	on CUSTOMCATALOGSORTOPTION (ID)
+/
+
+create index CUSTOMCATALOGSORTOPTION_N50
+	on CUSTOMCATALOGSORTOPTION ()
+/
+
+create table SAVEDCATALOG
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAME VARCHAR2(200),
+	SPRINGERUSER_FK NUMBER,
+	JDOVERSION NUMBER,
+	SAVED_CATALOGS_INTEGER_IDX NUMBER(10)
+)
+/
+
+create index SAVEDCATALOG_N53
+	on SAVEDCATALOG ()
+/
+
+create index SAVEDCATALOG_IDX
+	on SAVEDCATALOG ()
+/
+
+create unique index SAVEDCATALOG_PK
+	on SAVEDCATALOG ()
+/
+
+create index SAVEDCATALOG_N50
+	on SAVEDCATALOG ()
+/
+
+create index SAVEDCATALOG_N49
+	on SAVEDCATALOG ()
+/
+
+create index SAVEDCATALOG_N52
+	on SAVEDCATALOG ()
+/
+
+create index SAVEDCATALOG_N51
+	on SAVEDCATALOG ()
+/
+
+create table LONG_SAVEDCATALOGBOOKIDS
+(
+	ID_OID NUMBER not null,
+	LONG_ELE NUMBER not null
+)
+/
+
+create unique index LONG_SAVEDCATALOGBOOKIDS_PK
+	on LONG_SAVEDCATALOGBOOKIDS (ID_OID, LONG_ELE)
+/
+
+create index LONG_SAVEDCATALOGBOOKIDS_N49
+	on LONG_SAVEDCATALOGBOOKIDS ()
+/
+
+create table STOREDEASYSEARCH
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LASTTIMEUSED TIMESTAMP(6),
+	SEARCHQUERY VARCHAR2(4000),
+	SPRINGERUSER_FK NUMBER,
+	TITLE VARCHAR2(256),
+	JDOVERSION NUMBER,
+	STORED_SEARCHES_INTEGER_IDX NUMBER(10)
+)
+/
+
+create index STOREDEASYSEARCH_N53
+	on STOREDEASYSEARCH ()
+/
+
+create unique index STOREDEASYSEARCH_PK
+	on STOREDEASYSEARCH ()
+/
+
+create index STOREDEASYSEARCH_N50
+	on STOREDEASYSEARCH ()
+/
+
+create index STOREDEASYSEARCH_N52
+	on STOREDEASYSEARCH ()
+/
+
+create index STOREDEASYSEARCH_N51
+	on STOREDEASYSEARCH ()
+/
+
+create index STOREDEASYSEARCH_N49
+	on STOREDEASYSEARCH ()
+/
+
+create table CUSTCATALOREQUBOOKIDS_LONG
+(
+	ID_OID NUMBER not null,
+	LONG_ELE NUMBER not null
+)
+/
+
+create unique index CUSTCATALOREQUBOOKIDS_LONG_PK
+	on CUSTCATALOREQUBOOKIDS_LONG ()
+/
+
+create index CUSTCATALOREQUBOOKIDS_LONG_N49
+	on CUSTCATALOREQUBOOKIDS_LONG ()
+/
+
+create table ANNOUNCEMENT
+(
+	ID NUMBER not null,
+	CANSHOW NUMBER(1),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DATEOFFIRSTACCESS TIMESTAMP(6),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	SUBJECTID NUMBER,
+	TYPEASSTRING VARCHAR2(256),
+	ANNOUNCEMENTS_INTEGER_IDX NUMBER(10),
+	JDOVERSION NUMBER not null,
+	SHOWCOUNT NUMBER(10)
+)
+/
+
+create unique index ANNOUNCEMENT_PK
+	on ANNOUNCEMENT (ID)
+/
+
+create index ANNOUNCEMENT_N53
+	on ANNOUNCEMENT ()
+/
+
+create index ANNOUNCEMENT_N50
+	on ANNOUNCEMENT ()
+/
+
+create index ANNOUNCEMENT_N49
+	on ANNOUNCEMENT ()
+/
+
+create index ANNOUNCEMENT_N52
+	on ANNOUNCEMENT ()
+/
+
+create index ANNOUNCEMENT_N51
+	on ANNOUNCEMENT ()
+/
+
+create index ANNOUNCEMENT_N54
+	on ANNOUNCEMENT ()
+/
+
+create index ANNOUNCEMENT_N55
+	on ANNOUNCEMENT ()
+/
+
+create table CACGROKEYOBJTYP_OBJECTTYPE
+(
+	CACHEGROUPKEY_FK NUMBER not null,
+	OBJECTTYPE_FK NUMBER not null
+)
+/
+
+create unique index CACGROKEYOBJTYP_OBJECTTYPE_PK
+	on CACGROKEYOBJTYP_OBJECTTYPE (CACHEGROUPKEY_FK, OBJECTTYPE_FK)
+/
+
+create index CACGROKEYOBJTYP_OBJECTTYPE_N50
+	on CACGROKEYOBJTYP_OBJECTTYPE ()
+/
+
+create index CACGROKEYOBJTYP_OBJECTTYPE_N49
+	on CACGROKEYOBJTYP_OBJECTTYPE ()
+/
+
+create table CACHEGROUPKEY
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index CACHEGROUPKEY_PK
+	on CACHEGROUPKEY ()
+/
+
+create table CATEGORY_CHANSUBJECODEMAPP
+(
+	CHANNEL_FK NUMBER not null,
+	CATEGORY_FK NUMBER not null
+)
+/
+
+create unique index CATEGORY_CHANSUBJECODEMAPP_PK
+	on CATEGORY_CHANSUBJECODEMAPP ()
+/
+
+create index CATEGORY_CHANSUBJECODEMAPP_N50
+	on CATEGORY_CHANSUBJECODEMAPP ()
+/
+
+create index CATEGORY_CHANSUBJECODEMAPP_N49
+	on CATEGORY_CHANSUBJECODEMAPP ()
+/
+
+create table CENTER
+(
+	ID NUMBER not null,
+	CHANNEL_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DESCRIPTION VARCHAR2(4000),
+	ISLIVE NUMBER(1),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAME VARCHAR2(256),
+	TYPE_FK NUMBER,
+	WORKFLOWSTATUS_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	CENTERMODE VARCHAR2(256),
+	LIVESINCE TIMESTAMP(6),
+	PREVIEWVERSION_FK NUMBER,
+	LIVEVERSION_FK NUMBER,
+	EXCLUDEFORINDEXING NUMBER(1),
+	ROBOTINDEXSELECTIONSTRING VARCHAR2(256),
+	METATITLE VARCHAR2(512),
+	METAKEYWORDS VARCHAR2(4000),
+	METADESCRIPTION VARCHAR2(4000),
+	ISFUNCTIONALITYCENTER NUMBER(1) default 0,
+	LASTCACHINGDATE TIMESTAMP(6),
+	COREMEDIAID NUMBER
+)
+/
+
+create index CENTER_N57
+	on CENTER ()
+/
+
+create index CENTER_N58
+	on CENTER ()
+/
+
+create index C_CENTERMODE2
+	on CENTER ()
+/
+
+create index CENTER_N56
+	on CENTER ()
+/
+
+create index CENTER_N50
+	on CENTER ()
+/
+
+create index CENTER_N51
+	on CENTER ()
+/
+
+create index CENTER_N53
+	on CENTER ()
+/
+
+create index CENTER_N55
+	on CENTER ()
+/
+
+create index CENTER_N52
+	on CENTER ()
+/
+
+create index CENTER_N49
+	on CENTER ()
+/
+
+create index C_CENTERMODE
+	on CENTER ()
+/
+
+create unique index CENTER_PK
+	on CENTER ()
+/
+
+create index CENTER_N54
+	on CENTER ()
+/
+
+create table CENTERCOMPONENT
+(
+	ID NUMBER not null,
+	AREA VARCHAR2(256),
+	CENTER_FK NUMBER,
+	"COLUMN" NUMBER,
+	"ROW" NUMBER,
+	JDOVERSION NUMBER default 1,
+	CENTERCOMPONENTTYPE VARCHAR2(256),
+	ISFUNCTIONALITYCOMPONENT NUMBER(1) default 0,
+	CENTER_FK_GESICHERT NUMBER
+)
+/
+
+create unique index CENTERCOMPONENT_PK
+	on CENTERCOMPONENT ()
+/
+
+create index CENTERCOMPONENT_N49
+	on CENTERCOMPONENT ()
+/
+
+create index CC_CENTERCOMPONENTTYPE
+	on CENTERCOMPONENT (CENTERCOMPONENTTYPE)
+/
+
+create table CENTERTYPE
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	ISFUNCTIONALITYCENTER NUMBER(1) not null,
+	LAYOUT VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null
+)
+/
+
+create unique index CENTERTYPE_PK
+	on CENTERTYPE (ID)
+/
+
+create table CENTVALIVIEWS_REGIONALVIEW
+(
+	VIEWRESTRICTED_FK NUMBER not null,
+	REGIONALVIEW_FK NUMBER not null
+)
+/
+
+create unique index CENTVALIVIEWS_REGIONALVIEW_PK
+	on CENTVALIVIEWS_REGIONALVIEW (VIEWRESTRICTED_FK, REGIONALVIEW_FK)
+/
+
+create index CENTVALIVIEWS_REGIONALVIEW_N50
+	on CENTVALIVIEWS_REGIONALVIEW ()
+/
+
+create index CENTVALIVIEWS_REGIONALVIEW_N49
+	on CENTVALIVIEWS_REGIONALVIEW ()
+/
+
+create table CHANASSOPUBLI_PUBLISHHOUSE
+(
+	CHANNEL_FK NUMBER not null,
+	PUBLISHINGHOUSE_FK NUMBER not null
+)
+/
+
+create unique index CHANASSOPUBLI_PUBLISHHOUSE_PK
+	on CHANASSOPUBLI_PUBLISHHOUSE ()
+/
+
+create index CHANASSOPUBLI_PUBLISHHOUSE_N49
+	on CHANASSOPUBLI_PUBLISHHOUSE (PUBLISHINGHOUSE_FK)
+/
+
+create index CHANASSOPUBLI_PUBLISHHOUSE_N50
+	on CHANASSOPUBLI_PUBLISHHOUSE (CHANNEL_FK)
+/
+
+create table CHANNELURL
+(
+	ID NUMBER not null,
+	CHANNEL_FK NUMBER,
+	REGIONALVIEW_FK NUMBER,
+	URLSTRING VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index CHANNELURL_PK
+	on CHANNELURL (ID)
+/
+
+create unique index CHANNELURL_U49
+	on CHANNELURL ()
+/
+
+create index CHANNELURL_N51
+	on CHANNELURL (CHANNEL_FK)
+/
+
+create index CHANNELURL_N50
+	on CHANNELURL (REGIONALVIEW_FK)
+/
+
+create index CHANNELURL_URLSTRING_LOWER
+	on CHANNELURL ()
+/
+
+create table CHANNEL_CMACHAVIEWPERMICHA
+(
+	CMACHANNELVIEWPERMISSIONOC NUMBER not null,
+	CHANNEL_FK NUMBER not null
+)
+/
+
+create unique index CHANNEL_CMACHAVIEWPERMICHA_PK
+	on CHANNEL_CMACHAVIEWPERMICHA ()
+/
+
+create index CHANNEL_CMACHAVIEWPERMICHA_N49
+	on CHANNEL_CMACHAVIEWPERMICHA (CHANNEL_FK)
+/
+
+create index CHANNEL_CMACHAVIEWPERMICHA_N50
+	on CHANNEL_CMACHAVIEWPERMICHA (CMACHANNELVIEWPERMISSIONOC)
+/
+
+create table CHANSPRINGROU_SPRINGEGROUP
+(
+	CHANNEL_FK NUMBER not null,
+	SPRINGERGROUP_FK NUMBER not null
+)
+/
+
+create unique index CHANSPRINGROU_SPRINGEGROUP_PK
+	on CHANSPRINGROU_SPRINGEGROUP (CHANNEL_FK, SPRINGERGROUP_FK)
+/
+
+create index CHANSPRINGROU_SPRINGEGROUP_N49
+	on CHANSPRINGROU_SPRINGEGROUP (CHANNEL_FK)
+/
+
+create index CHANSPRINGROU_SPRINGEGROUP_N50
+	on CHANSPRINGROU_SPRINGEGROUP (SPRINGERGROUP_FK)
+/
+
+create table CMACHANNELVIEWPERMISSION
+(
+	ID NUMBER not null,
+	REGIONALVIEWID NUMBER,
+	USERID NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index CMACHANNELVIEWPERMISSION_PK
+	on CMACHANNELVIEWPERMISSION ()
+/
+
+create index CMACHANNELVIEWPERMISSION_N49
+	on CMACHANNELVIEWPERMISSION (USERID)
+/
+
+create index CMACHANNELVIEWPERMISSION_N50
+	on CMACHANNELVIEWPERMISSION (REGIONALVIEWID)
+/
+
+create index USER_VIEW_UNIQUE
+	on CMACHANNELVIEWPERMISSION (USERID, REGIONALVIEWID)
+/
+
+create table CONITEMVALVIE_REGIONALVIEW
+(
+	VIEWRESTRICTED_FK NUMBER not null,
+	REGIONALVIEW_FK NUMBER not null
+)
+/
+
+create unique index CONITEMVALVIE_REGIONALVIEW_PK
+	on CONITEMVALVIE_REGIONALVIEW (VIEWRESTRICTED_FK, REGIONALVIEW_FK)
+/
+
+create index CONITEMVALVIE_REGIONALVIEW_N50
+	on CONITEMVALVIE_REGIONALVIEW ()
+/
+
+create index CONITEMVALVIE_REGIONALVIEW_N49
+	on CONITEMVALVIE_REGIONALVIEW ()
+/
+
+create table CONTENTITEMCOMPONENT
+(
+	ID NUMBER not null,
+	CONTENTITEM_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index CONTENTITEMCOMPONENT_PK
+	on CONTENTITEMCOMPONENT ()
+/
+
+create index CONTENTITEMCOMPONENT_N49
+	on CONTENTITEMCOMPONENT ()
+/
+
+create table CONTENTITEMEXTERNALURL
+(
+	ID NUMBER not null,
+	CONTENTITEM_FK NUMBER,
+	EXTERNALURL_FK NUMBER,
+	LINKTEXT VARCHAR2(256),
+	POSITION NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index CONTENTITEMEXTERNALURL_PK
+	on CONTENTITEMEXTERNALURL ()
+/
+
+create index CONTENTITEMEXTERNALURL_N49
+	on CONTENTITEMEXTERNALURL (CONTENTITEM_FK)
+/
+
+create index CONTENTITEMEXTERNALURL_N50
+	on CONTENTITEMEXTERNALURL (EXTERNALURL_FK)
+/
+
+create table CONTENTITEMIMAGE
+(
+	ID NUMBER not null,
+	CONTENTITEM_FK NUMBER,
+	IMAGE_FK NUMBER,
+	POSITION NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index CONTENTITEMIMAGE_PK
+	on CONTENTITEMIMAGE ()
+/
+
+create index CONTENTITEMIMAGE_N49
+	on CONTENTITEMIMAGE (IMAGE_FK)
+/
+
+create index CONTENTITEMIMAGE_N50
+	on CONTENTITEMIMAGE (CONTENTITEM_FK)
+/
+
+create table CONTENTITEMLINK
+(
+	ID NUMBER not null,
+	LINKTEXT VARCHAR2(300),
+	SOURCECONTENTITEM_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	CONTENTITEMLINKTYPE VARCHAR2(256),
+	CHANNEL_FK NUMBER,
+	CENTER_FK NUMBER,
+	DOCUMENT_FK NUMBER,
+	SOURCECONTENTITEM_INTEGEQG NUMBER(10),
+	LINKEDPRODUCT_FK NUMBER,
+	EXTERNALURL_FK NUMBER,
+	CONTENTITEM_FK NUMBER,
+	LINKDESCRIPTION VARCHAR2(300),
+	DOI VARCHAR2(256),
+	SOURCETEXTENTRY_FK NUMBER,
+	TEXTENTRY_INTEGER_IDX NUMBER(10)
+)
+/
+
+create index CONTENTITEMLINK_N56
+	on CONTENTITEMLINK ()
+/
+
+create unique index CONTENTITEMLINK_PK
+	on CONTENTITEMLINK ()
+/
+
+create index CONTENTITEMLINK_N50
+	on CONTENTITEMLINK ()
+/
+
+create index CONTENTITEMLINK_N53
+	on CONTENTITEMLINK ()
+/
+
+create index CONTENTITEMLINK_N49
+	on CONTENTITEMLINK ()
+/
+
+create index CONTENTITEMLINK_N51
+	on CONTENTITEMLINK ()
+/
+
+create index CONTENTITEMLINK_N55
+	on CONTENTITEMLINK ()
+/
+
+create index CONTENTITEMLINK_N54
+	on CONTENTITEMLINK ()
+/
+
+create index CONTENTITEMLINK_N52
+	on CONTENTITEMLINK ()
+/
+
+create index CIL_CONTENTITEMLINKTYPE
+	on CONTENTITEMLINK ()
+/
+
+create table CONTENTLIST
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DESCRIPTION VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LAYOUTTYPE_FK NUMBER,
+	LISTLANGUAGE_FK NUMBER,
+	TITLE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	CONTENTLISTTYPE VARCHAR2(256),
+	LINKSTARGETTYPE_FK NUMBER,
+	LASTCACHINGDATE TIMESTAMP(6)
+)
+/
+
+create index CONTENTLIST_N56
+	on CONTENTLIST (LASTCACHINGDATE)
+/
+
+create index CONTENTLIST_N55
+	on CONTENTLIST (CREATION)
+/
+
+create unique index CONTENTLIST_PK
+	on CONTENTLIST (ID)
+/
+
+create index CONTENTLIST_N50
+	on CONTENTLIST (LAYOUTTYPE_FK)
+/
+
+create index CONTENTLIST_N52
+	on CONTENTLIST (LASTMODIFIER_FK)
+/
+
+create index CONTENTLIST_N54
+	on CONTENTLIST (LISTLANGUAGE_FK)
+/
+
+create index CONTENTLIST_N49
+	on CONTENTLIST (CREATOR_FK)
+/
+
+create index CONTENTLIST_N51
+	on CONTENTLIST (LINKSTARGETTYPE_FK)
+/
+
+create index CONTENTLIST_N53
+	on CONTENTLIST (LASTMODIFICATION)
+/
+
+create index CL_CONTENTLISTTYPE
+	on CONTENTLIST (CONTENTLISTTYPE)
+/
+
+create table DESIGNCOLOURCHANNELASSOCIATION
+(
+	ID NUMBER not null,
+	CHANNEL_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	ICC_DESICOLOURCHANNASSO_FK NUMBER
+)
+/
+
+create unique index DESIGNCOLOURCHANNELASSOCCR_PK
+	on DESIGNCOLOURCHANNELASSOCIATION ()
+/
+
+create index DESIGNCOLOURCHANNELASSOCCR_N50
+	on DESIGNCOLOURCHANNELASSOCIATION (CHANNEL_FK)
+/
+
+create index DESIGNCOLOURCHANNELASSOCCR_N49
+	on DESIGNCOLOURCHANNELASSOCIATION (ICC_DESICOLOURCHANNASSO_FK)
+/
+
+create table DESIGNCOLOURCOMPONENT
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	DESIGNCOMPONENTCATEGORY_FK NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	DESIGNCOLOURCOMPONENTTYPE VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFIER_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	LASTCACHINGDATE TIMESTAMP(6)
+)
+/
+
+create index DESIGNCOLOURCOMPONENT_N53
+	on DESIGNCOLOURCOMPONENT (CREATION)
+/
+
+create index DESIGNCOLOURCOMPONENT_N54
+	on DESIGNCOLOURCOMPONENT (LASTCACHINGDATE)
+/
+
+create index DESIGNCOLOURCOMPONENT_N49
+	on DESIGNCOLOURCOMPONENT (LASTMODIFICATION)
+/
+
+create index DESIGNCOLOURCOMPONENT_N52
+	on DESIGNCOLOURCOMPONENT (CREATOR_FK)
+/
+
+create index DESIGNCOLOURCOMPONENT_N51
+	on DESIGNCOLOURCOMPONENT (LASTMODIFIER_FK)
+/
+
+create unique index DESIGNCOLOURCOMPONENT_PK
+	on DESIGNCOLOURCOMPONENT (ID)
+/
+
+create index DESIGNCOLOURCOMPONENT_N50
+	on DESIGNCOLOURCOMPONENT (DESIGNCOMPONENTCATEGORY_FK)
+/
+
+create unique index DESIGNCOLOURCOMPONENT_U49
+	on DESIGNCOLOURCOMPONENT (NAME)
+/
+
+create index DCC_DESIGNCOLOURCOMPONENTTYPE
+	on DESIGNCOLOURCOMPONENT (DESIGNCOLOURCOMPONENTTYPE)
+/
+
+create table DESIGNCOLOURDATA
+(
+	ID NUMBER not null,
+	COLOUR VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index DESIGNCOLOURDATA_PK
+	on DESIGNCOLOURDATA (ID)
+/
+
+create table DESIGNCOMPONENTCATEGORY
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index DESIGNCOMPONENTCATEGORY_PK
+	on DESIGNCOMPONENTCATEGORY (ID)
+/
+
+create table DESIGNIMAGECHANNELASSOCIATION
+(
+	ID NUMBER not null,
+	CHANNEL_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	IIC_DESIIMAGECHANNEASSO_FK NUMBER
+)
+/
+
+create unique index DESIGNIMAGECHANNELASSOCIJP_PK
+	on DESIGNIMAGECHANNELASSOCIATION (ID)
+/
+
+create index DESIGNIMAGECHANNELASSOCIJP_N49
+	on DESIGNIMAGECHANNELASSOCIATION (IIC_DESIIMAGECHANNEASSO_FK)
+/
+
+create index DESIGNIMAGECHANNELASSOCIJP_N50
+	on DESIGNIMAGECHANNELASSOCIATION (CHANNEL_FK)
+/
+
+create table DESIGNIMAGECOMPONENT
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	DESIGNCOMPONENTCATEGORY_FK NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	DESIGNIMAGECOMPONENTTYPE VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFIER_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	LASTCACHINGDATE TIMESTAMP(6)
+)
+/
+
+create index DESIGNIMAGECOMPONENT_N53
+	on DESIGNIMAGECOMPONENT (CREATION)
+/
+
+create index DESIGNIMAGECOMPONENT_N54
+	on DESIGNIMAGECOMPONENT (LASTCACHINGDATE)
+/
+
+create index DESIGNIMAGECOMPONENT_N49
+	on DESIGNIMAGECOMPONENT (LASTMODIFICATION)
+/
+
+create index DESIGNIMAGECOMPONENT_N52
+	on DESIGNIMAGECOMPONENT (LASTMODIFIER_FK)
+/
+
+create index DESIGNIMAGECOMPONENT_N51
+	on DESIGNIMAGECOMPONENT (CREATOR_FK)
+/
+
+create unique index DESIGNIMAGECOMPONENT_PK
+	on DESIGNIMAGECOMPONENT (ID)
+/
+
+create index DESIGNIMAGECOMPONENT_N50
+	on DESIGNIMAGECOMPONENT (DESIGNCOMPONENTCATEGORY_FK)
+/
+
+create unique index DESIGNIMAGECOMPONENT_U49
+	on DESIGNIMAGECOMPONENT (NAME)
+/
+
+create index DIC_DESIGNIMAGECOMPONENTTYPE
+	on DESIGNIMAGECOMPONENT (DESIGNIMAGECOMPONENTTYPE)
+/
+
+create table DOCUMENTFOLDER
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	NAME VARCHAR2(256),
+	PARENTDOCUMENTFOLDER_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	ISADMIN NUMBER(1)
+)
+/
+
+create unique index DOCUMENTFOLDER_PK
+	on DOCUMENTFOLDER (ID)
+/
+
+create index DOCUMENTFOLDER_N49
+	on DOCUMENTFOLDER (PARENTDOCUMENTFOLDER_FK)
+/
+
+create table DOCUPERSPRGRO_SPRINGEGROUP
+(
+	DOCUMENT_FK NUMBER not null,
+	SPRINGERGROUP_FK NUMBER not null
+)
+/
+
+create index DOCUPERSPRGRO_SPRINGEGROUP_N49
+	on DOCUPERSPRGRO_SPRINGEGROUP (DOCUMENT_FK)
+/
+
+create unique index DOCUPERSPRGRO_SPRINGEGROUP_PK
+	on DOCUPERSPRGRO_SPRINGEGROUP (DOCUMENT_FK, SPRINGERGROUP_FK)
+/
+
+create index DOCUPERSPRGRO_SPRINGEGROUP_N50
+	on DOCUPERSPRGRO_SPRINGEGROUP (SPRINGERGROUP_FK)
+/
+
+create table EBOOKPACKAGE_SAUTOMAEBLEBP
+(
+	SEMIAUTOMATICEBOOKSLIST_FK NUMBER not null,
+	EBOOKPACKAGE_FK NUMBER not null
+)
+/
+
+create unique index EBOOKPACKAGE_SAUTOMAEBLEBP_PK
+	on EBOOKPACKAGE_SAUTOMAEBLEBP (SEMIAUTOMATICEBOOKSLIST_FK, EBOOKPACKAGE_FK)
+/
+
+create index EBOOKPACKAGE_SAUTOMAEBLEBP_N49
+	on EBOOKPACKAGE_SAUTOMAEBLEBP (SEMIAUTOMATICEBOOKSLIST_FK)
+/
+
+create index EBOOKPACKAGE_SAUTOMAEBLEBP_N50
+	on EBOOKPACKAGE_SAUTOMAEBLEBP (EBOOKPACKAGE_FK)
+/
+
+create table EMBEDDEDOBJECTDESCRIPTOR
+(
+	ID NUMBER not null,
+	ALTERNATIVECONTENT VARCHAR2(256),
+	FLASHVARS VARCHAR2(256),
+	HEIGHT NUMBER(10) not null,
+	SOURCEURL VARCHAR2(256),
+	VERSION VARCHAR2(256),
+	WIDTH NUMBER(10) not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index EMBEDDEDOBJECTDESCRIPTOR_PK
+	on EMBEDDEDOBJECTDESCRIPTOR (ID)
+/
+
+create index EMBEDDEDOBJECTDESCRIPTOR_N50
+	on EMBEDDEDOBJECTDESCRIPTOR (SOURCEURL)
+/
+
+create index EMBEDDEDOBJECTDESCRIPTOR_N52
+	on EMBEDDEDOBJECTDESCRIPTOR (WIDTH)
+/
+
+create index EMBEDDEDOBJECTDESCRIPTOR_N53
+	on EMBEDDEDOBJECTDESCRIPTOR (VERSION)
+/
+
+create index EMBEDDEDOBJECTDESCRIPTOR_N49
+	on EMBEDDEDOBJECTDESCRIPTOR (FLASHVARS)
+/
+
+create index EMBEDDEDOBJECTDESCRIPTOR_N51
+	on EMBEDDEDOBJECTDESCRIPTOR (ALTERNATIVECONTENT)
+/
+
+create index EMBEDDEDOBJECTDESCRIPTOR_N54
+	on EMBEDDEDOBJECTDESCRIPTOR (HEIGHT)
+/
+
+create table EXTERNALURL
+(
+	ID NUMBER not null,
+	ERRORCOUNT NUMBER,
+	ERRORMESSAGE VARCHAR2(256),
+	ISACTIVE NUMBER(1),
+	LASTCHECK TIMESTAMP(6),
+	URLSTRING VARCHAR2(1024),
+	JDOVERSION NUMBER default 1,
+	LASTCACHINGDATE TIMESTAMP(6)
+)
+/
+
+create index EXTERNALURL_N49
+	on EXTERNALURL (LASTCACHINGDATE)
+/
+
+create unique index EXTERNALURL_PK
+	on EXTERNALURL (ID)
+/
+
+create unique index EXTERNALURL_U49
+	on EXTERNALURL (URLSTRING)
+/
+
+create table FORMCOMPONENT
+(
+	ID NUMBER not null,
+	FORM_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index FORMCOMPONENT_PK
+	on FORMCOMPONENT (ID)
+/
+
+create index FORMCOMPONENT_N49
+	on FORMCOMPONENT (FORM_FK)
+/
+
+create table HIGHRESPRODUCTIMAGE
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index HIGHRESPRODUCTIMAGE_PK
+	on HIGHRESPRODUCTIMAGE (ID)
+/
+
+create table IMAGEDESCRIPTION
+(
+	ID NUMBER not null,
+	ALTTEXT VARCHAR2(256),
+	IMAGE_FK NUMBER,
+	LANGUAGE_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index IMAGEDESCRIPTION_PK
+	on IMAGEDESCRIPTION (ID)
+/
+
+create index IMAGEDESCRIPTION_N49
+	on IMAGEDESCRIPTION (LANGUAGE_FK)
+/
+
+create index IMAGEDESCRIPTION_N50
+	on IMAGEDESCRIPTION (IMAGE_FK)
+/
+
+create table IMAGEFOLDER
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	NAME VARCHAR2(256),
+	PARENTIMAGEFOLDER_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	ISADMIN NUMBER(1)
+)
+/
+
+create unique index IMAGEFOLDER_PK
+	on IMAGEFOLDER (ID)
+/
+
+create index IMAGEFOLDER_N49
+	on IMAGEFOLDER (PARENTIMAGEFOLDER_FK)
+/
+
+create table IMAGETYPE
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index IMAGETYPE_PK
+	on IMAGETYPE (ID)
+/
+
+create table IMPORTSTATUS
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	END TIMESTAMP(6),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	"START" TIMESTAMP(6),
+	TASKNAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	STATUS VARCHAR2(256),
+	FILENAME VARCHAR2(256)
+)
+/
+
+create index IMPORTSTATUS_N53
+	on IMPORTSTATUS (CREATION)
+/
+
+create index IMPORTSTATUS_FILENAME
+	on IMPORTSTATUS (FILENAME)
+/
+
+create unique index IMPORTSTATUS_PK
+	on IMPORTSTATUS (ID)
+/
+
+create index IMPORTSTATUS_N50
+	on IMPORTSTATUS (LASTMODIFICATION)
+/
+
+create index IMPORTSTATUS_N51
+	on IMPORTSTATUS (LASTMODIFIER_FK)
+/
+
+create index IMPORTSTATUS_N49
+	on IMPORTSTATUS (CREATOR_FK)
+/
+
+create index IMPORTSTATUS_N52
+	on IMPORTSTATUS (TASKNAME)
+/
+
+create index IMPORTSTATUS_FILENAME_LOWER
+	on IMPORTSTATUS (LOWER("FILENAME"))
+/
+
+create table LINKEDPRODUCT
+(
+	ID NUMBER not null,
+	PRODUCTIDENTIFIER VARCHAR2(256),
+	PRODUCTTEXT VARCHAR2(4000),
+	PRODUCTTYPE_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	LASTCACHINGDATE TIMESTAMP(6)
+)
+/
+
+create index LINKEDPRODUCT_N50
+	on LINKEDPRODUCT (LASTCACHINGDATE)
+/
+
+create unique index LINKEDPRODUCT_PK
+	on LINKEDPRODUCT (ID)
+/
+
+create index LINKEDPRODUCT_N49
+	on LINKEDPRODUCT (PRODUCTTYPE_FK)
+/
+
+create table LISTMANUALCOMPONENT
+(
+	ID NUMBER not null,
+	LISTMANUAL_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	INITIALLYCLOSED NUMBER(1) default 0  not null
+)
+/
+
+create unique index LISTMANUALCOMPONENT_PK
+	on LISTMANUALCOMPONENT (ID)
+/
+
+create index LISTMANUALCOMPONENT_N49
+	on LISTMANUALCOMPONENT (LISTMANUAL_FK)
+/
+
+create table LISTMANUALLINK
+(
+	ID NUMBER not null,
+	LINKTEXT VARCHAR2(300),
+	LISTMANUAL_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	LISTMANUALLINKTYPE VARCHAR2(256),
+	EXTERNALURL_FK NUMBER,
+	CONTENTITEM_FK NUMBER,
+	LISTMANUAL_INTEGER_IDX NUMBER(10),
+	LINKEDPRODUCT_FK NUMBER,
+	DOCUMENT_FK NUMBER,
+	LINKDESCRIPTION VARCHAR2(300)
+)
+/
+
+create unique index LISTMANUALLINK_PK
+	on LISTMANUALLINK (ID)
+/
+
+create index LISTMANUALLINK_N51
+	on LISTMANUALLINK (DOCUMENT_FK)
+/
+
+create index LISTMANUALLINK_N53
+	on LISTMANUALLINK (LISTMANUAL_FK)
+/
+
+create index LISTMANUALLINK_N50
+	on LISTMANUALLINK (CONTENTITEM_FK)
+/
+
+create index LISTMANUALLINK_N52
+	on LISTMANUALLINK (LINKEDPRODUCT_FK)
+/
+
+create index LISTMANUALLINK_N49
+	on LISTMANUALLINK (EXTERNALURL_FK)
+/
+
+create index LML_LISTMANUALLINKTYPE
+	on LISTMANUALLINK (LISTMANUALLINKTYPE)
+/
+
+create table LISTMANVALVIE_REGIONALVIEW
+(
+	VIEWRESTRICTED_FK NUMBER not null,
+	REGIONALVIEW_FK NUMBER not null
+)
+/
+
+create unique index LISTMANVALVIE_REGIONALVIEW_PK
+	on LISTMANVALVIE_REGIONALVIEW (VIEWRESTRICTED_FK, REGIONALVIEW_FK)
+/
+
+create index LISTMANVALVIE_REGIONALVIEW_N50
+	on LISTMANVALVIE_REGIONALVIEW (VIEWRESTRICTED_FK)
+/
+
+create index LISTMANVALVIE_REGIONALVIEW_N49
+	on LISTMANVALVIE_REGIONALVIEW (REGIONALVIEW_FK)
+/
+
+create table MIMETYPE
+(
+	ID NUMBER not null,
+	FILEEXTENSION VARCHAR2(256),
+	PRIMARYTYPE VARCHAR2(256),
+	SUBTYPE VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index MIMETYPE_PK
+	on MIMETYPE (ID)
+/
+
+create index MIMETYPE_N49
+	on MIMETYPE (FILEEXTENSION)
+/
+
+create index MIMETYPE_N50
+	on MIMETYPE (PRIMARYTYPE)
+/
+
+create index MIMETYPE_FILEEXTENSION_LOWER
+	on MIMETYPE (LOWER("FILEEXTENSION"))
+/
+
+create table OBJCATEGOOBJTYP_OBJECTTYPE
+(
+	OBJECTTYPE_FK NUMBER not null,
+	OBJECTCATEGORY_FK NUMBER not null
+)
+/
+
+create unique index OBJCATEGOOBJTYP_OBJECTTYPE_PK
+	on OBJCATEGOOBJTYP_OBJECTTYPE (OBJECTTYPE_FK, OBJECTCATEGORY_FK)
+/
+
+create index OBJCATEGOOBJTYP_OBJECTTYPE_N50
+	on OBJCATEGOOBJTYP_OBJECTTYPE (OBJECTTYPE_FK)
+/
+
+create index OBJCATEGOOBJTYP_OBJECTTYPE_N49
+	on OBJCATEGOOBJTYP_OBJECTTYPE (OBJECTCATEGORY_FK)
+/
+
+create table OBJECTCATEGORY
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index OBJECTCATEGORY_PK
+	on OBJECTCATEGORY (ID)
+/
+
+create table OBJECTTYPE
+(
+	ID NUMBER not null,
+	IDENTIFIER VARCHAR2(256),
+	ISCACHABLE NUMBER(1),
+	ISRESTRICTED NUMBER(1),
+	ISSECURE NUMBER(1),
+	MAINCATEGORY_FK NUMBER,
+	NAME VARCHAR2(256),
+	PATH VARCHAR2(256),
+	REDIRECTIONCHANNEL_FK NUMBER,
+	REDIRECTIONREGIONALCHANNEL_FK NUMBER,
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256),
+	MOINTERFACENAME VARCHAR2(256),
+	ISFUNCTIONALITYCENTERTYPE NUMBER(1) default 0  not null
+)
+/
+
+create unique index OBJECTTYPE_PK
+	on OBJECTTYPE (ID)
+/
+
+create unique index OBJECTTYPE_U52
+	on OBJECTTYPE (IDENTIFIER)
+/
+
+create index OBJECTTYPE_N50
+	on OBJECTTYPE (REDIRECTIONREGIONALCHANNEL_FK)
+/
+
+create index OBJECTTYPE_N49
+	on OBJECTTYPE (REDIRECTIONCHANNEL_FK)
+/
+
+create index OBJECTTYPE_N53
+	on OBJECTTYPE (PATH)
+/
+
+create index OBJECTTYPE_N51
+	on OBJECTTYPE (MAINCATEGORY_FK)
+/
+
+create index OT_JDOTYPE
+	on OBJECTTYPE (JDOTYPE)
+/
+
+create table PLINKTEXURLVV_REGIONALVIEW
+(
+	VIEWRESTRICTED_FK NUMBER not null,
+	REGIONALVIEW_FK NUMBER not null
+)
+/
+
+create unique index PLINKTEXURLVV_REGIONALVIEW_PK
+	on PLINKTEXURLVV_REGIONALVIEW (VIEWRESTRICTED_FK, REGIONALVIEW_FK)
+/
+
+create index PLINKTEXURLVV_REGIONALVIEW_N49
+	on PLINKTEXURLVV_REGIONALVIEW (VIEWRESTRICTED_FK)
+/
+
+create index PLINKTEXURLVV_REGIONALVIEW_N50
+	on PLINKTEXURLVV_REGIONALVIEW (REGIONALVIEW_FK)
+/
+
+create table PRLINTOCHVAVI_REGIONALVIEW
+(
+	VIEWRESTRICTED_FK NUMBER not null,
+	REGIONALVIEW_FK NUMBER not null
+)
+/
+
+create index PRLINTOCHVAVI_REGIONALVIEW_N50
+	on PRLINTOCHVAVI_REGIONALVIEW (REGIONALVIEW_FK)
+/
+
+create index PRLINTOCHVAVI_REGIONALVIEW_N49
+	on PRLINTOCHVAVI_REGIONALVIEW (VIEWRESTRICTED_FK)
+/
+
+create unique index PRLINTOCHVAVI_REGIONALVIEW_PK
+	on PRLINTOCHVAVI_REGIONALVIEW (VIEWRESTRICTED_FK, REGIONALVIEW_FK)
+/
+
+create table PRLITODOCVAVI_REGIONALVIEW
+(
+	VIEWRESTRICTED_FK NUMBER not null,
+	REGIONALVIEW_FK NUMBER not null
+)
+/
+
+create unique index PRLITODOCVAVI_REGIONALVIEW_PK
+	on PRLITODOCVAVI_REGIONALVIEW (VIEWRESTRICTED_FK, REGIONALVIEW_FK)
+/
+
+create index PRLITODOCVAVI_REGIONALVIEW_N50
+	on PRLITODOCVAVI_REGIONALVIEW (REGIONALVIEW_FK)
+/
+
+create index PRLITODOCVAVI_REGIONALVIEW_N49
+	on PRLITODOCVAVI_REGIONALVIEW (VIEWRESTRICTED_FK)
+/
+
+create table PRODUCTLINK
+(
+	ID NUMBER not null,
+	LINKTEXT VARCHAR2(300),
+	POSITION NUMBER,
+	PRODUCTLINKCATEGORY_FK NUMBER,
+	PRODUCTWITHPRODUCTLINKS_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	PRODUCTLINKTYPE VARCHAR2(256),
+	DOCUMENT_FK NUMBER,
+	CHANNEL_FK NUMBER,
+	LINKEDPRODUCT_FK NUMBER,
+	CENTER_FK NUMBER,
+	CONTENTITEM_FK NUMBER,
+	EXTERNALURL_FK NUMBER,
+	IMAGE_FK NUMBER,
+	LINKDESCRIPTION VARCHAR2(300),
+	ISEXCLUDED NUMBER(1),
+	ISSHOWNINSPRINGERLINKLAYER NUMBER(1),
+	LASTCACHINGDATE TIMESTAMP(6)
+)
+/
+
+create index PRODUCTLINK_N60
+	on PRODUCTLINK (LASTCACHINGDATE)
+/
+
+create index PRODUCTLINK_N59
+	on PRODUCTLINK (ISSHOWNINSPRINGERLINKLAYER)
+/
+
+create index PRODUCTLINK_N58
+	on PRODUCTLINK (ISEXCLUDED)
+/
+
+create unique index PRODUCTLINK_PK
+	on PRODUCTLINK (ID)
+/
+
+create index PRODUCTLINK_N52
+	on PRODUCTLINK (EXTERNALURL_FK)
+/
+
+create index PRODUCTLINK_N54
+	on PRODUCTLINK (CHANNEL_FK)
+/
+
+create index PRODUCTLINK_N50
+	on PRODUCTLINK (DOCUMENT_FK)
+/
+
+create index PRODUCTLINK_N53
+	on PRODUCTLINK (CENTER_FK)
+/
+
+create index PRODUCTLINK_N56
+	on PRODUCTLINK (PRODUCTLINKCATEGORY_FK)
+/
+
+create index PRODUCTLINK_N55
+	on PRODUCTLINK (CONTENTITEM_FK)
+/
+
+create index PRODUCTLINK_N49
+	on PRODUCTLINK (LINKEDPRODUCT_FK)
+/
+
+create index PRODUCTLINK_N51
+	on PRODUCTLINK (PRODUCTWITHPRODUCTLINKS_FK)
+/
+
+create index PL_PRODUCTLINKTYPE
+	on PRODUCTLINK (PRODUCTLINKTYPE)
+/
+
+create index PRODUCTLINK_N57
+	on PRODUCTLINK (IMAGE_FK)
+/
+
+create table PRODUCTLINKCATEGORY
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index PRODUCTLINKCATEGORY_PK
+	on PRODUCTLINKCATEGORY (ID)
+/
+
+create table PRODUCTSHORTCUT
+(
+	ID NUMBER not null,
+	PRODUCT_FK NUMBER,
+	PRODUCTTYPE_FK NUMBER,
+	REGIONALVIEW_FK NUMBER,
+	URLSTRING VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index PRODUCTSHORTCUT_PK
+	on PRODUCTSHORTCUT (ID)
+/
+
+create index PRODUCTSHORTCUT_N52
+	on PRODUCTSHORTCUT (REGIONALVIEW_FK)
+/
+
+create index PRODUCTSHORTCUT_N51
+	on PRODUCTSHORTCUT (PRODUCT_FK)
+/
+
+create index PRODUCTSHORTCUT_N50
+	on PRODUCTSHORTCUT (PRODUCTTYPE_FK)
+/
+
+create unique index PRODUCTSHORTCUT_U49
+	on PRODUCTSHORTCUT (URLSTRING)
+/
+
+create index PRODUCTSHORTCUT_URLSTR_LOWER
+	on PRODUCTSHORTCUT (LOWER("URLSTRING"))
+/
+
+create table PRODUCTWITHPRODUCTLINKS
+(
+	ID NUMBER not null,
+	PRODUCTIDENTIFIER VARCHAR2(256),
+	PRODUCTTYPE_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	METATITLE VARCHAR2(256)
+)
+/
+
+create unique index PRODUCTWITHPRODUCTLINKS_PK
+	on PRODUCTWITHPRODUCTLINKS (ID)
+/
+
+create index PRODUCTWITHPRODUCTLINKS_N50
+	on PRODUCTWITHPRODUCTLINKS (PRODUCTTYPE_FK)
+/
+
+create unique index PRODUCTWITHPRODUCTLINKS_IDTYPE
+	on PRODUCTWITHPRODUCTLINKS (PRODUCTTYPE_FK, PRODUCTIDENTIFIER)
+/
+
+create table RANDOMTEASERPOOL
+(
+	ID NUMBER not null,
+	CHANNEL_FK NUMBER,
+	REGIONALVIEW_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index RANDOMTEASERPOOL_PK
+	on RANDOMTEASERPOOL (ID)
+/
+
+create index RANDOMTEASERPOOL_N49
+	on RANDOMTEASERPOOL (REGIONALVIEW_FK)
+/
+
+create index RANDOMTEASERPOOL_N50
+	on RANDOMTEASERPOOL (CHANNEL_FK)
+/
+
+create index TEASERPOOL_CHANNEL_VIEW_UNIQUE
+	on RANDOMTEASERPOOL (CHANNEL_FK, REGIONALVIEW_FK)
+/
+
+create table RANDOTEASERPOOLTEASER_TEASER
+(
+	RANDOMTEASERPOOL_FK NUMBER not null,
+	TEASER_FK NUMBER not null
+)
+/
+
+create unique index RANDOTEASERPOOLTEASER_TEWN_PK
+	on RANDOTEASERPOOLTEASER_TEASER (RANDOMTEASERPOOL_FK, TEASER_FK)
+/
+
+create index RANDOTEASERPOOLTEASER_TEWN_N49
+	on RANDOTEASERPOOLTEASER_TEASER (TEASER_FK)
+/
+
+create index RANDOTEASERPOOLTEASER_TEWN_N50
+	on RANDOTEASERPOOLTEASER_TEASER (RANDOMTEASERPOOL_FK)
+/
+
+create table REGIONALCHANNEL
+(
+	ID NUMBER not null,
+	CHANNEL_FK NUMBER,
+	CHANNELNAME VARCHAR2(256),
+	DEFAULTCENTER_FK NUMBER,
+	ISDISPLAYEDINSUBCHANNELDROPDQM NUMBER(1),
+	METADESCRIPTION VARCHAR2(4000),
+	METAKEYWORDS VARCHAR2(4000),
+	REGIONALVIEW_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	TITLETAG VARCHAR2(4000),
+	LASTCACHINGDATE TIMESTAMP(6)
+)
+/
+
+create index REGIONALCHANNEL_N66
+	on REGIONALCHANNEL (ID, CHANNEL_FK, CHANNELNAME, DEFAULTCENTER_FK, REGIONALVIEW_FK, JDOVERSION)
+/
+
+create index REGIONALCHANNEL_N77
+	on REGIONALCHANNEL (ISDISPLAYEDINSUBCHANNELDROPDQM)
+/
+
+create index REGIONALCHANNEL_COMBINE3_IDX
+	on REGIONALCHANNEL (CHANNELNAME, REGIONALVIEW_FK, DEFAULTCENTER_FK)
+/
+
+create index REGIONALCHANNEL_COMBINE4_IDX
+	on REGIONALCHANNEL (CHANNELNAME, REGIONALVIEW_FK, DEFAULTCENTER_FK, ISDISPLAYEDINSUBCHANNELDROPDQM)
+/
+
+create index CHANNELNAME_REGIONALVIEW_IDX
+	on REGIONALCHANNEL (CHANNELNAME, REGIONALVIEW_FK)
+/
+
+create index REGIONALCHANNEL_COMBINE5_IDX
+	on REGIONALCHANNEL (CHANNELNAME, REGIONALVIEW_FK, ISDISPLAYEDINSUBCHANNELDROPDQM)
+/
+
+create unique index REGIONALCHANNEL_PK
+	on REGIONALCHANNEL (ID)
+/
+
+create index REGIONALCHANNEL_N49
+	on REGIONALCHANNEL (CHANNEL_FK)
+/
+
+create index REGIONALCHANNEL_N51
+	on REGIONALCHANNEL (REGIONALVIEW_FK)
+/
+
+create index REGIONALCHANNEL_N50
+	on REGIONALCHANNEL (DEFAULTCENTER_FK)
+/
+
+create index REGIONALCHANNEL_COMBINE2_IDX
+	on REGIONALCHANNEL (REGIONALVIEW_FK, CHANNEL_FK, ID)
+/
+
+create index REGIONALCHANNEL_N52
+	on REGIONALCHANNEL (LASTCACHINGDATE)
+/
+
+create index COMB_VIEW_CHANN
+	on REGIONALCHANNEL (CHANNEL_FK, REGIONALVIEW_FK)
+/
+
+create index COMBINE_CHANNELNAME_IDX
+	on REGIONALCHANNEL (CHANNELNAME, CHANNEL_FK, ID)
+/
+
+create index CHANNELNAME_IDX
+	on REGIONALCHANNEL (CHANNELNAME)
+/
+
+create table REGIONALCOLOURDATA
+(
+	ID NUMBER not null,
+	COLOURDATA_FK NUMBER,
+	REGIONALVIEW_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	DCCA_REGIONACOLOURDATAS_FK NUMBER,
+	GCC_REGIONALCOLOURDATAS_FK NUMBER
+)
+/
+
+create index REGIONALCOLOURDATA_N52
+	on REGIONALCOLOURDATA (GCC_REGIONALCOLOURDATAS_FK)
+/
+
+create unique index REGIONALCOLOURDATA_PK
+	on REGIONALCOLOURDATA (ID)
+/
+
+create index REGIONALCOLOURDATA_N51
+	on REGIONALCOLOURDATA (DCCA_REGIONACOLOURDATAS_FK)
+/
+
+create index REGIONALCOLOURDATA_N50
+	on REGIONALCOLOURDATA (COLOURDATA_FK)
+/
+
+create index REGIONALCOLOURDATA_N49
+	on REGIONALCOLOURDATA (REGIONALVIEW_FK)
+/
+
+create table REGIONALIMAGEDATA
+(
+	ID NUMBER not null,
+	ALTTEXT VARCHAR2(256),
+	IMAGEDATA_FK NUMBER,
+	REGIONALVIEW_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	GIMC_REGIONALIMAGEDATAS_FK NUMBER,
+	DICA_REGIONALIMAGEDATAS_FK NUMBER
+)
+/
+
+create unique index REGIONALIMAGEDATA_PK
+	on REGIONALIMAGEDATA (ID)
+/
+
+create index REGIONALIMAGEDATA_N52
+	on REGIONALIMAGEDATA (IMAGEDATA_FK)
+/
+
+create index REGIONALIMAGEDATA_N49
+	on REGIONALIMAGEDATA (DICA_REGIONALIMAGEDATAS_FK)
+/
+
+create index REGIONALIMAGEDATA_N51
+	on REGIONALIMAGEDATA (GIMC_REGIONALIMAGEDATAS_FK)
+/
+
+create index REGIONALIMAGEDATA_N50
+	on REGIONALIMAGEDATA (REGIONALVIEW_FK)
+/
+
+create table "RESOURCE"
+(
+	ID NUMBER not null,
+	KEY VARCHAR2(4000),
+	RESOURCEBUNDLE_FK NUMBER,
+	VALUE VARCHAR2(4000),
+	JDOVERSION NUMBER default 1,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	TOBEPORTED NUMBER(1) default 0  not null
+)
+/
+
+create index RESOURCE_N55
+	on "RESOURCE" (TOBEPORTED)
+/
+
+create unique index RESOURCE_PK
+	on "RESOURCE" (ID)
+/
+
+create index RESOURCE_N49
+	on "RESOURCE" (RESOURCEBUNDLE_FK)
+/
+
+create index RESOURCE_UNIQUE
+	on "RESOURCE" (KEY, RESOURCEBUNDLE_FK)
+/
+
+create index RESOURCE_N51
+	on "RESOURCE" (LASTMODIFIER_FK)
+/
+
+create index RESOURCE_N52
+	on "RESOURCE" (CREATOR_FK)
+/
+
+create index RESOURCE_N53
+	on "RESOURCE" (LASTMODIFICATION)
+/
+
+create index RESOURCE_N54
+	on "RESOURCE" (CREATION)
+/
+
+create table RESOURCEBUNDLE
+(
+	ID NUMBER not null,
+	COUNTRY VARCHAR2(256),
+	LANGUAGE VARCHAR2(256),
+	NAME VARCHAR2(256),
+	VARIANT VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	ISEDITABLE NUMBER(1) default 0,
+	ISDELETABLE NUMBER(1) default 0,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER
+)
+/
+
+create index RESOURCEBUNDLE_N52
+	on RESOURCEBUNDLE (LANGUAGE)
+/
+
+create index RESOURCEBUNDLE_N50
+	on RESOURCEBUNDLE (COUNTRY)
+/
+
+create index RESOURCEBUNDLE_N54
+	on RESOURCEBUNDLE (LASTMODIFICATION)
+/
+
+create index RESOURCEBUNDLE_N55
+	on RESOURCEBUNDLE (LASTMODIFIER_FK)
+/
+
+create index RESOURCEBUNDLE_N53
+	on RESOURCEBUNDLE (CREATOR_FK)
+/
+
+create index RESOURCEBUNDLE_N56
+	on RESOURCEBUNDLE (CREATION)
+/
+
+create unique index RESOURCEBUNDLE_PK
+	on RESOURCEBUNDLE (ID)
+/
+
+create index RESOURCEBUNDLE_N51
+	on RESOURCEBUNDLE (NAME)
+/
+
+create index RESOURCEBUNDLE_N49
+	on RESOURCEBUNDLE (VARIANT)
+/
+
+create table SEMIAUTOMATICBOOKSLIST
+(
+	ID NUMBER not null,
+	AUTHOREDITOR VARCHAR2(2000),
+	AVAILABILITYSTATUS VARCHAR2(2000),
+	CATEGORIES VARCHAR2(256),
+	PARTOFSALEENDDATE DATE,
+	PARTOFSALESTARTDATE DATE,
+	PRICETYPE VARCHAR2(256),
+	QUERYTEXT VARCHAR2(2000),
+	REGION VARCHAR2(256),
+	SAGENDDATE DATE,
+	SAGSTARTDATE DATE,
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null,
+	PPMPRODUCTTYPES VARCHAR2(256)
+)
+/
+
+create unique index SEMIAUTOMATICBOOKSLIST_PK
+	on SEMIAUTOMATICBOOKSLIST (ID)
+/
+
+create table SEMIAUTOMATICBOOKSLISTCOMPONM3
+(
+	ID NUMBER not null,
+	SEMIAUTOMATICBOOKSLIST_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index SEMIAUTOMATICBOOKSLISTCO1B_PK
+	on SEMIAUTOMATICBOOKSLISTCOMPONM3 (ID)
+/
+
+create index SEMIAUTOMATICBOOKSLISTCO1B_N49
+	on SEMIAUTOMATICBOOKSLISTCOMPONM3 (SEMIAUTOMATICBOOKSLIST_FK)
+/
+
+create table SEMIAUTOMATICEBOOKSLIST
+(
+	ID NUMBER not null,
+	ENDDATE DATE,
+	STARTDATE DATE,
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null
+)
+/
+
+create unique index SEMIAUTOMATICEBOOKSLIST_PK
+	on SEMIAUTOMATICEBOOKSLIST (ID)
+/
+
+create table SEMIAUTOMATICEBOOKSLISTCOMPOO5
+(
+	ID NUMBER not null,
+	SEMIAUTOMATICEBOOKSLIST_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index SEMIAUTOMATICEBOOKSLISTCONE_PK
+	on SEMIAUTOMATICEBOOKSLISTCOMPOO5 (ID)
+/
+
+create index SEMIAUTOMATICEBOOKSLISTCBM_N49
+	on SEMIAUTOMATICEBOOKSLISTCOMPOO5 (SEMIAUTOMATICEBOOKSLIST_FK)
+/
+
+create table SEMIAUTOMATICJOURNALSLISTCOM7V
+(
+	ID NUMBER not null,
+	SEMIAUTOMATICJOURNALSLIST_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index SEMIAUTOMATICJOURNALSLISCB_PK
+	on SEMIAUTOMATICJOURNALSLISTCOM7V (ID)
+/
+
+create index SEMIAUTOMATICJOURNALSLISCB_N49
+	on SEMIAUTOMATICJOURNALSLISTCOM7V (SEMIAUTOMATICJOURNALSLIST_FK)
+/
+
+create table SEMIAUTOMATICLIST
+(
+	ID NUMBER not null,
+	LANGUAGE VARCHAR2(2000),
+	NAME VARCHAR2(256),
+	PRIO12SUBJECTCODEOPERATOR VARCHAR2(256),
+	PRIO1SUBJECTCODE VARCHAR2(2000),
+	PRIO1SUBJECTCODEEXCLUDE VARCHAR2(2000),
+	PRIO2SUBJECTCODE VARCHAR2(2000),
+	PRIO2SUBJECTCODEEXCLUDE VARCHAR2(2000),
+	PUBLISHER VARCHAR2(2000),
+	PUBLISHEREXCLUDE VARCHAR2(2000),
+	RESULTCOUNT NUMBER not null,
+	SUBJECTCODE VARCHAR2(2000),
+	SUBJECTCODEEXCLUDE VARCHAR2(2000),
+	SUBJECTCODEOPERATOR VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null
+)
+/
+
+create unique index SEMIAUTOMATICLIST_PK
+	on SEMIAUTOMATICLIST (ID)
+/
+
+create table TAB
+(
+	ID NUMBER not null,
+	LINKTEXT VARCHAR2(300),
+	REGIONALCHANNEL_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	TABTYPE VARCHAR2(256),
+	CENTER_FK NUMBER,
+	CONTENTITEM_FK NUMBER,
+	REGIONALCHANNEL_INTEGER_TP NUMBER(10),
+	LINKDESCRIPTION VARCHAR2(300),
+	TEASER_FK NUMBER
+)
+/
+
+create index TAB_N52
+	on TAB (TEASER_FK)
+/
+
+create unique index TAB_PK
+	on TAB (ID)
+/
+
+create index TAB_N50
+	on TAB (CENTER_FK)
+/
+
+create index TAB_N49
+	on TAB (CONTENTITEM_FK)
+/
+
+create index TAB_N51
+	on TAB (REGIONALCHANNEL_FK)
+/
+
+create index T_TABTYPE
+	on TAB (TABTYPE)
+/
+
+create index TAB_N53
+	on TAB (TABTYPE, CENTER_FK)
+/
+
+create table TEASER
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	HEADLINE VARCHAR2(256),
+	IMAGE_FK NUMBER,
+	ISDROPDOWNLIST NUMBER(1),
+	ISIMAGELISTBASED NUMBER(1),
+	LANGUAGE_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAME VARCHAR2(256),
+	RUBRIC VARCHAR2(256),
+	SUBHEADLINE VARCHAR2(256),
+	TEASERTYPE_FK NUMBER,
+	TEXT VARCHAR2(2000),
+	JDOVERSION NUMBER default 1,
+	EMBEDDEDOBJECT_FK NUMBER,
+	ISDISPLAYPRICES NUMBER(1) default 0,
+	DISPLAYTYPE_FK NUMBER,
+	CALLTOACTIONIMAGE_FK NUMBER,
+	JDOTYPE VARCHAR2(256) not null,
+	LASTCACHINGDATE TIMESTAMP(6),
+	DISPLAYTYPERSSORDINAL NUMBER(10) default -1  not null,
+	RSSFEEDURL VARCHAR2(1000),
+	MAXLENGTHDESCRIPTION NUMBER(10) default 250  not null,
+	SHOWRSSFEEDSUBSCRIBELINK NUMBER(1) default 0  not null,
+	NUMBEROFITEMSTODISPLAY NUMBER(10) default 5  not null
+)
+/
+
+create index TEASER_N56
+	on TEASER (CALLTOACTIONIMAGE_FK)
+/
+
+create index TEASER_N57
+	on TEASER (DISPLAYTYPE_FK)
+/
+
+create unique index TEASER_PK
+	on TEASER (ID)
+/
+
+create index TEASER_N50
+	on TEASER (LASTMODIFIER_FK)
+/
+
+create index TEASER_N52
+	on TEASER (TEASERTYPE_FK)
+/
+
+create index TEASER_N49
+	on TEASER (LANGUAGE_FK)
+/
+
+create index TEASER_N53
+	on TEASER (IMAGE_FK)
+/
+
+create index TEASER_N54
+	on TEASER (CREATOR_FK)
+/
+
+create index TEASER_N51
+	on TEASER (LASTMODIFICATION)
+/
+
+create index TEASER_N55
+	on TEASER (EMBEDDEDOBJECT_FK)
+/
+
+create index TEASER_N58
+	on TEASER (CREATION)
+/
+
+create index TEASER_N59
+	on TEASER (LASTCACHINGDATE)
+/
+
+create table TEASERCOMPONENT
+(
+	ID NUMBER not null,
+	TEASER_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index TEASERCOMPONENT_PK
+	on TEASERCOMPONENT (ID)
+/
+
+create index TEASERCOMPONENT_N49
+	on TEASERCOMPONENT (TEASER_FK)
+/
+
+create table TEASERLINK
+(
+	ID NUMBER not null,
+	ISACTIVE NUMBER(1),
+	LINKTEXT VARCHAR2(300),
+	TEASER_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	TEASERLINKTYPE VARCHAR2(256),
+	EXTERNALURL_FK NUMBER,
+	CHANNEL_FK NUMBER,
+	DOCUMENT_FK NUMBER,
+	TEASER_INTEGER_IDX NUMBER(10),
+	CENTER_FK NUMBER,
+	LINKEDPRODUCT_FK NUMBER,
+	CONTENTITEM_FK NUMBER,
+	LINKDESCRIPTION VARCHAR2(300),
+	TEASERUSEDINASTEASERTARGET_FK NUMBER
+)
+/
+
+create index TEASERLINK_N56
+	on TEASERLINK (CHANNEL_FK)
+/
+
+create index TEASERLINK_N49
+	on TEASERLINK (LINKEDPRODUCT_FK)
+/
+
+create index TL_TEASERLINKTYPE
+	on TEASERLINK (TEASERLINKTYPE)
+/
+
+create index TEASERLINK_N57
+	on TEASERLINK (TEASERUSEDINASTEASERTARGET_FK)
+/
+
+create unique index TEASERLINK_PK
+	on TEASERLINK (ID)
+/
+
+create index TEASERLINK_N54
+	on TEASERLINK (EXTERNALURL_FK)
+/
+
+create index TEASERLINK_N52
+	on TEASERLINK (DOCUMENT_FK)
+/
+
+create index TEASERLINK_N51
+	on TEASERLINK (CONTENTITEM_FK)
+/
+
+create index TEASERLINK_N55
+	on TEASERLINK (CENTER_FK)
+/
+
+create index TEASERLINK_N53
+	on TEASERLINK (TEASER_FK)
+/
+
+create table TEASERTYPE
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	MAXLENGTHHEADLINE NUMBER,
+	MAXLENGTHRUBRIC NUMBER,
+	MAXLENGTHSUPERHEADLINE NUMBER,
+	MAXLENGTHTEXT NUMBER,
+	MAYHAVEIMAGE NUMBER(1),
+	NUMBEROFCOLUMNS NUMBER,
+	TEASERNAME VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create unique index TEASERTYPE_PK
+	on TEASERTYPE (ID)
+/
+
+create index TT_JDOTYPE
+	on TEASERTYPE (JDOTYPE)
+/
+
+create table TESTPERSISTENCE
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	TESTDATE TIMESTAMP(6),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index TESTPERSISTENCE_PK
+	on TESTPERSISTENCE (ID)
+/
+
+create index TESTPERSISTENCE_N50
+	on TESTPERSISTENCE (CREATOR_FK)
+/
+
+create index TESTPERSISTENCE_N49
+	on TESTPERSISTENCE (LASTMODIFICATION)
+/
+
+create index TESTPERSISTENCE_N51
+	on TESTPERSISTENCE (LASTMODIFIER_FK)
+/
+
+create index TESTPERSISTENCE_N52
+	on TESTPERSISTENCE (CREATION)
+/
+
+create table VIRTUALCOMPONENT
+(
+	ID NUMBER not null,
+	OBJECTTYPE_FK NUMBER,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index VIRTUALCOMPONENT_PK
+	on VIRTUALCOMPONENT (ID)
+/
+
+create index VIRTUALCOMPONENT_N49
+	on VIRTUALCOMPONENT (OBJECTTYPE_FK)
+/
+
+create table WEBTRACKINGCATEGORY
+(
+	ID NUMBER not null,
+	CATEGORYID VARCHAR2(256) not null,
+	CATEGORYNAME VARCHAR2(256) not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index WEBTRACKINGCATEGORY_PK
+	on WEBTRACKINGCATEGORY (ID)
+/
+
+create unique index WEBTRACKINGCATEGORY_U49
+	on WEBTRACKINGCATEGORY (CATEGORYID)
+/
+
+create index WEBTRACKINGCATEGORY_N50
+	on WEBTRACKINGCATEGORY (CATEGORYNAME)
+/
+
+create table WORKFLOWSTATUS
+(
+	ID NUMBER not null,
+	STATUS VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index WORKFLOWSTATUS_PK
+	on WORKFLOWSTATUS (ID)
+/
+
+create table TEASERDISPLAYTYPE
+(
+	ID NUMBER not null,
+	ACTIONIMAGEINFO VARCHAR2(256),
+	ACTIONIMAGEMANDATORY NUMBER(1),
+	IMAGEINFO VARCHAR2(256),
+	IMAGEMANDATORY NUMBER(1),
+	MAXHEADLINELENGTH NUMBER(10),
+	MAXSUBHEADLINELENGTH NUMBER(10),
+	MAXTEXTLENGTH NUMBER(10),
+	NAME VARCHAR2(256),
+	TEASERTYPE_FK NUMBER,
+	TEXTINFO VARCHAR2(256),
+	JDOVERSION NUMBER,
+	IMAGEWIDTH VARCHAR2(256),
+	IMAGEHEIGHT NUMBER(10),
+	ACTIONIMAGEWIDTH NUMBER(10),
+	ACTIONIMAGEHEIGHT NUMBER(10),
+	PRESELECTIONACTIONIMAGEFOLDEOI NUMBER,
+	PRESELECTIONIMAGEFOLDER_FK NUMBER,
+	ADDITIONALPRESELECTIONACTIONHM NUMBER,
+	ADDITIONALPRESELECTIONIMAGEFKG NUMBER
+)
+/
+
+create unique index TEASERDISPLAYTYPE_PK
+	on TEASERDISPLAYTYPE (ID)
+/
+
+create index TEASERDISPLAYTYPE_N49
+	on TEASERDISPLAYTYPE (TEASERTYPE_FK)
+/
+
+create index TEASERDISPLAYTYPE_N51
+	on TEASERDISPLAYTYPE (PRESELECTIONIMAGEFOLDER_FK)
+/
+
+create index TEASERDISPLAYTYPE_N50
+	on TEASERDISPLAYTYPE (PRESELECTIONACTIONIMAGEFOLDEOI)
+/
+
+create index TEASERDISPLAYTYPE_N52
+	on TEASERDISPLAYTYPE (ADDITIONALPRESELECTIONACTIONHM)
+/
+
+create index TEASERDISPLAYTYPE_N53
+	on TEASERDISPLAYTYPE (ADDITIONALPRESELECTIONIMAGEFKG)
+/
+
+create table PORTLETTYPE
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	NUMBEROFCOLUMNS NUMBER,
+	PORTLETNAME VARCHAR2(256),
+	JDOVERSION NUMBER,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create unique index PORTLETTYPE_PK
+	on PORTLETTYPE (ID)
+/
+
+create table PORTLETLINK
+(
+	ID NUMBER not null,
+	ISACTIVE NUMBER(1),
+	LINKTEXT VARCHAR2(300),
+	PORTLET_FK NUMBER,
+	JDOVERSION NUMBER,
+	PORTLETLINKTYPE VARCHAR2(256),
+	CHANNEL_FK NUMBER,
+	CENTER_FK NUMBER,
+	EXTERNALURL_FK NUMBER,
+	LINKEDPRODUCT_FK NUMBER,
+	DOCUMENT_FK NUMBER,
+	CONTENTITEM_FK NUMBER,
+	PORTLET_INTEGER_IDX NUMBER(10),
+	LINKDESCRIPTION VARCHAR2(300),
+	LISTMANUAL_FK NUMBER,
+	ISEMPHASISED NUMBER(1),
+	LINKEDPORTLET_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTCACHINGDATE TIMESTAMP(6),
+	CREATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	CREATOR_FK NUMBER
+)
+/
+
+create index PORTLETLINK_N63
+	on PORTLETLINK (PORTLETLINKTYPE, CENTER_FK)
+/
+
+create unique index PORTLETLINK_PK
+	on PORTLETLINK (ID)
+/
+
+create index PORTLETLINK_N53
+	on PORTLETLINK (DOCUMENT_FK)
+/
+
+create index PORTLETLINK_N55
+	on PORTLETLINK (CENTER_FK)
+/
+
+create index PORTLETLINK_N52
+	on PORTLETLINK (CONTENTITEM_FK)
+/
+
+create index PORTLETLINK_N50
+	on PORTLETLINK (LINKEDPRODUCT_FK)
+/
+
+create index PORTLETLINK_N54
+	on PORTLETLINK (PORTLET_FK)
+/
+
+create index PORTLETLINK_N49
+	on PORTLETLINK (EXTERNALURL_FK)
+/
+
+create index PORTLETLINK_N51
+	on PORTLETLINK (CHANNEL_FK)
+/
+
+create index PORTLETLINK_N56
+	on PORTLETLINK (LISTMANUAL_FK)
+/
+
+create index PORTLETLINK_N57
+	on PORTLETLINK (LINKEDPORTLET_FK)
+/
+
+create index PORTLETLINK_N59
+	on PORTLETLINK (LASTMODIFIER_FK)
+/
+
+create index PORTLETLINK_N60
+	on PORTLETLINK (LASTMODIFICATION)
+/
+
+create index PORTLETLINK_N58
+	on PORTLETLINK (CREATION)
+/
+
+create index PORTLETLINK_N61
+	on PORTLETLINK (CREATOR_FK)
+/
+
+create index PORTLETLINK_N62
+	on PORTLETLINK (LASTCACHINGDATE)
+/
+
+create table PORTLETCOMPONENT
+(
+	ID NUMBER not null,
+	PORTLET_FK NUMBER,
+	JDOVERSION NUMBER
+)
+/
+
+create unique index PORTLETCOMPONENT_PK
+	on PORTLETCOMPONENT (ID)
+/
+
+create index PORTLETCOMPONENT_N49
+	on PORTLETCOMPONENT (PORTLET_FK)
+/
+
+create table PORTLET
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DISPLAYTYPE_FK NUMBER,
+	HEADLINE VARCHAR2(256),
+	IMAGE_FK NUMBER,
+	LANGUAGE_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAME VARCHAR2(256),
+	PORTLETTYPE_FK NUMBER,
+	JDOVERSION NUMBER,
+	LASTCACHINGDATE TIMESTAMP(6)
+)
+/
+
+create index PORTLET_N56
+	on PORTLET (CREATION)
+/
+
+create index PORTLET_N57
+	on PORTLET (LASTCACHINGDATE)
+/
+
+create unique index PORTLET_PK
+	on PORTLET (ID)
+/
+
+create index PORTLET_N55
+	on PORTLET (PORTLETTYPE_FK)
+/
+
+create index PORTLET_N50
+	on PORTLET (LANGUAGE_FK)
+/
+
+create index PORTLET_N52
+	on PORTLET (CREATOR_FK)
+/
+
+create index PORTLET_N49
+	on PORTLET (DISPLAYTYPE_FK)
+/
+
+create index PORTLET_N54
+	on PORTLET (LASTMODIFICATION)
+/
+
+create index PORTLET_N51
+	on PORTLET (LASTMODIFIER_FK)
+/
+
+create index PORTLET_N53
+	on PORTLET (IMAGE_FK)
+/
+
+create table PORTLETDISPLAYTYPE
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	PORTLETTYPE_FK NUMBER,
+	JDOVERSION NUMBER
+)
+/
+
+create unique index PORTLETDISPLAYTYPE_PK
+	on PORTLETDISPLAYTYPE (ID)
+/
+
+create index PORTLETDISPLAYTYPE_N49
+	on PORTLETDISPLAYTYPE (PORTLETTYPE_FK)
+/
+
+create table CONTENTITEMTEXTFRAGMENT
+(
+	ID NUMBER not null,
+	CONTENTITEM_FK NUMBER,
+	POSITION NUMBER,
+	TEXTFRAGMENT_FK NUMBER,
+	JDOVERSION NUMBER
+)
+/
+
+create index CONTENTITEMTEXTFRAGMENT_N50
+	on CONTENTITEMTEXTFRAGMENT (TEXTFRAGMENT_FK)
+/
+
+create unique index CONTENTITEMTEXTFRAGMENT_PK
+	on CONTENTITEMTEXTFRAGMENT (ID)
+/
+
+create index CONTENTITEMTEXTFRAGMENT_N49
+	on CONTENTITEMTEXTFRAGMENT (CONTENTITEM_FK)
+/
+
+create table CUSTOMIZEDTEASERPORTLETCOMPOO5
+(
+	ID NUMBER not null,
+	HEADLINE VARCHAR2(256),
+	JDOVERSION NUMBER,
+	CHANNEL_FK NUMBER
+)
+/
+
+create index CUSTOMIZEDTEASERPORTLETCBM_N49
+	on CUSTOMIZEDTEASERPORTLETCOMPOO5 (CHANNEL_FK)
+/
+
+create unique index CUSTOMIZEDTEASERPORTLETCONE_PK
+	on CUSTOMIZEDTEASERPORTLETCOMPOO5 (ID)
+/
+
+create table NEWSPORTLETCOMPONENT
+(
+	ID NUMBER not null,
+	HEADLINE VARCHAR2(256),
+	JDOVERSION NUMBER
+)
+/
+
+create unique index NEWSPORTLETCOMPONENT_PK
+	on NEWSPORTLETCOMPONENT (ID)
+/
+
+create table MULTITEASERCOMPONENT
+(
+	ID NUMBER not null,
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER
+)
+/
+
+create unique index MULTITEASERCOMPONENT_PK
+	on MULTITEASERCOMPONENT (ID)
+/
+
+create index MULTITEASERCOMPONENT_N49
+	on MULTITEASERCOMPONENT (TYPE)
+/
+
+create table CONTENTITEM_NEPORCOCOITEMS
+(
+	NEWSPORTLETCOMPONENT_FK NUMBER not null,
+	CONTENTITEM_FK NUMBER,
+	INTEGER_IDX NUMBER(10) not null
+)
+/
+
+create unique index CONTENTITEM_NEPORCOCOITEMS_PK
+	on CONTENTITEM_NEPORCOCOITEMS (NEWSPORTLETCOMPONENT_FK, INTEGER_IDX)
+/
+
+create index CONTENTITEM_NEPORCOCOITEMS_N50
+	on CONTENTITEM_NEPORCOCOITEMS (CONTENTITEM_FK)
+/
+
+create index CONTENTITEM_NEPORCOCOITEMS_N49
+	on CONTENTITEM_NEPORCOCOITEMS (NEWSPORTLETCOMPONENT_FK)
+/
+
+create table CUSTEAPORTLETCOMTEA_TEASER
+(
+	CUSTOMTEASEPORTLETCOMPO_FK NUMBER not null,
+	TEASER_FK NUMBER,
+	INTEGER_IDX NUMBER(10) not null
+)
+/
+
+create unique index CUSTEAPORTLETCOMTEA_TEASER_PK
+	on CUSTEAPORTLETCOMTEA_TEASER (CUSTOMTEASEPORTLETCOMPO_FK, INTEGER_IDX)
+/
+
+create index CUSTEAPORTLETCOMTEA_TEASER_N49
+	on CUSTEAPORTLETCOMTEA_TEASER (TEASER_FK)
+/
+
+create index CUSTEAPORTLETCOMTEA_TEASER_N50
+	on CUSTEAPORTLETCOMTEA_TEASER (CUSTOMTEASEPORTLETCOMPO_FK)
+/
+
+create table PRODLINKTCIVV_REGIONALVIEW
+(
+	VIEWRESTRICTED_FK NUMBER not null,
+	REGIONALVIEW_FK NUMBER not null
+)
+/
+
+create unique index PRODLINKTCIVV_REGIONALVIEW_PK
+	on PRODLINKTCIVV_REGIONALVIEW (VIEWRESTRICTED_FK, REGIONALVIEW_FK)
+/
+
+create index PRODLINKTCIVV_REGIONALVIEW_N49
+	on PRODLINKTCIVV_REGIONALVIEW (REGIONALVIEW_FK)
+/
+
+create index PRODLINKTCIVV_REGIONALVIEW_N50
+	on PRODLINKTCIVV_REGIONALVIEW (VIEWRESTRICTED_FK)
+/
+
+create table CHREFBYCOITEMS_CONTENTITEM
+(
+	CHANNEL_FK NUMBER not null,
+	CONTENTITEM_FK NUMBER not null
+)
+/
+
+create unique index CHREFBYCOITEMS_CONTENTITEM_PK
+	on CHREFBYCOITEMS_CONTENTITEM (CHANNEL_FK, CONTENTITEM_FK)
+/
+
+create index CHREFBYCOITEMS_CONTENTITEM_N49
+	on CHREFBYCOITEMS_CONTENTITEM (CHANNEL_FK)
+/
+
+create index CHREFBYCOITEMS_CONTENTITEM_N50
+	on CHREFBYCOITEMS_CONTENTITEM (CONTENTITEM_FK)
+/
+
+create table PREDEFINEDTYPEDTEASER
+(
+	ID NUMBER not null,
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	MTC_PREDEFINTYPEDTEASER_FK NUMBER,
+	PREDEFINED_TYPED_TEASER_85_IDX NUMBER(10)
+)
+/
+
+create unique index PREDEFINEDTYPEDTEASER_PK
+	on PREDEFINEDTYPEDTEASER (ID)
+/
+
+create index PREDEFINEDTYPEDTEASER_N49
+	on PREDEFINEDTYPEDTEASER (TYPE)
+/
+
+create index PREDEFINEDTYPEDTEASER_N50
+	on PREDEFINEDTYPEDTEASER (MTC_PREDEFINTYPEDTEASER_FK)
+/
+
+create table PREDTYPEDTEASTEASER_TEASER
+(
+	PREDEFINEDTYPEDTEASER_FK NUMBER not null,
+	TEASER_FK NUMBER not null,
+	INTEGER_IDX NUMBER(10) not null
+)
+/
+
+create unique index PREDTYPEDTEASTEASER_TEASER_PK
+	on PREDTYPEDTEASTEASER_TEASER (PREDEFINEDTYPEDTEASER_FK, INTEGER_IDX)
+/
+
+create index PREDTYPEDTEASTEASER_TEASER_N49
+	on PREDTYPEDTEASTEASER_TEASER (TEASER_FK)
+/
+
+create index PREDTYPEDTEASTEASER_TEASER_N50
+	on PREDTYPEDTEASTEASER_TEASER (PREDEFINEDTYPEDTEASER_FK)
+/
+
+create table SSBM_LDB_COMPANY
+(
+	ID NUMBER not null,
+	B2B NUMBER(1) default 0  not null,
+	COUNTRY_FK NUMBER,
+	HEADQUARTER NUMBER(1) default 0  not null,
+	HIDDEN NUMBER(1) default 0  not null,
+	LOCATION_FK NUMBER,
+	NAME VARCHAR2(256),
+	OFFICE NUMBER(1) default 0  not null,
+	OFFICIALNAME VARCHAR2(256),
+	PUBLICATIONINLOUNGE NUMBER(1) default 0  not null,
+	PUBLICATIONINWEBSITE NUMBER(1) default 0  not null,
+	RELEVANCE VARCHAR2(256),
+	STM NUMBER(1) default 0  not null,
+	WEBSITE VARCHAR2(256),
+	JDOVERSION NUMBER,
+	PHOTO_FK NUMBER,
+	APPROACH_FK NUMBER,
+	LOGO_FK NUMBER,
+	COORDINATES VARCHAR2(256),
+	LOGOSMALL_FK NUMBER
+)
+/
+
+create unique index SSBM_LDB_COMPANY_PK
+	on SSBM_LDB_COMPANY (ID)
+/
+
+create index SSBM_LDB_COMPANY_N51
+	on SSBM_LDB_COMPANY (COUNTRY_FK)
+/
+
+create index SSBM_LDB_COMPANY_N50
+	on SSBM_LDB_COMPANY (HIDDEN)
+/
+
+create index SSBM_LDB_COMPANY_N49
+	on SSBM_LDB_COMPANY (LOCATION_FK)
+/
+
+create index SSBM_LDB_COMPANY_N52
+	on SSBM_LDB_COMPANY (NAME)
+/
+
+create index SSBM_LDB_COMPANY_N54
+	on SSBM_LDB_COMPANY (APPROACH_FK)
+/
+
+create index SSBM_LDB_COMPANY_N55
+	on SSBM_LDB_COMPANY (LOGO_FK)
+/
+
+create index SSBM_LDB_COMPANY_N53
+	on SSBM_LDB_COMPANY (PHOTO_FK)
+/
+
+create index SSBM_LDB_COMPANY_N56
+	on SSBM_LDB_COMPANY (LOGOSMALL_FK)
+/
+
+create table SSBM_LDB_COMPANY_PUBFIELDS
+(
+	PUBLISHINGFIELD_FK NUMBER not null,
+	COMPANY_FK NUMBER not null
+)
+/
+
+create unique index SSBM_LDB_COMPANY_PUBFIELDS_PK
+	on SSBM_LDB_COMPANY_PUBFIELDS (PUBLISHINGFIELD_FK, COMPANY_FK)
+/
+
+create index SSBM_LDB_COMPANY_PUBFIELDS_N49
+	on SSBM_LDB_COMPANY_PUBFIELDS (COMPANY_FK)
+/
+
+create index SSBM_LDB_COMPANY_PUBFIELDS_N50
+	on SSBM_LDB_COMPANY_PUBFIELDS (PUBLISHINGFIELD_FK)
+/
+
+create table SSBM_LDB_COMPANY_TARGETGROUPS
+(
+	COMPANY_FK NUMBER not null,
+	TARGETGROUP_FK NUMBER not null
+)
+/
+
+create unique index SSBM_LDB_COMPANY_TARGETGRYX_PK
+	on SSBM_LDB_COMPANY_TARGETGROUPS (COMPANY_FK, TARGETGROUP_FK)
+/
+
+create index SSBM_LDB_COMPANY_TARGETGMJ_N50
+	on SSBM_LDB_COMPANY_TARGETGROUPS (COMPANY_FK)
+/
+
+create index SSBM_LDB_COMPANY_TARGETGMJ_N49
+	on SSBM_LDB_COMPANY_TARGETGROUPS (TARGETGROUP_FK)
+/
+
+create table SSBM_LDB_LOCATION
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER
+)
+/
+
+create unique index SSBM_LDB_LOCATION_PK
+	on SSBM_LDB_LOCATION (ID)
+/
+
+create table SSBM_LDB_OBJECT
+(
+	ID NUMBER not null,
+	"UID" NUMBER default 0,
+	JDOVERSION NUMBER
+)
+/
+
+create unique index SSBM_LDB_OBJECT_PK
+	on SSBM_LDB_OBJECT (ID)
+/
+
+create index SSBM_LDB_OBJECT_N49
+	on SSBM_LDB_OBJECT ("UID")
+/
+
+create table SSBM_LDB_PUBLISHINGFIELD
+(
+	ID NUMBER not null,
+	B2B NUMBER(1) default 0  not null,
+	STM NUMBER(1) default 0  not null,
+	WEBSITE NUMBER(1) default 0  not null,
+	JDOVERSION NUMBER
+)
+/
+
+create unique index SSBM_LDB_PUBLISHINGFIELD_PK
+	on SSBM_LDB_PUBLISHINGFIELD (ID)
+/
+
+create table SSBM_LDB_TARGETGROUP
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER
+)
+/
+
+create unique index SSBM_LDB_TARGETGROUP_PK
+	on SSBM_LDB_TARGETGROUP (ID)
+/
+
+create table SSBM_LDB_TEXTS
+(
+	SSBMLDBOBJECT_FK NUMBER not null,
+	STRING_KEY VARCHAR2(256) not null,
+	STRING_VALUE VARCHAR2(4000)
+)
+/
+
+create unique index SSBM_LDB_TEXTS_PK
+	on SSBM_LDB_TEXTS (SSBMLDBOBJECT_FK, STRING_KEY)
+/
+
+create index SSBM_LDB_TEXTS_N49
+	on SSBM_LDB_TEXTS (SSBMLDBOBJECT_FK)
+/
+
+create table CHANNEL_CHANVIRTUAPARECHAN
+(
+	PARENTCHANNEL_FK NUMBER not null,
+	CHILDCHANNEL_FK NUMBER not null
+)
+/
+
+create unique index CHANNEL_CHANVIRTUAPARECHAN_PK
+	on CHANNEL_CHANVIRTUAPARECHAN (PARENTCHANNEL_FK, CHILDCHANNEL_FK)
+/
+
+create index CHANNEL_CHANVIRTUAPARECHAN_N49
+	on CHANNEL_CHANVIRTUAPARECHAN (CHILDCHANNEL_FK)
+/
+
+create index CHANNEL_CHANVIRTUAPARECHAN_N50
+	on CHANNEL_CHANVIRTUAPARECHAN (PARENTCHANNEL_FK)
+/
+
+create table SUBJECTANDRECIPIENT
+(
+	ID NUMBER not null,
+	RECIPIENT VARCHAR2(256),
+	SUBJECT VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	F_FORMSUBJEANDRECIPIENT_FK NUMBER,
+	FORM_SUBJECTS_AND_RECIPI2E_IDX NUMBER(10),
+	STATISTICEMAILINTERVAL NUMBER(10),
+	STATISTICLASTSENT TIMESTAMP(6)
+)
+/
+
+create unique index SUBJECTANDRECIPIENT_PK
+	on SUBJECTANDRECIPIENT (ID)
+/
+
+create index SUBJECTANDRECIPIENT_N49
+	on SUBJECTANDRECIPIENT (F_FORMSUBJEANDRECIPIENT_FK)
+/
+
+create index SUBJECTANDRECIPIENT_N51
+	on SUBJECTANDRECIPIENT (STATISTICEMAILINTERVAL)
+/
+
+create table IMAGEPUHOUSIN_PUBLISHHOUSE
+(
+	PUBLISHINGHOUSE_FK NUMBER not null,
+	IMAGE_FK NUMBER not null
+)
+/
+
+create unique index IMAGEPUHOUSIN_PUBLISHHOUSE_PK
+	on IMAGEPUHOUSIN_PUBLISHHOUSE (PUBLISHINGHOUSE_FK, IMAGE_FK)
+/
+
+create index IMAGEPUHOUSIN_PUBLISHHOUSE_N49
+	on IMAGEPUHOUSIN_PUBLISHHOUSE (IMAGE_FK)
+/
+
+create index IMAGEPUHOUSIN_PUBLISHHOUSE_N50
+	on IMAGEPUHOUSIN_PUBLISHHOUSE (PUBLISHINGHOUSE_FK)
+/
+
+create table APPBOOK_NTAMAILINGAFEBOOKS
+(
+	APPBOOK_FK NUMBER not null,
+	NTAMAILING_FK NUMBER not null
+)
+/
+
+create unique index APPBOOK_NTAMAILINGAFEBOOKS_PK
+	on APPBOOK_NTAMAILINGAFEBOOKS (APPBOOK_FK, NTAMAILING_FK)
+/
+
+create index APPBOOK_NTAMAILINGAFEBOOKS_N50
+	on APPBOOK_NTAMAILINGAFEBOOKS (NTAMAILING_FK)
+/
+
+create index APPBOOK_NTAMAILINGAFEBOOKS_N49
+	on APPBOOK_NTAMAILINGAFEBOOKS (APPBOOK_FK)
+/
+
+create table STRING_STOEASSEARCHADDISBN
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_STOEASSEARCHADDISBN_PK
+	on STRING_STOEASSEARCHADDISBN (ID_OID, STRING_ELE)
+/
+
+create index STRING_STOEASSEARCHADDISBN_N49
+	on STRING_STOEASSEARCHADDISBN (ID_OID)
+/
+
+create table STRING_STOEASSEARCHEXCISBN
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_STOEASSEARCHEXCISBN_PK
+	on STRING_STOEASSEARCHEXCISBN (ID_OID, STRING_ELE)
+/
+
+create index STRING_STOEASSEARCHEXCISBN_N49
+	on STRING_STOEASSEARCHEXCISBN (ID_OID)
+/
+
+create table IMAGE_PUBLHOUSHIGHRESIMAGE
+(
+	PUBLISHINGHOUSE_FK NUMBER not null,
+	IMAGE_FK NUMBER not null
+)
+/
+
+create unique index IMAGE_PUBLHOUSHIGHRESIMAGE_PK
+	on IMAGE_PUBLHOUSHIGHRESIMAGE (PUBLISHINGHOUSE_FK, IMAGE_FK)
+/
+
+create index IMAGE_PUBLHOUSHIGHRESIMAGE_N49
+	on IMAGE_PUBLHOUSHIGHRESIMAGE (PUBLISHINGHOUSE_FK)
+/
+
+create index IMAGE_PUBLHOUSHIGHRESIMAGE_N50
+	on IMAGE_PUBLHOUSHIGHRESIMAGE (IMAGE_FK)
+/
+
+create table MARKETINGPRODUCTINTEREST
+(
+	ID NUMBER not null,
+	MAINCATEGORY VARCHAR2(256),
+	SPECIFICINTEREST VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index MARKETINGPRODUCTINTEREST_PK
+	on MARKETINGPRODUCTINTEREST (ID)
+/
+
+create index MARKETINGPRODUCTINTEREST_N49
+	on MARKETINGPRODUCTINTEREST (SPECIFICINTEREST)
+/
+
+create index MARKETINGPRODUCTINTEREST_N50
+	on MARKETINGPRODUCTINTEREST (MAINCATEGORY)
+/
+
+create table INTELLECTUALUNIT
+(
+	ID NUMBER not null,
+	SUPPRESSEDFORPARALLELVERSIONS NUMBER(1) not null,
+	TITLEID NUMBER not null,
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create unique index INTELLECTUALUNIT_PK
+	on INTELLECTUALUNIT (ID)
+/
+
+create unique index INTELLECTUALUNIT_U49
+	on INTELLECTUALUNIT (TITLEID)
+/
+
+create index INTELLECTUALUNIT_N49
+	on INTELLECTUALUNIT (SUPPRESSEDFORPARALLELVERSIONS)
+/
+
+create table LIBRARIANINFORMATION
+(
+	ID NUMBER not null,
+	COUNTRY_FK NUMBER,
+	FIRSTNAME VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	LIBRARYNAME VARCHAR2(256),
+	SPRINGERUSER_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index LIBRARIANINFORMATION_PK
+	on LIBRARIANINFORMATION (ID)
+/
+
+create index LIBRARIANINFORMATION_N50
+	on LIBRARIANINFORMATION (SPRINGERUSER_FK)
+/
+
+create index LIBRARIANINFORMATION_N49
+	on LIBRARIANINFORMATION (COUNTRY_FK)
+/
+
+create index LIBRA_IDX
+	on LIBRARIANINFORMATION (SPRINGERUSER_FK, ID)
+/
+
+create table VERTICALTYPE
+(
+	ID NUMBER not null,
+	ALERTPROFILETYPE NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index VERTICALTYPE_PK
+	on VERTICALTYPE (ID)
+/
+
+create index VERTICALTYPE_N49
+	on VERTICALTYPE (NAME)
+/
+
+create index VERTICALTYPE_N50
+	on VERTICALTYPE (ALERTPROFILETYPE)
+/
+
+create table CORPORATEPROFILETIERING
+(
+	ID NUMBER not null,
+	VERTICAL_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index CORPORATEPROFILETIERING_PK
+	on CORPORATEPROFILETIERING (ID)
+/
+
+create index CORPORATEPROFILETIERING_N49
+	on CORPORATEPROFILETIERING (VERTICAL_FK)
+/
+
+create table CORPORATEPROFILEURLTIERING
+(
+	ID NUMBER not null,
+	URL VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index CORPORATEPROFILEURLTIERING_PK
+	on CORPORATEPROFILEURLTIERING (ID)
+/
+
+create index CORPORATEPROFILEURLTIERING_N49
+	on CORPORATEPROFILEURLTIERING (URL)
+/
+
+create table CORPORATEPROFILENAMETIERING
+(
+	ID NUMBER not null,
+	COMPANY VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index CORPORATEPROFILENAMETIERING_PK
+	on CORPORATEPROFILENAMETIERING (ID)
+/
+
+create index CORPORATEPROFILENAMETIERJU_N49
+	on CORPORATEPROFILENAMETIERING (COMPANY)
+/
+
+create table SHORTURLDOMAIN
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DOMAINNAME VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index SHORTURLDOMAIN_PK
+	on SHORTURLDOMAIN (ID)
+/
+
+create unique index SHORTURLDOMAIN_U53
+	on SHORTURLDOMAIN (DOMAINNAME)
+/
+
+create index SHORTURLDOMAIN_N49
+	on SHORTURLDOMAIN (LASTMODIFIER_FK)
+/
+
+create index SHORTURLDOMAIN_N50
+	on SHORTURLDOMAIN (CREATOR_FK)
+/
+
+create index SHORTURLDOMAIN_N51
+	on SHORTURLDOMAIN (LASTMODIFICATION)
+/
+
+create index SHORTURLDOMAIN_N52
+	on SHORTURLDOMAIN (CREATION)
+/
+
+create table SHORTURL
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DESTINATIONURL VARCHAR2(1024),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SHORTURLDOMAIN_FK NUMBER,
+	SHORTCUT VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index SHORTURL_PK
+	on SHORTURL (ID)
+/
+
+create index SHORTURL_N50
+	on SHORTURL (LASTMODIFIER_FK)
+/
+
+create index SHORTURL_N51
+	on SHORTURL (CREATOR_FK)
+/
+
+create index SHORTURL_N52
+	on SHORTURL (LASTMODIFICATION)
+/
+
+create index SHORTURL_N54
+	on SHORTURL (CREATION)
+/
+
+create index SHORTURL_N53
+	on SHORTURL (SHORTCUT)
+/
+
+create index SHORTURL_N49
+	on SHORTURL (SHORTURLDOMAIN_FK)
+/
+
+create table TOCJOURNALFREQUENCY
+(
+	ID NUMBER not null,
+	JOURNALNO NUMBER(10) not null,
+	JDOVERSION NUMBER not null,
+	FREQUENCYDATE TIMESTAMP(6),
+	INTERVAL VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	STARTDATE TIMESTAMP(6),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	CREATOR_FK NUMBER
+)
+/
+
+create unique index TOCJOURNALFREQUENCY_PK
+	on TOCJOURNALFREQUENCY (ID)
+/
+
+create unique index TOCJOURNALFREQUENCY_U49
+	on TOCJOURNALFREQUENCY (JOURNALNO)
+/
+
+create index TOCJOURNALFREQUENCY_N49
+	on TOCJOURNALFREQUENCY (FREQUENCYDATE)
+/
+
+create index TOCJOURNALFREQUENCY_N50
+	on TOCJOURNALFREQUENCY (LASTMODIFIER_FK)
+/
+
+create index TOCJOURNALFREQUENCY_N53
+	on TOCJOURNALFREQUENCY (CREATION)
+/
+
+create index TOCJOURNALFREQUENCY_N52
+	on TOCJOURNALFREQUENCY (LASTMODIFICATION)
+/
+
+create index TOCJOURNALFREQUENCY_N51
+	on TOCJOURNALFREQUENCY (CREATOR_FK)
+/
+
+create table AUTHORSPRINGERLINKACCESS
+(
+	ID NUMBER not null,
+	ACCESSID VARCHAR2(256),
+	ACCESSLINK VARCHAR2(256),
+	CUSTOMERNUMBERMPS VARCHAR2(256),
+	EMAIL VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	SPRINGERLINKACCOUNT NUMBER(1),
+	JDOVERSION NUMBER not null,
+	IMPORTDATE TIMESTAMP(6),
+	MIGRATED NUMBER(1) default 0  not null,
+	SBA NUMBER(1) default 0  not null,
+	AUTHOREACCESSEMAILSENDDATE TIMESTAMP(6),
+	ISBN13 VARCHAR2(256),
+	EXPORTED NUMBER(1) default 0
+)
+/
+
+create unique index AUTHORSPRINGERLINKACCESS_PK
+	on AUTHORSPRINGERLINKACCESS (ID)
+/
+
+create index AUTHORSPRINGERLINKACCESS_N50
+	on AUTHORSPRINGERLINKACCESS (ACCESSLINK)
+/
+
+create index AUTHORSPRINGERLINKACCESS_N51
+	on AUTHORSPRINGERLINKACCESS (CUSTOMERNUMBERMPS)
+/
+
+create index AUTHORSPRINGERLINKACCESS_N54
+	on AUTHORSPRINGERLINKACCESS (SPRINGERLINKACCOUNT)
+/
+
+create unique index AUTHORSPRINGERLINKACCESS_U10
+	on AUTHORSPRINGERLINKACCESS (ISBN13, EMAIL)
+/
+
+create index AUTHORSPRINGERLINKACCESS_N53
+	on AUTHORSPRINGERLINKACCESS (ACCESSID)
+/
+
+create index AUTHORSPRINGERLINKACCESS_N55
+	on AUTHORSPRINGERLINKACCESS (IMPORTDATE)
+/
+
+create index AUTHORSPRINGERLINKACCESS_N52
+	on AUTHORSPRINGERLINKACCESS (SBA)
+/
+
+create index AUTHORSPRINGERLINKACCESS_N57
+	on AUTHORSPRINGERLINKACCESS (MIGRATED)
+/
+
+create index AUTHORSPRINGERLINKACCESS_N58
+	on AUTHORSPRINGERLINKACCESS (AUTHOREACCESSEMAILSENDDATE)
+/
+
+create table SNAPSHOTGROUPMEMBERSHIP
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SNAPSHOTGROUP_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create index SNAPSHOTGROUPMEMBERSHIP_PK
+	on SNAPSHOTGROUPMEMBERSHIP (ID)
+/
+
+create index SNAPSHOTGROUPMEMBERSHIP_N52
+	on SNAPSHOTGROUPMEMBERSHIP (CREATOR_FK)
+/
+
+create index SNAPSHOTGROUPMEMBERSHIP_N51
+	on SNAPSHOTGROUPMEMBERSHIP (SPRINGERUSER_FK)
+/
+
+create index SNAPSHOTGROUPMEMBERSHIP_N54
+	on SNAPSHOTGROUPMEMBERSHIP (CREATION)
+/
+
+create index SNAPSHOTGROUPMEMBERSHIP_N53
+	on SNAPSHOTGROUPMEMBERSHIP (LASTMODIFICATION)
+/
+
+create index SNAPSHOTGROUPMEMBERSHIP_N50
+	on SNAPSHOTGROUPMEMBERSHIP (SNAPSHOTGROUP_FK)
+/
+
+create index SNAPSHOTGROUPMEMBERSHIP_N49
+	on SNAPSHOTGROUPMEMBERSHIP (LASTMODIFIER_FK)
+/
+
+create table SNAPSHOTGROUP
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DESCRIPTION VARCHAR2(4000),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	MARKEDFORDELETION NUMBER(1) default 0  not null,
+	GROUPSIZE NUMBER
+)
+/
+
+create index SNAPSHOTGROUP_N52
+	on SNAPSHOTGROUP (MARKEDFORDELETION)
+/
+
+create index SNAPSHOTGROUP_PK
+	on SNAPSHOTGROUP (ID)
+/
+
+create index SNAPSHOTGROUP_N51
+	on SNAPSHOTGROUP (LASTMODIFICATION)
+/
+
+create unique index SNAPSHOTGROUP_U52
+	on SNAPSHOTGROUP (NAME)
+/
+
+create index SNAPSHOTGROUP_N50
+	on SNAPSHOTGROUP (LASTMODIFIER_FK)
+/
+
+create index SNAPSHOTGROUP_N53
+	on SNAPSHOTGROUP (CREATOR_FK)
+/
+
+create index SNAPSHOTGROUP_N49
+	on SNAPSHOTGROUP (CREATION)
+/
+
+create table EBOOKRETAILLINK
+(
+	ID NUMBER not null,
+	BOOKISBN VARCHAR2(256),
+	BOOKISBN13 VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	EBOOKISBN VARCHAR2(256),
+	EBOOKISBN13 VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SCOPE VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create index EBOOKRETAILLINK_N49
+	on EBOOKRETAILLINK (LASTMODIFICATION)
+/
+
+create unique index EBOOKRETAILLINK_PK
+	on EBOOKRETAILLINK (ID)
+/
+
+create index EBOOKRETAILLINK_N54
+	on EBOOKRETAILLINK (CREATOR_FK)
+/
+
+create index EBOOKRETAILLINK_N56
+	on EBOOKRETAILLINK (SCOPE)
+/
+
+create index EBOOKRETAILLINK_N55
+	on EBOOKRETAILLINK (LASTMODIFIER_FK)
+/
+
+create index EBOOKRETAILLINK_N50
+	on EBOOKRETAILLINK (CREATION)
+/
+
+create unique index EBOOKRETAILLINK_U52
+	on EBOOKRETAILLINK (EBOOKISBN13)
+/
+
+create table PROTOCOLPAYPERVIEW
+(
+	ID NUMBER not null,
+	ISBN VARCHAR2(256),
+	SERIESTITLE VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index PROTOCOLPAYPERVIEW_N49
+	on PROTOCOLPAYPERVIEW (ISBN)
+/
+
+create unique index PROTOCOLPAYPERVIEW_PK
+	on PROTOCOLPAYPERVIEW (ID)
+/
+
+create table ARTICLEPAYPERVIEW
+(
+	ID NUMBER not null,
+	ISSN VARCHAR2(256),
+	ISSUE VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create unique index ARTICLEPAYPERVIEW_PK
+	on ARTICLEPAYPERVIEW (ID)
+/
+
+create table MONOGRAPHCHAPTERPAYPERVIEW
+(
+	ID NUMBER not null,
+	COPYRIGHTYEAR VARCHAR2(256),
+	ISBN VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index MONOGRAPHCHAPTERPAYPERVIEW_N49
+	on MONOGRAPHCHAPTERPAYPERVIEW (ISBN)
+/
+
+create unique index MONOGRAPHCHAPTERPAYPERVIEW_PK
+	on MONOGRAPHCHAPTERPAYPERVIEW (ID)
+/
+
+create table CASPERPRODUCT
+(
+	ID NUMBER not null,
+	AUTHORS VARCHAR2(4000),
+	DOI VARCHAR2(256),
+	PAGES VARCHAR2(256),
+	PARENTTITLE VARCHAR2(2000),
+	RETURNURL VARCHAR2(256),
+	VOLUME VARCHAR2(256),
+	YEAR VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create unique index PAYPERVIEW_PK
+	on CASPERPRODUCT (ID)
+/
+
+create unique index CASPERPRODUCT_U49
+	on CASPERPRODUCT (DOI)
+/
+
+create table SERIESCHAPTERPAYPERVIEW
+(
+	ID NUMBER not null,
+	COPYRIGHTYEAR VARCHAR2(256),
+	ISBN VARCHAR2(256),
+	SERIESTITLE VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create index SERIESCHAPTERPAYPERVIEW_N49
+	on SERIESCHAPTERPAYPERVIEW (ISBN)
+/
+
+create unique index SERIESCHAPTERPAYPERVIEW_PK
+	on SERIESCHAPTERPAYPERVIEW (ID)
+/
+
+create table EXTERNALPRODUCTPRICE
+(
+	ID NUMBER not null,
+	CHF NUMBER,
+	EUR NUMBER,
+	GBP NUMBER,
+	USD NUMBER,
+	JDOVERSION NUMBER not null,
+	CREATION TIMESTAMP(6),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	CREATOR_FK NUMBER,
+	NAME VARCHAR2(256),
+	DISCOUNTMESSAGE VARCHAR2(256),
+	JPY NUMBER
+)
+/
+
+create unique index EXTERNALPRODUCTPRICE_U49
+	on EXTERNALPRODUCTPRICE (NAME)
+/
+
+create unique index PAYPERVIEWPRICE_PK
+	on EXTERNALPRODUCTPRICE (ID)
+/
+
+create index EXTERNALPRODUCTPRICE_N52
+	on EXTERNALPRODUCTPRICE (LASTMODIFICATION)
+/
+
+create index EXTERNALPRODUCTPRICE_N51
+	on EXTERNALPRODUCTPRICE (LASTMODIFIER_FK)
+/
+
+create index EXTERNALPRODUCTPRICE_N50
+	on EXTERNALPRODUCTPRICE (CREATOR_FK)
+/
+
+create index EXTERNALPRODUCTPRICE_N53
+	on EXTERNALPRODUCTPRICE (CREATION)
+/
+
+create table EBOOKDOWNLOADFIGURES
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	ELECTRONICISBN VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PRINTISBN VARCHAR2(256),
+	TOTALDOWNLOADS NUMBER(10),
+	YEAR NUMBER(10),
+	JDOVERSION NUMBER not null,
+	PAGEVIEWS NUMBER(10),
+	USAGEQUARTILEINCOLLECTION VARCHAR2(256),
+	TOTALCHAPTERDOWNLOADS NUMBER(10),
+	ROYALITIES NUMBER(1),
+	BOOKTITLE VARCHAR2(256),
+	ROYALTY NUMBER(1),
+	APPLEBOOKSTORE NUMBER(1),
+	KINDLEVERSION NUMBER(1),
+	GOOGLEPLAY NUMBER(1)
+)
+/
+
+create index EBOOKDOWNLOADFIGURES_N56
+	on EBOOKDOWNLOADFIGURES (BOOKTITLE)
+/
+
+create index EBOOKDOWNLOADFIGURES_N52
+	on EBOOKDOWNLOADFIGURES (LASTMODIFICATION)
+/
+
+create unique index EBOOKDOWNLOADFIGURES_PK
+	on EBOOKDOWNLOADFIGURES (ID)
+/
+
+create index EBOOKDOWNLOADFIGURES_N51
+	on EBOOKDOWNLOADFIGURES (LASTMODIFIER_FK)
+/
+
+create index EBOOKDOWNLOADFIGURES_N53
+	on EBOOKDOWNLOADFIGURES (YEAR)
+/
+
+create index EBOOKDOWNLOADFIGURES_N54
+	on EBOOKDOWNLOADFIGURES (PRINTISBN)
+/
+
+create index EBOOKDOWNLOADFIGURES_N50
+	on EBOOKDOWNLOADFIGURES (CREATOR_FK)
+/
+
+create index EBOOKDOWNLOADFIGURES_N49
+	on EBOOKDOWNLOADFIGURES (CREATION)
+/
+
+create index EBOOKDOWNLOADFIGURES_N55
+	on EBOOKDOWNLOADFIGURES (ELECTRONICISBN)
+/
+
+create table EBOOKDOWNLOADFIGURESSETTINGS
+(
+	ID NUMBER not null,
+	COUNT NUMBER(10),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	"FROM" NUMBER(10),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	CURRENTCOUNT NUMBER(10)
+)
+/
+
+create index EBOOKDOWNLOADFIGURESSETTN5_N49
+	on EBOOKDOWNLOADFIGURESSETTINGS ("FROM")
+/
+
+create index EBOOKDOWNLOADFIGURESSETTN5_N51
+	on EBOOKDOWNLOADFIGURESSETTINGS (LASTMODIFICATION)
+/
+
+create unique index EBOOKDOWNLOADFIGURESSETTILM_PK
+	on EBOOKDOWNLOADFIGURESSETTINGS (ID)
+/
+
+create index EBOOKDOWNLOADFIGURESSETTN5_N54
+	on EBOOKDOWNLOADFIGURESSETTINGS (COUNT)
+/
+
+create index EBOOKDOWNLOADFIGURESSETTN5_N52
+	on EBOOKDOWNLOADFIGURESSETTINGS (LASTMODIFIER_FK)
+/
+
+create index EBOOKDOWNLOADFIGURESSETTN5_N53
+	on EBOOKDOWNLOADFIGURESSETTINGS (CREATION)
+/
+
+create index EBOOKDOWNLOADFIGURESSETTN5_N50
+	on EBOOKDOWNLOADFIGURESSETTINGS (CREATOR_FK)
+/
+
+create table EBOOKRESPONSIBLEEDITOR
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	EMAIL VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LASTNAME VARCHAR2(256),
+	PS VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create index EBOOKRESPONSIBLEEDITOR_N55
+	on EBOOKRESPONSIBLEEDITOR (CREATOR_FK)
+/
+
+create index EBOOKRESPONSIBLEEDITOR_N49
+	on EBOOKRESPONSIBLEEDITOR (FIRSTNAME)
+/
+
+create index EBOOKRESPONSIBLEEDITOR_N52
+	on EBOOKRESPONSIBLEEDITOR (LASTNAME)
+/
+
+create index EBOOKRESPONSIBLEEDITOR_N51
+	on EBOOKRESPONSIBLEEDITOR (EMAIL)
+/
+
+create index EBOOKRESPONSIBLEEDITOR_N54
+	on EBOOKRESPONSIBLEEDITOR (LASTMODIFIER_FK)
+/
+
+create index EBOOKRESPONSIBLEEDITOR_N50
+	on EBOOKRESPONSIBLEEDITOR (CREATION)
+/
+
+create index EBOOKRESPONSIBLEEDITOR_N53
+	on EBOOKRESPONSIBLEEDITOR (PS)
+/
+
+create unique index EBOOKRESPONSIBLEEDITOR_PK
+	on EBOOKRESPONSIBLEEDITOR (ID)
+/
+
+create index EBOOKRESPONSIBLEEDITOR_N56
+	on EBOOKRESPONSIBLEEDITOR (LASTMODIFICATION)
+/
+
+create table TRACKEDBOOKAUTHOR
+(
+	ID NUMBER not null,
+	AUTHORWANTSEMAILNOTIFICATION NUMBER(1),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SPRINGERAUTHOR_FK NUMBER,
+	TRACKEDBOOK_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index TRACKEDBOOKAUTHOR_PK
+	on TRACKEDBOOKAUTHOR (ID)
+/
+
+create index TRACKEDBOOKAUTHOR_N53
+	on TRACKEDBOOKAUTHOR (SPRINGERAUTHOR_FK)
+/
+
+create index TRACKEDBOOKAUTHOR_N52
+	on TRACKEDBOOKAUTHOR (LASTMODIFIER_FK)
+/
+
+create index TRACKEDBOOKAUTHOR_N51
+	on TRACKEDBOOKAUTHOR (TRACKEDBOOK_FK)
+/
+
+create index TRACKEDBOOKAUTHOR_N50
+	on TRACKEDBOOKAUTHOR (CREATOR_FK)
+/
+
+create index TRACKEDBOOKAUTHOR_N55
+	on TRACKEDBOOKAUTHOR (LASTMODIFICATION)
+/
+
+create index TRACKEDBOOKAUTHOR_N49
+	on TRACKEDBOOKAUTHOR (CREATION)
+/
+
+create table DOICITATIONCONTRIBUTOR
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	FIRSTAUTHOR NUMBER(1),
+	FORMATTEDNAME VARCHAR2(256),
+	GIVENNAME VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SURNAME VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	DOICITATIO_CONTRIBUTORS_FK NUMBER
+)
+/
+
+create unique index DOICITATIONCONTRIBUTOR_PK
+	on DOICITATIONCONTRIBUTOR (ID)
+/
+
+create index DOICITATIONCONTRIBUTOR_N49
+	on DOICITATIONCONTRIBUTOR (LASTMODIFIER_FK)
+/
+
+create index DOICITATIONCONTRIBUTOR_N50
+	on DOICITATIONCONTRIBUTOR (DOICITATIO_CONTRIBUTORS_FK)
+/
+
+create index DOICITATIONCONTRIBUTOR_N51
+	on DOICITATIONCONTRIBUTOR (CREATOR_FK)
+/
+
+create index DOICITATIONCONTRIBUTOR_N52
+	on DOICITATIONCONTRIBUTOR (LASTMODIFICATION)
+/
+
+create index DOICITATIONCONTRIBUTOR_N53
+	on DOICITATIONCONTRIBUTOR (CREATION)
+/
+
+create table DOICITATION
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DATETIMERECEIVED TIMESTAMP(6),
+	DOI VARCHAR2(256),
+	DOITYPE VARCHAR2(256),
+	FIRSTPAGE VARCHAR2(256),
+	FLCOUNT NUMBER(10),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PUBLICATIONTYPE VARCHAR2(256),
+	SUBMISSIONID NUMBER(10),
+	TARGETAUTHORQUERY_FK NUMBER,
+	TARGETDOI VARCHAR2(256),
+	TARGETTRACKEDARTICLE_FK NUMBER,
+	TARGETUSER_FK NUMBER,
+	TARGETUSERALERTEDDATE TIMESTAMP(6),
+	YEAR NUMBER(10),
+	JDOVERSION NUMBER not null,
+	CITATIONTYPE VARCHAR2(256) not null,
+	ARTICLETITLE VARCHAR2(768),
+	ISSNELECTRONIC VARCHAR2(256),
+	ISSNPRINT VARCHAR2(256),
+	ISSUE NUMBER(10),
+	JOURNALABBREVIATION VARCHAR2(256),
+	JOURNALTITLE VARCHAR2(256),
+	VOLUME NUMBER(10),
+	ISBNELECTRONIC VARCHAR2(256),
+	ISBNPRINT VARCHAR2(256),
+	VOLUMETITLE VARCHAR2(256)
+)
+/
+
+create unique index DOICITATION_PK
+	on DOICITATION (ID)
+/
+
+create index DOICITATION_N56
+	on DOICITATION (LASTMODIFICATION)
+/
+
+create index DOICITATION_N55
+	on DOICITATION (TARGETUSER_FK)
+/
+
+create index DOICITATION_N52
+	on DOICITATION (TARGETTRACKEDARTICLE_FK)
+/
+
+create index DOICITATION_N51
+	on DOICITATION (TARGETDOI)
+/
+
+create index DOICITATION_N54
+	on DOICITATION (CREATOR_FK)
+/
+
+create index DOICITATION_N53
+	on DOICITATION (LASTMODIFIER_FK)
+/
+
+create index DOICITATION_N50
+	on DOICITATION (TARGETAUTHORQUERY_FK)
+/
+
+create index DOICITATION_N49
+	on DOICITATION (CREATION)
+/
+
+create index "alerteddate"
+	on DOICITATION (TARGETUSERALERTEDDATE)
+/
+
+create table TESTTABLE
+(
+	ID NUMBER not null
+)
+/
+
+create table EXTENDEDTOCALERTMAILING
+(
+	ID NUMBER not null,
+	ARTICLECOUNT NUMBER(10),
+	DURATION FLOAT,
+	DURATIONMEANTIME FLOAT,
+	FINISHED NUMBER(1),
+	ISSUE NUMBER,
+	ISSUEID NUMBER,
+	JOURNALNO NUMBER,
+	TOTALEMAILS NUMBER(10),
+	VOLUMENO NUMBER,
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256)
+)
+/
+
+create unique index EXTENDEDTOCALERTMAILING_PK
+	on EXTENDEDTOCALERTMAILING (ID)
+/
+
+create index EXTENDEDTOCALERTMAILING_N49
+	on EXTENDEDTOCALERTMAILING (ISSUE)
+/
+
+create index EXTENDEDTOCALERTMAILING_N51
+	on EXTENDEDTOCALERTMAILING (FINISHED)
+/
+
+create index EXTENDEDTOCALERTMAILING_N50
+	on EXTENDEDTOCALERTMAILING (JOURNALNO)
+/
+
+create table STRING_EXTTOCALEMAISENDEMA
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_EXTTOCALEMAISENDEMA_PK
+	on STRING_EXTTOCALEMAISENDEMA (ID_OID, STRING_ELE)
+/
+
+create index STRING_EXTTOCALEMAISENDEMA_N49
+	on STRING_EXTTOCALEMAISENDEMA (ID_OID)
+/
+
+create table STRING_EXTETOCALEMAIEMAILS
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_EXTETOCALEMAIEMAILS_PK
+	on STRING_EXTETOCALEMAIEMAILS (ID_OID, STRING_ELE)
+/
+
+create index STRING_EXTETOCALEMAIEMAILS_N49
+	on STRING_EXTETOCALEMAIEMAILS (ID_OID)
+/
+
+create table SOCIETYJOURNAL
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	JOURNALNO NUMBER(10),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	MAXACCESSCOUNT NUMBER(10),
+	SOCIETY_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index SOCIETYJOURNAL_PK
+	on SOCIETYJOURNAL (ID)
+/
+
+create index SOCIETYJOURNAL_N50
+	on SOCIETYJOURNAL (CREATOR_FK)
+/
+
+create index SOCIETYJOURNAL_N51
+	on SOCIETYJOURNAL (SOCIETY_FK)
+/
+
+create index SOCIETYJOURNAL_N52
+	on SOCIETYJOURNAL (JOURNALNO)
+/
+
+create index SOCIETYJOURNAL_N53
+	on SOCIETYJOURNAL (LASTMODIFICATION)
+/
+
+create index SOCIETYJOURNAL_N54
+	on SOCIETYJOURNAL (CREATION)
+/
+
+create index SOCIETYJOURNAL_N49
+	on SOCIETYJOURNAL (LASTMODIFIER_FK)
+/
+
+create table SOCIETY
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SPRINGERGROUP_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index SOCIETY_PK
+	on SOCIETY (ID)
+/
+
+create index SOCIETY_N49
+	on SOCIETY (LASTMODIFIER_FK)
+/
+
+create index SOCIETY_N50
+	on SOCIETY (LASTMODIFICATION)
+/
+
+create index SOCIETY_N51
+	on SOCIETY (SPRINGERGROUP_FK)
+/
+
+create index SOCIETY_N52
+	on SOCIETY (CREATION)
+/
+
+create index SOCIETY_N53
+	on SOCIETY (CREATOR_FK)
+/
+
+create table SOCIETYEXTENDEDTOCACCESS
+(
+	ID NUMBER not null,
+	ACCESSCOUNT NUMBER(10),
+	ACCESSTOKEN VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	ISSUENO NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	OVERALLACCESSCOUNT NUMBER(10),
+	SOCIETY_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create index SOCIETYEXTENDEDTOCACCESS_N56
+	on SOCIETYEXTENDEDTOCACCESS (LASTMODIFIER_FK)
+/
+
+create index SOCIETYEXTENDEDTOCACCESS_N66
+	on SOCIETYEXTENDEDTOCACCESS (SPRINGERUSER_FK, ISSUENO, SOCIETY_FK)
+/
+
+create unique index SOCIETYEXTENDEDTOCACCESS_PK
+	on SOCIETYEXTENDEDTOCACCESS (ID)
+/
+
+create index SOCIETYEXTENDEDTOCACCESS_N53
+	on SOCIETYEXTENDEDTOCACCESS (ACCESSTOKEN)
+/
+
+create index SOCIETYEXTENDEDTOCACCESS_N54
+	on SOCIETYEXTENDEDTOCACCESS (SOCIETY_FK)
+/
+
+create index SOCIETYEXTENDEDTOCACCESS_N55
+	on SOCIETYEXTENDEDTOCACCESS (LASTMODIFICATION)
+/
+
+create index SOCIETYEXTENDEDTOCACCESS_N50
+	on SOCIETYEXTENDEDTOCACCESS (CREATION)
+/
+
+create index SOCIETYEXTENDEDTOCACCESS_N51
+	on SOCIETYEXTENDEDTOCACCESS (CREATOR_FK)
+/
+
+create index SOCIETYEXTENDEDTOCACCESS_N52
+	on SOCIETYEXTENDEDTOCACCESS (ISSUENO)
+/
+
+create index SOCIETYEXTENDEDTOCACCESS_N49
+	on SOCIETYEXTENDEDTOCACCESS (SPRINGERUSER_FK)
+/
+
+create table TOCALERTACCESSCOUNT
+(
+	ID NUMBER not null,
+	ACCESSCOUNT NUMBER(10),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	ISSUENO NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SPRINGERUSER_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index TOCALERTACCESSCOUNT_PK
+	on TOCALERTACCESSCOUNT (ID)
+/
+
+create index TOCALERTACCESSCOUNT_N49
+	on TOCALERTACCESSCOUNT (LASTMODIFICATION)
+/
+
+create index TOCALERTACCESSCOUNT_N50
+	on TOCALERTACCESSCOUNT (CREATION)
+/
+
+create index TOCALERTACCESSCOUNT_N51
+	on TOCALERTACCESSCOUNT (ISSUENO)
+/
+
+create index TOCALERTACCESSCOUNT_N52
+	on TOCALERTACCESSCOUNT (SPRINGERUSER_FK)
+/
+
+create index TOCALERTACCESSCOUNT_N53
+	on TOCALERTACCESSCOUNT (LASTMODIFIER_FK)
+/
+
+create index TOCALERTACCESSCOUNT_N54
+	on TOCALERTACCESSCOUNT (CREATOR_FK)
+/
+
+create table PUBLISHINGHOUSEIMPORTMAPPING
+(
+	ID NUMBER not null,
+	SOURCEIMPRINTCODE VARCHAR2(16),
+	SOURCEPUBLISHINGHOUSECODE VARCHAR2(16),
+	TARGETPUBLISHINGHOUSECODE VARCHAR2(16),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index PUBLISHINGHOUSEIMPORTMAPPJU_PK
+	on PUBLISHINGHOUSEIMPORTMAPPING (ID)
+/
+
+create index SOURCES
+	on PUBLISHINGHOUSEIMPORTMAPPING (SOURCEPUBLISHINGHOUSECODE, SOURCEIMPRINTCODE)
+/
+
+create table FREECOPYRATING
+(
+	ID NUMBER not null,
+	BOOKDESIGN NUMBER(10),
+	CONTENTACTUALITY NUMBER(10),
+	CONTENTCOMPLETENESS NUMBER(10),
+	CONTENTMATCHESCOURSE NUMBER(10),
+	CONTENTQUALITY NUMBER(10),
+	DIDACTICS NUMBER(10),
+	IMPROVEMENTSUGGESTIONS VARCHAR2(4000),
+	INSTRUCTORINFORMATION_FK NUMBER,
+	MISSEDSUBJECTS VARCHAR2(4000),
+	MOSTLYLIKED VARCHAR2(4000),
+	PRICEPERFORMANCERATIO NUMBER(10),
+	PRODUCTIDENTIFIER VARCHAR2(256),
+	RECOMMENDEDREADINGLIST VARCHAR2(4000),
+	JDOVERSION NUMBER not null,
+	CREATION TIMESTAMP(6),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	CREATOR_FK NUMBER,
+	OVERALLASSESSMENT VARCHAR2(4000),
+	SUBTITLEAPPROPRIATEOPTIONALTUP VARCHAR2(256),
+	TITLEAPPROPRIATEOPTIONALTEXT VARCHAR2(256),
+	CONTACTABLE NUMBER(1) not null,
+	PUBLISHABLE NUMBER(1) not null,
+	RECOMMENDABLE NUMBER(1) not null,
+	SUBTITLEAPPROPRIATE NUMBER(1) not null,
+	TITLEAPPROPRIATE NUMBER(1) not null,
+	COMPENSATEDINFORMATION VARCHAR2(256)
+)
+/
+
+create index FREECOPYRATING_N49
+	on FREECOPYRATING (INSTRUCTORINFORMATION_FK)
+/
+
+create index FREECOPYRATING_N52
+	on FREECOPYRATING (CREATOR_FK)
+/
+
+create index FREECOPYRATING_N53
+	on FREECOPYRATING (LASTMODIFIER_FK)
+/
+
+create index FREECOPYRATING_N50
+	on FREECOPYRATING (LASTMODIFICATION)
+/
+
+create index FREECOPYRATING_N51
+	on FREECOPYRATING (CREATION)
+/
+
+create unique index FREECOPYRATING_PK
+	on FREECOPYRATING (ID)
+/
+
+create table FREECOPYACCOUNTPOSTING
+(
+	ID NUMBER not null,
+	AMOUNT NUMBER(10),
+	INSTRUCTORINFORMATION_FK NUMBER,
+	MESSAGE VARCHAR2(2000),
+	POSTINGDATE TIMESTAMP(6),
+	JDOVERSION NUMBER not null,
+	CREATION TIMESTAMP(6),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	CREATOR_FK NUMBER
+)
+/
+
+create unique index FREECOPYACCOUNTPOSTING_PK
+	on FREECOPYACCOUNTPOSTING (ID)
+/
+
+create index FREECOPYACCOUNTPOSTING_N49
+	on FREECOPYACCOUNTPOSTING (INSTRUCTORINFORMATION_FK)
+/
+
+create index FREECOPYACCOUNTPOSTING_N52
+	on FREECOPYACCOUNTPOSTING (CREATOR_FK)
+/
+
+create index FREECOPYACCOUNTPOSTING_N53
+	on FREECOPYACCOUNTPOSTING (LASTMODIFICATION)
+/
+
+create index FREECOPYACCOUNTPOSTING_N50
+	on FREECOPYACCOUNTPOSTING (CREATION)
+/
+
+create index FREECOPYACCOUNTPOSTING_N51
+	on FREECOPYACCOUNTPOSTING (LASTMODIFIER_FK)
+/
+
+create table INSTRUCTORCONTACT
+(
+	ID NUMBER not null,
+	FAXNUMBER VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	INSTITUTIONNAME VARCHAR2(256),
+	INSTITUTIONURL VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	SALUTATION VARCHAR2(256),
+	STREETNUMBER VARCHAR2(256),
+	STREET VARCHAR2(256),
+	UNIVERSITYNAME VARCHAR2(256),
+	COUNTRY_FK NUMBER,
+	NUMBEROFSTUDENTSOFINSTITUTE NUMBER(10) not null,
+	DEKANATID NUMBER not null,
+	PHONENUMBER VARCHAR2(256),
+	POSTOFFICEBOX VARCHAR2(256),
+	ACADEMICTITLE VARCHAR2(256),
+	EMAIL VARCHAR2(256),
+	CITY VARCHAR2(256),
+	TYPEOFSCHOOL VARCHAR2(256),
+	DEPARTMENT VARCHAR2(256),
+	ZIPCODE VARCHAR2(256)
+)
+/
+
+create index INSTRUCTORCONTACT_N49
+	on INSTRUCTORCONTACT (COUNTRY_FK)
+/
+
+create unique index INSTRUCTORCONTACT_U49
+	on INSTRUCTORCONTACT (DEKANATID)
+/
+
+create index INSTRUCTORCONTACT_N50
+	on INSTRUCTORCONTACT (CITY)
+/
+
+create unique index INSTRUCTORCONTACT_PK
+	on INSTRUCTORCONTACT (ID)
+/
+
+create table PERSISTENTSAPORDERITEM
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	PERCENTAGEDISCOUNT NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PONUMBER VARCHAR2(256),
+	QUANTITY NUMBER(10) not null,
+	SAPORDER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	PRODUCTIDENTIFIER VARCHAR2(256),
+	PRODUCTID NUMBER,
+	FIXEDPRICE NUMBER,
+	ABSOLUTEDISCOUNT NUMBER,
+	ITEMSEQUENCENUMBER NUMBER(10) default 0,
+	RETURNED NUMBER(1) default 0,
+	GRATISREASON VARCHAR2(256),
+	ACCESSFROM TIMESTAMP(6),
+	ACCESSTO TIMESTAMP(6),
+	SUBSCRIPTIONENDDATE TIMESTAMP(6),
+	SUBSCRIPTIONSTARTDATE TIMESTAMP(6)
+)
+/
+
+create unique index PERSISTENTSAPORDERITEM_PK
+	on PERSISTENTSAPORDERITEM (ID)
+/
+
+create index PERSISTENTSAPORDERITEM_N52
+	on PERSISTENTSAPORDERITEM (SAPORDER_FK)
+/
+
+create index PERSISTENTSAPORDERITEM_N53
+	on PERSISTENTSAPORDERITEM (LASTMODIFICATION)
+/
+
+create index PERSISTENTSAPORDERITEM_N50
+	on PERSISTENTSAPORDERITEM (CREATOR_FK)
+/
+
+create index PERSISTENTSAPORDERITEM_N51
+	on PERSISTENTSAPORDERITEM (LASTMODIFIER_FK)
+/
+
+create index PERSISTENTSAPORDERITEM_N49
+	on PERSISTENTSAPORDERITEM (CREATION)
+/
+
+create table PERSISTENTSAPORDER
+(
+	ID NUMBER not null,
+	BILLTO VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DISCOUNTVALUE NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PONUMBER VARCHAR2(256),
+	SHIPCOND VARCHAR2(256),
+	SHIPTO VARCHAR2(256),
+	COUNTRYID NUMBER,
+	JDOVERSION NUMBER not null,
+	TOTALORDERAMOUNT NUMBER default '0',
+	SAPORDERNUMBER VARCHAR2(256),
+	ISBILLINGPAYMENTTYPE NUMBER(1),
+	LASTEVENT VARCHAR2(256),
+	USER_FK NUMBER,
+	WORLDPAYID VARCHAR2(256),
+	PAYMENTSUCCESSFUL NUMBER(1),
+	PAYMENTMETHOD VARCHAR2(256),
+	ISPROFORMA NUMBER(1),
+	SAVEORDERSUCCESSFUL NUMBER(1),
+	SAVEORDERSTART TIMESTAMP(6),
+	SAVEORDERDONE TIMESTAMP(6),
+	PAGEFLAVOR VARCHAR2(256)
+)
+/
+
+create index PERSISTENTSAPORDER_N51
+	on PERSISTENTSAPORDER (LASTMODIFICATION)
+/
+
+create index PERSISTENTSAPORDER_N54
+	on PERSISTENTSAPORDER (USER_FK)
+/
+
+create unique index PERSISTENTSAPORDER_PK
+	on PERSISTENTSAPORDER (ID)
+/
+
+create index PERSISTENTSAPORDER_N49
+	on PERSISTENTSAPORDER (LASTMODIFIER_FK)
+/
+
+create index PERSISTENTSAPORDER_N52
+	on PERSISTENTSAPORDER (CREATION)
+/
+
+create index PERSISTENTSAPORDER_N50
+	on PERSISTENTSAPORDER (CREATOR_FK)
+/
+
+create index PERSISTENTSAPORDER_N53
+	on PERSISTENTSAPORDER (WORLDPAYID)
+/
+
+create index PERSISTENTSAPORDER_N55
+	on PERSISTENTSAPORDER (SAPORDERNUMBER)
+/
+
+create table STRING_PERSAPORDEITEDISTYP
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_PERSAPORDEITEDISTYP_PK
+	on STRING_PERSAPORDEITEDISTYP (ID_OID, STRING_ELE)
+/
+
+create index STRING_PERSAPORDEITEDISTYP_N49
+	on STRING_PERSAPORDEITEDISTYP (ID_OID)
+/
+
+create table STRING_PERSISAPORDERDISTYP
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_PERSISAPORDERDISTYP_PK
+	on STRING_PERSISAPORDERDISTYP (ID_OID, STRING_ELE)
+/
+
+create index STRING_PERSISAPORDERDISTYP_N49
+	on STRING_PERSISAPORDERDISTYP (ID_OID)
+/
+
+create table DISCOUNTSELECTIONCRITERIA
+(
+	ID NUMBER not null,
+	COPYRIGHTYEAR VARCHAR2(256),
+	COPYRIGHTYEAREXCLUDE VARCHAR2(256),
+	PRIO12SUBJECTCODEOPERATOR VARCHAR2(256),
+	PRIO1SUBJECTCODE VARCHAR2(2000),
+	PRIO1SUBJECTCODEEXCLUDE VARCHAR2(2000),
+	PRIO2SUBJECTCODE VARCHAR2(2000),
+	PRIO2SUBJECTCODEEXCLUDE VARCHAR2(2000),
+	PRODUCTCATEGORIES VARCHAR2(256),
+	PUBLICATIONDATEEND TIMESTAMP(6),
+	PUBLICATIONDATESTART TIMESTAMP(6),
+	SUBJECTCODE VARCHAR2(2000),
+	SUBJECTCODEEXCLUDE VARCHAR2(2000),
+	SUBJECTCODEOPERATOR VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	DISCOUNTDEFINITION_FK NUMBER,
+	SPRINGERBOOKARCHIVESELECTION5K VARCHAR2(256)
+)
+/
+
+create unique index DISCOUNTSELECTIONCRITERIA_PK
+	on DISCOUNTSELECTIONCRITERIA (ID)
+/
+
+create index DISCOUNTSELECTIONCRITERIA_N49
+	on DISCOUNTSELECTIONCRITERIA (DISCOUNTDEFINITION_FK)
+/
+
+create table BOOKSERIES_DISECRBOSEEXCLU
+(
+	DISCOUNSELECTIONCRITERI_FK NUMBER not null,
+	BOOKSERIES_FK NUMBER not null
+)
+/
+
+create unique index BOOKSERIES_DISECRBOSEEXCLU_PK
+	on BOOKSERIES_DISECRBOSEEXCLU (DISCOUNSELECTIONCRITERI_FK, BOOKSERIES_FK)
+/
+
+create index BOOKSERIES_DISECRBOSEEXCLU_N49
+	on BOOKSERIES_DISECRBOSEEXCLU (BOOKSERIES_FK)
+/
+
+create index BOOKSERIES_DISECRBOSEEXCLU_N50
+	on BOOKSERIES_DISECRBOSEEXCLU (DISCOUNSELECTIONCRITERI_FK)
+/
+
+create table BOOKSERIES_DISSELCRIBOOSER
+(
+	DISCOUNSELECTIONCRITERI_FK NUMBER not null,
+	BOOKSERIES_FK NUMBER not null
+)
+/
+
+create unique index BOOKSERIES_DISSELCRIBOOSER_PK
+	on BOOKSERIES_DISSELCRIBOOSER (DISCOUNSELECTIONCRITERI_FK, BOOKSERIES_FK)
+/
+
+create index BOOKSERIES_DISSELCRIBOOSER_N50
+	on BOOKSERIES_DISSELCRIBOOSER (BOOKSERIES_FK)
+/
+
+create index BOOKSERIES_DISSELCRIBOOSER_N49
+	on BOOKSERIES_DISSELCRIBOOSER (DISCOUNSELECTIONCRITERI_FK)
+/
+
+create table DISELCRPPPRTY_PPMPRODUTYPE
+(
+	DISCOUNSELECTIONCRITERI_FK NUMBER not null,
+	PPMPRODUCTTYPE_FK NUMBER not null
+)
+/
+
+create unique index DISELCRPPPRTY_PPMPRODUTYPE_PK
+	on DISELCRPPPRTY_PPMPRODUTYPE (DISCOUNSELECTIONCRITERI_FK, PPMPRODUCTTYPE_FK)
+/
+
+create index DISELCRPPPRTY_PPMPRODUTYPE_N49
+	on DISELCRPPPRTY_PPMPRODUTYPE (PPMPRODUCTTYPE_FK)
+/
+
+create index DISELCRPPPRTY_PPMPRODUTYPE_N50
+	on DISELCRPPPRTY_PPMPRODUTYPE (DISCOUNSELECTIONCRITERI_FK)
+/
+
+create table DISSELECCRIPUBLAN_LANGUAGE
+(
+	DISCOUNSELECTIONCRITERI_FK NUMBER not null,
+	LANGUAGE_FK NUMBER not null
+)
+/
+
+create unique index DISSELECCRIPUBLAN_LANGUAGE_PK
+	on DISSELECCRIPUBLAN_LANGUAGE (DISCOUNSELECTIONCRITERI_FK, LANGUAGE_FK)
+/
+
+create index DISSELECCRIPUBLAN_LANGUAGE_N50
+	on DISSELECCRIPUBLAN_LANGUAGE (LANGUAGE_FK)
+/
+
+create index DISSELECCRIPUBLAN_LANGUAGE_N49
+	on DISSELECCRIPUBLAN_LANGUAGE (DISCOUNSELECTIONCRITERI_FK)
+/
+
+create table DISSELCRIDISPROD_RENDITION
+(
+	DISCOUNSELECTIONCRITERI_FK NUMBER not null,
+	RENDITION_FK NUMBER not null
+)
+/
+
+create unique index DISSELCRIDISPROD_RENDITION_PK
+	on DISSELCRIDISPROD_RENDITION (DISCOUNSELECTIONCRITERI_FK, RENDITION_FK)
+/
+
+create index DISSELCRIDISPROD_RENDITION_N50
+	on DISSELCRIDISPROD_RENDITION (DISCOUNSELECTIONCRITERI_FK)
+/
+
+create index DISSELCRIDISPROD_RENDITION_N49
+	on DISSELCRIDISPROD_RENDITION (RENDITION_FK)
+/
+
+create table DISELECCRPUHO_PUBLISHHOUSE
+(
+	DISCOUNSELECTIONCRITERI_FK NUMBER not null,
+	PUBLISHINGHOUSE_FK NUMBER not null
+)
+/
+
+create unique index DISELECCRPUHO_PUBLISHHOUSE_PK
+	on DISELECCRPUHO_PUBLISHHOUSE (DISCOUNSELECTIONCRITERI_FK, PUBLISHINGHOUSE_FK)
+/
+
+create index DISELECCRPUHO_PUBLISHHOUSE_N50
+	on DISELECCRPUHO_PUBLISHHOUSE (DISCOUNSELECTIONCRITERI_FK)
+/
+
+create index DISELECCRPUHO_PUBLISHHOUSE_N49
+	on DISELECCRPUHO_PUBLISHHOUSE (PUBLISHINGHOUSE_FK)
+/
+
+create table DISCOUNTDEFINITION
+(
+	ID NUMBER not null,
+	ABSOLUTEDISCOUNTCHF NUMBER,
+	ABSOLUTEDISCOUNTEUR NUMBER,
+	ABSOLUTEDISCOUNTGBP NUMBER,
+	ABSOLUTEDISCOUNTUSD NUMBER,
+	ADDITIVETOPERCENTAGEDISCOUNT NUMBER(1) default 0  not null,
+	DISCOUNTTYPESTRING VARCHAR2(256),
+	FIXEDPRICECHF NUMBER,
+	FIXEDPRICEEUR NUMBER,
+	FIXEDPRICEGBP NUMBER,
+	FIXEDPRICEUSD NUMBER,
+	IGNOREFIXEDBOOKPRICELAWFOREBI0 NUMBER(1) default 0  not null,
+	PERCENTAGEDISCOUNT NUMBER,
+	JDOVERSION NUMBER not null,
+	ABSOLUTEDISCOUNTJPY NUMBER,
+	FIXEDPRICEJPY NUMBER
+)
+/
+
+create unique index DISCOUNTDEFINITION_PK
+	on DISCOUNTDEFINITION (ID)
+/
+
+create table SPRUSEUSEONETIMTOKEN_TOKEN
+(
+	SPRINGERUSER_FK NUMBER not null,
+	TOKEN_FK NUMBER not null
+)
+/
+
+create unique index SPRUSEUSEONETIMTOKEN_TOKEN_PK
+	on SPRUSEUSEONETIMTOKEN_TOKEN (SPRINGERUSER_FK, TOKEN_FK)
+/
+
+create index SPRUSEUSEONETIMTOKEN_TOKEN_N49
+	on SPRUSEUSEONETIMTOKEN_TOKEN (TOKEN_FK)
+/
+
+create index SPRUSEUSEONETIMTOKEN_TOKEN_N50
+	on SPRUSEUSEONETIMTOKEN_TOKEN (SPRINGERUSER_FK)
+/
+
+create table MYCOPY
+(
+	ID NUMBER not null,
+	COPYRIGHTYEAR VARCHAR2(256),
+	ISBN VARCHAR2(256),
+	SERIESTITLE VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null
+)
+/
+
+create unique index MYCOPY_PK
+	on MYCOPY (ID)
+/
+
+create table APPROVALPLANPRODUCT
+(
+	ID NUMBER not null,
+	AUTHOR VARCHAR2(256),
+	COPYRIGHTYEAR TIMESTAMP(6),
+	COVERTYPECODE VARCHAR2(256),
+	DELIVERYSTATUSCODE VARCHAR2(256),
+	EDITOR VARCHAR2(256),
+	ISBN VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null
+)
+/
+
+create unique index APPROVALPLANPRODUCT_PK
+	on APPROVALPLANPRODUCT (ID)
+/
+
+create unique index APPROVALPLANPRODUCT_U49
+	on APPROVALPLANPRODUCT (ISBN)
+/
+
+create table AREAOFWORK
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index AREAOFWORK_PK
+	on AREAOFWORK (ID)
+/
+
+create index AREAOFWORK_N49
+	on AREAOFWORK (NAME)
+/
+
+create table EXTENDEDTOCARTICLEDATA
+(
+	ID NUMBER not null,
+	"FROM" TIMESTAMP(6),
+	JOURNALNUMBERSSTRING VARCHAR2(4000),
+	"TO" TIMESTAMP(6),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(255)
+)
+/
+
+create unique index EXTENDEDTOCARTICLEDATA_PK
+	on EXTENDEDTOCARTICLEDATA (ID)
+/
+
+create table NTAARDATAGROU_SPRINGEGROUP
+(
+	NTAARTICLEDATA_FK NUMBER not null,
+	SPRINGERGROUP_FK NUMBER not null
+)
+/
+
+create unique index NTAARDATAGROU_SPRINGEGROUP_PK
+	on NTAARDATAGROU_SPRINGEGROUP (NTAARTICLEDATA_FK, SPRINGERGROUP_FK)
+/
+
+create index NTAARDATAGROU_SPRINGEGROUP_N50
+	on NTAARDATAGROU_SPRINGEGROUP (SPRINGERGROUP_FK)
+/
+
+create index NTAARDATAGROU_SPRINGEGROUP_N49
+	on NTAARDATAGROU_SPRINGEGROUP (NTAARTICLEDATA_FK)
+/
+
+create table AREAOFWORKMODULE
+(
+	ID NUMBER not null,
+	ACADEMICINSTITUTION_FK NUMBER,
+	CORPORATEINSTITUTION_FK NUMBER,
+	CUSTOMINSTITUTION VARCHAR2(256),
+	GOVERNMENTINSTITUTION_FK NUMBER,
+	HEALTHINSTITUTION_FK NUMBER,
+	TYPE_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	VERTICALTYPE_FK NUMBER
+)
+/
+
+create unique index AREAOFWORKMODULE_PK
+	on AREAOFWORKMODULE (ID)
+/
+
+create index AREAOFWORKMODULE_N53
+	on AREAOFWORKMODULE (TYPE_FK)
+/
+
+create index AREAOFWORKMODULE_N51
+	on AREAOFWORKMODULE (HEALTHINSTITUTION_FK)
+/
+
+create index AREAOFWORKMODULE_N52
+	on AREAOFWORKMODULE (GOVERNMENTINSTITUTION_FK)
+/
+
+create index AREAOFWORKMODULE_N50
+	on AREAOFWORKMODULE (CORPORATEINSTITUTION_FK)
+/
+
+create index AREAOFWORKMODULE_N49
+	on AREAOFWORKMODULE (ACADEMICINSTITUTION_FK)
+/
+
+create index AREAOFWORKMODULE_N54
+	on AREAOFWORKMODULE (VERTICALTYPE_FK)
+/
+
+create table GOVERNMENTINSTITUTION
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	COUNTRY_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index GOVERNMENTINSTITUTION_PK
+	on GOVERNMENTINSTITUTION (ID)
+/
+
+create index GOVERNMENTINSTITUTION_N50
+	on GOVERNMENTINSTITUTION (NAME)
+/
+
+create index GOVERNMENTINSTITUTION_N49
+	on GOVERNMENTINSTITUTION (COUNTRY_FK)
+/
+
+create table ACADEMICINSTITUTION
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index ACADEMICINSTITUTION_PK
+	on ACADEMICINSTITUTION (ID)
+/
+
+create index ACADEMICINSTITUTION_N49
+	on ACADEMICINSTITUTION (NAME)
+/
+
+create table HEALTHINSTITUTION
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	COUNTRY_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index HEALTHINSTITUTION_PK
+	on HEALTHINSTITUTION (ID)
+/
+
+create index HEALTHINSTITUTION_N49
+	on HEALTHINSTITUTION (COUNTRY_FK)
+/
+
+create index HEALTHINSTITUTION_N50
+	on HEALTHINSTITUTION (NAME)
+/
+
+create table DANGLINGBFLOWREFERENCE
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SOURCE VARCHAR2(256),
+	TARGET VARCHAR2(256),
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index DANGLINGBFLOWREFERENCE_PK
+	on DANGLINGBFLOWREFERENCE (ID)
+/
+
+create index DANGLINGBFLOWREFERENCE_N49
+	on DANGLINGBFLOWREFERENCE (TYPE)
+/
+
+create index DANGLINGBFLOWREFERENCE_N50
+	on DANGLINGBFLOWREFERENCE (CREATION)
+/
+
+create index DANGLINGBFLOWREFERENCE_N51
+	on DANGLINGBFLOWREFERENCE (TARGET)
+/
+
+create index DANGLINGBFLOWREFERENCE_N52
+	on DANGLINGBFLOWREFERENCE (LASTMODIFICATION)
+/
+
+create index DANGLINGBFLOWREFERENCE_N53
+	on DANGLINGBFLOWREFERENCE (LASTMODIFIER_FK)
+/
+
+create index DANGLINGBFLOWREFERENCE_N54
+	on DANGLINGBFLOWREFERENCE (SOURCE)
+/
+
+create index DANGLINGBFLOWREFERENCE_N55
+	on DANGLINGBFLOWREFERENCE (CREATOR_FK)
+/
+
+create table COREMEDIACOMPONENT
+(
+	ID NUMBER not null,
+	COREMEDIAID NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index COREMEDIACOMPONENT_PK
+	on COREMEDIACOMPONENT (ID)
+/
+
+create table ASLAT_NEW
+(
+	ID NUMBER,
+	ACCESSLINK VARCHAR2(256),
+	CUSTOMERNUMBERMPS VARCHAR2(256),
+	EMAIL VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	JDOVERSION NUMBER,
+	IMPORTDATE TIMESTAMP(6),
+	MIGRATED NUMBER,
+	SBA NUMBER,
+	AUTHOREACCESSEMAILSENDDATE TIMESTAMP(6)
+)
+/
+
+create table OAUTHCLIENT
+(
+	ID NUMBER not null,
+	CLIENTID VARCHAR2(256),
+	CLIENTSECRET VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	AUTHORIZATIONBYCODEALLOWED NUMBER(1),
+	ASSIGNTOGROUPNAME VARCHAR2(256),
+	AUTHORIZATIONBYPASSWORDALLOWED NUMBER(1)
+)
+/
+
+create unique index OAUTHCLIENT_PK
+	on OAUTHCLIENT (ID)
+/
+
+create index OAUTHCLIENT_N49
+	on OAUTHCLIENT (LASTMODIFIER_FK)
+/
+
+create index OAUTHCLIENT_N54
+	on OAUTHCLIENT (CREATION)
+/
+
+create index OAUTHCLIENT_N51
+	on OAUTHCLIENT (CLIENTSECRET)
+/
+
+create index OAUTHCLIENT_N50
+	on OAUTHCLIENT (CLIENTID)
+/
+
+create index OAUTHCLIENT_N53
+	on OAUTHCLIENT (LASTMODIFICATION)
+/
+
+create index OAUTHCLIENT_N52
+	on OAUTHCLIENT (CREATOR_FK)
+/
+
+create index OAUTHCLIENT_N55
+	on OAUTHCLIENT (ASSIGNTOGROUPNAME)
+/
+
+create table OAUTHACCESS
+(
+	ID NUMBER not null,
+	ACCESSTOKEN VARCHAR2(256),
+	AUTHCODE VARCHAR2(256),
+	CLIENT_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	REFRESHTOKEN VARCHAR2(256),
+	USER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	REDIRECTURI VARCHAR2(256),
+	REFRESHTOKENVALIDTO TIMESTAMP(6),
+	AUTHCODEVALIDTO TIMESTAMP(6),
+	ACCESSTOKENVALIDTO TIMESTAMP(6)
+)
+/
+
+create unique index OAUTHACCESS_PK
+	on OAUTHACCESS (ID)
+/
+
+create index OAUTHACCESS_N57
+	on OAUTHACCESS (AUTHCODE)
+/
+
+create index OAUTHACCESS_N54
+	on OAUTHACCESS (ACCESSTOKEN)
+/
+
+create index OAUTHACCESS_N49
+	on OAUTHACCESS (CLIENT_FK)
+/
+
+create index OAUTHACCESS_N53
+	on OAUTHACCESS (CREATOR_FK)
+/
+
+create index OAUTHACCESS_N56
+	on OAUTHACCESS (CREATION)
+/
+
+create index OAUTHACCESS_N55
+	on OAUTHACCESS (REFRESHTOKEN)
+/
+
+create index OAUTHACCESS_N50
+	on OAUTHACCESS (LASTMODIFICATION)
+/
+
+create index OAUTHACCESS_N52
+	on OAUTHACCESS (USER_FK)
+/
+
+create index OAUTHACCESS_N51
+	on OAUTHACCESS (LASTMODIFIER_FK)
+/
+
+create table BFLOWCOLLABORATOR
+(
+	ID NUMBER not null,
+	ADDITION VARCHAR2(256),
+	BPID VARCHAR2(256),
+	CITY VARCHAR2(256),
+	CORRESPONDING NUMBER(1) not null,
+	COUNTRY VARCHAR2(256),
+	DEPARTMENT VARCHAR2(256),
+	EMAIL VARCHAR2(256),
+	FAX VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	INSTITUTIONNAME VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	POSTALCODE VARCHAR2(256),
+	SEQNO NUMBER(10) not null,
+	STREET VARCHAR2(256),
+	STREETNO VARCHAR2(256),
+	SUBDEPARTMENT VARCHAR2(256),
+	TEL VARCHAR2(256),
+	TYPE VARCHAR2(256),
+	VALIDFROM TIMESTAMP(6),
+	VALIDTO TIMESTAMP(6),
+	XMLID VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	BOOKSERIE_COLLABORATORS_FK NUMBER,
+	EDITION_COLLABORATORS_FK NUMBER,
+	INSTITUTION VARCHAR2(256)
+)
+/
+
+create unique index BFLOWCOLLABORATOR_PK
+	on BFLOWCOLLABORATOR (ID)
+/
+
+create index BFLOWCOLLABORATOR_N49
+	on BFLOWCOLLABORATOR (BOOKSERIE_COLLABORATORS_FK)
+/
+
+create index BFLOWCOLLABORATOR_N50
+	on BFLOWCOLLABORATOR (BPID)
+/
+
+create index BFLOWCOLLABORATOR_N51
+	on BFLOWCOLLABORATOR (EDITION_COLLABORATORS_FK)
+/
+
+create index BFLOWCOLLABORATOR_N52
+	on BFLOWCOLLABORATOR (TYPE)
+/
+
+create index BFLOWCOLLABORATOR_EMAIL_LOWER
+	on BFLOWCOLLABORATOR (LOWER("EMAIL"))
+/
+
+create index BFLOWCOLLABORATOR_EMAIL
+	on BFLOWCOLLABORATOR (EMAIL)
+/
+
+create table DATABASECHANGELOGLOCK
+(
+	ID NUMBER not null,
+	LOCKED NUMBER(1) not null,
+	LOCKGRANTED TIMESTAMP(6),
+	LOCKEDBY VARCHAR2(255)
+)
+/
+
+create unique index PK_DATABASECHANGELOGLOCK
+	on DATABASECHANGELOGLOCK (ID)
+/
+
+create table DATABASECHANGELOG
+(
+	ID VARCHAR2(63) not null,
+	AUTHOR VARCHAR2(63) not null,
+	FILENAME VARCHAR2(200) not null,
+	DATEEXECUTED TIMESTAMP(6) not null,
+	ORDEREXECUTED NUMBER not null,
+	EXECTYPE VARCHAR2(10) not null,
+	MD5SUM VARCHAR2(35),
+	DESCRIPTION VARCHAR2(255),
+	COMMENTS VARCHAR2(255),
+	TAG VARCHAR2(255),
+	LIQUIBASE VARCHAR2(20),
+	CONTEXTS VARCHAR2(255),
+	LABELS VARCHAR2(255),
+	DEPLOYMENT_ID VARCHAR2(10)
+)
+/
+
+create unique index PK_DATABASECHANGELOG
+	on DATABASECHANGELOG (ID, AUTHOR, FILENAME)
+/
+
+create table EXTENDEDTOCALERTMAILINGMAILS
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	EMAIL VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	MAILING_FK NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index EXTENDEDTOCALERTMAILINGMAIG_PK
+	on EXTENDEDTOCALERTMAILINGMAILS (ID)
+/
+
+create index EXTENDEDTOCALERTMAILINGMNR_N49
+	on EXTENDEDTOCALERTMAILINGMAILS (CREATION)
+/
+
+create index EXTENDEDTOCALERTMAILINGMNR_N50
+	on EXTENDEDTOCALERTMAILINGMAILS (EMAIL)
+/
+
+create index EXTENDEDTOCALERTMAILINGMNR_N53
+	on EXTENDEDTOCALERTMAILINGMAILS (MAILING_FK)
+/
+
+create index EXTENDEDTOCALERTMAILINGMNR_N51
+	on EXTENDEDTOCALERTMAILINGMAILS (LASTMODIFIER_FK)
+/
+
+create index EXTENDEDTOCALERTMAILINGMNR_N54
+	on EXTENDEDTOCALERTMAILINGMAILS (CREATOR_FK)
+/
+
+create index EXTENDEDTOCALERTMAILINGMNR_N52
+	on EXTENDEDTOCALERTMAILINGMAILS (LASTMODIFICATION)
+/
+
+create table NL_CAMPAIGN_GOAL
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	VALUE NUMBER(10) not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_CAMPAIGN_GOAL_PK
+	on NL_CAMPAIGN_GOAL (ID)
+/
+
+create index NL_CAMPAIGN_GOAL_N49
+	on NL_CAMPAIGN_GOAL (NAME)
+/
+
+create index NL_CAMPAIGN_GOAL_N50
+	on NL_CAMPAIGN_GOAL (VALUE)
+/
+
+create table PERSISTENTPROPERTYHISTORY
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PERSISTPROPERTY_HISTORY_FK NUMBER,
+	REASON VARCHAR2(250),
+	VALUE VARCHAR2(4000),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index PERSISTENTPROPERTYHISTORY_PK
+	on PERSISTENTPROPERTYHISTORY (ID)
+/
+
+create index PERSISTENTPROPERTYHISTORY_N52
+	on PERSISTENTPROPERTYHISTORY (CREATION)
+/
+
+create index PERSISTENTPROPERTYHISTORY_N53
+	on PERSISTENTPROPERTYHISTORY (LASTMODIFIER_FK)
+/
+
+create index PERSISTENTPROPERTYHISTORY_N50
+	on PERSISTENTPROPERTYHISTORY (LASTMODIFICATION)
+/
+
+create index PERSISTENTPROPERTYHISTORY_N51
+	on PERSISTENTPROPERTYHISTORY (PERSISTPROPERTY_HISTORY_FK)
+/
+
+create index PERSISTENTPROPERTYHISTORY_N49
+	on PERSISTENTPROPERTYHISTORY (CREATOR_FK)
+/
+
+create table OPENCHOICEPAYMENTSUPPRESSION
+(
+	ID NUMBER not null,
+	"DATE" TIMESTAMP(6),
+	DOI VARCHAR2(256),
+	MAILALREADYSEND NUMBER(1) not null,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index OPENCHOICEPAYMENTSUPPRESSKW_PK
+	on OPENCHOICEPAYMENTSUPPRESSION (ID)
+/
+
+create index OPENCHOICEPAYMENTSUPPRESZP_N49
+	on OPENCHOICEPAYMENTSUPPRESSION (DOI)
+/
+
+create index OPENCHOICEPAYMENTSUPPRESZP_N50
+	on OPENCHOICEPAYMENTSUPPRESSION (MAILALREADYSEND)
+/
+
+create table EBOOKRENTAL
+(
+	ID NUMBER(19) not null,
+	EMAIL VARCHAR2(255 char),
+	ISBN VARCHAR2(255 char) not null,
+	LINKTOONLINEREADER VARCHAR2(255 char) not null,
+	SIMID VARCHAR2(255 char) not null,
+	VALIDFROM TIMESTAMP(6) not null,
+	VALIDTO TIMESTAMP(6) not null,
+	EXPIREDMAILSENT NUMBER(1) default 0  not null
+)
+/
+
+create unique index SYS_C0015780
+	on EBOOKRENTAL (ID)
+/
+
+create table EBOOKNOTBUYABLE
+(
+	ID NUMBER not null,
+	PRODUCTIDENTIFIER VARCHAR2(256),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index EBOOKNOTBUYABLE_PK
+	on EBOOKNOTBUYABLE (ID)
+/
+
+create index EBOOKNOTBUYABLE_N49
+	on EBOOKNOTBUYABLE (PRODUCTIDENTIFIER)
+/
+
+create table STRING_EBOODOWNLOAFIGUTOPI
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_EBOODOWNLOAFIGUTOPI_PK
+	on STRING_EBOODOWNLOAFIGUTOPI (ID_OID, STRING_ELE)
+/
+
+create index STRING_EBOODOWNLOAFIGUTOPI_N49
+	on STRING_EBOODOWNLOAFIGUTOPI (ID_OID)
+/
+
+create table STRING_EBOODOWNLOAFIGUCONF
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_EBOODOWNLOAFIGUCONF_PK
+	on STRING_EBOODOWNLOAFIGUCONF (ID_OID, STRING_ELE)
+/
+
+create index STRING_EBOODOWNLOAFIGUCONF_N49
+	on STRING_EBOODOWNLOAFIGUCONF (ID_OID)
+/
+
+create table STRING_EBOODOWNLOAFIGUTEXT
+(
+	ID_OID NUMBER not null,
+	STRING_ELE VARCHAR2(256) not null
+)
+/
+
+create unique index STRING_EBOODOWNLOAFIGUTEXT_PK
+	on STRING_EBOODOWNLOAFIGUTEXT (ID_OID, STRING_ELE)
+/
+
+create index STRING_EBOODOWNLOAFIGUTEXT_N49
+	on STRING_EBOODOWNLOAFIGUTEXT (ID_OID)
+/
+
+create table WATERMARKINFORMATION
+(
+	ID NUMBER not null,
+	AVAILABLEASEPUBSINCE TIMESTAMP(6),
+	AVAILABLEASPDFSINCE TIMESTAMP(6),
+	COUNTOFREQUESTS NUMBER not null,
+	EPUBFILESIZE NUMBER,
+	LASTUPDATE TIMESTAMP(6),
+	PDFFILESIZE NUMBER,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index WATERMARKINFORMATION_PK
+	on WATERMARKINFORMATION (ID)
+/
+
+create table EDITORIALBOARDMEMBERSPRINGERDH
+(
+	ID NUMBER not null,
+	JOURNALNO NUMBER(10) default 0  not null,
+	SPRINGERUSER_FK NUMBER,
+	VALIDFROM TIMESTAMP(6),
+	VALIDTO TIMESTAMP(6),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index EDITORIALBOARDMEMBERSPRINPK_PK
+	on EDITORIALBOARDMEMBERSPRINGERDH (ID)
+/
+
+create index EDITORIALBOARDMEMBERSPRING_N49
+	on EDITORIALBOARDMEMBERSPRINGERDH (JOURNALNO)
+/
+
+create index EDITORIALBOARDMEMBERSPRING_N50
+	on EDITORIALBOARDMEMBERSPRINGERDH (SPRINGERUSER_FK)
+/
+
+create index EDITORIALBOARDMEMBERSPRING_N51
+	on EDITORIALBOARDMEMBERSPRINGERDH (VALIDFROM)
+/
+
+create index EDITORIALBOARDMEMBERSPRING_N52
+	on EDITORIALBOARDMEMBERSPRINGERDH (VALIDTO)
+/
+
+create table CASPERCOLLABORATOR
+(
+	ID NUMBER not null,
+	ADDITION VARCHAR2(256),
+	CITY VARCHAR2(256),
+	COUNTRY VARCHAR2(256),
+	DEPARTMENT VARCHAR2(256),
+	EMAIL VARCHAR2(256),
+	FAX VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	INSTITUTIONNAME VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	POSTALCODE VARCHAR2(256),
+	SEQNO NUMBER(10) not null,
+	STREET VARCHAR2(256),
+	STREETNO VARCHAR2(256),
+	SUBDEPARTMENT VARCHAR2(256),
+	TEL VARCHAR2(256),
+	TYPE VARCHAR2(256),
+	VALIDFROM TIMESTAMP(6),
+	VALIDTO TIMESTAMP(6),
+	XMLID VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	CASPPRODU_CASPERAUTHORS_FK NUMBER,
+	CASPER_AUTHORS_INTEGER_IDX NUMBER(10),
+	INSTITUTION VARCHAR2(256)
+)
+/
+
+create unique index CASPERCOLLABORATOR_PK
+	on CASPERCOLLABORATOR (ID)
+/
+
+create index CASPERCOLLABORATOR_N50
+	on CASPERCOLLABORATOR (CASPPRODU_CASPERAUTHORS_FK)
+/
+
+create index CASPERCOLLABORATOR_N49
+	on CASPERCOLLABORATOR (TYPE)
+/
+
+create table LINKTARGET
+(
+	ID NUMBER not null,
+	LINK VARCHAR2(512),
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index LINKTARGET_PK
+	on LINKTARGET (ID)
+/
+
+create table AQAFFILIATMAI_SPRINGERUSER
+(
+	SPRINGERUSER_FK NUMBER not null,
+	AQAFFILIATION_FK NUMBER not null
+)
+/
+
+create unique index AQAFFILIATMAI_SPRINGERUSER_PK
+	on AQAFFILIATMAI_SPRINGERUSER (SPRINGERUSER_FK, AQAFFILIATION_FK)
+/
+
+create index AQAFFILIATMAI_SPRINGERUSER_N50
+	on AQAFFILIATMAI_SPRINGERUSER (AQAFFILIATION_FK)
+/
+
+create index AQAFFILIATMAI_SPRINGERUSER_N49
+	on AQAFFILIATMAI_SPRINGERUSER (SPRINGERUSER_FK)
+/
+
+create table AUTHORQUERYMOCKCONFIG
+(
+	ID NUMBER not null,
+	ARTICLETITLE VARCHAR2(256),
+	ARTICLETYPE VARCHAR2(256),
+	AUTHORIPADDRESS VARCHAR2(256),
+	AUTHOREMAILDOMAIN VARCHAR2(256),
+	AUTHORFAMILYNAME VARCHAR2(256),
+	AUTHORGIVENNAME VARCHAR2(256),
+	BLACKANDWHITEJOURNAL NUMBER(1) not null,
+	COLORFORFREE NUMBER(1) not null,
+	DOI VARCHAR2(256),
+	EVENTNAME VARCHAR2(256),
+	FULLYOPENACCESS NUMBER(1) not null,
+	JOURNALID NUMBER(10) not null,
+	JOURNALTITLE VARCHAR2(256),
+	LICENSESUBTYPE VARCHAR2(256),
+	LICENSETYPE VARCHAR2(256),
+	OPENCHOICEACTIVE NUMBER(1) not null,
+	PRINTERCOMPANYNAME VARCHAR2(256),
+	PUBLISHERNAME VARCHAR2(256),
+	SOCIETYSTATEMENT NUMBER(1) not null,
+	WORKFLOWSCENARIO VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	NUMFREECOPIES NUMBER(10),
+	NUMFREEOFFPRINTS NUMBER(10),
+	COPYRIGHTHOLDERNAME VARCHAR2(256),
+	PUBLISHERIMPRINTNAME VARCHAR2(256)
+)
+/
+
+create unique index AUTHORQUERYMOCKCONFIG_PK
+	on AUTHORQUERYMOCKCONFIG (ID)
+/
+
+create table AQAFFIREADERS_SPRINGERUSER
+(
+	AQAFFILIATION_FK NUMBER not null,
+	SPRINGERUSER_FK NUMBER not null
+)
+/
+
+create unique index AQAFFIREADERS_SPRINGERUSER_PK
+	on AQAFFIREADERS_SPRINGERUSER (AQAFFILIATION_FK, SPRINGERUSER_FK)
+/
+
+create index AQAFFIREADERS_SPRINGERUSER_N50
+	on AQAFFIREADERS_SPRINGERUSER (SPRINGERUSER_FK)
+/
+
+create index AQAFFIREADERS_SPRINGERUSER_N49
+	on AQAFFIREADERS_SPRINGERUSER (AQAFFILIATION_FK)
+/
+
+create table AQAFFFORWARDE_SPRINGERUSER
+(
+	AQAFFILIATION_FK NUMBER not null,
+	SPRINGERUSER_FK NUMBER not null
+)
+/
+
+create unique index AQAFFFORWARDE_SPRINGERUSER_PK
+	on AQAFFFORWARDE_SPRINGERUSER (AQAFFILIATION_FK, SPRINGERUSER_FK)
+/
+
+create index AQAFFFORWARDE_SPRINGERUSER_N50
+	on AQAFFFORWARDE_SPRINGERUSER (SPRINGERUSER_FK)
+/
+
+create index AQAFFFORWARDE_SPRINGERUSER_N49
+	on AQAFFFORWARDE_SPRINGERUSER (AQAFFILIATION_FK)
+/
+
+create table ENTEREDCOUPON
+(
+	ID NUMBER not null,
+	COUPON VARCHAR2(256),
+	CREATIONINFO VARCHAR2(256),
+	SPRINGERUSER_FK NUMBER,
+	TIMESTAMP TIMESTAMP(6),
+	JDOVERSION NUMBER not null,
+	ENTERED_COUPONS_INTEGER_IDX NUMBER(10)
+)
+/
+
+create unique index ENTEREDCOUPON_PK
+	on ENTEREDCOUPON (ID)
+/
+
+create index ENTEREDCOUPON_N50
+	on ENTEREDCOUPON (SPRINGERUSER_FK)
+/
+
+create index ENTEREDCOUPON_N49
+	on ENTEREDCOUPON (COUPON)
+/
+
+create table AUTHORQUERYEXTERNALCONFIG
+(
+	ID NUMBER not null,
+	AFFILIATION_FK NUMBER,
+	AFFILIATIONCITY VARCHAR2(256),
+	AFFILIATIONCOUNTRY_FK NUMBER,
+	AFFILIATIONORGDIVISION VARCHAR2(256),
+	AFFILIATIONORGNAME VARCHAR2(256),
+	AFFILIATIONPOSTCODE VARCHAR2(256),
+	AFFILIATIONSTREET VARCHAR2(256),
+	ARTICLETITLE VARCHAR2(256),
+	ARTICLETYPE VARCHAR2(256),
+	AUTHORADDRESSCITY VARCHAR2(256),
+	AUTHORADDRESSCOUNTRY_FK NUMBER,
+	AUTHORADDRESSPOSTCODE VARCHAR2(256),
+	AUTHORADDRESSSTREET VARCHAR2(256),
+	AUTHOREMAIL VARCHAR2(256),
+	AUTHORFAMILYNAME VARCHAR2(256),
+	AUTHORGIVENNAME VARCHAR2(256),
+	DOI VARCHAR2(256),
+	FUNDERGRANTNUMBER VARCHAR2(256),
+	FUNDERID VARCHAR2(256),
+	FUNDERNAME VARCHAR2(256),
+	JOURNALID NUMBER(10) not null,
+	JOURNALTITLE VARCHAR2(256),
+	LICENSESUBTYPE VARCHAR2(256),
+	LICENSETYPE VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	FIRSTNAME VARCHAR2(256),
+	BUSINESSPARTNERID VARCHAR2(256),
+	DEPARTMENT VARCHAR2(256),
+	LASTNAME VARCHAR2(256),
+	ORGNAME VARCHAR2(256),
+	APC VARCHAR2(256),
+	ORCID VARCHAR2(256)
+)
+/
+
+create unique index AUTHORQUERYEXTERNALCONFIG_PK
+	on AUTHORQUERYEXTERNALCONFIG (ID)
+/
+
+create index AUTHORQUERYEXTERNALCONFIG_N49
+	on AUTHORQUERYEXTERNALCONFIG (AFFILIATION_FK)
+/
+
+create index AUTHORQUERYEXTERNALCONFIG_N50
+	on AUTHORQUERYEXTERNALCONFIG (AUTHORADDRESSCOUNTRY_FK)
+/
+
+create index AUTHORQUERYEXTERNALCONFIG_N51
+	on AUTHORQUERYEXTERNALCONFIG (AFFILIATIONCOUNTRY_FK)
+/
+
+create table SPRINGERUSER
+(
+	ID NUMBER not null,
+	JDOVERSION NUMBER default 1,
+	DISCRIMINATOR VARCHAR2(256),
+	EMAILVALID NUMBER(1),
+	FIRSTLOGIN TIMESTAMP(6),
+	STATUS_FK NUMBER,
+	LASTNAME VARCHAR2(256),
+	EMAIL VARCHAR2(256),
+	ISLOGGEDIN NUMBER(1),
+	ISDELIVERYANDINVOICEIDENTICAL NUMBER(1),
+	ISPRIVACY NUMBER(1),
+	LASTMODIFICATION TIMESTAMP(6),
+	USERNAME VARCHAR2(256),
+	PASSWORD VARCHAR2(256),
+	CMAUSERNAME VARCHAR2(256),
+	REGIONALVIEW_FK NUMBER,
+	COMMUNICATIONLANGUAGE_FK NUMBER,
+	FIRSTNAME VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	LASTLOGIN TIMESTAMP(6),
+	ISUSINGDATAALLOWED NUMBER(1),
+	DESCRIPTION VARCHAR2(256),
+	LASTMODIFIER_FK NUMBER,
+	CREATOR_FK NUMBER,
+	GENDER_FK NUMBER,
+	LASTSESSIONACTIVITY TIMESTAMP(6),
+	CMALOGINALLOWED NUMBER(1),
+	LASTSESSIONID VARCHAR2(256),
+	CUSTOMIZATION CLOB,
+	SAPCUSTOMERNUMBER VARCHAR2(256),
+	NOPROMOTIONEMAILSENABLED NUMBER(1) default 0  not null,
+	NOEMAILSENABLED NUMBER(1) default 0  not null,
+	ISLASTORDERWASFORINDIVIDUAL NUMBER(1),
+	SUBSCRIBERID VARCHAR2(256),
+	TRANSIENTUSER NUMBER(1) default 0  not null,
+	GERMANPROMOTIONONLY NUMBER(1) default (0)  not null,
+	SIMIDASSTRING VARCHAR2(256),
+	BOOKTRACKINGSERVICEINTRODUCTLY TIMESTAMP(6),
+	PASSHASH VARCHAR2(256),
+	SALTTOKEN VARCHAR2(256)
+)
+/
+
+create index SPR_USR_LASTLOGIN_IDX
+	on SPRINGERUSER (LASTLOGIN, ID)
+/
+
+create unique index SPRINGERUSER_U49
+	on SPRINGERUSER (SUBSCRIBERID)
+/
+
+create index SPRINGERUSER_N64
+	on SPRINGERUSER (TRANSIENTUSER)
+/
+
+create index SPRINGERUSER_N67
+	on SPRINGERUSER (SIMIDASSTRING)
+/
+
+create index SPRINGERUSER_SIMIDX01
+	on SPRINGERUSER (SIMIDASSTRING, PASSWORD)
+/
+
+create index SPR_NOPROMOTION_IDX
+	on SPRINGERUSER (ID, NOPROMOTIONEMAILSENABLED)
+/
+
+create index SPRINGERUSER_N53
+	on SPRINGERUSER (LASTSESSIONID)
+/
+
+create index SPRINGERUSER_N57
+	on SPRINGERUSER (SAPCUSTOMERNUMBER)
+/
+
+create index SPRINGERUSER_N63
+	on SPRINGERUSER (CREATION)
+/
+
+create unique index SPRINGERUSER_PK
+	on SPRINGERUSER (ID)
+/
+
+create index SPRINGERUSER_N60
+	on SPRINGERUSER (ISLOGGEDIN)
+/
+
+create index SPRINGERUSER_N58
+	on SPRINGERUSER (STATUS_FK)
+/
+
+create index SPRINGERUSER_N54
+	on SPRINGERUSER (LASTLOGIN)
+/
+
+create index SPRINGERUSER_N55
+	on SPRINGERUSER (GENDER_FK)
+/
+
+create unique index SPRINGERUSER_U53
+	on SPRINGERUSER (EMAIL)
+/
+
+create index SPRINGERUSER_N56
+	on SPRINGERUSER (COMMUNICATIONLANGUAGE_FK)
+/
+
+create index SPRINGERUSER_N59
+	on SPRINGERUSER (CMAUSERNAME)
+/
+
+create unique index SPRINGERUSER_U57
+	on SPRINGERUSER (USERNAME)
+/
+
+create index SPRINGERUSER_N51
+	on SPRINGERUSER (REGIONALVIEW_FK)
+/
+
+create index SPRINGERUSER_N52
+	on SPRINGERUSER (LASTMODIFICATION)
+/
+
+create index SPRINGERUSER_N61
+	on SPRINGERUSER (LASTMODIFIER_FK)
+/
+
+create index SPRINGERUSER_N49
+	on SPRINGERUSER (CREATOR_FK)
+/
+
+create index SPRINGERUSER_N50
+	on SPRINGERUSER (PASSWORD)
+/
+
+create index SPRINGERUSER_DISCRIMINATOR
+	on SPRINGERUSER (DISCRIMINATOR)
+/
+
+create index SPRINGERUSER_N62
+	on SPRINGERUSER (LASTSESSIONACTIVITY)
+/
+
+create index SPRINGERUSER_N66
+	on SPRINGERUSER (ID, DISCRIMINATOR)
+/
+
+create index SPRINGERUSER_NOEMAILS_IDX
+	on SPRINGERUSER (NOEMAILSENABLED)
+/
+
+create index SU_EMAILVALID_IDX
+	on SPRINGERUSER (EMAILVALID)
+/
+
+create index SPUSR_COMBINE2_IDX
+	on SPRINGERUSER (ID, NOPROMOTIONEMAILSENABLED, NOEMAILSENABLED, EMAILVALID)
+/
+
+create index SPRINGER_COMBINE_IDX
+	on SPRINGERUSER (NOEMAILSENABLED, EMAIL, EMAILVALID, REGIONALVIEW_FK, ID)
+/
+
+create index SPRUSR_IDX
+	on SPRINGERUSER (DISCRIMINATOR, ID, CMAUSERNAME)
+/
+
+create index SPRUSR_LOWER3_IDX
+	on SPRINGERUSER (LOWER("CMAUSERNAME"), ID, DISCRIMINATOR)
+/
+
+create index SPRUSR_LOWER4_IDX
+	on SPRINGERUSER (LOWER("EMAIL"), ID, DISCRIMINATOR)
+/
+
+create index SPR_LASTLOGIN_TRUNC_IDX
+	on SPRINGERUSER (TRUNC("LASTLOGIN") desc)
+/
+
+create index SPR_CREATION_TRUNC_IDX
+	on SPRINGERUSER (TRUNC("CREATION") desc)
+/
+
+create index SPR_LASTLOGIN_IDX
+	on SPRINGERUSER (LASTLOGIN desc)
+/
+
+create index SPR_LASTLOGIN_ID_IDX
+	on SPRINGERUSER (LASTLOGIN desc, ID asc)
+/
+
+create index SPRINGERUSER_SIMIDX02
+	on SPRINGERUSER (UNISTR("SIMIDASSTRING"), UNISTR("PASSWORD"))
+/
+
+create unique index SPRINGERUSER_EMAIL_LOWER
+	on SPRINGERUSER (LOWER("EMAIL"))
+/
+
+create unique index SPRINGERUSER_USERNAME_LOWER
+	on SPRINGERUSER (LOWER("USERNAME"))
+/
+
+create table BOOKSERIES
+(
+	ID NUMBER not null,
+	CODE VARCHAR2(256),
+	ISSN VARCHAR2(256),
+	OTHERCLASSIFICATIONSSTRING VARCHAR2(256),
+	PARENTSERIES_FK NUMBER,
+	VOLUMENAME VARCHAR2(256),
+	VOLUMENUMBER VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	DISCRIMINATOR VARCHAR2(256),
+	CACHEDATE TIMESTAMP(6),
+	ISSUBORDERSERIESCACHED NUMBER(1),
+	HASABOUTTHISSERIES NUMBER(1),
+	ORDERNO NUMBER,
+	ZIPPEDGENERICXML BLOB,
+	HASTITLESINTHISSERIESCACHED NUMBER(1),
+	HASSUBORDERSERIESCACHED NUMBER(1),
+	PUBLICATIONDISCONTINUED DATE
+)
+/
+
+create index BS_DISCRIMINATOR
+	on BOOKSERIES (DISCRIMINATOR)
+/
+
+create index BOOKSERIES_N51
+	on BOOKSERIES (CODE)
+/
+
+create index BOOKSERIES_N55
+	on BOOKSERIES (ISSUBORDERSERIESCACHED)
+/
+
+create unique index BOOKSERIES_U51
+	on BOOKSERIES (ORDERNO)
+/
+
+create unique index BOOKSERIES_N50
+	on BOOKSERIES (ISSN)
+/
+
+create unique index BOOKSERIES_PK
+	on BOOKSERIES (ID)
+/
+
+create index BOOKSERIES_N49
+	on BOOKSERIES (PARENTSERIES_FK)
+/
+
+create table CONTENTTEXT
+(
+	ID NUMBER not null,
+	LANG VARCHAR2(256),
+	SEQNO NUMBER(10),
+	TEXT CLOB,
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	PRODUCT_CONTENTTEXTS_FK NUMBER
+)
+/
+
+create index CONTENTTEXT_N49
+	on CONTENTTEXT (PRODUCT_CONTENTTEXTS_FK)
+/
+
+create index CONTENTTEXT_N50
+	on CONTENTTEXT (TYPE)
+/
+
+create unique index CONTENTTEXT_PK
+	on CONTENTTEXT (ID)
+/
+
+create table JOURNAL
+(
+	ID NUMBER not null,
+	ABSTRACTINGANDINDEXINGSERVICJB VARCHAR2(1024),
+	CLASSIFICATIONSSTRING VARCHAR2(1024),
+	FLAGS NUMBER,
+	ISSN VARCHAR2(256),
+	JOURNALNO NUMBER(10),
+	JDOVERSION NUMBER default 1,
+	DISCRIMINATOR VARCHAR2(256),
+	PRINTJOURNAL_FK NUMBER,
+	DEFAULTSUBSCRIPTION_FK NUMBER,
+	HASDESCRIPTION NUMBER(1),
+	ZIPPEDJFLOWXML BLOB,
+	OPENACCESSBRAND VARCHAR2(256),
+	ZIPPEDGENERICXML BLOB
+)
+/
+
+create unique index JOURNAL_U49
+	on JOURNAL (ISSN)
+/
+
+create index JOURNAL_N50
+	on JOURNAL (JOURNALNO)
+/
+
+create index J_DISCRIMINATOR
+	on JOURNAL (DISCRIMINATOR)
+/
+
+create index JOURNAL_N53
+	on JOURNAL (DEFAULTSUBSCRIPTION_FK)
+/
+
+create index JOURNAL_N51
+	on JOURNAL (PRINTJOURNAL_FK)
+/
+
+create unique index JOURNAL_PK
+	on JOURNAL (ID)
+/
+
+create table PERSISTENTPROPERTY
+(
+	ID NUMBER not null,
+	CLASSNAME VARCHAR2(256),
+	KEY VARCHAR2(256),
+	VALUE VARCHAR2(4000),
+	JDOVERSION NUMBER default 1,
+	BLOB BLOB,
+	LASTMODIFICATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFIER_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	"COMMENT" VARCHAR2(4000),
+	LASTCHANGEREASON VARCHAR2(250),
+	MAINTAINABLE NUMBER(1),
+	SUPPRESSHISTORY NUMBER(1)
+)
+/
+
+create unique index CLASS_KEY_UNIQUE
+	on PERSISTENTPROPERTY (CLASSNAME, KEY)
+/
+
+create index PERSISTENTPROPERTY_N52
+	on PERSISTENTPROPERTY (CREATION)
+/
+
+create index PERSISTENTPROPERTY_N49
+	on PERSISTENTPROPERTY (LASTMODIFICATION)
+/
+
+create index PERSISTENTPROPERTY_N51
+	on PERSISTENTPROPERTY (LASTMODIFIER_FK)
+/
+
+create index PERSISTENTPROPERTY_N50
+	on PERSISTENTPROPERTY (CREATOR_FK)
+/
+
+create unique index PERSISTENTPROPERTY_PK
+	on PERSISTENTPROPERTY (ID)
+/
+
+create table RENDITION
+(
+	ID NUMBER not null,
+	ABCSTRING VARCHAR2(256),
+	ADDITIONS VARCHAR2(256),
+	AVAILABLESINCE TIMESTAMP(6),
+	BINDERTYPE VARCHAR2(256),
+	BOOKSERIES_FK NUMBER,
+	BOOKSTORELOCATION VARCHAR2(256),
+	EDITIONTYPE VARCHAR2(256),
+	EXPORTDATE TIMESTAMP(6),
+	ISBN10 VARCHAR2(256),
+	ISBN10WITHOUTHYPHENS VARCHAR2(256),
+	ISBN13 VARCHAR2(256),
+	ISBN13WITHOUTHYPHENS VARCHAR2(256),
+	ILLUSTRATIONSBW VARCHAR2(256),
+	ILLUSTRATIONSCOLOUR VARCHAR2(256),
+	ISMEDIASET NUMBER(1),
+	ISPAGENUMBERAPPROXIMATE NUMBER(1),
+	ISPLANNEDNYPUBDATE NUMBER(1),
+	ISPLANNEDPUBDATE NUMBER(1),
+	ISSUE VARCHAR2(256),
+	MEDICALTEXTBOOKCLASSIFICATIO6L VARCHAR2(256),
+	NYAVAILABLESINCE TIMESTAMP(6),
+	NYPRODUCTDISCOUNTGROUP VARCHAR2(256),
+	NYPUBDATE TIMESTAMP(6),
+	ORDERNO VARCHAR2(256),
+	OTHERCLASSIFICATIONSSTRING VARCHAR2(256),
+	PAGESARABIC VARCHAR2(256),
+	PAGESROMAN VARCHAR2(256),
+	PLANNINGNOTE VARCHAR2(256),
+	PPMPRODUCTTYPE_FK NUMBER,
+	PRODUCTCATEGORIESSTRING VARCHAR2(256),
+	PRODUCTDISCOUNTGROUP VARCHAR2(256),
+	PUBDATE TIMESTAMP(6),
+	SCOPEDESC VARCHAR2(2000),
+	VOLUMENUMBER VARCHAR2(256),
+	VOLUMETYPE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256),
+	ISHISTORICALALERT NUMBER(1),
+	BOOKAUTHOREMAILSENT NUMBER(1) default 1  not null,
+	PRODUCTIONLOCATION VARCHAR2(256),
+	EBOOKPACKAGE_FK NUMBER,
+	AUTHORRBFEMAILSENT NUMBER(1) default 0  not null,
+	IMPRESSIONID VARCHAR2(256),
+	VISIBLE NUMBER(1) default 0  not null,
+	TITLEEXTENSION VARCHAR2(4000),
+	HASABOUTTHISBOOK NUMBER(1),
+	BOOKAUTHORSURVEYEMAILSENDDATE TIMESTAMP(6),
+	BOOKAUTHORCONGRATULATIONEMAI69 TIMESTAMP(6),
+	EDITIONNO NUMBER,
+	COPYRIGHTYEAR NUMBER,
+	NEXTEDITION_FK NUMBER,
+	EDITION_FK NUMBER,
+	EBOOK_FK NUMBER,
+	ISEBOOKONLY NUMBER(1),
+	EBOOKDOWNLOADFIGURESEMAILSENQ2 TIMESTAMP(6),
+	ZIPPEDGENERICXML BLOB,
+	AVAILABLEASEPUBSINCE TIMESTAMP(6),
+	AVAILABLEASPDFSINCE TIMESTAMP(6),
+	DOI VARCHAR2(256),
+	PODSUITABLE NUMBER(1) default 0,
+	LASTWATERMARKUPDATE TIMESTAMP(6),
+	COUNTOFWATERMARKREQUESTS NUMBER default 0  not null,
+	WATERMARKINGPDFFILESIZE NUMBER,
+	WATERMARKINGEPUBFILESIZE NUMBER,
+	WATERMARKINFORMATION_FK NUMBER,
+	RELEVANTFORPROMOTION VARCHAR2(256),
+	AVAILABILITYSTATUSCODEGLOBAL VARCHAR2(256),
+	AVAILABILITYSTATUSCODESAG VARCHAR2(256)
+)
+/
+
+create index PPMMEDIA_N57
+	on RENDITION (BOOKAUTHORCONGRATULATIONEMAI69)
+/
+
+create index PPMMEDIA_N56
+	on RENDITION (BOOKAUTHORSURVEYEMAILSENDDATE)
+/
+
+create index PPMMEDIA_N59
+	on RENDITION (EDITION_FK)
+/
+
+create index PPMMEDIA_N61
+	on RENDITION (EBOOK_FK)
+/
+
+create index PPMMEDIA_N60
+	on RENDITION (NEXTEDITION_FK)
+/
+
+create index RENDITION_N62
+	on RENDITION (DOI)
+/
+
+create index PPMMEDIA_ID_AVAIL_IDX
+	on RENDITION (AVAILABLESINCE, ID)
+/
+
+create index PPMMEDIA_COMBINE_RSS_IDX
+	on RENDITION (NYAVAILABLESINCE, ID)
+/
+
+create index RENDITION_N49
+	on RENDITION (WATERMARKINFORMATION_FK)
+/
+
+create index RENDITION_N50
+	on RENDITION (RELEVANTFORPROMOTION)
+/
+
+create index PPMMEDIA_N62
+	on RENDITION (VISIBLE, BOOKSERIES_FK)
+/
+
+create index PPMMEDIA_N55
+	on RENDITION (VISIBLE)
+/
+
+create unique index RENDITION_JDOTYPE_IDX
+	on RENDITION (ID, JDOTYPE)
+/
+
+create unique index PPMMEDIA_U54
+	on RENDITION (ISBN10)
+/
+
+create unique index PPMMEDIA_U52
+	on RENDITION (ISBN13WITHOUTHYPHENS)
+/
+
+create index PPMMEDIA_N53
+	on RENDITION (PPMPRODUCTTYPE_FK)
+/
+
+create unique index PPMMEDIA_U49
+	on RENDITION (ISBN10WITHOUTHYPHENS)
+/
+
+create unique index PPMMEDIA_U55
+	on RENDITION (ISBN13)
+/
+
+create index PPMMEDIA_N51
+	on RENDITION (BOOKSERIES_FK)
+/
+
+create index PPMMEDIA_N49
+	on RENDITION (EBOOKPACKAGE_FK)
+/
+
+create index PM_JDOTYPE
+	on RENDITION (JDOTYPE)
+/
+
+create index PPMMEDIA_N52
+	on RENDITION (IMPRESSIONID)
+/
+
+create index AVAILABLESINCE_IX
+	on RENDITION (AVAILABLESINCE)
+/
+
+create index ISPLANNEDPUBDATE_IX
+	on RENDITION (ISPLANNEDPUBDATE)
+/
+
+create index ISPLANNEDNYPUBDATE_IX
+	on RENDITION (ISPLANNEDNYPUBDATE)
+/
+
+create index NYAVAILABLESINCE_IX
+	on RENDITION (NYAVAILABLESINCE)
+/
+
+create index NYPUBDATE_IX
+	on RENDITION (NYPUBDATE)
+/
+
+create index PUBDATE_IX
+	on RENDITION (PUBDATE)
+/
+
+create index PRODUCTIONLOCATION_IX
+	on RENDITION (PRODUCTIONLOCATION)
+/
+
+create index OTHERCLASSIFICATIONSSTRING_IX
+	on RENDITION (OTHERCLASSIFICATIONSSTRING)
+/
+
+create unique index PPMMEDIA_PK
+	on RENDITION (ID)
+/
+
+create table SENTFORM
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	FORM_FK NUMBER,
+	FORMTYPE NUMBER(10),
+	"FROM" VARCHAR2(4000),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	RECIPIENT VARCHAR2(4000),
+	SUBJECT VARCHAR2(4000),
+	JDOVERSION NUMBER default 1,
+	COREMEDIASENTJSON CLOB
+)
+/
+
+create index SENTFORM_N52
+	on SENTFORM (LASTMODIFICATION)
+/
+
+create index SENTFORM_N50
+	on SENTFORM (LASTMODIFIER_FK)
+/
+
+create index SENTFORM_N53
+	on SENTFORM (CREATOR_FK)
+/
+
+create index SENTFORM_N51
+	on SENTFORM (FORM_FK)
+/
+
+create index SENTFORM_N49
+	on SENTFORM (CREATION)
+/
+
+create unique index SENTFORM_PK
+	on SENTFORM (ID)
+/
+
+create table SENTFORMDATA
+(
+	ID NUMBER not null,
+	KEY VARCHAR2(4000),
+	SENTFORM_FK NUMBER,
+	VALUE VARCHAR2(4000),
+	JDOVERSION NUMBER default 1,
+	LARGEVALUE CLOB
+)
+/
+
+create index SENTFORMDATA_N49
+	on SENTFORMDATA (SENTFORM_FK)
+/
+
+create unique index SENTFORMDATA_PK
+	on SENTFORMDATA (ID)
+/
+
+create table "ORDER"
+(
+	ID NUMBER not null,
+	CONTACTADDRESS_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DELIVERYADDRESS_FK NUMBER,
+	DELIVERYAREACODE VARCHAR2(256),
+	FULFILLMENTCENTERCODE VARCHAR2(256),
+	GROSSORDER NUMBER(1),
+	INVOICEADDRESS_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	ORDERPAYMENT_FK NUMBER,
+	PPMSHIPMENTAMOUNT NUMBER,
+	PPMSHIPMENTCURRENCY_FK NUMBER,
+	REGIONALVIEW_FK NUMBER,
+	SHIPMENTSERVICECODE VARCHAR2(256),
+	TOTALNETAMOUNT NUMBER,
+	TOTALNETCURRENCY_FK NUMBER,
+	TOTALORDERAMOUNT NUMBER,
+	TOTALTAXAMOUNT NUMBER,
+	USER_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	PURCHASEORDERNO VARCHAR2(256),
+	SERVICEPROVIDER VARCHAR2(256),
+	PAYMENTSUCCESSFUL NUMBER(1),
+	WORLDPAYREDIRECTURL CLOB,
+	RESPONSEXML CLOB,
+	ISEBOOKORDERPART NUMBER(1),
+	LASTEVENT VARCHAR2(256),
+	REFERENCEID VARCHAR2(256),
+	SUBSCRIBERID VARCHAR2(256),
+	SAVEORDERSUCCESSFUL NUMBER(1)
+)
+/
+
+create index ORDER_N59
+	on "ORDER" (LASTMODIFICATION)
+/
+
+create index ORDER_N54
+	on "ORDER" (TOTALNETCURRENCY_FK)
+/
+
+create index ORDER_N57
+	on "ORDER" (CONTACTADDRESS_FK)
+/
+
+create index ORDER_N55
+	on "ORDER" (ORDERPAYMENT_FK)
+/
+
+create index ORDER_N53
+	on "ORDER" (LASTMODIFIER_FK)
+/
+
+create index ORDER_N49
+	on "ORDER" (REGIONALVIEW_FK)
+/
+
+create index ORDER_N51
+	on "ORDER" (CREATOR_FK)
+/
+
+create index ORDER_N58
+	on "ORDER" (PPMSHIPMENTCURRENCY_FK)
+/
+
+create unique index ORDER_PK
+	on "ORDER" (ID)
+/
+
+create index ORDER_N50
+	on "ORDER" (INVOICEADDRESS_FK)
+/
+
+create index ORDER_N56
+	on "ORDER" (USER_FK)
+/
+
+create index ORDER_N52
+	on "ORDER" (DELIVERYADDRESS_FK)
+/
+
+create index ORDER_N60
+	on "ORDER" (CREATION)
+/
+
+create table ARTICLEDATA
+(
+	ID NUMBER not null,
+	DISPATCH NUMBER(1),
+	HTMLCONTENT CLOB,
+	LOCKED NUMBER(1),
+	LONGURL VARCHAR2(256),
+	LONGURLLABEL VARCHAR2(256),
+	NAME VARCHAR2(256),
+	PLAINCONTENT CLOB,
+	RELEVANCE NUMBER(10),
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256),
+	HTMLTITLE VARCHAR2(4000),
+	PLAINTITLE VARCHAR2(4000),
+	HTMLSUBTITLE VARCHAR2(4000),
+	PLAINSUBTITLE VARCHAR2(4000)
+)
+/
+
+create index ARTICLEDATA_N49
+	on ARTICLEDATA (NAME)
+/
+
+create index IDX_DISPATCH_3
+	on ARTICLEDATA (DISPATCH)
+/
+
+create unique index ARTICLEDATA_PK
+	on ARTICLEDATA (ID)
+/
+
+create index AD_JDOTYPE
+	on ARTICLEDATA (JDOTYPE)
+/
+
+create index IDX_DISPATCH_1
+	on ARTICLEDATA (ID, DISPATCH, LOCKED, LONGURL, LONGURLLABEL, NAME, RELEVANCE, JDOVERSION, JDOTYPE)
+/
+
+create index IDX_DISPATCH_4
+	on ARTICLEDATA (ID, DISPATCH)
+/
+
+create table BMCONFIGURATION
+(
+	ID NUMBER not null,
+	ACTIVE NUMBER(1),
+	CONFIGURATION CLOB,
+	CRONEXPRESSION VARCHAR2(256),
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index BMCONFIGURATION_PK
+	on BMCONFIGURATION (ID)
+/
+
+create table ONLINEEXAMCOPYCONFIG
+(
+	ID NUMBER not null,
+	DISCOUNTPERCENTAGE NUMBER,
+	LICENSELIFETIME NUMBER,
+	REMINDERDURATION NUMBER,
+	REMINDERPERIOD NUMBER,
+	TOKENLIFETIME NUMBER,
+	WARNINGEMAIL VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	FREECOPYBLACKLIST CLOB,
+	ENTRYPAGEURLINSTRUCTOR VARCHAR2(256),
+	NUMBERSOFFREEBOOKSINSTRUCTOR NUMBER(10) default 0  not null,
+	AMOUNTOFRATINGTOOBTAINFREEBOOK NUMBER(10) default 0  not null,
+	MEMBERSHIPDURATIONJUNIORINSTCU NUMBER(10) default 0  not null,
+	NUMBERSOFFREEBOOKSJUNIORINSTCU NUMBER(10) default 0  not null,
+	DISCOUNTPERCENTAGEJUNIORINSTCU NUMBER,
+	REMINDERPERIODINSTRUCTORPRINJK NUMBER(10) default (30)  not null
+)
+/
+
+create unique index ONLINEEXAMCOPYCONFIG_PK
+	on ONLINEEXAMCOPYCONFIG (ID)
+/
+
+create table STOREDPROFILESEARCH
+(
+	ID NUMBER not null,
+	NAME VARCHAR2(256),
+	QUERY CLOB,
+	JDOVERSION NUMBER default 1
+)
+/
+
+create unique index STOREDPROFILESEARCH_U49
+	on STOREDPROFILESEARCH (NAME)
+/
+
+create unique index STOREDPROFILESEARCH_PK
+	on STOREDPROFILESEARCH (ID)
+/
+
+create table TEMPLATEDATA
+(
+	ID NUMBER not null,
+	DESCRIPTION VARCHAR2(256),
+	HTMLCONTENT CLOB,
+	LOCKED NUMBER(1),
+	NAME VARCHAR2(256),
+	PLAINCONTENT CLOB,
+	SUBJECT CLOB,
+	JDOVERSION NUMBER default 1,
+	JDOTYPE VARCHAR2(256),
+	"FROM" VARCHAR2(256),
+	FROMALIAS VARCHAR2(256),
+	REPLYTO VARCHAR2(256),
+	INTERNALNAME VARCHAR2(256),
+	ALWAYSCC VARCHAR2(1024),
+	ALWAYSBCC VARCHAR2(1024)
+)
+/
+
+create index TEMPLATEDATA_N49
+	on TEMPLATEDATA (NAME)
+/
+
+create index TD_JDOTYPE
+	on TEMPLATEDATA (JDOTYPE)
+/
+
+create unique index TEMPLATEDATA_U49
+	on TEMPLATEDATA (INTERNALNAME)
+/
+
+create unique index TEMPLATEDATA_PK
+	on TEMPLATEDATA (ID)
+/
+
+create table JMS_MESSAGE_LOG
+(
+	MESSAGEID NUMBER not null,
+	DESTINATION VARCHAR2(255) not null,
+	TXID NUMBER,
+	TXOP CHAR,
+	LATECLONE CHAR,
+	MESSAGEBLOB BLOB
+)
+/
+
+create index JMS_MESSAGE_TXID
+	on JMS_MESSAGE_LOG (TXID)
+/
+
+create index JMS_MESSAGE_TXOP
+	on JMS_MESSAGE_LOG (TXOP)
+/
+
+create index IDX$$_7F110001
+	on JMS_MESSAGE_LOG (TXOP, TXID)
+/
+
+create unique index SYS_C0014986
+	on JMS_MESSAGE_LOG (MESSAGEID, DESTINATION)
+/
+
+create table FAILEDJMSMESSAGE
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	HEADER BLOB,
+	INSTANCE VARCHAR2(256),
+	ISEXECUTED NUMBER(1),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAME VARCHAR2(256),
+	PAYLOAD BLOB,
+	TYPE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	PAYLOADCHECKSUM VARCHAR2(256)
+)
+/
+
+create unique index FAILEDJMSMESSAGE_PK
+	on FAILEDJMSMESSAGE (ID)
+/
+
+create index FAILEDJMSMESSAGE_N49
+	on FAILEDJMSMESSAGE (LASTMODIFIER_FK)
+/
+
+create index FAILEDJMSMESSAGE_N50
+	on FAILEDJMSMESSAGE (LASTMODIFICATION)
+/
+
+create index FAILEDJMSMESSAGE_N51
+	on FAILEDJMSMESSAGE (CREATOR_FK)
+/
+
+create index FAILEDJMSMESSAGE_N52
+	on FAILEDJMSMESSAGE (ISEXECUTED)
+/
+
+create index FAILEDJMSMESSAGE_N53
+	on FAILEDJMSMESSAGE (PAYLOADCHECKSUM)
+/
+
+create index FAILEDJMSMESSAGE_N54
+	on FAILEDJMSMESSAGE (CREATION)
+/
+
+create table APPARTICLE
+(
+	ID NUMBER not null,
+	ARTICLEID VARCHAR2(256),
+	CONTAININGISSUE_FK NUMBER,
+	COVERDATEDAY NUMBER not null,
+	COVERDATEMONTH NUMBER not null,
+	COVERDATEYEAR NUMBER not null,
+	DOI VARCHAR2(256),
+	FIRSTPAGE NUMBER not null,
+	LANGUAGE VARCHAR2(256),
+	LASTPAGE NUMBER not null,
+	ONLINEDATEDAY NUMBER not null,
+	ONLINEDATEMONTH NUMBER not null,
+	ONLINEDATEYEAR NUMBER not null,
+	ZIPPEDXML BLOB not null,
+	JDOVERSION NUMBER not null,
+	PRINTDATE DATE,
+	ONLINEDATE DATE,
+	SURVEYSENT DATE,
+	ASSIGNEDTOISSUESENT DATE,
+	ONLINEFIRSTSENT DATE,
+	ONLINEFIRSTONLY NUMBER(1),
+	CONTAININGONLIFIRSTJOURNAL_FK NUMBER,
+	ZIPFILENAMEOFLASTUPDATE VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	CREATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	CREATOR_FK NUMBER,
+	INCREMENTALISSUEWELCOMESENT DATE,
+	HISTORICALDATA NUMBER(1),
+	APLUSPLUSPLAINXML CLOB,
+	ONLINEFIRSTIMPORTFILENAME VARCHAR2(256),
+	EOFFPRINTDELETIONDATE TIMESTAMP(6),
+	EOFFPRINTCREATIONDATE TIMESTAMP(6),
+	FULLTEXTRECEIVEDDATE TIMESTAMP(6),
+	ASSIGNEDTOISSUEIMPORTDATE TIMESTAMP(6),
+	ONLINEFIRSTIMPORTDATE TIMESTAMP(6),
+	ASSIGNEDTOISSUEIMPORTFILENAME VARCHAR2(256),
+	TOCALERTBEGINDATE TIMESTAMP(6),
+	TOCALERTENDDATE TIMESTAMP(6),
+	CONTRIBUTINGONLINEFIRSTSENT TIMESTAMP(6)
+)
+/
+
+create index APPARTICLE_COMBINE1_IDX
+	on APPARTICLE (ONLINEDATE, ONLINEFIRSTSENT, CONTAININGISSUE_FK)
+/
+
+create index APPARTICLE_N63
+	on APPARTICLE (ONLINEFIRSTONLY)
+/
+
+create index APPARTICLE_N61
+	on APPARTICLE (HISTORICALDATA)
+/
+
+create index APPARTICLE_COMBINE2_IDX
+	on APPARTICLE (PRINTDATE, ASSIGNEDTOISSUESENT, CONTAININGISSUE_FK)
+/
+
+create index APPARTICLE_N65
+	on APPARTICLE (TOCALERTENDDATE)
+/
+
+create index APPARTICLE_N66
+	on APPARTICLE (TOCALERTBEGINDATE)
+/
+
+create index APPARTICLE_N64
+	on APPARTICLE (ASSIGNEDTOISSUEIMPORTFILENAME)
+/
+
+create index APPARTICLE_N62
+	on APPARTICLE (FULLTEXTRECEIVEDDATE)
+/
+
+create index APPARTICLE_N57
+	on APPARTICLE (ONLINEFIRSTIMPORTDATE)
+/
+
+create index APPARTICLE_N58
+	on APPARTICLE (ONLINEFIRSTIMPORTFILENAME)
+/
+
+create index APPARTICLE_N60
+	on APPARTICLE (EOFFPRINTDELETIONDATE)
+/
+
+create index APPARTICLE_N59
+	on APPARTICLE (EOFFPRINTCREATIONDATE)
+/
+
+create index APPARTICLE_N67
+	on APPARTICLE (CONTRIBUTINGONLINEFIRSTSENT)
+/
+
+create index APPARTICLE_N53
+	on APPARTICLE (LASTMODIFIER_FK)
+/
+
+create index APPARTICLE_N54
+	on APPARTICLE (LASTMODIFICATION)
+/
+
+create index APPARTICLE_N52
+	on APPARTICLE (CREATOR_FK)
+/
+
+create index APPARTICLE_N56
+	on APPARTICLE (CREATION)
+/
+
+create unique index TOCARTICLE_U51
+	on APPARTICLE (DOI)
+/
+
+create index TOCARTICLE_N49
+	on APPARTICLE (ARTICLEID)
+/
+
+create index TOCARTICLE_N50
+	on APPARTICLE (CONTAININGISSUE_FK)
+/
+
+create index PRINTDATE_MAN
+	on APPARTICLE (PRINTDATE)
+/
+
+create index ONLINEDATE_MAN
+	on APPARTICLE (ONLINEDATE)
+/
+
+create index SURVEYSENT_MAN
+	on APPARTICLE (SURVEYSENT)
+/
+
+create index APPARTICLE_N49
+	on APPARTICLE (ASSIGNEDTOISSUESENT)
+/
+
+create index APPARTICLE_N50
+	on APPARTICLE (ONLINEFIRSTSENT)
+/
+
+create index APPARTICLE_N51
+	on APPARTICLE (CONTAININGONLIFIRSTJOURNAL_FK)
+/
+
+create index APPARTICLE_N55
+	on APPARTICLE (INCREMENTALISSUEWELCOMESENT)
+/
+
+create unique index TOCARTICLE_PK
+	on APPARTICLE (ID)
+/
+
+create table APPARTICLEABSTRACTS_STRING
+(
+	APPARTICLE_FK NUMBER not null,
+	STRING_KEY VARCHAR2(256) not null,
+	STRING_VALUE CLOB
+)
+/
+
+create index TOCARTICLEABSTRACTS_STRING_N49
+	on APPARTICLEABSTRACTS_STRING (APPARTICLE_FK)
+/
+
+create unique index TOCARTICLEABSTRACTS_STRING_PK
+	on APPARTICLEABSTRACTS_STRING (APPARTICLE_FK, STRING_KEY)
+/
+
+create table TIMERS
+(
+	TIMERID VARCHAR2(80) not null,
+	TARGETID VARCHAR2(80) not null,
+	INITIALDATE TIMESTAMP(9) not null,
+	TIMERINTERVAL NUMBER(19),
+	INSTANCEPK BLOB,
+	INFO BLOB
+)
+/
+
+create unique index TIMERS_PK
+	on TIMERS (TIMERID, TARGETID)
+/
+
+create table AUTHORQUERY
+(
+	ID NUMBER not null,
+	ARTICLETITLE VARCHAR2(1000),
+	AUTHOREMAIL VARCHAR2(256),
+	AUTHORUSER_FK NUMBER,
+	BLACKWHITEJOURNAL NUMBER(1),
+	CTNOTALLOWEDREASON VARCHAR2(256),
+	CTSDATE TIMESTAMP(6),
+	COLORFORFREE NUMBER(1),
+	COLORPRINTORDERED NUMBER(1),
+	COPYRIGHTTRANSFERRED NUMBER(1),
+	DOI VARCHAR2(256),
+	FILENAME VARCHAR2(256),
+	FIRSTNAME VARCHAR2(256),
+	HASREADCTS NUMBER(1),
+	HASSOCIETYSTATEMENT NUMBER(1),
+	INITIALCOPYRIGHTHOLDER VARCHAR2(256),
+	JOURNALTITLE VARCHAR2(256),
+	LASTAUTHORACTIVITY TIMESTAMP(6),
+	LASTREMINDERSENT TIMESTAMP(6),
+	LASTNAME VARCHAR2(256),
+	NUMELECTRONICOFFPRINTSORDERED NUMBER(10),
+	NUMFREEOFFPRINTS NUMBER(10),
+	NUMOFFPRINTSORDERED NUMBER(10),
+	OPENCHOICEACTIVE NUMBER(1),
+	PRINTERCOMPANYNAME VARCHAR2(256),
+	REMINDERSSENT NUMBER(10) not null,
+	STATE VARCHAR2(256),
+	WANTSOPENCHOICE NUMBER(1),
+	ZIPPEDXML BLOB not null,
+	JDOVERSION NUMBER not null,
+	LASTMODIFICATION TIMESTAMP(6),
+	CREATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	CREATOR_FK NUMBER,
+	NUMFREECOPIES NUMBER(10),
+	AFFILIATION_FK NUMBER,
+	OPENCHOICETWOYEARS NUMBER(1) default 0  not null,
+	ORDERDATE TIMESTAMP(6),
+	FIRSTORDERDATE TIMESTAMP(6),
+	NUMPAIDPOSTERS NUMBER(10),
+	WORKFLOWSCENARIO VARCHAR2(256),
+	WANTSFREEELECTRONICOFFPRINT NUMBER(1),
+	WANTSPAIDELECTRONICOFFPRINT NUMBER(1),
+	CTNOTALLOWEDTYPE VARCHAR2(256),
+	EOFFPRINTFIRSTACCESS TIMESTAMP(6),
+	EOFFPRINTAVAILABLEDATE TIMESTAMP(6),
+	COMMERCIALRIGHTTRANSFERRED NUMBER(1),
+	CRTDATE TIMESTAMP(6),
+	FREEELECTRONICOFFPRINTINITIA5T NUMBER(1) default 0  not null,
+	RESTARTCOUNT NUMBER(10) default 0  not null,
+	REMINDERTOEDITORSENT NUMBER(1) default 0  not null,
+	EDITOREMAIL VARCHAR2(256),
+	CTNACOPYRIGHTMSGGIVEN VARCHAR2(256),
+	CTNACOPYRIGHTMSGSUPPLEMENT VARCHAR2(256),
+	EOFFPRINTDOWNLOADEMAILSENT TIMESTAMP(6),
+	GRANTNUMBER VARCHAR2(256),
+	PAYMENTPROCESSVIAWORLDPAY NUMBER(1),
+	PAYMENTOPENCHOICEDONE NUMBER(1),
+	PAYMENTPRINTDONE NUMBER(1),
+	PAYMENTOPENCHOICELASTREMINDEO2 TIMESTAMP(6),
+	PAYMENTOPENCHOICELOCKEDREASON VARCHAR2(256),
+	PAYMENTPRINTLASTREMINDERSENT TIMESTAMP(6),
+	PAYMENTPRINTZIPPEDXML BLOB,
+	PAYMENTOPENCHOICEZIPPEDXML BLOB,
+	PAYMENTPRINTREMINDERSSENT NUMBER(10) default 0  not null,
+	PAYMENTOPENCHOICEREMINDERSSENT NUMBER(10) default 0  not null,
+	PAYMENTTYPEOPENCHOICE_FK NUMBER,
+	PAYMENTTYPEPRINT_FK NUMBER,
+	PAYMENTPRINTSUCCESSFUL NUMBER(1),
+	PAYMENTIDOPENCHOICE VARCHAR2(256),
+	PAYMENTOPENCHOICESUCCESSFUL NUMBER(1),
+	PAYMENTIDPRINT VARCHAR2(256),
+	PAYMENTOPENCHOICEFIRSTIMPORT TIMESTAMP(6),
+	PAYMENTPRINTFIRSTIMPORT TIMESTAMP(6),
+	PAYMENTPRINTLOCKEDREASON VARCHAR2(256),
+	PAYMENTOPENCHOICEREACTIVATIONO TIMESTAMP(6),
+	PAYMENTOPENCHOICEPAYDATE TIMESTAMP(6),
+	PAYMENTPRINTPAYDATE TIMESTAMP(6),
+	OPENCHOICEMEMBERSHIPAPPLIEDSYL VARCHAR2(256),
+	OPENCHOICEMEMBERSHIPIDFOUND VARCHAR2(256),
+	OPENCHOICEMEMBERSHIPORGANIZAXA VARCHAR2(256),
+	ENTEREDCUSTOMAFFILIATION VARCHAR2(256),
+	OPENCHOICEMEMBERSHIPIDSAVED VARCHAR2(256),
+	INVALIDLICENSE NUMBER(1),
+	INVALIDARTICLETYPE NUMBER(1),
+	MOCKCONFIG_FK NUMBER,
+	CTSEMPLOYEETYPE VARCHAR2(256),
+	CREDITCARDNUMBER VARCHAR2(256),
+	CTSCOPYRIGHTSUPPLEMENT VARCHAR2(256),
+	CRTSTATEMENT VARCHAR2(4000),
+	CTSSTATEMENT VARCHAR2(4000),
+	PURCHASEORDERNO VARCHAR2(256),
+	CTSCOPYRIGHTGIVEN VARCHAR2(256),
+	ORIGINALAFFILIATION_FK NUMBER,
+	CTSSTATEMENTLOB CLOB,
+	CRTSTATEMENTLOB CLOB,
+	AUTHORGROUPDATAZIPPEDXML BLOB,
+	EXPORTVERSIONZIPPEDXML BLOB,
+	EXTERNALCONFIG_FK NUMBER
+)
+/
+
+create index AUTHORQUERY_N82
+	on AUTHORQUERY (EXTERNALCONFIG_FK)
+/
+
+create index AUTHORQUERY_N72
+	on AUTHORQUERY (INVALIDLICENSE)
+/
+
+create index AQ_FIRSTORDERDATE_IDX
+	on AUTHORQUERY (FIRSTORDERDATE)
+/
+
+create index AUTHORQUERY_N74
+	on AUTHORQUERY (CTSCOPYRIGHTSUPPLEMENT)
+/
+
+create index AUTHORQUERY_N75
+	on AUTHORQUERY (PURCHASEORDERNO)
+/
+
+create index AUTHORQUERY_N80
+	on AUTHORQUERY (CTSCOPYRIGHTGIVEN)
+/
+
+create index AUTHORQUERY_N77
+	on AUTHORQUERY (CREDITCARDNUMBER)
+/
+
+create unique index AUTHORQUERY_PK
+	on AUTHORQUERY (ID)
+/
+
+create index AUTHORQUERY_N51
+	on AUTHORQUERY (STATE)
+/
+
+create unique index AUTHORQUERY_U49
+	on AUTHORQUERY (DOI)
+/
+
+create index AUTHORQUERY_N50
+	on AUTHORQUERY (AUTHORUSER_FK)
+/
+
+create index AUTHORQUERY_N52
+	on AUTHORQUERY (CREATOR_FK)
+/
+
+create index AUTHORQUERY_N53
+	on AUTHORQUERY (LASTMODIFIER_FK)
+/
+
+create index AUTHORQUERY_N49
+	on AUTHORQUERY (LASTMODIFICATION)
+/
+
+create index AUTHORQUERY_N54
+	on AUTHORQUERY (AFFILIATION_FK)
+/
+
+create index AUTHORQUERY_N78
+	on AUTHORQUERY (CTSSTATEMENT)
+/
+
+create index AUTHORQUERY_N76
+	on AUTHORQUERY (CTSEMPLOYEETYPE)
+/
+
+create index AUTHORQUERY_N55
+	on AUTHORQUERY (CREATION)
+/
+
+create index AUTHORQUERY_AUTHOREMAIL
+	on AUTHORQUERY (AUTHOREMAIL)
+/
+
+create index AUTHORQUERY_N79
+	on AUTHORQUERY (CRTSTATEMENT)
+/
+
+create index AUTHORQUERY_N81
+	on AUTHORQUERY (ORIGINALAFFILIATION_FK)
+/
+
+create index AUTHORQUERY_N56
+	on AUTHORQUERY (FILENAME)
+/
+
+create index AUTHORQUERY_N57
+	on AUTHORQUERY (PAYMENTPRINTLASTREMINDERSENT)
+/
+
+create index AUTHORQUERY_N58
+	on AUTHORQUERY (PAYMENTPRINTDONE)
+/
+
+create index AUTHORQUERY_N59
+	on AUTHORQUERY (PAYMENTOPENCHOICELASTREMINDEO2)
+/
+
+create index AUTHORQUERY_N60
+	on AUTHORQUERY (PAYMENTOPENCHOICELOCKEDREASON)
+/
+
+create index AUTHORQUERY_N61
+	on AUTHORQUERY (PAYMENTOPENCHOICEDONE)
+/
+
+create index AUTHORQUERY_N62
+	on AUTHORQUERY (PAYMENTTYPEOPENCHOICE_FK)
+/
+
+create index AUTHORQUERY_N63
+	on AUTHORQUERY (PAYMENTTYPEPRINT_FK)
+/
+
+create index AUTHORQUERY_N64
+	on AUTHORQUERY (PAYMENTPRINTLOCKEDREASON)
+/
+
+create index AUTHORQUERY_N65
+	on AUTHORQUERY (PAYMENTPRINTFIRSTIMPORT)
+/
+
+create index AUTHORQUERY_N66
+	on AUTHORQUERY (PAYMENTOPENCHOICEFIRSTIMPORT)
+/
+
+create index AUTHORQUERY_N67
+	on AUTHORQUERY (PAYMENTOPENCHOICEREACTIVATIONO)
+/
+
+create index "orderdate_index"
+	on AUTHORQUERY (ORDERDATE)
+/
+
+create index AUTHORQUERY_N68
+	on AUTHORQUERY (OPENCHOICEMEMBERSHIPAPPLIEDSYL)
+/
+
+create index AUTHORQUERY_N69
+	on AUTHORQUERY (OPENCHOICEMEMBERSHIPIDFOUND)
+/
+
+create index AUTHORQUERY_N70
+	on AUTHORQUERY (OPENCHOICEMEMBERSHIPIDSAVED)
+/
+
+create index AUTHORQUERY_N71
+	on AUTHORQUERY (INVALIDARTICLETYPE)
+/
+
+create index AUTHORQUERY_N73
+	on AUTHORQUERY (MOCKCONFIG_FK)
+/
+
+create index AQ_EOFFPRINT
+	on AUTHORQUERY (EOFFPRINTAVAILABLEDATE, EOFFPRINTFIRSTACCESS)
+/
+
+create index AUTHORQUERY_AUTHOREMAIL_LOWER
+	on AUTHORQUERY (LOWER("AUTHOREMAIL"))
+/
+
+create table PLAN_TABLE
+(
+	STATEMENT_ID VARCHAR2(30),
+	TIMESTAMP DATE,
+	REMARKS VARCHAR2(4000),
+	OPERATION VARCHAR2(30),
+	OPTIONS VARCHAR2(255),
+	OBJECT_NODE VARCHAR2(128),
+	OBJECT_OWNER VARCHAR2(30),
+	OBJECT_NAME VARCHAR2(30),
+	OBJECT_INSTANCE NUMBER,
+	OBJECT_TYPE VARCHAR2(30),
+	OPTIMIZER VARCHAR2(255),
+	SEARCH_COLUMNS NUMBER,
+	ID NUMBER,
+	PARENT_ID NUMBER,
+	POSITION NUMBER,
+	COST NUMBER,
+	CARDINALITY NUMBER,
+	BYTES NUMBER,
+	OTHER_TAG VARCHAR2(255),
+	PARTITION_START VARCHAR2(255),
+	PARTITION_STOP VARCHAR2(255),
+	PARTITION_ID NUMBER,
+	OTHER LONG,
+	DISTRIBUTION VARCHAR2(30),
+	CPU_COST NUMBER,
+	IO_COST NUMBER,
+	TEMP_SPACE NUMBER,
+	ACCESS_PREDICATES VARCHAR2(4000),
+	FILTER_PREDICATES VARCHAR2(4000),
+	PLAN_ID NUMBER,
+	OBJECT_ALIAS VARCHAR2(65),
+	DEPTH NUMBER,
+	PROJECTION VARCHAR2(4000),
+	TIME NUMBER,
+	QBLOCK_NAME VARCHAR2(30),
+	OTHER_XML CLOB
+)
+/
+
+create table APPCHAPTER
+(
+	ID NUMBER not null,
+	ZIPPEDXML BLOB not null,
+	JDOVERSION NUMBER not null,
+	DOI VARCHAR2(256)
+)
+/
+
+create unique index APPCHAPTER_COMBINE_IDX
+	on APPCHAPTER (ID, DOI, JDOVERSION)
+/
+
+create unique index TOCCHAPTER_PK
+	on APPCHAPTER (ID)
+/
+
+create table SUBJECTCODETREE
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	TYPE VARCHAR2(256),
+	VIEW_FK NUMBER,
+	XMLDATA CLOB,
+	JDOVERSION NUMBER not null
+)
+/
+
+create index SUBJECTCODETREE_N51
+	on SUBJECTCODETREE (VIEW_FK)
+/
+
+create index SUBJECTCODETREE_N53
+	on SUBJECTCODETREE (CREATION)
+/
+
+create unique index SUBJECTCODETREE_PK
+	on SUBJECTCODETREE (ID)
+/
+
+create index SUBJECTCODETREE_N50
+	on SUBJECTCODETREE (CREATOR_FK)
+/
+
+create index SUBJECTCODETREE_N52
+	on SUBJECTCODETREE (LASTMODIFICATION)
+/
+
+create index SUBJECTCODETREE_N49
+	on SUBJECTCODETREE (LASTMODIFIER_FK)
+/
+
+create table NL_EXPORTED_NEWSLETTER
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	HTMLOUTPUT CLOB,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LINKTOONLINEVERSION VARCHAR2(256),
+	ONLINEHTMLOUTPUT CLOB,
+	PLAINOUTPUT CLOB,
+	XMLOUTPUT CLOB,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index NL_EXPORTED_NEWSLETTER_PK
+	on NL_EXPORTED_NEWSLETTER (ID)
+/
+
+create index NL_EXPORTED_NEWSLETTER_N52
+	on NL_EXPORTED_NEWSLETTER (CREATION)
+/
+
+create index NL_EXPORTED_NEWSLETTER_N50
+	on NL_EXPORTED_NEWSLETTER (CREATOR_FK)
+/
+
+create index NL_EXPORTED_NEWSLETTER_N49
+	on NL_EXPORTED_NEWSLETTER (LASTMODIFIER_FK)
+/
+
+create index NL_EXPORTED_NEWSLETTER_N51
+	on NL_EXPORTED_NEWSLETTER (LASTMODIFICATION)
+/
+
+create table NL_CONTENT_BOX
+(
+	ID NUMBER not null,
+	CONTENTITEM_FK NUMBER,
+	TEASER_FK NUMBER,
+	JDOVERSION NUMBER not null,
+	DATAXML CLOB
+)
+/
+
+create unique index NL_CONTENT_BOX_PK
+	on NL_CONTENT_BOX (ID)
+/
+
+create index NL_CONTENT_BOX_N49
+	on NL_CONTENT_BOX (TEASER_FK)
+/
+
+create index NL_CONTENT_BOX_N50
+	on NL_CONTENT_BOX (CONTENTITEM_FK)
+/
+
+create table NL_XSLTOBJECT
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DESCRIPTION VARCHAR2(4000),
+	HTMLCONTENT CLOB,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LOCKED NUMBER(1),
+	NAME VARCHAR2(256),
+	PLAINCONTENT CLOB,
+	JDOVERSION NUMBER not null
+)
+/
+
+create index NL_XSLTOBJECT_N52
+	on NL_XSLTOBJECT (CREATOR_FK)
+/
+
+create index NL_XSLTOBJECT_N49
+	on NL_XSLTOBJECT (LASTMODIFIER_FK)
+/
+
+create index NL_XSLTOBJECT_N53
+	on NL_XSLTOBJECT (CREATION)
+/
+
+create unique index NL_XSLTOBJECT_PK
+	on NL_XSLTOBJECT (ID)
+/
+
+create index NL_XSLTOBJECT_N51
+	on NL_XSLTOBJECT (LASTMODIFICATION)
+/
+
+create index NL_XSLTOBJECT_N50
+	on NL_XSLTOBJECT (NAME)
+/
+
+create table PDFCATALOGCUSTOMFIELDS
+(
+	ID NUMBER not null,
+	CITY VARCHAR2(256),
+	COUNTRY VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	EMAILSENDTO VARCHAR2(256),
+	EMAILUSEDINCATALOG VARCHAR2(256),
+	FAXNUMBER VARCHAR2(256),
+	IMAGEBYTES BLOB,
+	IMAGEFILENAME VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	NAMEOFBOOKSELLER VARCHAR2(1000),
+	PHONENUMBER VARCHAR2(256),
+	POSTALCODE VARCHAR2(256),
+	STREETANDNUMBER VARCHAR2(256),
+	TITLEOFCATALOG VARCHAR2(1000),
+	WEBSITE VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	SPRINGERUSER_FK NUMBER,
+	SUBTITLEOFCATALOG VARCHAR2(1000),
+	CUSTOMERINFORMATION VARCHAR2(512),
+	SHOWPRICES NUMBER(1)
+)
+/
+
+create index PDFCATALOGCUSTOMFIELDS_N49
+	on PDFCATALOGCUSTOMFIELDS (CREATOR_FK)
+/
+
+create index PDFCATALOGCUSTOMFIELDS_N53
+	on PDFCATALOGCUSTOMFIELDS (SPRINGERUSER_FK)
+/
+
+create index PDFCATALOGCUSTOMFIELDS_N50
+	on PDFCATALOGCUSTOMFIELDS (CREATION)
+/
+
+create index PDFCUST_IDX
+	on PDFCATALOGCUSTOMFIELDS (SPRINGERUSER_FK, ID)
+/
+
+create unique index PDFCATALOGCUSTOMFIELDS_PK
+	on PDFCATALOGCUSTOMFIELDS (ID)
+/
+
+create index PDFCATALOGCUSTOMFIELDS_N51
+	on PDFCATALOGCUSTOMFIELDS (LASTMODIFIER_FK)
+/
+
+create index PDFCATALOGCUSTOMFIELDS_N52
+	on PDFCATALOGCUSTOMFIELDS (LASTMODIFICATION)
+/
+
+create table TRACKEDARTICLE
+(
+	ID NUMBER not null,
+	ARTICLESTATEASSTRING VARCHAR2(256),
+	DOI VARCHAR2(256),
+	LASTIMPORTEDFILENAME VARCHAR2(256),
+	SPRINGERAUTHOR_FK NUMBER,
+	ZIPPEDXML BLOB,
+	JDOVERSION NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	CREATION TIMESTAMP(6),
+	AUTHORWANTSEMAILNOTIFICATION NUMBER(1),
+	CREATOR_FK NUMBER,
+	LASTMODIFIER_FK NUMBER,
+	APPARTICLE_FK NUMBER,
+	AUTHORQUERY_FK NUMBER
+)
+/
+
+create index TRACKEDARTICLE_N53
+	on TRACKEDARTICLE (AUTHORQUERY_FK)
+/
+
+create index TRACKEDARTICLE_N54
+	on TRACKEDARTICLE (APPARTICLE_FK)
+/
+
+create index TRACKEDARTICLE_N55
+	on TRACKEDARTICLE (CREATION)
+/
+
+create unique index TRACKEDARTICLE_PK
+	on TRACKEDARTICLE (ID)
+/
+
+create unique index TRACKEDARTICLE_U50
+	on TRACKEDARTICLE (DOI)
+/
+
+create index TRACKEDARTICLE_N49
+	on TRACKEDARTICLE (SPRINGERAUTHOR_FK)
+/
+
+create index TRACKEDARTICLE_N50
+	on TRACKEDARTICLE (CREATOR_FK)
+/
+
+create index TRACKEDARTICLE_N52
+	on TRACKEDARTICLE (LASTMODIFICATION)
+/
+
+create index TRACKEDARTICLE_N51
+	on TRACKEDARTICLE (LASTMODIFIER_FK)
+/
+
+create table CHANNEL
+(
+	ID NUMBER not null,
+	DELETIONDATE TIMESTAMP(6),
+	HASCHANNELDROPDOWN NUMBER(1),
+	HASSUBCHANNELDROPDOWN NUMBER(1),
+	ISDISPLAYEDINCHANNELDROPDOWN NUMBER(1),
+	ISDISPLAYEDONHOMEPAGE NUMBER(1),
+	ISPROTECTED NUMBER(1),
+	ISRSSENABLED NUMBER(1),
+	"LEVEL" NUMBER,
+	NAME VARCHAR2(256),
+	PARENTCHANNEL_FK NUMBER,
+	RSSFEEDLISTSIZE NUMBER,
+	JDOVERSION NUMBER default 1,
+	EXCLUDEFORINDEXING NUMBER(1),
+	ISFUNCTIONALITYCHANNEL NUMBER(1) default 0,
+	ROBOTINDEXSELECTIONSTRING VARCHAR2(256),
+	WEBTRACKINGCATEGORY_FK NUMBER,
+	ISDISPLAYEDINNEWSSEARCH NUMBER(1) default 0,
+	LASTMODIFICATION TIMESTAMP(6),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFIER_FK NUMBER,
+	USETABSFROMPARENT NUMBER(1),
+	ISDISPLAYEDINREFINEMENTLAYER NUMBER(1) default 1,
+	LASTCACHINGDATE TIMESTAMP(6),
+	SOCIALMEDIASETTINGS VARCHAR2(1024),
+	BINARYNAVIGATION BLOB,
+	SEARCHFEATURESTATEASSTRING VARCHAR2(32),
+	ROOTOFBREADCRUMBNAVIGATION NUMBER(1) default 0  not null
+)
+/
+
+create index CHANNEL_N60
+	on CHANNEL (CREATION)
+/
+
+create index CHANNEL_N61
+	on CHANNEL (LASTCACHINGDATE)
+/
+
+create index CHANNEL_N55
+	on CHANNEL (ISDISPLAYEDINNEWSSEARCH)
+/
+
+create index CHANNEL_N56
+	on CHANNEL (CREATOR_FK)
+/
+
+create index CHANNEL_N58
+	on CHANNEL (LASTMODIFICATION)
+/
+
+create index CHANNEL_N57
+	on CHANNEL (LASTMODIFIER_FK)
+/
+
+create index CHANNEL_N59
+	on CHANNEL (ISDISPLAYEDINREFINEMENTLAYER)
+/
+
+create unique index CHANNEL_PK
+	on CHANNEL (ID)
+/
+
+create index CHANNEL_N49
+	on CHANNEL (ISDISPLAYEDONHOMEPAGE)
+/
+
+create index CHANNEL_N53
+	on CHANNEL (PARENTCHANNEL_FK)
+/
+
+create index CHANNEL_N51
+	on CHANNEL (NAME)
+/
+
+create index CHANNEL_N50
+	on CHANNEL (ISDISPLAYEDINCHANNELDROPDOWN)
+/
+
+create index CHANNEL_N52
+	on CHANNEL ("LEVEL")
+/
+
+create index CHANNEL_N54
+	on CHANNEL (WEBTRACKINGCATEGORY_FK)
+/
+
+create index CHANNEL_NAME_LOWER
+	on CHANNEL (LOWER("NAME"))
+/
+
+create table FORMELEMENT
+(
+	ID NUMBER not null,
+	DEFAULTTEXT VARCHAR2(256),
+	DESCRIPTION VARCHAR2(2000),
+	ELEMENTTYPE_FK NUMBER,
+	HEIGHT NUMBER,
+	ISMANDATORY NUMBER(1),
+	NAME VARCHAR2(256),
+	"ROW" NUMBER,
+	JDOVERSION NUMBER default 1,
+	FORM_FORMELEMENTS_FK NUMBER,
+	FORMELEMENTS_INTEGER_IDX NUMBER(10),
+	PREPOPULATIONTYPE VARCHAR2(256),
+	VALIDATOR VARCHAR2(256),
+	SELECTION CLOB
+)
+/
+
+create unique index FORMELEMENT_PK
+	on FORMELEMENT (ID)
+/
+
+create index FORMELEMENT_N49
+	on FORMELEMENT (FORM_FORMELEMENTS_FK)
+/
+
+create index FORMELEMENT_N50
+	on FORMELEMENT (ELEMENTTYPE_FK)
+/
+
+create table SEMIAUTOMATICJOURNALSLIST
+(
+	ID NUMBER not null,
+	JOURNALTITLENO_OLD VARCHAR2(256),
+	JOURNALTITLENOEXCLUDE_OLD VARCHAR2(256),
+	ONLINELIBRARY VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null,
+	JOURNALTITLENO CLOB,
+	JOURNALTITLENOEXCLUDE CLOB
+)
+/
+
+create unique index SEMIAUTOMATICJOURNALSLIST_PK
+	on SEMIAUTOMATICJOURNALSLIST (ID)
+/
+
+create table CONTENTITEM
+(
+	ID NUMBER not null,
+	CHANNEL_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DATA CLOB,
+	LANGUAGE_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LIVEDATE TIMESTAMP(6),
+	NAME VARCHAR2(256),
+	TITLE VARCHAR2(256),
+	WORKFLOWSTATUS_FK NUMBER,
+	JDOVERSION NUMBER default 1,
+	CONTENTITEMTYPE VARCHAR2(256),
+	PREVIEWVERSION_FK NUMBER,
+	LIVEVERSION_FK NUMBER,
+	DATAXML CLOB,
+	TEASERIMAGE_FK NUMBER,
+	LASTCACHINGDATE TIMESTAMP(6),
+	INCLUDEDININTERNALINDEX NUMBER(1) default 1  not null,
+	WORKFLOWSTATUSLIVEDATE TIMESTAMP(6)
+)
+/
+
+create index CONTENTITEM_N59
+	on CONTENTITEM (WORKFLOWSTATUSLIVEDATE)
+/
+
+create index CONTENTITEM_N57
+	on CONTENTITEM (CREATION)
+/
+
+create index CONTENTITEM_N60
+	on CONTENTITEM (LASTCACHINGDATE)
+/
+
+create index CONTENTITEM_N58
+	on CONTENTITEM (TEASERIMAGE_FK)
+/
+
+create unique index CONTENTITEM_PK
+	on CONTENTITEM (ID)
+/
+
+create index CONTENTITEM_N51
+	on CONTENTITEM (WORKFLOWSTATUS_FK)
+/
+
+create index CONTENTITEM_N55
+	on CONTENTITEM (LASTMODIFIER_FK)
+/
+
+create index CONTENTITEM_N53
+	on CONTENTITEM (PREVIEWVERSION_FK)
+/
+
+create index CONTENTITEM_N49
+	on CONTENTITEM (LANGUAGE_FK)
+/
+
+create index CONTENTITEM_N52
+	on CONTENTITEM (LIVEVERSION_FK)
+/
+
+create index CONTENTITEM_N54
+	on CONTENTITEM (CHANNEL_FK)
+/
+
+create index CONTENTITEM_N56
+	on CONTENTITEM (CREATOR_FK)
+/
+
+create index CONTENTITEM_N50
+	on CONTENTITEM (LASTMODIFICATION)
+/
+
+create index CI_CONTENTITEMTYPE
+	on CONTENTITEM (CONTENTITEMTYPE)
+/
+
+create table DESIGNIMAGEDATA
+(
+	ID NUMBER not null,
+	"COMMENT" VARCHAR2(1024),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DATA BLOB,
+	DOWNLOADPATH VARCHAR2(1024),
+	FILESIZE NUMBER,
+	HEIGHT NUMBER,
+	IMPORTSTATUS_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	MIMETYPE_FK NUMBER,
+	NAME VARCHAR2(1024),
+	WIDTH NUMBER,
+	JDOVERSION NUMBER default 1,
+	ISADMIN NUMBER(1)
+)
+/
+
+create index DESIGNIMAGEDATA_N56
+	on DESIGNIMAGEDATA (CREATION)
+/
+
+create unique index DESIGNIMAGEDATA_PK
+	on DESIGNIMAGEDATA (ID)
+/
+
+create index DESIGNIMAGEDATA_N53
+	on DESIGNIMAGEDATA (MIMETYPE_FK)
+/
+
+create index DESIGNIMAGEDATA_N51
+	on DESIGNIMAGEDATA (LASTMODIFIER_FK)
+/
+
+create index DESIGNIMAGEDATA_N55
+	on DESIGNIMAGEDATA (IMPORTSTATUS_FK)
+/
+
+create index DESIGNIMAGEDATA_N52
+	on DESIGNIMAGEDATA (CREATOR_FK)
+/
+
+create index DESIGNIMAGEDATA_N50
+	on DESIGNIMAGEDATA (HEIGHT)
+/
+
+create index DESIGNIMAGEDATA_N54
+	on DESIGNIMAGEDATA (WIDTH)
+/
+
+create index DESIGNIMAGEDATA_N49
+	on DESIGNIMAGEDATA (LASTMODIFICATION)
+/
+
+create table DOCUMENT
+(
+	ID NUMBER not null,
+	"COMMENT" VARCHAR2(1024),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DOCUMENTFOLDER_FK NUMBER,
+	DOWNLOADPATH VARCHAR2(1024),
+	FILESIZE NUMBER,
+	IMPORTSTATUS_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	LINKTEXT VARCHAR2(512),
+	MIMETYPE_FK NUMBER,
+	NAME VARCHAR2(1024),
+	JDOVERSION NUMBER default 1,
+	ISADMIN NUMBER(1),
+	LASTCACHINGDATE TIMESTAMP(6),
+	DATA BLOB
+)
+/
+
+create index DOCUMENT_N56
+	on DOCUMENT (CREATION)
+/
+
+create index DOCUMENT_N57
+	on DOCUMENT (LASTCACHINGDATE)
+/
+
+create unique index DOCUMENT_PK
+	on DOCUMENT (ID)
+/
+
+create index DOCUMENT_N50
+	on DOCUMENT (MIMETYPE_FK)
+/
+
+create index DOCUMENT_N54
+	on DOCUMENT (LASTMODIFICATION)
+/
+
+create index DOCUMENT_N52
+	on DOCUMENT (LASTMODIFIER_FK)
+/
+
+create index DOCUMENT_N51
+	on DOCUMENT (IMPORTSTATUS_FK)
+/
+
+create index DOCUMENT_N53
+	on DOCUMENT (CREATOR_FK)
+/
+
+create index DOCUMENT_N49
+	on DOCUMENT (DOCUMENTFOLDER_FK)
+/
+
+create index DOCUMENT_N55
+	on DOCUMENT (NAME)
+/
+
+create table FORM
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DESCRIPTION VARCHAR2(256),
+	HEADLINE VARCHAR2(1024),
+	LANGUAGE_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	SUBJECTSANDRECIPIENTS CLOB,
+	TEXT VARCHAR2(2000),
+	TITLE VARCHAR2(256),
+	JDOVERSION NUMBER default 1,
+	LASTCACHINGDATE TIMESTAMP(6),
+	CONFIRMATIONEMAILASHTML CLOB,
+	CONFIRMATIONEMAILREPLYTOEMAIL VARCHAR2(256),
+	SENDCONFIRMATIONEMAILTOALLEMRB NUMBER(1) default 0  not null,
+	CONFIRMATIONEMAILSENDERALIAS VARCHAR2(256),
+	CONFIRMATIONEMAILSUBJECT VARCHAR2(256),
+	CONFIRMATIONEMAILASPLAINTEXT CLOB,
+	CONFIRMATIONEMAILENABLED NUMBER(1) default 0  not null,
+	CONFIRMATIONEMAILSENDEREMAIL VARCHAR2(256),
+	ENCRYPTIONNECESSARY NUMBER(1) default 0  not null,
+	COREMEDIAFORMID NUMBER
+)
+/
+
+create index FORM_N53
+	on FORM (CREATION)
+/
+
+create index FORM_N54
+	on FORM (LASTCACHINGDATE)
+/
+
+create index FORM_N55
+	on FORM (COREMEDIAFORMID)
+/
+
+create unique index FORM_PK
+	on FORM (ID)
+/
+
+create index FORM_N49
+	on FORM (LASTMODIFIER_FK)
+/
+
+create index FORM_N51
+	on FORM (CREATOR_FK)
+/
+
+create index FORM_N52
+	on FORM (LASTMODIFICATION)
+/
+
+create index FORM_N50
+	on FORM (LANGUAGE_FK)
+/
+
+create table IMAGE
+(
+	ID NUMBER not null,
+	"COMMENT" VARCHAR2(1024),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DATA BLOB,
+	DOWNLOADPATH VARCHAR2(1024),
+	FILESIZE NUMBER,
+	HEIGHT NUMBER,
+	IMAGEFOLDER_FK NUMBER,
+	IMAGETYPE_FK NUMBER,
+	IMPORTSTATUS_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	MIMETYPE_FK NUMBER,
+	NAME VARCHAR2(1024),
+	WIDTH NUMBER,
+	JDOVERSION NUMBER default 1,
+	IMAGETYPE VARCHAR2(256),
+	PRODUCTIDENTIFIER VARCHAR2(256),
+	HIGHRESPRODUCTIMAGE_FK NUMBER,
+	ISADMIN NUMBER(1),
+	LASTCACHINGDATE TIMESTAMP(6),
+	PRODUCTTYPE_FK NUMBER
+)
+/
+
+create index IMAGE_N60
+	on IMAGE (CREATION)
+/
+
+create index IMAGE_N61
+	on IMAGE (PRODUCTTYPE_FK)
+/
+
+create index IMAGE_PRODUCTTYPE_IDENTIFIER
+	on IMAGE (PRODUCTTYPE_FK, PRODUCTIDENTIFIER)
+/
+
+create index IMAGE_TYPE_IDENTIFIER_WIDTH
+	on IMAGE (PRODUCTTYPE_FK, PRODUCTIDENTIFIER, WIDTH)
+/
+
+create index IMAGE_N62
+	on IMAGE (LASTCACHINGDATE)
+/
+
+create index IMAGE_N57
+	on IMAGE (WIDTH)
+/
+
+create index I_IMAGETYPE
+	on IMAGE (IMAGETYPE)
+/
+
+create index IMAGE_N59
+	on IMAGE (HIGHRESPRODUCTIMAGE_FK)
+/
+
+create unique index IMAGE_PK
+	on IMAGE (ID)
+/
+
+create index IMAGE_N58
+	on IMAGE (IMAGETYPE_FK)
+/
+
+create index IMAGE_N55
+	on IMAGE (PRODUCTIDENTIFIER)
+/
+
+create index IMAGE_N49
+	on IMAGE (LASTMODIFICATION)
+/
+
+create index IMAGE_N50
+	on IMAGE (IMAGEFOLDER_FK)
+/
+
+create index IMAGE_N52
+	on IMAGE (LASTMODIFIER_FK)
+/
+
+create index IMAGE_N56
+	on IMAGE (IMPORTSTATUS_FK)
+/
+
+create index IMAGE_N54
+	on IMAGE (MIMETYPE_FK)
+/
+
+create index IMAGE_N53
+	on IMAGE (HEIGHT)
+/
+
+create index IMAGE_N51
+	on IMAGE (CREATOR_FK)
+/
+
+create table SEMIAUTOMATICBOOKMEDIALIST
+(
+	ID NUMBER not null,
+	ABCTITLE VARCHAR2(256),
+	BOOKSERIES VARCHAR2(2000),
+	BOOKSERIESEXCLUDE VARCHAR2(2000),
+	CATEGORY VARCHAR2(1024),
+	DATERELATIVE VARCHAR2(256),
+	DATETYPE VARCHAR2(256),
+	ORDERBY VARCHAR2(256),
+	SYSTEMATIC VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null,
+	ISSNISBN CLOB,
+	ISBNISSNEXCLUDE CLOB,
+	SPRINGERBOOKARCHIVESELECTION5K VARCHAR2(256)
+)
+/
+
+create unique index SEMIAUTOMATICBOOKMEDIALIST_PK
+	on SEMIAUTOMATICBOOKMEDIALIST (ID)
+/
+
+create table TEXTENTRY
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	EMBEDDEDOBJECTDESCRIPTOR_FK NUMBER,
+	HEADER VARCHAR2(4000),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	PARAGRAPH CLOB,
+	JDOVERSION NUMBER not null,
+	CONTENTITEM_TEXTENTRIES_FK NUMBER,
+	TEXT_ENTRIES_INTEGER_IDX NUMBER(10),
+	SPRINGER_TEXT_ENTRIES_INSR_IDX NUMBER(10),
+	HEADLINEINTERNALLINKS VARCHAR2(200),
+	USEHEADLINEINTERNALLINKS NUMBER(1) default 0,
+	USEHEADLINEEXTERNALLINKS NUMBER(1) default 0,
+	SUBHEADER VARCHAR2(4000),
+	RENDERINFLAP NUMBER(1) default 0,
+	HEADLINEEXTERNALLINKS VARCHAR2(200),
+	CDADISPLAYTEXT CLOB
+)
+/
+
+create unique index TEXTENTRY_PK
+	on TEXTENTRY (ID)
+/
+
+create index TEXTENTRY_N54
+	on TEXTENTRY (LASTMODIFICATION)
+/
+
+create index TEXTENTRY_N51
+	on TEXTENTRY (LASTMODIFIER_FK)
+/
+
+create index TEXTENTRY_N55
+	on TEXTENTRY (CREATOR_FK)
+/
+
+create index TEXTENTRY_N49
+	on TEXTENTRY (EMBEDDEDOBJECTDESCRIPTOR_FK)
+/
+
+create index TEXTENTRY_N53
+	on TEXTENTRY (CONTENTITEM_TEXTENTRIES_FK)
+/
+
+create index TEXTENTRY_N50
+	on TEXTENTRY (CREATION)
+/
+
+create table EDITION
+(
+	ID NUMBER not null,
+	EDITIONNO NUMBER(10),
+	INTELLECTUALUNIT_FK NUMBER,
+	JDOTYPE VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	ZIPPEDGENERICXML BLOB,
+	DOI VARCHAR2(256),
+	REJECTIONFILENAME VARCHAR2(256),
+	REJECTIONREASON CLOB,
+	REJECTIONTIMESTAMP TIMESTAMP(6),
+	EBOOKONLY NUMBER(1) default 0  not null,
+	ENHANCEDEBOOK_FK NUMBER,
+	EBOOK_FK NUMBER,
+	MYCOPYEXISTING NUMBER(1) default 0,
+	COPYRIGHTHOLDERNAME VARCHAR2(256),
+	OPENACCESS NUMBER(1) default 0,
+	POLITICALLY_SENSITIVE_IN VARCHAR2(256)
+)
+/
+
+create unique index EDITION_PK
+	on EDITION (ID)
+/
+
+create unique index EDITION_U49
+	on EDITION (DOI)
+/
+
+create index EDITION_N53
+	on EDITION (EBOOK_FK)
+/
+
+create index EDITION_N52
+	on EDITION (ENHANCEDEBOOK_FK)
+/
+
+create unique index EDITION_JDOTYPE_IDX
+	on EDITION (ID, JDOTYPE)
+/
+
+create index EDITION_N49
+	on EDITION (INTELLECTUALUNIT_FK)
+/
+
+create index EDITION_N50
+	on EDITION (EDITIONNO)
+/
+
+create index EDITION_N51
+	on EDITION (JDOTYPE)
+/
+
+create table TRACKEDBOOK
+(
+	ID NUMBER not null,
+	APPBOOK_FK NUMBER,
+	AUTHORWANTSEMAILNOTIFICATION NUMBER(1),
+	BOOKSTATEASSTRING VARCHAR2(256),
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DOI VARCHAR2(256),
+	LASTIMPORTEDFILENAME VARCHAR2(256),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	ZIPPEDXML BLOB,
+	JDOVERSION NUMBER not null
+)
+/
+
+create unique index TRACKEDBOOK_PK
+	on TRACKEDBOOK (ID)
+/
+
+create index TRACKEDBOOK_N51
+	on TRACKEDBOOK (LASTMODIFIER_FK)
+/
+
+create index TRACKEDBOOK_N52
+	on TRACKEDBOOK (LASTMODIFICATION)
+/
+
+create unique index TRACKEDBOOK_U50
+	on TRACKEDBOOK (DOI)
+/
+
+create index TRACKEDBOOK_N49
+	on TRACKEDBOOK (APPBOOK_FK)
+/
+
+create index TRACKEDBOOK_N53
+	on TRACKEDBOOK (CREATION)
+/
+
+create index TRACKEDBOOK_N55
+	on TRACKEDBOOK (CREATOR_FK)
+/
+
+create table SEMIAUTOMATICBOOKMEDIALIST_BAK
+(
+	ID NUMBER not null,
+	ABCTITLE VARCHAR2(256),
+	BOOKSERIES VARCHAR2(2000),
+	BOOKSERIESEXCLUDE VARCHAR2(2000),
+	CATEGORY VARCHAR2(1024),
+	DATERELATIVE VARCHAR2(256),
+	DATETYPE VARCHAR2(256),
+	ORDERBY VARCHAR2(256),
+	SYSTEMATIC VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	JDOTYPE VARCHAR2(256) not null,
+	ISSNISBN CLOB,
+	ISBNISSNEXCLUDE CLOB
+)
+/
+
+create table FREECOPYRATINGSTATE
+(
+	ID NUMBER not null,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	REMINDERCOUNT NUMBER(10) not null,
+	STATE VARCHAR2(256),
+	USERID NUMBER,
+	ISBN13 VARCHAR2(256),
+	JDOVERSION NUMBER not null,
+	STATELOG CLOB
+)
+/
+
+create index FREECOPYRATINGSTATE_N52
+	on FREECOPYRATINGSTATE (CREATION)
+/
+
+create index FREECOPYRATINGSTATE_N50
+	on FREECOPYRATINGSTATE (LASTMODIFICATION)
+/
+
+create index FREECOPYRATINGSTATE_N49
+	on FREECOPYRATINGSTATE (STATE)
+/
+
+create index FREECOPYRATINGSTATE_N53
+	on FREECOPYRATINGSTATE (CREATOR_FK)
+/
+
+create unique index FREECOPYRATINGSTATE_PK
+	on FREECOPYRATINGSTATE (ID)
+/
+
+create index FREECOPYRATINGSTATE_N51
+	on FREECOPYRATINGSTATE (LASTMODIFIER_FK)
+/
+
+create table JMS_MESSAGES
+(
+	MESSAGEID NUMBER not null,
+	DESTINATION VARCHAR2(255) not null,
+	TXID NUMBER,
+	TXOP CHAR,
+	MESSAGEBLOB BLOB
+)
+/
+
+create index JMS_MESSAGES_TXOP_TXID
+	on JMS_MESSAGES (TXOP, TXID)
+/
+
+create index JMS_MESSAGES_DESTINATION
+	on JMS_MESSAGES (DESTINATION)
+/
+
+create unique index MESSAGEID_DESTINATION_UNIQUE
+	on JMS_MESSAGES (MESSAGEID, DESTINATION)
+/
+
+create table JMS_MESSAGES_DLQS
+(
+	MESSAGEID NUMBER not null,
+	DESTINATION VARCHAR2(255) not null,
+	TXID NUMBER,
+	TXOP CHAR,
+	MESSAGEBLOB BLOB
+)
+/
+
+create unique index MESSAGEID_DESTI_UNIQUE_DLQ
+	on JMS_MESSAGES_DLQS (MESSAGEID, DESTINATION)
+/
+
+create table OPENCHOICEMEMBERSHIPDATA
+(
+	ID NUMBER not null,
+	AFFILIATIONBPID VARCHAR2(256),
+	AUTHORQUERY_FK NUMBER,
+	CREATION TIMESTAMP(6),
+	CREATOR_FK NUMBER,
+	DOI VARCHAR2(256),
+	FORWAREDDATE TIMESTAMP(6),
+	LASTMODIFICATION TIMESTAMP(6),
+	LASTMODIFIER_FK NUMBER,
+	MATCHEDBYEMAIL NUMBER(1),
+	MATCHEDBYIP NUMBER(1),
+	OCMMANAGMENTAPPROVED TIMESTAMP(6),
+	OCMMANAGMENTREJECT TIMESTAMP(6),
+	OPENCHOICEMEMBERSHIPDATAJSON CLOB,
+	RELEASEORDERDATE TIMESTAMP(6),
+	JDOVERSION NUMBER not null,
+	OCMMANAGMENTAPPROVALREQUESTED TIMESTAMP(6),
+	SAVEORDERDATE TIMESTAMP(6),
+	OCMDATAFORSELECTIONJSON CLOB,
+	BLOCKEDORDER TIMESTAMP(6),
+	OCMMANAGER_FK NUMBER,
+	OCMREJECTIONREASON VARCHAR2(256),
+	OCMMANAGMENTFORWARDED TIMESTAMP(6),
+	OCMDATABYIPJSON CLOB,
+	OCMBYEMAILBPID VARCHAR2(256),
+	OCMBYSELECTIONBPID VARCHAR2(256),
+	OCMBYIPBPID VARCHAR2(256)
+)
+/
+
+create unique index OPENCHOICEMEMBERSHIPDATA_PK
+	on OPENCHOICEMEMBERSHIPDATA (ID)
+/
+
+create index OPENCHOICEMEMBERSHIPDATA_N55
+	on OPENCHOICEMEMBERSHIPDATA (CREATION)
+/
+
+create index OPENCHOICEMEMBERSHIPDATA_N54
+	on OPENCHOICEMEMBERSHIPDATA (AFFILIATIONBPID)
+/
+
+create index OPENCHOICEMEMBERSHIPDATA_N53
+	on OPENCHOICEMEMBERSHIPDATA (LASTMODIFICATION)
+/
+
+create index OPENCHOICEMEMBERSHIPDATA_N52
+	on OPENCHOICEMEMBERSHIPDATA (AUTHORQUERY_FK)
+/
+
+create index OPENCHOICEMEMBERSHIPDATA_N51
+	on OPENCHOICEMEMBERSHIPDATA (LASTMODIFIER_FK)
+/
+
+create unique index OPENCHOICEMEMBERSHIPDATA_U49
+	on OPENCHOICEMEMBERSHIPDATA (DOI)
+/
+
+create index OPENCHOICEMEMBERSHIPDATA_N50
+	on OPENCHOICEMEMBERSHIPDATA (CREATOR_FK)
+/
+
+create index OPENCHOICEMEMBERSHIPDATA_N57
+	on OPENCHOICEMEMBERSHIPDATA (OCMMANAGMENTREJECT)
+/
+
+create index OPENCHOICEMEMBERSHIPDATA_N56
+	on OPENCHOICEMEMBERSHIPDATA (OCMMANAGMENTAPPROVED)
+/
+
+create index OPENCHOICEMEMBERSHIPDATA_N49
+	on OPENCHOICEMEMBERSHIPDATA (OCMMANAGMENTAPPROVALREQUESTED)
+/
+
+create index OPENCHOICEMEMBERSHIPDATA_N58
+	on OPENCHOICEMEMBERSHIPDATA (OCMMANAGER_FK)
+/
+
+create table IMPORT_INFO
+(
+	IMPORT_DATE TIMESTAMP(6),
+	SGW_VERSION VARCHAR2(256)
+)
+/
+
+create table SPRING_3823_1
+(
+	USER_ID NUMBER
+)
+/
+
+create table UPS_MIGRATED_USERS
+(
+	ID NUMBER not null
+)
+/
+
+create unique index SYS_C0017021
+	on UPS_MIGRATED_USERS (ID)
+/
+
